@@ -11,3 +11,4 @@ Group Members
 ---
 1. Mike Deiters - Project Manager
 2. Aston Tsou - Lead Documentation
+3. Narith Seang - Lead Testing
