@@ -3,12 +3,13 @@ Gwinnett Grizzlies Map
 
 ## Requirements
 * An interactive map of campus buildings
+* Web App
 * Images
 * Links
-* Web App
+* Room numbers
 * Services around campus - ie RSO Lounge, Tutoring center
-* Dining Services
 * Parking
+* Dining Services
 
 ## Possible Features
 * GPS
