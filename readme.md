@@ -9,6 +9,6 @@ Gwinnett Grizzlies Map
 
 Group Members
 ---
-1. Mike Deiters - Project Manager
-2. Aston Tsou - Lead Documentation
-3. Narith Seang - Lead Testing
+1. Mike Deiters - Project Manager/Data Modeler
+2. Aston Tsou - Lead Documentation/Client Liason
+3. Narith Seang - Lead Testing/Lead Developer
