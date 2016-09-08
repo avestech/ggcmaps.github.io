@@ -8,13 +8,13 @@ Gwinnett Grizzlies Map
 * Links
 * Room numbers
 * Services around campus - ie RSO Lounge, Tutoring center
-* Parking
 * Dining Services
 
 ## Possible Features
 * GPS
 * Events
 * Interactive map of campus itself as a whole
+* Parking
 * 3--Dimensional campus overview
 * Building Art - feature murals and other art pieces
 
