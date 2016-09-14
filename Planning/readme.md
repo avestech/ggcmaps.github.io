@@ -15,8 +15,7 @@ Gwinnett Grizzlies Map
 * Events
 * Interactive map of campus itself as a whole
 * Parking
-* 3--Dimensional campus overview
-* Building Art - feature murals and other art pieces
+* Compass
 
 ### Contact Options
 1. Email is preferred cmoore10@ggc.edu
