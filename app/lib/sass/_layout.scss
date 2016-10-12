@@ -1,0 +1,81 @@
+// Susy setup ------------------------------------------------------------------
+$total-columns     : 12;
+$column-width      : 4em;
+$gutter-width      : 1em;
+$grid-padding      : $gutter-width;
+
+$susy: (
+  columns: 12,
+  gutter: .25,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+@include layout($susy);
+@include border-box-sizing;
+
+$small             : 30em;
+$medium            : 39em;
+$large             : 56em;
+
+body {
+  @include container;
+}
+
+svg {
+  .outline {
+    fill:#a5acb0;
+    stroke:#fff;
+    stroke-miterlimit:10;
+  }
+
+  .fill {
+    fill:#fff;
+    stroke:#fff;
+    stroke-miterlimit:10;
+  }
+
+  .room {
+    fill:#00704a;
+    stroke:#fff;
+    stroke-miterlimit:10;
+
+    // &:hover {
+    //   fill:#f5e100;
+    // }
+  }
+
+  .room-group {
+    &:hover {
+      .room {
+        fill:#f5e100;
+      }
+      .label {
+        fill:#000;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .door {
+    fill:none;
+    stroke:#fff;
+    stroke-width:0.75;
+    stroke-linecap:square;
+    stroke-miterlimit:10;
+    stroke-dasharray:8,3,2,3,2,3;
+  }
+
+  .label {
+    fill: #fff;
+    font-size: .6rem;
+  }
+
+  .small-font {
+    font-size: .43rem;
+  }
+
+  .medium-font {
+    font-size: .48rem;
+  }
+}
