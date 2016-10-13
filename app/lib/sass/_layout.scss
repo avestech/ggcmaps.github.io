@@ -20,20 +20,20 @@ $large             : 56em;
 
 body {
   @include container;
-}
+} // body
 
 svg {
   .outline {
     fill:#a5acb0;
     stroke:#fff;
     stroke-miterlimit:10;
-  }
+  } // outline
 
   .fill {
     fill:#fff;
     stroke:#fff;
     stroke-miterlimit:10;
-  }
+  } // fill
 
   .room {
     fill:#00704a;
@@ -43,19 +43,33 @@ svg {
     // &:hover {
     //   fill:#f5e100;
     // }
-  }
+  } // room
 
   .room-group {
     &:hover {
+      cursor: pointer;
+
       .room {
-        fill:#f5e100;
-      }
+        fill:#85c446;
+      } // room
       .label {
-        fill:#000;
+        fill:#fff;
         font-weight: bold;
-      }
-    }
-  }
+      } // label
+    } // room-group:hover
+  } // room-group
+
+  .active-room {
+    cursor: pointer;
+
+    .room {
+      fill:#f5e100;
+    } // room
+    .label {
+      fill:#000;
+      font-weight: bold;
+    } // label
+  } // active
 
   .door {
     fill:none;
@@ -64,18 +78,18 @@ svg {
     stroke-linecap:square;
     stroke-miterlimit:10;
     stroke-dasharray:8,3,2,3,2,3;
-  }
+  } // door
 
   .label {
     fill: #fff;
     font-size: .6rem;
-  }
+  } // label
 
   .small-font {
     font-size: .43rem;
-  }
+  } // small-font
 
   .medium-font {
     font-size: .48rem;
-  }
-}
+  } // medium-font
+} // svg
