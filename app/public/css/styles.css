@@ -132,16 +132,33 @@ svg .room {
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 50, ../../lib/sass/_layout.scss */
+/* line 49, ../../lib/sass/_layout.scss */
+svg .room-group:hover {
+  cursor: pointer;
+}
+/* line 52, ../../lib/sass/_layout.scss */
 svg .room-group:hover .room {
+  fill: #85c446;
+}
+/* line 55, ../../lib/sass/_layout.scss */
+svg .room-group:hover .label {
+  fill: #fff;
+  font-weight: bold;
+}
+/* line 62, ../../lib/sass/_layout.scss */
+svg .active-room {
+  cursor: pointer;
+}
+/* line 65, ../../lib/sass/_layout.scss */
+svg .active-room .room {
   fill: #f5e100;
 }
-/* line 53, ../../lib/sass/_layout.scss */
-svg .room-group:hover .label {
+/* line 68, ../../lib/sass/_layout.scss */
+svg .active-room .label {
   fill: #000;
   font-weight: bold;
 }
-/* line 60, ../../lib/sass/_layout.scss */
+/* line 74, ../../lib/sass/_layout.scss */
 svg .door {
   fill: none;
   stroke: #fff;
@@ -150,16 +167,16 @@ svg .door {
   stroke-miterlimit: 10;
   stroke-dasharray: 8,3,2,3,2,3;
 }
-/* line 69, ../../lib/sass/_layout.scss */
+/* line 83, ../../lib/sass/_layout.scss */
 svg .label {
   fill: #fff;
   font-size: .6rem;
 }
-/* line 74, ../../lib/sass/_layout.scss */
+/* line 88, ../../lib/sass/_layout.scss */
 svg .small-font {
   font-size: .43rem;
 }
-/* line 78, ../../lib/sass/_layout.scss */
+/* line 92, ../../lib/sass/_layout.scss */
 svg .medium-font {
   font-size: .48rem;
 }
