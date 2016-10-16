@@ -49,13 +49,15 @@ function searchRooms() {
   var roomNum = sRoom;
 
   var ref = window.location.href;
-  var refWindow = ref.substring(ref.lastIndexOf('/') + 1, ref.lastIndexOf('#'));
+  var refWindow = ref.substring(ref.lastIndexOf('/') + 1);
+  if (ref.lastIndexOf('#') !== -1) {
+    refWindow = ref.substring(ref.lastIndexOf('/') + 1, ref.lastIndexOf('#'));
+  }
   var newWindow = refWindow;
-
   if (sRoom.length === 4) {
     var file = refWindow.substring(refWindow.indexOf('-') + 1);
     var building = file.substring(0, file.indexOf('-'));
-
+    
     switch (building) {
       case 'A':
         alert('A Building not currently searchable');
@@ -103,7 +105,7 @@ function searchRooms() {
   }
   else if (sRoom.length === 5) {
     roomNum = sRoom.substring(1);
-    
+
     switch (sRoom[0]) {
       case 'a':
         alert('A Building not currently searchable');
