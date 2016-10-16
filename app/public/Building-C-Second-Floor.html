@@ -3,8 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Gwinnett Grizzly Maps</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="js/script.min.js"></script>
 	</head>
 	<body>
+		<input type="text" id="roomSearch" placeholder="Search for a Room" onkeypress="searchForARoom(event)">
 
 		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="612px"
 			 height="792px" viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
@@ -61,229 +64,257 @@
 				<glyph unicode="9" horiz-adv-x="1139" d="M112,339l173,16C300,274 328,215 369,178C410,141 463,123 528,123C583,123 632,136 674,161C715,186 749,220 776,263C803,305 825,362 843,434C861,506 870,579 870,654C870,662 870,674 869,690C833,633 784,586 722,551C659,515 592,497 519,497C398,497 295,541 211,629C127,717 85,833 85,977C85,1126 129,1245 217,1336C304,1427 414,1472 546,1472C641,1472 729,1446 808,1395C887,1344 947,1271 988,1176C1029,1081 1049,943 1049,763C1049,576 1029,427 988,316C947,205 887,120 807,62C726,4 632,-25 524,-25C409,-25 316,7 243,71C170,134 127,224 112,339M849,986C849,1089 822,1171 767,1232C712,1293 645,1323 568,1323C488,1323 418,1290 359,1225C300,1160 270,1075 270,971C270,878 298,802 355,744C411,685 480,656 563,656C646,656 715,685 769,744C822,802 849,883 849,986z"/>
 			</font>
 
-			<g id="fill">
-				<rect x="161.4" y="110" class="st21" width="97.9" height="3.9"/>
-				<rect x="161.4" y="248.3" class="st21" width="9.9" height="3.4"/>
-				<rect x="161.4" y="386" class="st21" width="9.9" height="3.9"/>
-				<rect x="161.4" y="455" class="st21" width="97.9" height="3.9"/>
-				<rect x="161.4" y="474.3" class="st21" width="93.9" height="3.4"/>
-				<rect x="161.4" y="568.8" class="st21" width="9.9" height="2.4"/>
-				<rect x="203.3" y="660.9" class="st21" width="3.5" height="3.3"/>
-				<rect x="216.3" y="660.9" class="st21" width="5.3" height="3.3"/>
-				<rect x="255.3" y="638.9" class="st21" width="4.9" height="37.3"/>
-				<polyline class="st21" points="243.8,486.5 243.8,500.5 196,500.5 196,486.5 243.8,486.5 	"/>
-				<polyline class="st21" points="178.4,638.9 178.4,643.8 164.8,643.8 164.8,676.2 161.4,676.2 161.4,638.9 178.4,638.9 	"/>
-				<rect x="324.5" y="666.3" class="st21" width="3" height="9.9"/>
-				<rect x="458.8" y="641.3" class="st21" width="2.5" height="34.9"/>
-				<rect x="458.8" y="575.5" class="st21" width="2.5" height="34.8"/>
-				<polyline class="st21" points="138.3,111.3 138.3,27.3 80,27.3 80,111.3 138.3,111.3 	"/>
-				<polygon class="st21" points="138.3,663 138.3,711.3 145.8,711.3 145.8,741.5 140.3,741.5 140.3,736.5 122,739.6 122,711.3
-					99.3,711.3 99.3,663 	"/>
-				<polyline class="st21" points="260.2,709.8 260.3,711.8 295.8,711.8 295.8,709.8 260.2,709.8 	"/>
-				<rect x="207.8" y="27.3" class="st21" width="66.1" height="6.5"/>
-			</g>
-			<g id="rooms">
-				<rect x="273.9" y="27.3" class="st15" width="20.8" height="58"/>
-				<polygon class="st15" points="257,64.4 257,70.3 241,70.3 241,33.9 273.9,33.9 273.9,85.3 257,85.3 	"/>
-				<polygon class="st15" points="224.8,64.4 224.8,70.3 241,70.3 241,33.9 207.8,33.9 207.8,85.3 224.8,85.3 	"/>
-				<rect x="186.1" y="67" class="st15" width="21.6" height="18.3"/>
-				<polygon id="2100" class="st15" points="259.3,113.9 161.4,113.9 161.4,124.5 164.8,124.5 164.8,153.8 161.4,153.8 161.4,165.4 171.3,165.4
-					171.3,181 259.3,181 	"/>
-				<polygon id="2110" class="st15" points="259.3,181 161.4,181 161.4,192.6 164.8,192.6 164.8,222 161.4,222 161.4,234 171.3,234 171.3,249.9
-					259.3,250 	"/>
-				<polygon id="2120" class="st15" points="259.3,250 171.3,249.9 171.3,265.6 161.4,265.6 161.4,277.6 164.8,277.6 164.8,307 161.4,307
-					161.4,319 259.3,319 	"/>
-				<polygon id="2130" class="st15" points="259.3,319 161.4,319 161.4,331 164.8,331 164.8,360.1 161.4,360.1 161.4,372.3 171.3,372.3
-					171.3,388.3 259.3,388.3 	"/>
-				<polygon id="2140" class="st15" points="259.3,388.3 171.3,388.3 171.3,403.9 161.4,403.9 161.4,415.1 164.8,415.1 164.8,444.4 161.4,444.4
-					161.4,455 259.3,455 	"/>
-				<polygon class="st15" points="255.3,477.6 255.3,500.5 243.8,500.5 243.8,486.5 196,486.5 196,477.6 	"/>
-				<rect id="2200" x="161.4" y="477.6" class="st15" width="34.6" height="22.9"/>
-				<polygon id="2210" class="st15" points="161.4,500.5 161.4,512.5 164.8,512.5 164.8,543.8 161.4,543.8 161.4,554 171.3,554 171.3,570
-					260.2,570 260.2,500.5 	"/>
-				<polygon id="2220" class="st15" points="171.3,570 171.3,585.8 161.4,585.8 161.4,596.2 164.8,596.2 164.8,627.3 161.4,627.3 161.4,638.9
-					260.2,638.9 260.2,570 	"/>
-				<polygon class="st15" points="188.1,659.8 188.1,664.2 203.3,664.2 203.3,638.9 178.4,638.9 178.4,643.8 164.8,643.8 164.8,676.2
-					188.1,676.2 	"/>
-				<rect x="203.3" y="638.9" class="st15" width="18.3" height="22"/>
-				<polygon class="st15" points="236.7,659.8 236.7,664.2 221.7,664.2 221.7,638.9 255.3,638.9 255.3,676.2 236.7,676.2 	"/>
-				<polygon id="2230" class="st15" points="260.2,676.2 268.8,676.2 268.8,673.8 299.3,673.8 299.3,676.2 310,676.2 310,666.3 326,666.3
-					326,575.5 260.2,575.5 	"/>
-				<polygon id="2240" class="st15" points="326,666.3 342,666.3 342,676.2 352,676.2 352,673.8 383.8,673.8 383.8,676.2 392,676.2 392,575.5
-					326,575.5 	"/>
-				<polygon id="2250" class="st15" points="392,666.3 407,666.3 407,676.2 417,676.2 417,673.8 448.5,673.8 448.5,676.2 458.8,676.2
-					458.8,575.5 392,575.5 	"/>
-				<polygon id="2105" class="st15" points="138.3,111.3 138.3,180.7 128.7,180.7 128.7,194.2 68,194.2 68,111.3 	"/>
-				<polygon id="2115" class="st15" points="128.7,194.2 128.7,207.2 138.3,207.2 138.3,290.5 68,290.5 68,194.2 	"/>
-				<polygon id="2125" class="st15" points="138.3,290.5 138.3,373.3 128.7,373.3 128.7,386.7 68,386.7 68,290.5 	"/>
-				<polygon id="2135" class="st15" points="128.7,386.7 128.7,399.8 138.3,399.8 138.3,482 68,482 68,386.7 	"/>
-				<rect id="2205" x="99.3" y="482" class="st15" width="39" height="29.7"/>
-				<rect id="2207" x="99.3" y="511.7" class="st15" width="39" height="27.3"/>
-				<rect id="2209" x="99.3" y="539" class="st15" width="39" height="31.8"/>
-			  <rect id="2211" x="99.3" y="570.8" class="st15" width="39" height="37.8"/>
-				<rect id="2213" x="99.3" y="608.7" class="st15" width="39" height="28.7"/>
-				<rect id="2215" x="99.3" y="637.3" class="st15" width="39" height="25.7"/>
-				<rect id="2217" x="162.7" y="699.5" class="st15" width="28.6" height="35.2"/>
-				<rect id="2219" x="191.3" y="699.5" class="st15" width="29.3" height="35.2"/>
-				<rect id="2221" x="220.5" y="699.5" class="st15" width="28.2" height="35.2"/>
-				<rect id="2223" x="334.7" y="699.5" class="st15" width="28.6" height="35.2"/>
-				<rect id="2225" x="363.3" y="699.5" class="st15" width="29.8" height="35.2"/>
-				<rect id="2227" x="393" y="699.5" class="st15" width="30" height="35.2"/>
-				<rect id="2229" x="423" y="699.5" class="st15" width="30" height="35.2"/>
-				<rect id="2231" x="453" y="699.5" class="st15" width="33.7" height="35.2"/>
-				<rect id="2152" x="276.7" y="111.3" class="st15" width="34.7" height="27.8"/>
-				<rect id="2153" x="276.7" y="139.2" class="st15" width="34.7" height="26.8"/>
-				<rect id="2154" x="276.7" y="166" class="st15" width="34.7" height="27"/>
-				<rect id="2155" x="276.7" y="193" class="st15" width="34.7" height="27.2"/>
-				<rect id="2156" x="276.7" y="220.2" class="st15" width="34.7" height="26.8"/>
-			  <rect id="2157" x="276.7" y="247" class="st15" width="34.7" height="27.3"/>
-				<rect id="2158" x="276.7" y="274.3" class="st15" width="34.7" height="26.8"/> -->
-				<rect id="2159" x="276.7" y="301.2" class="st15" width="34.7" height="27.2"/>
-				<rect id="2160" x="276.7" y="328.3" class="st15" width="34.7" height="27"/>
-				<rect id="2161" x="276.7" y="355.3" class="st15" width="34.7" height="27"/>
-				<rect id="2162" x="276.7" y="382.3" class="st15" width="34.7" height="26.3"/>
-				<rect id="2163" x="276.7" y="408.7" class="st15" width="34.7" height="24.5"/>
-				<polygon id="2164" class="st15" points="311.3,482 311.3,433.2 276.9,433.2 276.7,482 	"/>
-				<rect id="2245" x="276.7" y="525.3" class="st15" width="17.2" height="34"/>
-				<rect id="2243" x="293.9" y="525.3" class="st15" width="31.5" height="34"/>
-				<rect id="2241" x="325.4" y="525.3" class="st15" width="31.9" height="34"/>
-				<rect id="2239" x="357.3" y="525.3" class="st15" width="31.8" height="34"/>
-				<rect id="2237" x="389" y="525.3" class="st15" width="31.5" height="34"/>
-				<rect id="2235" x="420.5" y="525.3" class="st15" width="32" height="34"/>
-				<rect id="2233" x="452.5" y="525.3" class="st15" width="34.2" height="34"/>
-			</g>
-			<g id="labels">
-			  <text transform="matrix(1 0 0 1 92.167 150.0825)" class="st20 st11">2105</text>
-				<text transform="matrix(1 0 0 1 92.167 236.0845)" class="st20 st11">2115</text>
-				<text transform="matrix(1 0 0 1 92.167 336.0845)" class="st20 st11">2125</text>
-				<text transform="matrix(1 0 0 1 92.167 428.418)" class="st20 st11">2135</text>
-				<text transform="matrix(1 0 0 1 202.667 211.0845)" class="st20 st11">2110</text>
-				<text transform="matrix(1 0 0 1 202.667 276.9185)" class="st20 st11">2120</text>
-				<text transform="matrix(1 0 0 1 202.667 341.8325)" class="st20 st11">2130</text>
-				<text transform="matrix(1 0 0 1 202.667 422.666)" class="st20 st11">2140</text>
-				<text transform="matrix(1 0 0 1 202.667 145.6245)" class="st20 st11">2100</text>
-				<text transform="matrix(1 0 0 1 287.9175 125.2505)" class="st20 st11">2152</text>
-				<text transform="matrix(1 0 0 1 287.9175 157.2505)" class="st20 st11">2153</text>
-				<text transform="matrix(1 0 0 1 287.9175 181.0005)" class="st20 st11">2154</text>
-				<text transform="matrix(1 0 0 1 287.9175 211.0845)" class="st20 st11">2155</text>
-				<text transform="matrix(1 0 0 1 287.9175 236.0845)" class="st20 st11">2156</text>
-				<text transform="matrix(1 0 0 1 287.9175 267.2505)" class="st20 st11">2157</text>
-				<text transform="matrix(1 0 0 1 287.9175 289.4185)" class="st20 st11">2158</text>
-				<text transform="matrix(1 0 0 1 287.9175 321.2505)" class="st20 st11">2159</text>
-				<text transform="matrix(1 0 0 1 287.9175 343.0845)" class="st20 st11">2160</text>
-				<text transform="matrix(1 0 0 1 287.9175 373.0845)" class="st20 st11">2161</text>
-				<text transform="matrix(1 0 0 1 287.9175 396.332)" class="st20 st11">2162</text>
-				<text transform="matrix(1 0 0 1 287.9175 425.998)" class="st20 st11">2163</text>
-				<text transform="matrix(1 0 0 1 287.9175 464.498)" class="st20 st11">2164</text>
-				<text transform="matrix(1 0 0 1 196.7925 535.25)" class="st20 st11">2210</text>
-				<text transform="matrix(1 0 0 1 172.0425 489.584)" class="st20 st11">2200</text>
-				<text transform="matrix(1 0 0 1 198.7925 601.417)" class="st20 st11">2220</text>
-				<text transform="matrix(1 0 0 1 283.9175 624.668)" class="st20 st11">2230</text>
-				<text transform="matrix(1 0 0 1 354.9307 624.668)" class="st20 st11">2240</text>
-				<text transform="matrix(1 0 0 1 414.4307 624.668)" class="st20 st11">2250</text>
-				<text transform="matrix(1 0 0 1 462.2637 544.168)" class="st20 st11">2233</text>
-				<text transform="matrix(1 0 0 1 428.0977 544.168)" class="st20 st11">2235</text>
-				<text transform="matrix(1 0 0 1 398 544.168)" class="st20 st11">2237</text>
-				<text transform="matrix(1 0 0 1 365.5 544.168)" class="st20 st11">2239</text>
-				<text transform="matrix(1 0 0 1 333.5 544.168)" class="st20 st11">2241</text>
-				<text transform="matrix(1 0 0 1 302.166 544.168)" class="st20 st11">2243</text>
-				<text transform="matrix(0 1 -1 0 283.271 532.248)" class="st20 st11">2245</text>
-				<text transform="matrix(1 0 0 1 462.75 719.501)" class="st20 st11">2231</text>
-				<text transform="matrix(1 0 0 1 429.209 719.501)" class="st20 st11">2229</text>
-				<text transform="matrix(1 0 0 1 401.042 719.501)" class="st20 st11">2227</text>
-				<text transform="matrix(1 0 0 1 370.542 719.501)" class="st20 st11">2225</text>
-				<text transform="matrix(1 0 0 1 341.042 719.501)" class="st20 st11">2223</text>
-				<text transform="matrix(1 0 0 1 226.6689 719.501)" class="st20 st11">2221</text>
-				<text transform="matrix(1 0 0 1 198.1689 719.501)" class="st20 st11">2219</text>
-				<text transform="matrix(1 0 0 1 168.668 719.501)" class="st20 st11">2217</text>
-				<text transform="matrix(1 0 0 1 108.2925 498.5)" class="st20 st11">2205</text>
-				<text transform="matrix(1 0 0 1 108.2925 527.834)" class="st20 st11">2207</text>
-				<text transform="matrix(1 0 0 1 108.2925 559.375)" class="st20 st11">2209</text>
-				<text transform="matrix(1 0 0 1 108.2925 584.334)" class="st20 st11">2211</text>
-				<text transform="matrix(1 0 0 1 108.2925 624.668)" class="st20 st11">2213</text>
-				<text transform="matrix(1 0 0 1 108.2925 653.668)" class="st20 st11">2215</text>
-			</g>
-			<g id="doors">
-				<path class="st7" d="M257,72.3h-8.4c0,0-0.3,8.9,8.4,8.9V72.3z"/>
-				<path class="st7" d="M171.3,167.4h-8.4c0,0-0.3,8.9,8.4,8.9V167.4z"/>
-				<path class="st7" d="M273.9,83.3h8.4c0,0,0.3-8.9-8.4-8.9V83.3z"/>
-				<path class="st7" d="M161.4,498.5h8.4c0,0,0.3-8.9-8.4-8.9V498.5z"/>
-				<path class="st7" d="M276.7,557.4h8.4c0,0,0.3-8.9-8.4-8.9V557.4z"/>
-				<path class="st7" d="M224.8,72.3h8.4c0,0,0.3,8.9-8.4,8.9V72.3z"/>
-				<path class="st7" d="M276.7,190.8h8.4c0,0,0.3-8.9-8.4-8.9V190.8z"/>
-				<path class="st7" d="M276.7,195.1h8.4c0,0,0.3,8.9-8.4,8.9V195.1z"/>
-				<path class="st7" d="M276.7,136.8h8.4c0,0,0.3-8.9-8.4-8.9V136.8z"/>
-				<path class="st7" d="M276.7,141.2h8.4c0,0,0.3,8.9-8.4,8.9V141.2z"/>
-				<path class="st7" d="M128.7,205.2h8.4c0,0,0.3-8.9-8.4-8.9V205.2z"/>
-				<path class="st7" d="M128.7,182.7h8.4c0,0,0.3,8.9-8.4,8.9V182.7z"/>
-				<path class="st7" d="M128.7,397.8h8.4c0,0,0.3-8.9-8.4-8.9V397.8z"/>
-				<path class="st7" d="M128.7,375.3h8.4c0,0,0.3,8.9-8.4,8.9V375.3z"/>
-				<path class="st7" d="M276.7,353.3h8.4c0,0,0.3-8.9-8.4-8.9V353.3z"/>
-				<path class="st7" d="M276.7,357.3h8.4c0,0,0.3,8.9-8.4,8.9V357.3z"/>
-				<path class="st7" d="M276.7,406.7h8.4c0,0,0.3-8.9-8.4-8.9V406.7z"/>
-				<path class="st7" d="M276.7,410.7h8.4c0,0,0.3,8.9-8.4,8.9V410.7z"/>
-				<path class="st7" d="M276.7,299.2h8.4c0,0,0.3-8.9-8.4-8.9V299.2z"/>
-				<path class="st7" d="M276.7,303.2h8.4c0,0,0.3,8.9-8.4,8.9V303.2z"/>
-				<path class="st7" d="M276.7,245h8.4c0,0,0.3-8.9-8.4-8.9V245z"/>
-				<path class="st7" d="M276.7,249h8.4c0,0,0.3,8.9-8.4,8.9V249z"/>
-				<path class="st7" d="M276.9,435.2h8.4c0,0,0.3,8.9-8.4,8.9V435.2z"/>
-				<path class="st7" d="M171.2,391.9h-8.4c0,0-0.3,8.9,8.4,8.9V391.9z"/>
-				<path class="st7" d="M171.3,384h-8.4c0,0-0.3-8.9,8.4-8.9V384z"/>
-				<path class="st7" d="M171.3,253.6h-8.4c0,0-0.3,8.9,8.4,8.9V253.6z"/>
-				<path class="st7" d="M171.3,246.3h-8.4c0,0-0.3-8.9,8.4-8.9V246.3z"/>
-				<path class="st7" d="M276.7,454.7h-8.4c0,0-0.3,8.9,8.4,8.9V454.7z"/>
-				<path class="st7" d="M276.7,472.6h-8.4c0,0-0.3-8.9,8.4-8.9V472.6z"/>
-				<path class="st7" d="M173.1,678.7h-8.4c0,0-0.3,8.9,8.4,8.9V678.7z"/>
-				<path class="st7" d="M173.1,696.5h-8.4c0,0-0.3-8.9,8.4-8.9V696.5z"/>
-				<path class="st7" d="M255.3,498.5h-8.4c0,0-0.3-8.9,8.4-8.9V498.5z"/>
-				<path class="st7" d="M221.7,658.9h-8.4c0,0-0.3-8.9,8.4-8.9V658.9z"/>
-				<path class="st7" d="M171.2,573.2h-8.4c0,0-0.3,8.9,8.4,8.9V573.2z"/>
-				<path class="st7" d="M138.3,639.3h-8.4c0,0-0.3,8.9,8.4,8.9V639.3z"/>
-				<path class="st7" d="M171.3,566.8h-8.4c0,0-0.3-8.9,8.4-8.9V566.8z"/>
-				<path class="st7" d="M138.3,593.3h-8.4c0,0-0.3-8.9,8.4-8.9V593.3z"/>
-				<path class="st7" d="M138.3,513.7h-8.4c0,0-0.3,8.9,8.4,8.9V513.7z"/>
-				<path class="st7" d="M138.3,509.7h-8.4c0,0-0.3-8.9,8.4-8.9V509.7z"/>
-				<path class="st7" d="M188.6,85.3v-9c0,0,8.3-0.3,8.3,9H188.6z"/>
-				<path class="st7" d="M257.3,484.7v-9c0,0,8.3-0.3,8.3,9H257.3z"/>
-				<path class="st7" d="M273.9,484.7v-9c0,0-8.3-0.3-8.3,9H273.9z"/>
-				<path class="st7" d="M136.3,570.8v-9c0,0-8.3-0.3-8.3,9H136.3z"/>
-				<path class="st7" d="M141.7,484.7v-9c0,0,8.3-0.3,8.3,9H141.7z"/>
-				<path class="st7" d="M158.4,484.7v-9c0,0-8.3-0.3-8.3,9H158.4z"/>
-				<path class="st7" d="M454.5,559.4v-9c0,0,8.3-0.3,8.3,9H454.5z"/>
-				<path class="st7" d="M450.5,559.4v-9c0,0-8.3-0.3-8.3,9H450.5z"/>
-				<path class="st7" d="M391,559.4v-9c0,0,8.3-0.3,8.3,9H391z"/>
-				<path class="st7" d="M387,559.4v-9c0,0-8.3-0.3-8.3,9H387z"/>
-				<path class="st7" d="M327.4,559.4v-9c0,0,8.3-0.3,8.3,9H327.4z"/>
-				<path class="st7" d="M323.4,559.4v-9c0,0-8.3-0.3-8.3,9H323.4z"/>
-				<path class="st7" d="M141.7,651.5v9c0,0,8.3,0.3,8.3-9H141.7z"/>
-				<path class="st7" d="M158.4,651.5v9c0,0-8.3,0.3-8.3-9H158.4z"/>
-				<path class="st7" d="M329.5,666.3v9c0,0,8.3,0.3,8.3-9H329.5z"/>
-				<path class="st7" d="M322.3,666.3v9c0,0-8.3,0.3-8.3-9H322.3z"/>
-				<path class="st7" d="M395,699.5v9c0,0,8.3,0.3,8.3-9H395z"/>
-				<path class="st7" d="M394,666.3v9c0,0,8.3,0.3,8.3-9H394z"/>
-				<path class="st7" d="M391,699.5v9c0,0-8.3,0.3-8.3-9H391z"/>
-				<path class="st7" d="M455,699.5v9c0,0,8.3,0.3,8.3-9H455z"/>
-				<path class="st7" d="M451,699.5v9c0,0-8.3,0.3-8.3-9H451z"/>
-				<path class="st7" d="M332.7,699.5v9c0,0-8.3,0.3-8.3-9H332.7z"/>
-				<path class="st7" d="M361.3,699.5v9c0,0-8.3,0.3-8.3-9H361.3z"/>
-				<path class="st7" d="M193.3,699.5v9c0,0,8.3,0.3,8.3-9H193.3z"/>
-				<path class="st7" d="M222.5,699.5v9c0,0,8.3,0.3,8.3-9H222.5z"/>
-				<path class="st7" d="M223.7,664.2v9c0,0,8.3,0.3,8.3-9H223.7z"/>
-				<path class="st7" d="M189.3,699.5v9c0,0-8.3,0.3-8.3-9H189.3z"/>
-				<path class="st7" d="M201.3,664.2v9c0,0-8.3,0.3-8.3-9H201.3z"/>
-				<path class="st7" d="M136.3,608.7v9c0,0-8.3,0.3-8.3-9H136.3z"/>
-			</g>
 			<g id="outline">
-				<polygon class="st15" points="294.7,27.3 80,27.3 80,111.3 68,111.3 68,482 99.3,482 99.3,711.3 122,711.3 122,757.3 162.7,757.3
+				<polygon class="outline" points="294.7,27.3 80,27.3 80,111.3 68,111.3 68,482 99.3,482 99.3,711.3 122,711.3 122,757.3 162.7,757.3
 					162.7,734.7 248.7,734.7 248.7,757.3 334.7,757.3 334.7,734.7 486.7,734.7 486.7,525.3 276.7,525.3 276.7,482 311.3,482
 					311.3,111.3 276.7,111.3 276.7,85.3 294.7,85.3 	"/>
-				<rect x="162" y="67" class="st15" width="24.2" height="18.3"/>
-				<polyline class="st15" points="334.7,699.5 306,699.5 306,757.3 	"/>
-				<line class="st15" x1="138.3" y1="484.7" x2="161.4" y2="484.7"/>
-				<line class="st15" x1="255.3" y1="484.7" x2="276.7" y2="484.7"/>
-				<path class="st15" d="M162,27.5"/>
-				<line class="st15" x1="173.1" y1="676.2" x2="173.1" y2="699.5"/>
-				<line class="st15" x1="161.4" y1="651.5" x2="138.3" y2="651.5"/>
+				<polyline class="outline" points="334.7,699.5 306,699.5 306,757.3 	"/>
+				<line class="outline" x1="138.3" y1="484.7" x2="161.4" y2="484.7"/>
+				<line class="outline" x1="255.3" y1="484.7" x2="276.7" y2="484.7"/>
+				<path class="outline" d="M162,27.5"/>
+				<line class="outline" x1="173.1" y1="676.2" x2="173.1" y2="699.5"/>
+				<line class="outline" x1="161.4" y1="651.5" x2="138.3" y2="651.5"/>
+			</g>
+			<g id="fill">
+				<rect x="161.4" y="110" class="fill" width="97.9" height="3.9"/>
+				<rect x="161.4" y="248.3" class="fill" width="9.9" height="3.4"/>
+				<rect x="161.4" y="386" class="fill" width="9.9" height="3.9"/>
+				<rect x="161.4" y="455" class="fill" width="97.9" height="3.9"/>
+				<rect x="161.4" y="474.3" class="fill" width="93.9" height="3.4"/>
+				<rect x="161.4" y="568.8" class="fill" width="9.9" height="2.4"/>
+				<rect x="203.3" y="660.9" class="fill" width="3.5" height="3.3"/>
+				<rect x="216.3" y="660.9" class="fill" width="5.3" height="3.3"/>
+				<rect x="255.3" y="638.9" class="fill" width="4.9" height="37.3"/>
+				<polyline class="fill" points="243.8,486.5 243.8,500.5 196,500.5 196,486.5 243.8,486.5 	"/>
+				<polyline class="fill" points="178.4,638.9 178.4,643.8 164.8,643.8 164.8,676.2 161.4,676.2 161.4,638.9 178.4,638.9 	"/>
+				<rect x="324.5" y="666.3" class="fill" width="3" height="9.9"/>
+				<rect x="458.8" y="641.3" class="fill" width="2.5" height="34.9"/>
+				<rect x="458.8" y="575.5" class="fill" width="2.5" height="34.8"/>
+				<polyline class="fill" points="138.3,111.3 138.3,27.3 80,27.3 80,111.3 138.3,111.3 	"/>
+				<polygon class="fill" points="138.3,663 138.3,711.3 145.8,711.3 145.8,741.5 140.3,741.5 140.3,736.5 122,739.6 122,711.3
+					99.3,711.3 99.3,663 	"/>
+				<polyline class="fill" points="260.2,709.8 260.3,711.8 295.8,711.8 295.8,709.8 260.2,709.8 	"/>
+				<rect x="207.8" y="27.3" class="fill" width="66.1" height="6.5"/>
+			</g>
+			<g id="rooms">
+				<g class="room-group" id="2100" onclick="activateRoom('2100');">
+					<polygon class="room" points="259.3,113.9 161.4,113.9 161.4,124.5 164.8,124.5 164.8,153.8 161.4,153.8 161.4,165.4 171.3,165.4
+						171.3,181 259.3,181 	"/>
+					<text transform="matrix(1 0 0 1 202.667 145.6245)" class="label">2100</text>
+				</g>
+				<g class="room-group" id="2110" onclick="activateRoom('2110');">
+					<polygon class="room" points="259.3,181 161.4,181 161.4,192.6 164.8,192.6 164.8,222 161.4,222 161.4,234 171.3,234 171.3,249.9
+						259.3,250 	"/>
+					<text transform="matrix(1 0 0 1 202.667 213.0845)" class="label">2110</text>
+				</g>
+				<g class="room-group" id="2120" onclick="activateRoom('2120');">
+					<polygon class="room" points="259.3,250 171.3,249.9 171.3,265.6 161.4,265.6 161.4,277.6 164.8,277.6 164.8,307 161.4,307
+						161.4,319 259.3,319 	"/>
+					<text transform="matrix(1 0 0 1 202.667 284.9185)" class="label">2120</text>
+				</g>
+				<g class="room-group" id="2130" onclick="activateRoom('2130');">
+					<polygon class="room" points="259.3,319 161.4,319 161.4,331 164.8,331 164.8,360.1 161.4,360.1 161.4,372.3 171.3,372.3
+						171.3,388.3 259.3,388.3 	"/>
+					<text transform="matrix(1 0 0 1 202.667 352.8325)" class="label">2130</text>
+				</g>
+				<g class="room-group" id="2140" onclick="activateRoom('2140');">
+					<polygon class="room" points="259.3,388.3 171.3,388.3 171.3,403.9 161.4,403.9 161.4,415.1 164.8,415.1 164.8,444.4 161.4,444.4
+						161.4,455 259.3,455 	"/>
+					<text transform="matrix(1 0 0 1 202.667 422.666)" class="label">2140</text>
+				</g>
+				<g class="room-group" id="2200" onclick="activateRoom('2200');">
+					<rect x="161.4" y="477.6" class="room" width="34.6" height="22.9"/>
+					<text transform="matrix(1 0 0 1 172.0425 491.584)" class="label">2200</text>
+				</g>
+				<g class="room-group" id="2210" onclick="activateRoom('2210');">
+					<polygon class="room" points="161.4,500.5 161.4,512.5 164.8,512.5 164.8,543.8 161.4,543.8 161.4,554 171.3,554 171.3,570
+						260.2,570 260.2,500.5 	"/>
+					<text transform="matrix(1 0 0 1 202.7925 535.25)" class="label">2210</text>
+				</g>
+				<g class="room-group" id="2220" onclick="activateRoom('2220');">
+					<polygon class="room" points="171.3,570 171.3,585.8 161.4,585.8 161.4,596.2 164.8,596.2 164.8,627.3 161.4,627.3 161.4,638.9
+						260.2,638.9 260.2,570 	"/>
+					<text transform="matrix(1 0 0 1 202.7925 605.417)" class="label">2220</text>
+				</g>
+				<g class="room-group" id="2230" onclick="activateRoom('2230');">
+					<polygon class="room" points="260.2,676.2 268.8,676.2 268.8,673.8 299.3,673.8 299.3,676.2 310,676.2 310,666.3 326,666.3
+						326,575.5 260.2,575.5 	"/>
+					<text transform="matrix(1 0 0 1 283.9175 624.668)" class="label">2230</text>
+				</g>
+				<g class="room-group" id="2240" onclick="activateRoom('2240');">
+					<polygon class="room" points="326,666.3 342,666.3 342,676.2 352,676.2 352,673.8 383.8,673.8 383.8,676.2 392,676.2 392,575.5
+						326,575.5 	"/>
+					<text transform="matrix(1 0 0 1 350.9307 624.668)" class="label">2240</text>
+				</g>
+				<g class="room-group" id="2250" onclick="activateRoom('2250');">
+					<polygon class="room" points="392,666.3 407,666.3 407,676.2 417,676.2 417,673.8 448.5,673.8 448.5,676.2 458.8,676.2
+						458.8,575.5 392,575.5 	"/>
+					<text transform="matrix(1 0 0 1 416.4307 624.668)" class="label">2250</text>
+				</g>
+				<g class="room-group" id="2105" onclick="activateRoom('2105');">
+					<polygon class="room" points="138.3,111.3 138.3,180.7 128.7,180.7 128.7,194.2 68,194.2 68,111.3 	"/>
+					<text transform="matrix(1 0 0 1 92.167 150.0825)" class="label">2105</text>
+				</g>
+				<g class="room-group" id="2115" onclick="activateRoom('2115');">
+					<polygon class="room" points="128.7,194.2 128.7,207.2 138.3,207.2 138.3,290.5 68,290.5 68,194.2 	"/>
+					<text transform="matrix(1 0 0 1 92.167 245.0845)" class="label">2115</text>
+				</g>
+				<g class="room-group" id="2125" onclick="activateRoom('2125');">
+					<polygon class="room" points="138.3,290.5 138.3,373.3 128.7,373.3 128.7,386.7 68,386.7 68,290.5 	"/>
+					<text transform="matrix(1 0 0 1 92.167 336.0845)" class="label">2125</text>
+				</g>
+				<g class="room-group" id="2135" onclick="activateRoom('2135');">
+					<polygon class="room" points="128.7,386.7 128.7,399.8 138.3,399.8 138.3,482 68,482 68,386.7 	"/>
+					<text transform="matrix(1 0 0 1 92.167 435.418)" class="label">2135</text>
+				</g>
+				<g class="room-group" id="2205" onclick="activateRoom('2205');">
+					<rect x="99.3" y="482" class="room" width="39" height="29.7"/>
+					<text transform="matrix(1 0 0 1 108.2925 498.5)" class="label">2205</text>
+				</g>
+				<g class="room-group" id="2207" onclick="activateRoom('2207');">
+					<rect x="99.3" y="511.7" class="room" width="39" height="27.3"/>
+					<text transform="matrix(1 0 0 1 108.2925 527.834)" class="label">2207</text>
+				</g>
+				<g class="room-group" id="2209" onclick="activateRoom('2209');">
+					<rect x="99.3" y="539" class="room" width="39" height="31.8"/>
+					<text transform="matrix(1 0 0 1 108.2925 559.375)" class="label">2209</text>
+				</g>
+			  <g class="room-group" id="2211" onclick="activateRoom('2211');">
+			  	<rect x="99.3" y="570.8" class="room" width="39" height="37.8"/>
+					<text transform="matrix(1 0 0 1 108.2925 592.334)" class="label">2211</text>
+			  </g>
+				<g class="room-group" id="2213" onclick="activateRoom('2213');">
+					<rect x="99.3" y="608.7" class="room" width="39" height="28.7"/>
+					<text transform="matrix(1 0 0 1 108.2925 625.668)" class="label">2213</text>
+				</g>
+				<g class="room-group" id="2215" onclick="activateRoom('2215');">
+					<rect x="99.3" y="637.3" class="room" width="39" height="25.7"/>
+					<text transform="matrix(1 0 0 1 108.2925 653.668)" class="label">2215</text>
+				</g>
+				<g class="room-group" id="2217" onclick="activateRoom('2217');">
+					<rect x="162.7" y="699.5" class="room" width="28.6" height="35.2"/>
+					<text transform="matrix(1 0 0 1 166.668 721.501)" class="label">2217</text>
+				</g>
+				<g class="room-group" id="2219" onclick="activateRoom('2219');">
+					<rect x="191.3" y="699.5" class="room" width="29.3" height="35.2"/>
+					<text transform="matrix(1 0 0 1 196.1689 721.501)" class="label">2219</text>
+				</g>
+				<g class="room-group" id="2221" onclick="activateRoom('2221');">
+					<rect x="220.5" y="699.5" class="room" width="28.2" height="35.2"/>
+					<text transform="matrix(1 0 0 1 225.6689 721.501)" class="label">2221</text>
+				</g>
+				<g class="room-group" id="2223" onclick="activateRoom('2223');">
+					<rect x="334.7" y="699.5" class="room" width="28.6" height="35.2"/>
+					<text transform="matrix(1 0 0 1 339.042 721.501)" class="label">2223</text>
+				</g>
+				<g class="room-group" id="2225" onclick="activateRoom('2225');">
+					<rect x="363.3" y="699.5" class="room" width="29.8" height="35.2"/>
+					<text transform="matrix(1 0 0 1 368.542 721.501)" class="label">2225</text>
+				</g>
+				<g class="room-group" id="2227" onclick="activateRoom('2227');">
+					<rect x="393" y="699.5" class="room" width="30" height="35.2"/>
+					<text transform="matrix(1 0 0 1 398.042 721.501)" class="label">2227</text>
+				</g>
+				<g class="room-group" id="2229" onclick="activateRoom('2229');">
+					<rect x="423" y="699.5" class="room" width="30" height="35.2"/>
+					<text transform="matrix(1 0 0 1 427.209 721.501)" class="label">2229</text>
+				</g>
+				<g class="room-group" id="2231" onclick="activateRoom('2231');">
+					<rect x="453" y="699.5" class="room" width="33.7" height="35.2"/>
+					<text transform="matrix(1 0 0 1 460.75 721.501)" class="label">2231</text>
+				</g>
+				<g class="room-group" id="2152" onclick="activateRoom('2152');">
+					<rect x="276.7" y="111.3" class="room" width="34.7" height="27.8"/>
+					<text transform="matrix(1 0 0 1 285.9175 128.2505)" class="label">2152</text>
+				</g>
+				<g class="room-group" id="2153" onclick="activateRoom('2153');">
+					<rect x="276.7" y="139.2" class="room" width="34.7" height="26.8"/>
+					<text transform="matrix(1 0 0 1 285.9175 156.2505)" class="label">2153</text>
+				</g>
+				<g class="room-group" id="2154" onclick="activateRoom('2154');">
+					<rect x="276.7" y="166" class="room" width="34.7" height="27"/>
+					<text transform="matrix(1 0 0 1 285.9175 183.0005)" class="label">2154</text>
+				</g>
+				<g class="room-group" id="2155" onclick="activateRoom('2155');">
+					<rect x="276.7" y="193" class="room" width="34.7" height="27.2"/>
+					<text transform="matrix(1 0 0 1 285.9175 211.0845)" class="label">2155</text>
+				</g>
+				<g class="room-group" id="2156" onclick="activateRoom('2156');">
+					<rect id="2156" x="276.7" y="220.2" class="room" width="34.7" height="26.8"/>
+					<text transform="matrix(1 0 0 1 285.9175 236.0845)" class="label">2156</text>
+				</g>
+				<g class="room-group" id="2157" onclick="activateRoom('2157');">
+					<rect x="276.7" y="247" class="room" width="34.7" height="27.3"/>
+					<text transform="matrix(1 0 0 1 285.9175 265.2505)" class="label">2157</text>
+				</g>
+				<g class="room-group" id="2158" onclick="activateRoom('2158');">
+					<rect x="276.7" y="274.3" class="room" width="34.7" height="26.8"/>
+					<text transform="matrix(1 0 0 1 285.9175 290.4185)" class="label">2158</text>
+				</g>
+				<g class="room-group" id="2159" onclick="activateRoom('2159');">
+					<rect x="276.7" y="301.2" class="room" width="34.7" height="27.2"/>
+					<text transform="matrix(1 0 0 1 285.9175 318.2505)" class="label">2159</text>
+				</g>
+				<g class="room-group" id="2160" onclick="activateRoom('2160');">
+					<rect x="276.7" y="328.3" class="room" width="34.7" height="27"/>
+					<text transform="matrix(1 0 0 1 285.9175 344.0845)" class="label">2160</text>
+				</g>
+				<g class="room-group" id="2161" onclick="activateRoom('2161');">
+					<rect x="276.7" y="355.3" class="room" width="34.7" height="27"/>
+					<text transform="matrix(1 0 0 1 285.9175 373.0845)" class="label">2161</text>
+				</g>
+				<g class="room-group" id="2162" onclick="activateRoom('2162');">
+					<rect x="276.7" y="382.3" class="room" width="34.7" height="26.3"/>
+					<text transform="matrix(1 0 0 1 285.9175 398.332)" class="label">2162</text>
+				</g>
+				<g class="room-group" id="2163" onclick="activateRoom('2163');">
+					<rect x="276.7" y="408.7" class="room" width="34.7" height="24.5"/>
+					<text transform="matrix(1 0 0 1 285.9175 423.998)" class="label">2163</text>
+				</g>
+				<g class="room-group" id="2164" onclick="activateRoom('2164');">
+					<polygon class="room" points="311.3,482 311.3,433.2 276.9,433.2 276.7,482 	"/>
+					<text transform="matrix(1 0 0 1 285.9175 460.498)" class="label">2164</text>
+				</g>
+				<g class="room-group" id="2245" onclick="activateRoom('2245');">
+					<rect x="276.7" y="525.3" class="room" width="17.2" height="34"/>
+					<text transform="matrix(0 1 -1 0 283.271 532.248)" class="label medium-font">2245</text>
+				</g>
+				<g class="room-group" id="2243" onclick="activateRoom('2243');">
+					<rect x="293.9" y="525.3" class="room" width="31.5" height="34"/>
+					<text transform="matrix(1 0 0 1 300.166 544.168)" class="label">2243</text>
+				</g>
+				<g class="room-group" id="2241" onclick="activateRoom('2241');">
+					<rect x="325.4" y="525.3" class="room" width="31.9" height="34"/>
+					<text transform="matrix(1 0 0 1 332.5 544.168)" class="label">2241</text>
+				</g>
+				<g class="room-group" id="2239" onclick="activateRoom('2239');">
+					<rect x="357.3" y="525.3" class="room" width="31.8" height="34"/>
+					<text transform="matrix(1 0 0 1 363.5 544.168)" class="label">2239</text>
+				</g>
+				<g class="room-group" id="2237" onclick="activateRoom('2237');">
+					<rect x="389" y="525.3" class="room" width="31.5" height="34"/>
+					<text transform="matrix(1 0 0 1 395 544.168)" class="label">2237</text>
+				</g>
+				<g class="room-group" id="2235" onclick="activateRoom('2235');">
+					<rect x="420.5" y="525.3" class="room" width="32" height="34"/>
+					<text transform="matrix(1 0 0 1 427.0977 544.168)" class="label">2235</text>
+				</g>
+				<g class="room-group" id="2233" onclick="activateRoom('2233');">
+					<rect x="452.5" y="525.3" class="room" width="34.2" height="34"/>
+					<text transform="matrix(1 0 0 1 460.2637 544.168)" class="label">2233</text>
+				</g>
+				<rect x="273.9" y="27.3" class="room" width="20.8" height="58"/>
+				<rect x="162" y="67" class="room" width="24.2" height="18.3"/>
+				<polygon class="room" points="257,64.4 257,70.3 241,70.3 241,33.9 273.9,33.9 273.9,85.3 257,85.3 	"/>
+				<polygon class="room" points="224.8,64.4 224.8,70.3 241,70.3 241,33.9 207.8,33.9 207.8,85.3 224.8,85.3 	"/>
+				<rect x="186.1" y="67" class="room" width="21.6" height="18.3"/>
+				<polygon class="room" points="255.3,477.6 255.3,500.5 243.8,500.5 243.8,486.5 196,486.5 196,477.6 	"/>
+				<polygon class="room" points="188.1,659.8 188.1,664.2 203.3,664.2 203.3,638.9 178.4,638.9 178.4,643.8 164.8,643.8 164.8,676.2
+					188.1,676.2 	"/>
+				<rect x="203.3" y="638.9" class="room" width="18.3" height="22"/>
+				<polygon class="room" points="236.7,659.8 236.7,664.2 221.7,664.2 221.7,638.9 255.3,638.9 255.3,676.2 236.7,676.2 	"/>
+			</g>
+			<g id="labels">
 				<g>
 					<g>
 						<defs>
@@ -468,7 +499,79 @@
 					</g>
 				</g>
 			</g>
+			<g id="doors">
+				<path class="door" d="M257,72.3h-8.4c0,0-0.3,8.9,8.4,8.9V72.3z"/>
+				<path class="door" d="M171.3,167.4h-8.4c0,0-0.3,8.9,8.4,8.9V167.4z"/>
+				<path class="door" d="M273.9,83.3h8.4c0,0,0.3-8.9-8.4-8.9V83.3z"/>
+				<path class="door" d="M161.4,498.5h8.4c0,0,0.3-8.9-8.4-8.9V498.5z"/>
+				<path class="door" d="M276.7,557.4h8.4c0,0,0.3-8.9-8.4-8.9V557.4z"/>
+				<path class="door" d="M224.8,72.3h8.4c0,0,0.3,8.9-8.4,8.9V72.3z"/>
+				<path class="door" d="M276.7,190.8h8.4c0,0,0.3-8.9-8.4-8.9V190.8z"/>
+				<path class="door" d="M276.7,195.1h8.4c0,0,0.3,8.9-8.4,8.9V195.1z"/>
+				<path class="door" d="M276.7,136.8h8.4c0,0,0.3-8.9-8.4-8.9V136.8z"/>
+				<path class="door" d="M276.7,141.2h8.4c0,0,0.3,8.9-8.4,8.9V141.2z"/>
+				<path class="door" d="M128.7,205.2h8.4c0,0,0.3-8.9-8.4-8.9V205.2z"/>
+				<path class="door" d="M128.7,182.7h8.4c0,0,0.3,8.9-8.4,8.9V182.7z"/>
+				<path class="door" d="M128.7,397.8h8.4c0,0,0.3-8.9-8.4-8.9V397.8z"/>
+				<path class="door" d="M128.7,375.3h8.4c0,0,0.3,8.9-8.4,8.9V375.3z"/>
+				<path class="door" d="M276.7,353.3h8.4c0,0,0.3-8.9-8.4-8.9V353.3z"/>
+				<path class="door" d="M276.7,357.3h8.4c0,0,0.3,8.9-8.4,8.9V357.3z"/>
+				<path class="door" d="M276.7,406.7h8.4c0,0,0.3-8.9-8.4-8.9V406.7z"/>
+				<path class="door" d="M276.7,410.7h8.4c0,0,0.3,8.9-8.4,8.9V410.7z"/>
+				<path class="door" d="M276.7,299.2h8.4c0,0,0.3-8.9-8.4-8.9V299.2z"/>
+				<path class="door" d="M276.7,303.2h8.4c0,0,0.3,8.9-8.4,8.9V303.2z"/>
+				<path class="door" d="M276.7,245h8.4c0,0,0.3-8.9-8.4-8.9V245z"/>
+				<path class="door" d="M276.7,249h8.4c0,0,0.3,8.9-8.4,8.9V249z"/>
+				<path class="door" d="M276.9,435.2h8.4c0,0,0.3,8.9-8.4,8.9V435.2z"/>
+				<path class="door" d="M171.2,391.9h-8.4c0,0-0.3,8.9,8.4,8.9V391.9z"/>
+				<path class="door" d="M171.3,384h-8.4c0,0-0.3-8.9,8.4-8.9V384z"/>
+				<path class="door" d="M171.3,253.6h-8.4c0,0-0.3,8.9,8.4,8.9V253.6z"/>
+				<path class="door" d="M171.3,246.3h-8.4c0,0-0.3-8.9,8.4-8.9V246.3z"/>
+				<path class="door" d="M276.7,454.7h-8.4c0,0-0.3,8.9,8.4,8.9V454.7z"/>
+				<path class="door" d="M276.7,472.6h-8.4c0,0-0.3-8.9,8.4-8.9V472.6z"/>
+				<path class="door" d="M173.1,678.7h-8.4c0,0-0.3,8.9,8.4,8.9V678.7z"/>
+				<path class="door" d="M173.1,696.5h-8.4c0,0-0.3-8.9,8.4-8.9V696.5z"/>
+				<path class="door" d="M255.3,498.5h-8.4c0,0-0.3-8.9,8.4-8.9V498.5z"/>
+				<path class="door" d="M221.7,658.9h-8.4c0,0-0.3-8.9,8.4-8.9V658.9z"/>
+				<path class="door" d="M171.2,573.2h-8.4c0,0-0.3,8.9,8.4,8.9V573.2z"/>
+				<path class="door" d="M138.3,639.3h-8.4c0,0-0.3,8.9,8.4,8.9V639.3z"/>
+				<path class="door" d="M171.3,566.8h-8.4c0,0-0.3-8.9,8.4-8.9V566.8z"/>
+				<path class="door" d="M138.3,593.3h-8.4c0,0-0.3-8.9,8.4-8.9V593.3z"/>
+				<path class="door" d="M138.3,513.7h-8.4c0,0-0.3,8.9,8.4,8.9V513.7z"/>
+				<path class="door" d="M138.3,509.7h-8.4c0,0-0.3-8.9,8.4-8.9V509.7z"/>
+				<path class="door" d="M188.6,85.3v-9c0,0,8.3-0.3,8.3,9H188.6z"/>
+				<path class="door" d="M257.3,484.7v-9c0,0,8.3-0.3,8.3,9H257.3z"/>
+				<path class="door" d="M273.9,484.7v-9c0,0-8.3-0.3-8.3,9H273.9z"/>
+				<path class="door" d="M136.3,570.8v-9c0,0-8.3-0.3-8.3,9H136.3z"/>
+				<path class="door" d="M141.7,484.7v-9c0,0,8.3-0.3,8.3,9H141.7z"/>
+				<path class="door" d="M158.4,484.7v-9c0,0-8.3-0.3-8.3,9H158.4z"/>
+				<path class="door" d="M454.5,559.4v-9c0,0,8.3-0.3,8.3,9H454.5z"/>
+				<path class="door" d="M450.5,559.4v-9c0,0-8.3-0.3-8.3,9H450.5z"/>
+				<path class="door" d="M391,559.4v-9c0,0,8.3-0.3,8.3,9H391z"/>
+				<path class="door" d="M387,559.4v-9c0,0-8.3-0.3-8.3,9H387z"/>
+				<path class="door" d="M327.4,559.4v-9c0,0,8.3-0.3,8.3,9H327.4z"/>
+				<path class="door" d="M323.4,559.4v-9c0,0-8.3-0.3-8.3,9H323.4z"/>
+				<path class="door" d="M141.7,651.5v9c0,0,8.3,0.3,8.3-9H141.7z"/>
+				<path class="door" d="M158.4,651.5v9c0,0-8.3,0.3-8.3-9H158.4z"/>
+				<path class="door" d="M329.5,666.3v9c0,0,8.3,0.3,8.3-9H329.5z"/>
+				<path class="door" d="M322.3,666.3v9c0,0-8.3,0.3-8.3-9H322.3z"/>
+				<path class="door" d="M395,699.5v9c0,0,8.3,0.3,8.3-9H395z"/>
+				<path class="door" d="M394,666.3v9c0,0,8.3,0.3,8.3-9H394z"/>
+				<path class="door" d="M391,699.5v9c0,0-8.3,0.3-8.3-9H391z"/>
+				<path class="door" d="M455,699.5v9c0,0,8.3,0.3,8.3-9H455z"/>
+				<path class="door" d="M451,699.5v9c0,0-8.3,0.3-8.3-9H451z"/>
+				<path class="door" d="M332.7,699.5v9c0,0-8.3,0.3-8.3-9H332.7z"/>
+				<path class="door" d="M361.3,699.5v9c0,0-8.3,0.3-8.3-9H361.3z"/>
+				<path class="door" d="M193.3,699.5v9c0,0,8.3,0.3,8.3-9H193.3z"/>
+				<path class="door" d="M222.5,699.5v9c0,0,8.3,0.3,8.3-9H222.5z"/>
+				<path class="door" d="M223.7,664.2v9c0,0,8.3,0.3,8.3-9H223.7z"/>
+				<path class="door" d="M189.3,699.5v9c0,0-8.3,0.3-8.3-9H189.3z"/>
+				<path class="door" d="M201.3,664.2v9c0,0-8.3,0.3-8.3-9H201.3z"/>
+				<path class="door" d="M136.3,608.7v9c0,0-8.3,0.3-8.3-9H136.3z"/>
+			</g>
 		</svg>
 
+
+    <script src="http://localhost:35729/livereload.js"></script>
 	</body>
 </html>

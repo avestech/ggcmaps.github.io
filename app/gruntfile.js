@@ -43,7 +43,7 @@ module.exports = function(grunt) {
         tasks: ['compass:dev']
       }, // sass
       html: {
-        files: ['templates/*.html']
+        files: ['public/*.html']
       } // html
     } // watch
   }); // initConfig
