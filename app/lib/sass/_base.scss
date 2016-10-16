@@ -5,22 +5,22 @@ body {
   font-weight: normal;
   color: #fff;
   line-height: 110%;
-  background: #dcdcdc;
+  background: $lightgrey;
   overflow: scroll;
 } // body
 
 #{headings()} {
   font-family: $font-primary;
   font-weight: bold;
-  color: $red;
+  color: $border;
 } // headings
 
 a {
   text-decoration: none;
-  color: darken($red, 10);
+  color: darken($border, 10);
   line-height: 200%;
 
   &:hover {
-    color: lighten($red, 10);
+    color: lighten($border, 10);
   } // hover
 } // a

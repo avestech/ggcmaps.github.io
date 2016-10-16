@@ -23,8 +23,11 @@ body {
 } // body
 
 svg {
+  height: 100%;
+  width: auto;
+
   .outline {
-    fill:#a5acb0;
+    fill:$grey;
     stroke:#fff;
     stroke-miterlimit:10;
   } // outline
@@ -39,10 +42,6 @@ svg {
     fill:#00704a;
     stroke:#fff;
     stroke-miterlimit:10;
-
-    // &:hover {
-    //   fill:#f5e100;
-    // }
   } // room
 
   .room-group {
@@ -50,11 +49,11 @@ svg {
       cursor: pointer;
 
       .room {
-        fill:#85c446;
+        fill:$lightgreen;
       } // room
       .label {
-        fill:#fff;
-        font-weight: bold;
+        fill:$border;
+        // font-weight: bold;
       } // label
     } // room-group:hover
   } // room-group
@@ -63,17 +62,27 @@ svg {
     cursor: pointer;
 
     .room {
-      fill:#f5e100;
+      fill:$yellow;
     } // room
     .label {
-      fill:#000;
+      fill:$inversetext;
       font-weight: bold;
     } // label
+
+    &:hover {
+      .room {
+        fill:lighten($yellow, 20);
+        // opacity: .7;
+      } // room
+      .label {
+        fill:$inversetext;
+      } // label
+    } // active-room:hover
   } // active
 
   .door {
     fill:none;
-    stroke:#fff;
+    stroke:$border;
     stroke-width:0.75;
     stroke-linecap:square;
     stroke-miterlimit:10;
@@ -81,7 +90,7 @@ svg {
   } // door
 
   .label {
-    fill: #fff;
+    fill: $border;
     font-size: .6rem;
   } // label
 
