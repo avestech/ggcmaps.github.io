@@ -1,3 +1,12 @@
+document.addEventListener('DOMContentLoaded', function() {
+  var ref = window.location.href;
+  var roomNum = ref.substring(ref.lastIndexOf('#') + 1);
+  
+  if (roomNum.length > 0 && roomNum.length < 5) {
+    searchRoomNumber(roomNum);
+  }
+});
+
 function activateRoom(roomID) {
   var roomClass = 'room-group';
   var room = document.getElementById(roomID);
@@ -16,8 +25,6 @@ function activateRoom(roomID) {
     deactivateAllRooms();
 
     room.classList.add('active-room');
-    // console.log(document.getElementById(roomID).className);
-    // alert('You have selected ' + roomID);
   }
 }
 
@@ -44,6 +51,11 @@ function searchRooms() {
   }
   else if (sRoom.length === 5) {
     var roomNum = sRoom.substring(1);
+
+    var ref = window.location.href;
+    var refWindow = ref.substring(ref.lastIndexOf('/') + 1, ref.lastIndexOf('#'));
+    var newWindow = refWindow;
+
     switch (sRoom[0]) {
       case 'a':
         alert('A Building not currently searchable');
@@ -59,18 +71,28 @@ function searchRooms() {
         break;
       case 'c':
         if (roomNum[1] === '3') {
+          // newWindow = 'Building-C3-Ground-Floor.html';
           alert('C3 Building not currently searchable');
         }
-        else {
-          searchRoomNumber(roomNum);
+        else if (roomNum[0] === '2') {
+          newWindow = "Building-C-Second-Floor.html";
+          // searchRoomNumber(roomNum);
+        }
+        else if (roomNum[0] == '1') {
+          newWindow = "Building-C-First-Floor.html";
         }
         break;
       case 'C':
         if (roomNum[1] === '3') {
+          // newWindow = 'Building-C3-Ground-Floor.html';
           alert('C3 Building not currently searchable');
         }
-        else {
-          searchRoomNumber(roomNum);
+        else if (roomNum[0] === '2') {
+          newWindow = "Building-C-Second-Floor.html";
+          // searchRoomNumber(roomNum);
+        }
+        else if (roomNum[0] == '1') {
+          newWindow = "Building-C-First-Floor.html";
         }
         break;
       case 'd':
@@ -111,6 +133,13 @@ function searchRooms() {
         break;
       default:
         alert('Cannot find ' + sRoom);
+    }
+
+    if (refWindow !== newWindow) {
+      window.location.href = newWindow + '#' + roomNum;
+    }
+    else {
+      searchRoomNumber(roomNum);
     }
   }
   else {
