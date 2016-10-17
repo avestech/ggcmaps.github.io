@@ -86,12 +86,48 @@ h1, h2, h3, h4, h5, h6 {
 /* line 18, ../../lib/sass/_base.scss */
 a {
   text-decoration: none;
-  color: #e6e6e6;
-  line-height: 200%;
+  color: #fff;
+  line-height: 130%;
 }
 /* line 23, ../../lib/sass/_base.scss */
 a:hover {
-  color: white;
+  color: #f5e100;
+}
+
+/* line 28, ../../lib/sass/_base.scss */
+input {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 1.1rem;
+  border: 1px solid #00704a;
+  background: #00704a;
+  width: 100%;
+  color: #fff;
+}
+/* line 37, ../../lib/sass/_base.scss */
+input:focus {
+  outline: none;
+}
+
+/* line 1, ../../lib/sass/_nav.scss */
+.nav {
+  position: fixed;
+  background: #00704a;
+  width: 18.91892%;
+  float: left;
+  margin-right: 1.35135%;
+  height: 100%;
+}
+/* line 7, ../../lib/sass/_nav.scss */
+.nav .nav-content {
+  padding: 15px 10px;
+}
+
+/* line 12, ../../lib/sass/_nav.scss */
+.menu-section {
+  height: 2px;
+  width: 100%;
+  background: #fff;
 }
 
 /* line 21, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
@@ -115,63 +151,79 @@ body:after {
 }
 
 /* line 25, ../../lib/sass/_layout.scss */
-svg {
+.content {
+  width: 80%;
+  float: right;
+  padding-left: 0.66667%;
+  padding-right: 0.66667%;
+}
+/* line 28, ../../lib/sass/_layout.scss */
+.content #roomSearch {
+  width: 25%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  padding: 10px 5px;
+  margin: 10px;
+}
+/* line 34, ../../lib/sass/_layout.scss */
+.content svg {
   height: 100%;
   width: auto;
 }
-/* line 29, ../../lib/sass/_layout.scss */
-svg .outline {
+/* line 38, ../../lib/sass/_layout.scss */
+.content svg .outline {
   fill: #a5acb0;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 35, ../../lib/sass/_layout.scss */
-svg .fill {
+/* line 44, ../../lib/sass/_layout.scss */
+.content svg .fill {
   fill: #fff;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 41, ../../lib/sass/_layout.scss */
-svg .room {
+/* line 50, ../../lib/sass/_layout.scss */
+.content svg .room {
   fill: #00704a;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 48, ../../lib/sass/_layout.scss */
-svg .room-group:hover {
+/* line 57, ../../lib/sass/_layout.scss */
+.content svg .room-group:hover {
   cursor: pointer;
 }
-/* line 51, ../../lib/sass/_layout.scss */
-svg .room-group:hover .room {
+/* line 60, ../../lib/sass/_layout.scss */
+.content svg .room-group:hover .room {
   fill: #85c446;
 }
-/* line 54, ../../lib/sass/_layout.scss */
-svg .room-group:hover .label {
+/* line 63, ../../lib/sass/_layout.scss */
+.content svg .room-group:hover .label {
   fill: #fff;
 }
-/* line 61, ../../lib/sass/_layout.scss */
-svg .active-room {
+/* line 70, ../../lib/sass/_layout.scss */
+.content svg .active-room {
   cursor: pointer;
 }
-/* line 64, ../../lib/sass/_layout.scss */
-svg .active-room .room {
+/* line 73, ../../lib/sass/_layout.scss */
+.content svg .active-room .room {
   fill: #f5e100;
 }
-/* line 67, ../../lib/sass/_layout.scss */
-svg .active-room .label {
+/* line 76, ../../lib/sass/_layout.scss */
+.content svg .active-room .label {
   fill: #000;
   font-weight: bold;
 }
-/* line 73, ../../lib/sass/_layout.scss */
-svg .active-room:hover .room {
+/* line 82, ../../lib/sass/_layout.scss */
+.content svg .active-room:hover .room {
   fill: #fff25c;
 }
-/* line 77, ../../lib/sass/_layout.scss */
-svg .active-room:hover .label {
+/* line 86, ../../lib/sass/_layout.scss */
+.content svg .active-room:hover .label {
   fill: #000;
 }
-/* line 83, ../../lib/sass/_layout.scss */
-svg .door {
+/* line 92, ../../lib/sass/_layout.scss */
+.content svg .door {
   fill: none;
   stroke: #fff;
   stroke-width: 0.75;
@@ -179,16 +231,16 @@ svg .door {
   stroke-miterlimit: 10;
   stroke-dasharray: 8,3,2,3,2,3;
 }
-/* line 92, ../../lib/sass/_layout.scss */
-svg .label {
+/* line 101, ../../lib/sass/_layout.scss */
+.content svg .label {
   fill: #fff;
   font-size: .6rem;
 }
-/* line 97, ../../lib/sass/_layout.scss */
-svg .small-font {
+/* line 106, ../../lib/sass/_layout.scss */
+.content svg .small-font {
   font-size: .43rem;
 }
-/* line 101, ../../lib/sass/_layout.scss */
-svg .medium-font {
+/* line 110, ../../lib/sass/_layout.scss */
+.content svg .medium-font {
   font-size: .48rem;
 }
