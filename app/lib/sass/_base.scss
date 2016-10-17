@@ -17,10 +17,24 @@ body {
 
 a {
   text-decoration: none;
-  color: darken($border, 10);
-  line-height: 200%;
+  color: $border;
+  line-height: 130%;
 
   &:hover {
-    color: lighten($border, 10);
+    color: $yellow;
   } // hover
 } // a
+
+input {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 1.1rem;
+  border: 1px solid $green;
+  background: $green;
+  width: 100%;
+  color: $border;
+
+  &:focus {
+    outline: none;
+  } // input:focus
+} // input
