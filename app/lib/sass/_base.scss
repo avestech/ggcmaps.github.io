@@ -18,7 +18,8 @@ body {
 a {
   text-decoration: none;
   color: $border;
-  line-height: 130%;
+  font-size: .8rem;
+  line-height: 110%;
 
   &:hover {
     color: $yellow;
