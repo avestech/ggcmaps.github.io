@@ -4,13 +4,48 @@
   @include span(3 of 15);
   height: 100%;
 
-  .nav-content {
-    padding: 15px 10px;
-  } // nav-content
+  h1 {
+    padding: 8px 10px;
+  } // h1
+
+  ul {
+    // padding: 8px 10px;
+    li {
+      padding: 0 10px;
+    } // li
+  } // ul
 } // nav
 
 .menu-section {
   height: 2px;
   width:100%;
   background: $border;
+  margin-top: 5px;
 } // menu-section
+
+.dining {
+  ul {
+    li {
+      display: none;
+      padding: 0 0;
+    } // li
+  } // ul
+} // dining
+
+.nav-active {
+  @include transition-property(height);
+  @include transition-duration(2s);
+  background: #fff;
+
+  ul {
+    margin-top: 5px;
+    padding: 5px 0 8px;
+    li {
+      display: block;
+      a {
+        color: $green;
+        font-weight: 600;
+      } // a
+    } // li
+  } // ul
+} // nav-active
