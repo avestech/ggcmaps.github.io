@@ -57,7 +57,7 @@ function searchRooms() {
   if (sRoom.length === 4) {
     var file = refWindow.substring(refWindow.indexOf('-') + 1);
     var building = file.substring(0, file.indexOf('-'));
-    
+
     switch (building) {
       case 'A':
         alert('A Building not currently searchable');
@@ -67,12 +67,10 @@ function searchRooms() {
         break;
       case 'C':
         if (roomNum[1] === '3') {
-          // newWindow = 'Building-C3-Ground-Floor.html';
           alert('C3 Building not currently searchable');
         }
         else if (roomNum[0] === '2') {
           newWindow = "Building-C-Second-Floor.html";
-          // searchRoomNumber(roomNum);
         }
         else if (roomNum[0] == '1') {
           newWindow = "Building-C-First-Floor.html";
