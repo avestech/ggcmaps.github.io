@@ -29,7 +29,14 @@ body {
     @include span(3 of 12);
     padding: 10px 5px;
     margin: 10px;
-  } // #roomSearch
+    color: $border;
+
+    @include input-placeholder {
+      color: $grey;
+      font-size: .9rem;
+      font-style: italic;
+    }
+  } // roomSearch
 
   svg {
     height: 100%;
