@@ -1,0 +1,16 @@
+.nav {
+  position: fixed;
+  background: $green;
+  @include span(3 of 15);
+  height: 100%;
+
+  .nav-content {
+    padding: 15px 10px;
+  } // nav-content
+} // nav
+
+.menu-section {
+  height: 2px;
+  width:100%;
+  background: $border;
+} // menu-section
