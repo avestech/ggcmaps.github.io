@@ -17,10 +17,8 @@
 } // nav
 
 .menu-section {
-  height: 2px;
-  width:100%;
-  background: $border;
   margin-top: 5px;
+  border-bottom: thin solid $border;
 } // menu-section
 
 .dining {
