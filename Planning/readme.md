@@ -4,7 +4,6 @@ Gwinnett Grizzlies Map
 ## Requirements
 * An interactive map of campus buildings
 * Web App
-* Images
 * Links
 * Room numbers
 * Services around campus - ie RSO Lounge, Tutoring center
