@@ -5,6 +5,7 @@
 		<title>Gwinnett Grizzly Maps</title>
 		<link rel="stylesheet" href="css/styles.css">
 		<script src="js/script.min.js"></script>
+		<script src="https://use.fontawesome.com/c559106939.js"></script>
 	</head>
 	<body>
 		<div class="nav">
@@ -45,7 +46,11 @@
 		</div> <!-- nav -->
 
 		<div class="content">
-			<input type="text" id="roomSearch" placeholder="Search for a Room" onkeypress="searchForARoom(event)">
+			<div class="search-menu">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+				<input type="text" id="roomSearch" placeholder="Search for a Room" onkeypress="searchForARoom(event)">
+				<i class="fa fa-search" aria-hidden="true" onclick="searchRooms()"></i>
+			</div> <!-- search-menu -->
 			<select name="floor" id="floor" onchange="changeFloor('C', value)">
 				<option value="2">2</option>
 				<option value="1">1</option>
