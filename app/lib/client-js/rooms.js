@@ -207,3 +207,47 @@ function searchRoomNumber(roomNum) {
     alert('No room found for ' + roomNum);
   }
 }
+
+function changeFloor(building, floor) {
+  var newWindow = building;
+
+  switch (building) {
+    case 'A':
+
+      break;
+    case 'B':
+
+      break;
+    case 'C':
+      if (floor === '1') {
+        newWindow = 'Building-C-First-Floor.html';
+      }
+      else {
+        newWindow = 'Building-C-Second-Floor.html';
+      }
+      break;
+    case 'C3':
+
+      break;
+    case 'D':
+
+      break;
+    case 'E':
+
+      break;
+    case 'F':
+
+      break;
+    case 'H':
+
+      break;
+    case 'I':
+
+      break;
+    case 'L':
+
+      break;
+  }
+
+  window.location.href=newWindow;
+}
