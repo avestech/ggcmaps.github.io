@@ -130,19 +130,17 @@ input:focus {
 
 /* line 19, ../../lib/sass/_nav.scss */
 .menu-section {
-  height: 2px;
-  width: 100%;
-  background: #fff;
   margin-top: 5px;
+  border-bottom: thin solid #fff;
 }
 
-/* line 28, ../../lib/sass/_nav.scss */
+/* line 29, ../../lib/sass/_nav.scss */
 .dining ul li {
   display: none;
   padding: 0 0;
 }
 
-/* line 35, ../../lib/sass/_nav.scss */
+/* line 36, ../../lib/sass/_nav.scss */
 .nav-active {
   -moz-transition-property: height;
   -o-transition-property: height;
@@ -154,16 +152,16 @@ input:focus {
   transition-duration: 2s;
   background: #fff;
 }
-/* line 40, ../../lib/sass/_nav.scss */
+/* line 41, ../../lib/sass/_nav.scss */
 .nav-active ul {
   margin-top: 5px;
   padding: 5px 0 8px;
 }
-/* line 43, ../../lib/sass/_nav.scss */
+/* line 44, ../../lib/sass/_nav.scss */
 .nav-active ul li {
   display: block;
 }
-/* line 45, ../../lib/sass/_nav.scss */
+/* line 46, ../../lib/sass/_nav.scss */
 .nav-active ul li a {
   color: #00704a;
   font-weight: 600;
@@ -197,40 +195,52 @@ body:after {
   padding-right: 0.66667%;
 }
 /* line 28, ../../lib/sass/_layout.scss */
-.content #roomSearch {
-  width: 25%;
+.content .search-menu {
+  width: 33.33333%;
   float: left;
   padding-left: 0.83333%;
   padding-right: 0.83333%;
-  padding: 10px 5px;
+  background: #00704a;
   margin: 10px;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+}
+/* line 36, ../../lib/sass/_layout.scss */
+.content .search-menu input {
+  border: none;
+  border-left: thin solid #a5acb0;
+  border-right: thin solid #a5acb0;
+  outline: none;
   color: #fff;
+  padding: 0 10px;
+  margin: 0 10px;
 }
 /* line 61, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
-.content #roomSearch:-moz-placeholder {
+.content .search-menu input:-moz-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
 /* line 64, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
-.content #roomSearch::-moz-placeholder {
+.content .search-menu input::-moz-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
 /* line 67, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
-.content #roomSearch:-ms-input-placeholder {
+.content .search-menu input:-ms-input-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
 /* line 56, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
-.content #roomSearch::-webkit-input-placeholder {
+.content .search-menu input::-webkit-input-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
-/* line 41, ../../lib/sass/_layout.scss */
+/* line 53, ../../lib/sass/_layout.scss */
 .content #floor {
   float: right;
   background: #00704a;
@@ -241,63 +251,63 @@ body:after {
   border: none;
   outline: none;
 }
-/* line 52, ../../lib/sass/_layout.scss */
+/* line 64, ../../lib/sass/_layout.scss */
 .content svg {
   height: 100%;
   width: auto;
 }
-/* line 56, ../../lib/sass/_layout.scss */
+/* line 68, ../../lib/sass/_layout.scss */
 .content svg .outline {
   fill: #a5acb0;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 62, ../../lib/sass/_layout.scss */
+/* line 74, ../../lib/sass/_layout.scss */
 .content svg .fill {
   fill: #fff;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 68, ../../lib/sass/_layout.scss */
+/* line 80, ../../lib/sass/_layout.scss */
 .content svg .room {
   fill: #00704a;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 75, ../../lib/sass/_layout.scss */
+/* line 87, ../../lib/sass/_layout.scss */
 .content svg .room-group:hover {
   cursor: pointer;
 }
-/* line 78, ../../lib/sass/_layout.scss */
+/* line 90, ../../lib/sass/_layout.scss */
 .content svg .room-group:hover .room {
   fill: #85c446;
 }
-/* line 81, ../../lib/sass/_layout.scss */
+/* line 93, ../../lib/sass/_layout.scss */
 .content svg .room-group:hover .label {
   fill: #fff;
 }
-/* line 88, ../../lib/sass/_layout.scss */
+/* line 100, ../../lib/sass/_layout.scss */
 .content svg .active-room {
   cursor: pointer;
 }
-/* line 91, ../../lib/sass/_layout.scss */
+/* line 103, ../../lib/sass/_layout.scss */
 .content svg .active-room .room {
   fill: #f5e100;
 }
-/* line 94, ../../lib/sass/_layout.scss */
+/* line 106, ../../lib/sass/_layout.scss */
 .content svg .active-room .label {
   fill: #000;
   font-weight: bold;
 }
-/* line 100, ../../lib/sass/_layout.scss */
+/* line 112, ../../lib/sass/_layout.scss */
 .content svg .active-room:hover .room {
   fill: #fff25c;
 }
-/* line 104, ../../lib/sass/_layout.scss */
+/* line 116, ../../lib/sass/_layout.scss */
 .content svg .active-room:hover .label {
   fill: #000;
 }
-/* line 110, ../../lib/sass/_layout.scss */
+/* line 122, ../../lib/sass/_layout.scss */
 .content svg .door {
   fill: none;
   stroke: #fff;
@@ -306,16 +316,16 @@ body:after {
   stroke-miterlimit: 10;
   stroke-dasharray: 8,3,2,3,2,3;
 }
-/* line 119, ../../lib/sass/_layout.scss */
+/* line 131, ../../lib/sass/_layout.scss */
 .content svg .label {
   fill: #fff;
   font-size: .6rem;
 }
-/* line 124, ../../lib/sass/_layout.scss */
+/* line 136, ../../lib/sass/_layout.scss */
 .content svg .small-font {
   font-size: .43rem;
 }
-/* line 128, ../../lib/sass/_layout.scss */
+/* line 140, ../../lib/sass/_layout.scss */
 .content svg .medium-font {
   font-size: .48rem;
 }
