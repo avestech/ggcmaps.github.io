@@ -25,18 +25,30 @@ body {
 .content {
   @include span(12 last of 15);
 
-  #roomSearch {
-    @include span(3 of 12);
-    padding: 10px 5px;
+  .search-menu {
+    @include span(4 of 12);
+    background: $green;
     margin: 10px;
-    color: $border;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
 
-    @include input-placeholder {
-      color: $grey;
-      font-size: .9rem;
-      font-style: italic;
-    } // input-placeholder
-  } // roomSearch
+    input {
+      border: none;
+      border-left: thin solid $grey;
+      border-right: thin solid $grey;
+      outline: none;
+      color: $border;
+      padding: 0 10px;
+      margin: 0 10px;
+
+      @include input-placeholder {
+        color: $grey;
+        font-size: .9rem;
+        font-style: italic;
+      } // input-placeholder
+    } // input
+  } // search-menu
 
   #floor {
     @include last;
