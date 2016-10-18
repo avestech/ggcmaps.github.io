@@ -35,8 +35,19 @@ body {
       color: $grey;
       font-size: .9rem;
       font-style: italic;
-    }
+    } // input-placeholder
   } // roomSearch
+
+  #floor {
+    @include last;
+    background: $green;
+    color: $border;
+    padding: 5px;
+    margin: 10px 5px;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+  } // floor
 
   svg {
     height: 100%;
