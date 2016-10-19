@@ -20,25 +20,33 @@ $large             : 56em;
 
 body {
   @include container;
+  overflow-x: hidden;
 } // body
 
 .content {
   @include span(12 last of 15);
 
   .search-menu {
-    @include span(4 of 12);
-    background: $green;
+    @include span(3 of 12);
+    @include box-shadow;
+    background: $border;
     margin: 10px;
     padding: 8px 10px;
     display: flex;
     align-items: center;
+    position: fixed;
+
+    i {
+      color: $green;
+    } // i
 
     input {
       border: none;
       border-left: thin solid $grey;
       border-right: thin solid $grey;
       outline: none;
-      color: $border;
+      color: $green;
+      background-color: $border;
       padding: 0 10px;
       margin: 0 10px;
 
@@ -51,94 +59,102 @@ body {
   } // search-menu
 
   #floor {
-    @include last;
+    position: fixed;
+    margin: 10px 5px;
+    @include pre(9);
+    @include box-shadow;
     background: $green;
     color: $border;
     padding: 5px;
-    margin: 10px 5px;
     font-size: 1.3rem;
     border: none;
     outline: none;
   } // floor
 
-  svg {
+  .svg-holder {
+    width: 100%;
     height: 100%;
-    width: auto;
 
-    .outline {
-      fill:$grey;
-      stroke:#fff;
-      stroke-miterlimit:10;
-    } // outline
+    svg {
+      display: block;
+      margin: auto;
+      padding-top: 4%;
 
-    .fill {
-      fill:#fff;
-      stroke:#fff;
-      stroke-miterlimit:10;
-    } // fill
+      .outline {
+        fill:$grey;
+        stroke:#fff;
+        stroke-miterlimit:10;
+      } // outline
 
-    .room {
-      fill:#00704a;
-      stroke:#fff;
-      stroke-miterlimit:10;
-    } // room
+      .fill {
+        fill:#fff;
+        stroke:#fff;
+        stroke-miterlimit:10;
+      } // fill
 
-    .room-group {
-      &:hover {
+      .room {
+        fill:#00704a;
+        stroke:#fff;
+        stroke-miterlimit:10;
+      } // room
+
+      .room-group {
+        &:hover {
+          cursor: pointer;
+
+          .room {
+            fill:$lightgreen;
+          } // room
+          .label {
+            fill:$border;
+            // font-weight: bold;
+          } // label
+        } // room-group:hover
+      } // room-group
+
+      .active-room {
         cursor: pointer;
 
         .room {
-          fill:$lightgreen;
-        } // room
-        .label {
-          fill:$border;
-          // font-weight: bold;
-        } // label
-      } // room-group:hover
-    } // room-group
-
-    .active-room {
-      cursor: pointer;
-
-      .room {
-        fill:$yellow;
-      } // room
-      .label {
-        fill:$inversetext;
-        font-weight: bold;
-      } // label
-
-      &:hover {
-        .room {
-          fill:lighten($yellow, 20);
-          // opacity: .7;
+          fill:$yellow;
         } // room
         .label {
           fill:$inversetext;
+          font-weight: bold;
         } // label
-      } // active-room:hover
-    } // active
 
-    .door {
-      fill:none;
-      stroke:$border;
-      stroke-width:0.75;
-      stroke-linecap:square;
-      stroke-miterlimit:10;
-      stroke-dasharray:8,3,2,3,2,3;
-    } // door
+        &:hover {
+          .room {
+            fill:lighten($yellow, 20);
+            // opacity: .7;
+          } // room
+          .label {
+            fill:$inversetext;
+          } // label
+        } // active-room:hover
+      } // active
 
-    .label {
-      fill: $border;
-      font-size: .6rem;
-    } // label
+      .door {
+        fill:none;
+        stroke:$border;
+        stroke-width:0.75;
+        stroke-linecap:square;
+        stroke-miterlimit:10;
+        stroke-dasharray:8,3,2,3,2,3;
+      } // door
 
-    .small-font {
-      font-size: .43rem;
-    } // small-font
+      .label {
+        fill: $border;
+        font-size: .6rem;
+      } // label
 
-    .medium-font {
-      font-size: .48rem;
-    } // medium-font
-  } // svg
+      .small-font {
+        font-size: .43rem;
+      } // small-font
+
+      .medium-font {
+        font-size: .48rem;
+      } // medium-font
+    } // svg
+  } // svg-holder
 } // content
