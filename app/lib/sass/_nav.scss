@@ -1,12 +1,27 @@
 .nav {
-  position: fixed;
+  @include transition;
+  @include transition-duration(.5s);
+  position: absolute;
   background: $green;
-  @include span(3 of 15);
+  @include span(3.5 of 15);
   height: 100%;
+  @include box-shadow;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  left: - span(4 of 15);
 
   h1 {
+    display: inline-block;
     padding: 8px 10px;
+    width: auto;
   } // h1
+
+  i {
+    float: right;
+    display: inline-block;
+    padding: 10px;
+  } // i
 
   ul {
     // padding: 8px 10px;
@@ -15,6 +30,10 @@
     } // li
   } // ul
 } // nav
+
+.nav-active {
+  left: 0;
+} // nav-active
 
 .menu-section {
   margin-top: 5px;
@@ -25,12 +44,13 @@
   ul {
     li {
       display: none;
-      padding: 0 0;
+      padding: 0;
+      padding-left: 10px;
     } // li
   } // ul
 } // dining
 
-.nav-active {
+.dining-active {
   @include transition-property(height);
   @include transition-duration(2s);
   background: #fff;
