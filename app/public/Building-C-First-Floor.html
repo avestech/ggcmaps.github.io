@@ -4,63 +4,27 @@
 		<meta charset="utf-8">
 		<title>Gwinnett Grizzly Maps</title>
 		<link rel="stylesheet" href="css/styles.css">
+		<script src="js/svg-pan-zoom.min.js"></script>
 		<script src="js/script.min.js"></script>
 		<script src="https://use.fontawesome.com/c559106939.js"></script>
 	</head>
 	<body>
-		<div class="nav">
-			<h1>Gwinnett Grizzly Maps</h1>
-			<div class="menu-section"></div>
-			<ul>
-				<li><a href="#">Building A</a></li>
-				<li><a href="#">Building B</a></li>
-				<li><a href="Building-C-First-Floor.html">Building C</a></li>
-				<li><a href="#">Building C3</a></li>
-				<li><a href="#">Building D / Admissions</a></li>
-				<li><a href="#">Building E / Student Center</a></li>
-				<li><a href="#">Building F</a></li>
-				<li><a href="#">Building H</a></li>
-				<li><a href="#">Building I</a></li>
-				<li><a href="#">Building L / Library</a></li>
-			</ul>
-			<div class="menu-section"></div>
-			<ul>
-				<li><a href="#">AEC</a></li>
-				<li><a href="#">Counseling Services</a></li>
-				<li><a href="#">Book Store</a></li>
-				<li><a href="#" onclick="diningSubMenu();">Dining Services</a></li>
-				<li class="dining">
-					<ul>
-						<li><a href="#">Chick-fil-A</a></li>
-						<li><a href="#">Dining Hall</a></li>
-						<li><a href="#">Einstein Bros Bagels</a></li>
-						<li><a href="#">Moe's Southwest Grill</a></li>
-						<li><a href="#">Panda Express</a></li>
-						<li><a href="#">P.O.D. Market</a></li>
-						<li><a href="#">Starbucks</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Game Room</a></li>
-				<li><a href="#">Help Desk</a></li>
-				<li><a href="#">Parking Services</a></li>
-				<li><a href="#">Testing Services</a></li>
-			</ul>
-		</div> <!-- nav -->
-
 		<div class="content">
 			<div class="search-menu">
-				<i class="fa fa-bars" aria-hidden="true"></i>
-				<input type="text" id="roomSearch" placeholder="Search for a Room" onkeypress="searchForARoom(event)">
+				<i class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
+				<input type="text" id="roomSearch" placeholder="Search Rooms" onkeypress="searchForARoom(event)">
 				<i class="fa fa-search" aria-hidden="true" onclick="searchRooms()"></i>
+				<span class="divider"></span>
+				<h2>C</h2>
+				<select name="floor" id="floor" onchange="changeFloor('C', value)">
+					<option value="1">1</option>
+					<option value="2">2</option>
+				</select>
 			</div> <!-- search-menu -->
-			<select name="floor" id="floor" onchange="changeFloor('C', value)">
-				<option value="1">1</option>
-				<option value="2">2</option>
-			</select>
 
 			<div class="svg-holder">
 				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="612px"
-					 height="792px" viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+					 height="792px" viewBox="0 0 612 792" perserveAspectRatio="xMidYMid meet">
 					<style type="text/css">
 					<![CDATA[
 						.st0{clip-path:url(#SVGID_28_);fill:#FFFFFF;}
@@ -579,7 +543,49 @@
 					</g>
 				</svg>
 			</div> <!-- svg-holder -->
+			<div class="content-disable" onclick="closeMenu()"></div>
 		</div>
+
+		<div class="nav">
+			<h1>Gwinnett Grizzly Maps</h1>
+			<i class="fa fa-arrow-left" onclick="closeMenu()"></i>
+			<div class="menu-section"></div>
+			<ul>
+				<li><a href="#">Building A</a></li>
+				<li><a href="#">Building B</a></li>
+				<li><a href="Building-C-First-Floor.html">Building C</a></li>
+				<li><a href="#">Building C3</a></li>
+				<li><a href="#">Building D / Admissions</a></li>
+				<li><a href="#">Building E / Student Center</a></li>
+				<li><a href="#">Building F</a></li>
+				<li><a href="#">Building H</a></li>
+				<li><a href="#">Building I</a></li>
+				<li><a href="#">Building L / Library</a></li>
+			</ul>
+			<div class="menu-section"></div>
+			<ul>
+				<li><a href="#">AEC</a></li>
+				<li><a href="#">Book Store</a></li>
+				<li><a onclick="searchRooms('c1260')">Cisco Auditorium</a></li>
+				<li><a href="#">Counseling Services</a></li>
+				<li><a onclick="diningSubMenu();">Dining Services</a></li>
+				<li class="dining">
+					<ul>
+						<li><a href="#">Chick-fil-A</a></li>
+						<li><a href="#">Dining Hall</a></li>
+						<li><a href="#">Einstein Bros Bagels</a></li>
+						<li><a href="#">Moe's Southwest Grill</a></li>
+						<li><a href="#">Panda Express</a></li>
+						<li><a href="#">P.O.D. Market</a></li>
+						<li><a href="#">Starbucks</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Game Room</a></li>
+				<li><a href="#">Help Desk</a></li>
+				<li><a href="#">Parking Services</a></li>
+				<li><a href="#">Testing Services</a></li>
+			</ul>
+		</div> <!-- nav -->
 
 		<script src="http://localhost:35729/livereload.js"></script>
 	</body>
