@@ -81,21 +81,22 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Teko, Sans-Serif;
   font-weight: bold;
   color: #fff;
+  font-size: 1.1rem;
 }
 
-/* line 18, ../../lib/sass/_base.scss */
+/* line 19, ../../lib/sass/_base.scss */
 a {
   text-decoration: none;
   color: #fff;
   font-size: .8rem;
   line-height: 110%;
 }
-/* line 24, ../../lib/sass/_base.scss */
+/* line 25, ../../lib/sass/_base.scss */
 a:hover {
   color: #f5e100;
 }
 
-/* line 29, ../../lib/sass/_base.scss */
+/* line 30, ../../lib/sass/_base.scss */
 input {
   margin: 5px 0;
   padding: 10px;
@@ -105,43 +106,72 @@ input {
   width: 100%;
   color: #fff;
 }
-/* line 38, ../../lib/sass/_base.scss */
+/* line 39, ../../lib/sass/_base.scss */
 input:focus {
   outline: none;
 }
 
 /* line 1, ../../lib/sass/_nav.scss */
 .nav {
-  position: fixed;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  position: absolute;
   background: #00704a;
-  width: 18.91892%;
+  width: 22.2973%;
   float: left;
   margin-right: 1.35135%;
   height: 100%;
+  -moz-box-shadow: 1px 2px 5px #333333;
+  -webkit-box-shadow: 1px 2px 5px #333333;
+  box-shadow: 1px 2px 5px #333333;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  left: -25.67568%;
 }
-/* line 7, ../../lib/sass/_nav.scss */
+/* line 14, ../../lib/sass/_nav.scss */
 .nav h1 {
+  display: inline-block;
   padding: 8px 10px;
+  width: auto;
 }
-/* line 13, ../../lib/sass/_nav.scss */
+/* line 20, ../../lib/sass/_nav.scss */
+.nav i {
+  float: right;
+  display: inline-block;
+  padding: 10px;
+}
+/* line 28, ../../lib/sass/_nav.scss */
 .nav ul li {
   padding: 0 10px;
 }
 
-/* line 19, ../../lib/sass/_nav.scss */
+/* line 34, ../../lib/sass/_nav.scss */
+.nav-active {
+  left: 0;
+}
+
+/* line 38, ../../lib/sass/_nav.scss */
 .menu-section {
   margin-top: 5px;
   border-bottom: thin solid #fff;
 }
 
-/* line 26, ../../lib/sass/_nav.scss */
+/* line 45, ../../lib/sass/_nav.scss */
 .dining ul li {
   display: none;
-  padding: 0 0;
+  padding: 0;
+  padding-left: 10px;
 }
 
-/* line 33, ../../lib/sass/_nav.scss */
-.nav-active {
+/* line 53, ../../lib/sass/_nav.scss */
+.dining-active {
   -moz-transition-property: height;
   -o-transition-property: height;
   -webkit-transition-property: height;
@@ -152,17 +182,17 @@ input:focus {
   transition-duration: 2s;
   background: #fff;
 }
-/* line 38, ../../lib/sass/_nav.scss */
-.nav-active ul {
+/* line 58, ../../lib/sass/_nav.scss */
+.dining-active ul {
   margin-top: 5px;
   padding: 5px 0 8px;
 }
-/* line 41, ../../lib/sass/_nav.scss */
-.nav-active ul li {
+/* line 61, ../../lib/sass/_nav.scss */
+.dining-active ul li {
   display: block;
 }
-/* line 43, ../../lib/sass/_nav.scss */
-.nav-active ul li a {
+/* line 63, ../../lib/sass/_nav.scss */
+.dining-active ul li a {
   color: #00704a;
   font-weight: 600;
 }
@@ -179,7 +209,7 @@ body {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 /* line 12, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
 body:after {
@@ -190,41 +220,41 @@ body:after {
 
 /* line 26, ../../lib/sass/_layout.scss */
 .content {
-  width: 80%;
-  float: right;
-  padding-left: 0.66667%;
-  padding-right: 0.66667%;
-}
-/* line 29, ../../lib/sass/_layout.scss */
-.content .search-menu {
-  width: 25%;
+  width: 100%;
   float: left;
   padding-left: 0.83333%;
   padding-right: 0.83333%;
+  padding: 0;
+}
+/* line 30, ../../lib/sass/_layout.scss */
+.content .search-menu {
+  width: 29.16667%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  margin: 10px;
   -moz-box-shadow: 1px 2px 5px #333333;
   -webkit-box-shadow: 1px 2px 5px #333333;
   box-shadow: 1px 2px 5px #333333;
   background: #fff;
-  margin: 10px;
-  padding: 8px 10px;
+  padding: 0;
   display: flex;
-  align-items: center;
   position: fixed;
+  align-items: center;
 }
-/* line 39, ../../lib/sass/_layout.scss */
+/* line 42, ../../lib/sass/_layout.scss */
 .content .search-menu i {
   color: #00704a;
+  padding: 10px;
 }
-/* line 43, ../../lib/sass/_layout.scss */
+/* line 47, ../../lib/sass/_layout.scss */
 .content .search-menu input {
   border: none;
-  border-left: thin solid #a5acb0;
-  border-right: thin solid #a5acb0;
   outline: none;
   color: #00704a;
   background-color: #fff;
-  padding: 0 10px;
-  margin: 0 10px;
+  padding: 10px;
+  margin: 0;
 }
 /* line 61, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input:-moz-placeholder {
@@ -250,84 +280,94 @@ body:after {
   font-size: .9rem;
   font-style: italic;
 }
-/* line 61, ../../lib/sass/_layout.scss */
-.content #floor {
-  position: fixed;
-  margin: 10px 5px;
-  margin-left: 75%;
-  -moz-box-shadow: 1px 2px 5px #333333;
-  -webkit-box-shadow: 1px 2px 5px #333333;
-  box-shadow: 1px 2px 5px #333333;
-  background: #00704a;
-  color: #fff;
-  padding: 5px;
-  font-size: 1.3rem;
+/* line 64, ../../lib/sass/_layout.scss */
+.content .search-menu #floor {
+  background: #fff;
+  color: #00704a;
+  font-size: 1.05rem;
+  text-align: center;
+  vertical-align: top;
   border: none;
   outline: none;
+  padding: 10px;
+  padding-left: 5px;
 }
-/* line 74, ../../lib/sass/_layout.scss */
+/* line 76, ../../lib/sass/_layout.scss */
+.content .search-menu h2 {
+  display: inline-block;
+  color: #00704a;
+  font-size: 1.1rem;
+  font-weight: normal;
+  padding: 10px;
+  padding-right: 5px;
+}
+/* line 100, ../../lib/sass/_layout.scss */
+.content .divider {
+  width: 1px;
+  height: 1.2em;
+  background: #a5acb0;
+}
+/* line 106, ../../lib/sass/_layout.scss */
 .content .svg-holder {
   width: 100%;
   height: 100%;
 }
-/* line 78, ../../lib/sass/_layout.scss */
+/* line 110, ../../lib/sass/_layout.scss */
 .content .svg-holder svg {
-  display: block;
-  margin: auto;
-  padding-top: 4%;
+  width: 100%;
 }
-/* line 83, ../../lib/sass/_layout.scss */
+/* line 114, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .outline {
   fill: #a5acb0;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 89, ../../lib/sass/_layout.scss */
+/* line 120, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .fill {
   fill: #fff;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 95, ../../lib/sass/_layout.scss */
+/* line 126, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .room {
   fill: #00704a;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 102, ../../lib/sass/_layout.scss */
+/* line 133, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .room-group:hover {
   cursor: pointer;
 }
-/* line 105, ../../lib/sass/_layout.scss */
+/* line 136, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .room-group:hover .room {
   fill: #85c446;
 }
-/* line 108, ../../lib/sass/_layout.scss */
+/* line 139, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .room-group:hover .label {
   fill: #fff;
 }
-/* line 115, ../../lib/sass/_layout.scss */
+/* line 146, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room {
   cursor: pointer;
 }
-/* line 118, ../../lib/sass/_layout.scss */
+/* line 149, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room .room {
   fill: #f5e100;
 }
-/* line 121, ../../lib/sass/_layout.scss */
+/* line 152, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room .label {
   fill: #000;
   font-weight: bold;
 }
-/* line 127, ../../lib/sass/_layout.scss */
+/* line 158, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room:hover .room {
   fill: #fff25c;
 }
-/* line 131, ../../lib/sass/_layout.scss */
+/* line 162, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room:hover .label {
   fill: #000;
 }
-/* line 137, ../../lib/sass/_layout.scss */
+/* line 168, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .door {
   fill: none;
   stroke: #fff;
@@ -336,16 +376,37 @@ body:after {
   stroke-miterlimit: 10;
   stroke-dasharray: 8,3,2,3,2,3;
 }
-/* line 146, ../../lib/sass/_layout.scss */
+/* line 177, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .label {
   fill: #fff;
   font-size: .6rem;
 }
-/* line 151, ../../lib/sass/_layout.scss */
+/* line 182, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .small-font {
   font-size: .43rem;
 }
-/* line 155, ../../lib/sass/_layout.scss */
+/* line 186, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .medium-font {
   font-size: .48rem;
+}
+
+/* line 193, ../../lib/sass/_layout.scss */
+.content-disable {
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  display: none;
+  background-color: #000;
+  opacity: .25;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* line 205, ../../lib/sass/_layout.scss */
+.active {
+  display: block;
 }
