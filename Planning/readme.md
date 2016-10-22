@@ -10,6 +10,7 @@ Gwinnett Grizzlies Map
 * Dining Services
 
 ## Possible Features
+* Compass
 * GPS
 * Events
 * Interactive map of campus itself as a whole
