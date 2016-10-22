@@ -45,14 +45,14 @@ function deactivateAllRooms() {
 
 function searchForARoom(event) {
   if (event.which == 13 || event.keyCode == 13) {
-    searchRooms();
+    searchRoom();
   }
 }
 
-function searchRooms() {
+function searchRoom() {
   var sRoom = document.getElementById('roomSearch').value;
   var roomNum = sRoom;
-
+console.log(sRoom);
   var ref = window.location.href;
   var refWindow = ref.substring(ref.lastIndexOf('/') + 1);
   if (ref.lastIndexOf('#') !== -1) {
