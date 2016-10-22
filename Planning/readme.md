@@ -6,8 +6,8 @@ Gwinnett Grizzlies Map
 * Web App
 * Links
 * Room numbers
-* Services around campus - ie RSO Lounge, Tutoring center
 * Dining Services
+* Services around campus - ie RSO Lounge, Tutoring center
 
 ## Possible Features
 * Compass
@@ -15,7 +15,6 @@ Gwinnett Grizzlies Map
 * Events
 * Interactive map of campus itself as a whole
 * Parking
-* Compass
 
 ### Contact Options
 1. Email is preferred cmoore10@ggc.edu
