@@ -7,6 +7,16 @@ document.addEventListener('DOMContentLoaded', function() {
     searchRoomNumber(roomNum);
   }
 
+  // var map = document.getElementById('svg-holder');
+  // var xhr = new XMLHttpRequest();
+  // xhr.open('GET', 'Building/C/First-Floor.html', true);
+  // xhr.onreadystatechange = function() {
+  //   if (this.readyState!==4) return;
+  //   if (this.status!==200) return;
+  //   map.innerHTML = this.responseText;
+  // };
+  // xhr.send();
+
   var nav = document.getElementsByClassName('nav')[0];
   var map = document.getElementsByClassName('svg-holder')[0].childNodes[1];
   map.style.height = nav.clientHeight;
