@@ -8,3 +8,8 @@ node_js:
   - '0.10'
 before_script:
   - npm install -g grunt-cli
+  - npm install --dev
+  - cd app/
+  
+script:
+  - grunt travis
