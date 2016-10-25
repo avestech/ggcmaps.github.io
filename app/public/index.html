@@ -12,10 +12,10 @@
 		<div class="content">
 			<div class="search-menu">
 				<i class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
-				<input type="text" id="roomSearch" placeholder="Search Rooms" onkeypress="searchForARoom(event)">
-				<i class="fa fa-search" aria-hidden="true" onclick="searchRooms()"></i>
+				<input type="text" id="roomSearch" placeholder="Search Rooms" onkeypress="searchFromBar(event)">
+				<i class="fa fa-search" aria-hidden="true" onclick="searchRoomNumber()"></i>
 				<span class="divider"></span>
-				<h2>C</h2>
+				<h2 id="building">C</h2>
 				<select name="floor" id="floor" onchange="changeFloor('C', value)">
 					<option value="1">1</option>
 					<option value="2">2</option>
@@ -48,7 +48,7 @@
 			<ul>
 				<li><a href="#">AEC</a></li>
 				<li><a href="#">Book Store</a></li>
-				<li><a onclick="searchRooms('c1260')">Cisco Auditorium</a></li>
+				<li><a onclick="searchFromMenu('c1260')">Cisco Auditorium</a></li>
 				<li><a href="#">Counseling Services</a></li>
 				<li><a onclick="diningSubMenu();">Dining Services</a></li>
 				<li class="dining">

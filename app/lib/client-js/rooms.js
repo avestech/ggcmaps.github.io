@@ -1,46 +1,45 @@
 document.addEventListener('DOMContentLoaded', function() {
-  var ref = window.location.href;
-  var roomNum = ref.substring(ref.lastIndexOf('#') + 1);
-
-  if (roomNum.length > 0 && roomNum.length < 5) {
-    document.getElementById('roomSearch').value = roomNum;
-    searchRoomNumber(roomNum);
-  }
-
-  // var map = document.getElementById('svg-holder');
-  // var xhr = new XMLHttpRequest();
-  // xhr.open('GET', 'Building/C/First-Floor.html', true);
-  // xhr.onreadystatechange = function() {
-  //   if (this.readyState!==4) return;
-  //   if (this.status!==200) return;
-  //   map.innerHTML = this.responseText;
-  // };
-  // xhr.send();
 
   var nav = document.getElementsByClassName('nav')[0];
-  var map = document.getElementsByClassName('svg-holder')[0].childNodes[1];
-  map.style.height = nav.clientHeight;
-  var panZoomTiger = svgPanZoom(map, {controlIconsEnabled:true});
+  var mapHolder = document.getElementById('svg-holder');
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', 'Building/C/First-Floor.html', true);
+  xhr.onreadystatechange = function() {
+    if (this.readyState!==4) return;
+    if (this.status!==200) return;
+    mapHolder.innerHTML = this.responseText;
+
+    var map = mapHolder.childNodes[0];
+    map.style.height = nav.clientHeight;
+    var panZoomTiger = svgPanZoom(map, {controlIconsEnabled:true});
+  };
+  xhr.send();
+
 });
 
 function activateRoom(roomID) {
   var roomClass = 'room-group';
   var room = document.getElementById(roomID);
-  var roomClassName = room.className.baseVal;
-  // console.log(roomClassName);
-  if (roomClassName !== roomClass) {
-    // console.log('not active');
-    if (roomClassName === roomClass + ' active-room') {
-      deactivateAllRooms();
+
+  if (room === null) {
+    alert('No room found for ' + roomID);
+  } else {
+    var roomClassName = room.className.baseVal;
+
+    if (roomClassName !== roomClass) {
+      // console.log('not active');
+      if (roomClassName === roomClass + ' active-room') {
+        deactivateAllRooms();
+        return;
+      }
       return;
     }
-    return;
-  }
-  else if (roomClassName === roomClass) {
+    else if (roomClassName === roomClass) {
 
-    deactivateAllRooms();
+      deactivateAllRooms();
 
-    room.classList.add('active-room');
+      room.classList.add('active-room');
+    }
   }
 }
 
@@ -53,25 +52,29 @@ function deactivateAllRooms() {
   }
 }
 
-function searchForARoom(event) {
+function searchFromBar(event) {
   if (event.which == 13 || event.keyCode == 13) {
-    searchRoom();
+    searchRoomNumber();
   }
 }
 
-function searchRoom() {
+function searchFromMenu(sRoom) {
+  closeMenu();
+  document.getElementById('roomSearch').value = sRoom;
+  searchRoomNumber();
+}
+
+function searchRoomNumber() {
   var sRoom = document.getElementById('roomSearch').value;
   var roomNum = sRoom;
-console.log(sRoom);
-  var ref = window.location.href;
-  var refWindow = ref.substring(ref.lastIndexOf('/') + 1);
-  if (ref.lastIndexOf('#') !== -1) {
-    refWindow = ref.substring(ref.lastIndexOf('/') + 1, ref.lastIndexOf('#'));
-  }
-  var newWindow = refWindow;
+  var building = document.getElementById('building').innerHTML;
+  var floor = document.getElementById('floor').value;
+
+  var newWindow = '';
+  var newBuilding = '';
+  var newFloor = '';
+
   if (sRoom.length === 4) {
-    var file = refWindow.substring(refWindow.indexOf('-') + 1);
-    var building = file.substring(0, file.indexOf('-'));
 
     switch (building) {
       case 'A':
@@ -85,10 +88,12 @@ console.log(sRoom);
           alert('C3 Building not currently searchable');
         }
         else if (roomNum[0] === '2') {
-          newWindow = "Building-C-Second-Floor.html";
+          newBuilding = 'C';
+          newFlooar = '2';
         }
         else if (roomNum[0] == '1') {
-          newWindow = "Building-C-First-Floor.html";
+          newBuilding = 'C';
+          newFloor = '1';
         }
         break;
       case 'C3':
@@ -138,11 +143,12 @@ console.log(sRoom);
           alert('C3 Building not currently searchable');
         }
         else if (roomNum[0] === '2') {
-          newWindow = "Building-C-Second-Floor.html";
-          // searchRoomNumber(roomNum);
+          newBuilding = 'C';
+          newFloor = '2';
         }
         else if (roomNum[0] == '1') {
-          newWindow = "Building-C-First-Floor.html";
+          newBuilding = 'C';
+          newFloor = '1';
         }
         break;
       case 'C':
@@ -151,11 +157,12 @@ console.log(sRoom);
           alert('C3 Building not currently searchable');
         }
         else if (roomNum[0] === '2') {
-          newWindow = "Building-C-Second-Floor.html";
-          // searchRoomNumber(roomNum);
+          newBuilding = 'C';
+          newFloor = '2';
         }
         else if (roomNum[0] == '1') {
-          newWindow = "Building-C-First-Floor.html";
+          newBuilding = 'C';
+          newFloor = '1';
         }
         break;
       case 'd':
@@ -202,180 +209,22 @@ console.log(sRoom);
     alert('Invalid room number');
   }
 
-  if (refWindow !== newWindow) {
-    window.location.href = newWindow + '#' + roomNum;
+  if (building !== newBuilding || floor !== newFloor) {
+    searchNewFloor(newBuilding, newFloor, roomNum);
   }
   else {
-    searchRoomNumber(roomNum);
-  }
-}
-
-function searchRooms(sRoom) {
-  closeMenu();
-  var roomNum = sRoom;
-
-  var ref = window.location.href;
-  var refWindow = ref.substring(ref.lastIndexOf('/') + 1);
-  if (ref.lastIndexOf('#') !== -1) {
-    refWindow = ref.substring(ref.lastIndexOf('/') + 1, ref.lastIndexOf('#'));
-  }
-  var newWindow = refWindow;
-  if (sRoom.length === 4) {
-    var file = refWindow.substring(refWindow.indexOf('-') + 1);
-    var building = file.substring(0, file.indexOf('-'));
-
-    switch (building) {
-      case 'A':
-        alert('A Building not currently searchable');
-        break;
-      case 'B':
-        alert('B Building not currently searchable');
-        break;
-      case 'C':
-        if (roomNum[1] === '3') {
-          alert('C3 Building not currently searchable');
-        }
-        else if (roomNum[0] === '2') {
-          newWindow = "Building-C-Second-Floor.html";
-        }
-        else if (roomNum[0] == '1') {
-          newWindow = "Building-C-First-Floor.html";
-        }
-        break;
-      case 'C3':
-        alert('C3 Building not currently searchable');
-        break;
-      case 'D':
-        alert('D Building not currently searchable');
-        break;
-      case 'E':
-        alert('E Building not currently searchable');
-        break;
-      case 'F':
-        alert('F Building not currently searchable');
-        break;
-      case 'H':
-        alert('H Building not currently searchable');
-        break;
-      case 'I':
-        alert('I Building not currently searchable');
-        break;
-      case 'L':
-        alert('L Building not currently searchable');
-        break;
-      default:
-        alert('Cannot find ' + sRoom);
-    }
-  }
-  else if (sRoom.length === 5) {
-    roomNum = sRoom.substring(1);
-
-    switch (sRoom[0]) {
-      case 'a':
-        alert('A Building not currently searchable');
-        break;
-      case 'A':
-        alert('A Building not currently searchable');
-        break;
-      case 'b':
-        alert('B Building not currently searchable');
-        break;
-      case 'B':
-        alert('B Building not currently searchable');
-        break;
-      case 'c':
-        if (roomNum[1] === '3') {
-          // newWindow = 'Building-C3-Ground-Floor.html';
-          alert('C3 Building not currently searchable');
-        }
-        else if (roomNum[0] === '2') {
-          newWindow = "Building-C-Second-Floor.html";
-          // searchRoomNumber(roomNum);
-        }
-        else if (roomNum[0] == '1') {
-          newWindow = "Building-C-First-Floor.html";
-        }
-        break;
-      case 'C':
-        if (roomNum[1] === '3') {
-          // newWindow = 'Building-C3-Ground-Floor.html';
-          alert('C3 Building not currently searchable');
-        }
-        else if (roomNum[0] === '2') {
-          newWindow = "Building-C-Second-Floor.html";
-          // searchRoomNumber(roomNum);
-        }
-        else if (roomNum[0] == '1') {
-          newWindow = "Building-C-First-Floor.html";
-        }
-        break;
-      case 'd':
-        alert('D Building not currently searchable');
-        break;
-      case 'D':
-        alert('D Building not currently searchable');
-        break;
-      case 'e':
-        alert('E Building not currently searchable');
-        break;
-      case 'E':
-        alert('E Building not currently searchable');
-        break;
-      case 'f':
-        alert('F Building not currently searchable');
-        break;
-      case 'F':
-        alert('F Building not currently searchable');
-        break;
-      case 'h':
-        alert('H Building not currently searchable');
-        break;
-      case 'H':
-        alert('H Building not currently searchable');
-        break;
-      case 'i':
-        alert('I Building not currently searchable');
-        break;
-      case 'I':
-        alert('I Building not currently searchable');
-        break;
-      case 'l':
-        alert('L Building not currently searchable');
-        break;
-      case 'L':
-        alert('L Building not currently searchable');
-        break;
-      default:
-        alert('Cannot find ' + sRoom);
-    }
-  }
-  else {
-    alert('Invalid room number');
-  }
-
-  if (refWindow !== newWindow) {
-    window.location.href = newWindow + '#' + roomNum;
-  }
-  else {
-    searchRoomNumber(roomNum);
-  }
-}
-
-function searchRoomNumber(roomNum) {
-  var room = document.getElementById(roomNum);
-
-  if (room !== null) {
-    deactivateAllRooms();
-    room.classList.add('active-room');
-    window.location.href='#' + roomNum;
-  }
-  else {
-    alert('No room found for ' + roomNum);
+    activateRoom(roomNum);
   }
 }
 
 function changeFloor(building, floor) {
   var newWindow = building;
+  var searchBar = document.getElementById('roomSearch');
+  var curBuild = document.getElementById('building');
+  var curFloor = document.getElementById('floor');
+  searchBar.value = '';
+  curBuild.innerHTML = building;
+  curFloor.value = floor;
 
   switch (building) {
     case 'A':
@@ -386,10 +235,10 @@ function changeFloor(building, floor) {
       break;
     case 'C':
       if (floor === '1') {
-        newWindow = 'Building-C-First-Floor.html';
+        newWindow = 'Building/C/First-Floor.html';
       }
       else {
-        newWindow = 'Building-C-Second-Floor.html';
+        newWindow = 'Building/C/Second-Floor.html';
       }
       break;
     case 'C3':
@@ -415,5 +264,83 @@ function changeFloor(building, floor) {
       break;
   }
 
-  window.location.href=newWindow;
+  var nav = document.getElementsByClassName('nav')[0];
+  var mapHolder = document.getElementById('svg-holder');
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', newWindow, true);
+  xhr.onreadystatechange = function() {
+    if (this.readyState!==4) return;
+    if (this.status!==200) return;
+    mapHolder.innerHTML = this.responseText;
+
+    var map = mapHolder.childNodes[0];
+    map.style.height = nav.clientHeight;
+    var panZoomTiger = svgPanZoom(map, {controlIconsEnabled:true});
+  };
+  xhr.send();
+}
+
+function searchNewFloor(building, floor, roomNum) {
+  var newWindow = building;
+  var curBuild = document.getElementById('building');
+  var curFloor = document.getElementById('floor');
+
+  if (curBuild.innerHTML !== building || curFloor.value !== floor) {
+    curBuild.innerHTML = building;
+    switch (building) {
+      case 'A':
+
+        break;
+      case 'B':
+
+        break;
+      case 'C':
+        if (floor === '1') {
+          newWindow = 'Building/C/First-Floor.html';
+          curFloor.value = '1';
+        }
+        else {
+          newWindow = 'Building/C/Second-Floor.html';
+          curFloor.value = '2';
+        }
+        break;
+      case 'C3':
+
+        break;
+      case 'D':
+
+        break;
+      case 'E':
+
+        break;
+      case 'F':
+
+        break;
+      case 'H':
+
+        break;
+      case 'I':
+
+        break;
+      case 'L':
+
+        break;
+    }
+
+    var nav = document.getElementsByClassName('nav')[0];
+    var mapHolder = document.getElementById('svg-holder');
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', newWindow, true);
+    xhr.onreadystatechange = function() {
+      if (this.readyState!==4) return;
+      if (this.status!==200) return;
+      mapHolder.innerHTML = this.responseText;
+
+      var map = mapHolder.childNodes[0];
+      map.style.height = nav.clientHeight;
+      var panZoomTiger = svgPanZoom(map, {controlIconsEnabled:true});
+      activateRoom(roomNum);
+    };
+    xhr.send();
+  }
 }
