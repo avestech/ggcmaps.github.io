@@ -47,17 +47,20 @@ module.exports = function(grunt) {
       } // html
     }, // watch
 	jasmine: {
-      js: {
-        src: jsFiles,
-        options: {
-          specs: 'test/*_spec.js',
-          keepRunner : true,
-        }
-      }
+		components: {
+              src: [
+              'lib/client-js/*js'
+              ],
+              options: {
+                specs: 'tests/spec/*Spec.js',
+                keepRunner : true,
+                //helpers: 'test/spec/*.js'
+              }
+      
     },
   }); // initConfig
   
-  grunt.registerTask('travis',['jshint','jasmine']);
+  grunt.registerTask('travis',['jasmine']);
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
