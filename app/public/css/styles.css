@@ -96,7 +96,12 @@ a:hover {
   color: #f5e100;
 }
 
-/* line 30, ../../lib/sass/_base.scss */
+/* line 31, ../../lib/sass/_base.scss */
+li:hover {
+  cursor: pointer;
+}
+
+/* line 36, ../../lib/sass/_base.scss */
 input {
   margin: 5px 0;
   padding: 10px;
@@ -106,7 +111,7 @@ input {
   width: 100%;
   color: #fff;
 }
-/* line 39, ../../lib/sass/_base.scss */
+/* line 45, ../../lib/sass/_base.scss */
 input:focus {
   outline: none;
 }
@@ -242,12 +247,12 @@ body:after {
   position: fixed;
   align-items: center;
 }
-/* line 42, ../../lib/sass/_layout.scss */
+/* line 40, ../../lib/sass/_layout.scss */
 .content .search-menu i {
   color: #00704a;
   padding: 10px;
 }
-/* line 47, ../../lib/sass/_layout.scss */
+/* line 45, ../../lib/sass/_layout.scss */
 .content .search-menu input {
   border: none;
   outline: none;
@@ -280,7 +285,7 @@ body:after {
   font-size: .9rem;
   font-style: italic;
 }
-/* line 64, ../../lib/sass/_layout.scss */
+/* line 60, ../../lib/sass/_layout.scss */
 .content .search-menu #floor {
   background: #fff;
   color: #00704a;
@@ -292,7 +297,7 @@ body:after {
   padding: 10px;
   padding-left: 5px;
 }
-/* line 76, ../../lib/sass/_layout.scss */
+/* line 72, ../../lib/sass/_layout.scss */
 .content .search-menu h2 {
   display: inline-block;
   color: #00704a;
@@ -301,73 +306,73 @@ body:after {
   padding: 10px;
   padding-right: 5px;
 }
-/* line 100, ../../lib/sass/_layout.scss */
+/* line 82, ../../lib/sass/_layout.scss */
 .content .divider {
   width: 1px;
   height: 1.2em;
   background: #a5acb0;
 }
-/* line 106, ../../lib/sass/_layout.scss */
+/* line 88, ../../lib/sass/_layout.scss */
 .content .svg-holder {
   width: 100%;
   height: 100%;
 }
-/* line 110, ../../lib/sass/_layout.scss */
+/* line 92, ../../lib/sass/_layout.scss */
 .content .svg-holder svg {
   width: 100%;
 }
-/* line 114, ../../lib/sass/_layout.scss */
+/* line 95, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .outline {
   fill: #a5acb0;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 120, ../../lib/sass/_layout.scss */
+/* line 101, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .fill {
   fill: #fff;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 126, ../../lib/sass/_layout.scss */
+/* line 107, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .room {
   fill: #00704a;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 133, ../../lib/sass/_layout.scss */
+/* line 114, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .room-group:hover {
   cursor: pointer;
 }
-/* line 136, ../../lib/sass/_layout.scss */
+/* line 117, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .room-group:hover .room {
   fill: #85c446;
 }
-/* line 139, ../../lib/sass/_layout.scss */
+/* line 120, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .room-group:hover .label {
   fill: #fff;
 }
-/* line 146, ../../lib/sass/_layout.scss */
+/* line 126, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room {
   cursor: pointer;
 }
-/* line 149, ../../lib/sass/_layout.scss */
+/* line 129, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room .room {
   fill: #f5e100;
 }
-/* line 152, ../../lib/sass/_layout.scss */
+/* line 132, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room .label {
   fill: #000;
   font-weight: bold;
 }
-/* line 158, ../../lib/sass/_layout.scss */
+/* line 138, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room:hover .room {
   fill: #fff25c;
 }
-/* line 162, ../../lib/sass/_layout.scss */
+/* line 141, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room:hover .label {
   fill: #000;
 }
-/* line 168, ../../lib/sass/_layout.scss */
+/* line 147, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .door {
   fill: none;
   stroke: #fff;
@@ -376,21 +381,21 @@ body:after {
   stroke-miterlimit: 10;
   stroke-dasharray: 8,3,2,3,2,3;
 }
-/* line 177, ../../lib/sass/_layout.scss */
+/* line 156, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .label {
   fill: #fff;
   font-size: .6rem;
 }
-/* line 182, ../../lib/sass/_layout.scss */
+/* line 161, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .small-font {
   font-size: .43rem;
 }
-/* line 186, ../../lib/sass/_layout.scss */
+/* line 165, ../../lib/sass/_layout.scss */
 .content .svg-holder svg .medium-font {
   font-size: .48rem;
 }
 
-/* line 193, ../../lib/sass/_layout.scss */
+/* line 172, ../../lib/sass/_layout.scss */
 .content-disable {
   -moz-transition: all 1s ease-in;
   -o-transition: all 1s ease-in;
@@ -406,7 +411,7 @@ body:after {
   left: 0;
 }
 
-/* line 205, ../../lib/sass/_layout.scss */
+/* line 184, ../../lib/sass/_layout.scss */
 .active {
   display: block;
 }
