@@ -49,7 +49,7 @@ module.exports = function(grunt) {
   	jasmine: {
   		components: {
         src: [
-        'tests/spec/*.js'
+        'lib/test/*.js'
         ],
         options: {
           specs: 'tests/spec/Spec.js',
@@ -59,13 +59,14 @@ module.exports = function(grunt) {
     }
   }); // initConfig
 
-  grunt.registerTask('travis',['jasmine']);
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks("grunt-contrib-jshint");
+  grunt.loadNpmTasks("grunt-contrib-jasmine");
 
+  grunt.registerTask('travis',['jasmine']);
   grunt.registerTask('js', ['uglify']);
   grunt.registerTask('css', ['compass:dev']);
   grunt.registerTask('default', ['watch']);
