@@ -49,7 +49,7 @@ module.exports = function(grunt) {
 	jasmine: {
 		components: {
               src: [
-              'lib/client-js/*js'
+              'tests/spec/*js'
               ],
               options: {
                 specs: 'tests/spec/*Spec.js',
