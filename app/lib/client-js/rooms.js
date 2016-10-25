@@ -218,6 +218,7 @@ function searchRoomNumber() {
 }
 
 function changeFloor(building, floor) {
+  closeMenu();
   var newWindow = building;
   var searchBar = document.getElementById('roomSearch');
   var curBuild = document.getElementById('building');
