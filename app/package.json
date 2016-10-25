@@ -5,7 +5,8 @@
   "author": "Mike Deiters",
   "license": "Creative Commons",
   "scripts": {
-    "start": "http-server -p 3000"
+    "start": "http-server -p 3000",
+	"test": "grunt travis --verbose"	
   },
   "devDependencies": {
     "grunt": "^1.0.1",
@@ -15,8 +16,5 @@
     "grunt-contrib-watch": "^1.0.0",
 	"grunt-contrib-jasmine": "~0.4.2",
     "phantomjs": "1.9.0-1"
-  },  
-   "scripts": {
-    "test": "grunt grunt test"
   }
 }
