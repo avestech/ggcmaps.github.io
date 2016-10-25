@@ -27,6 +27,12 @@ a {
   } // hover
 } // a
 
+li {
+  &:hover {
+    cursor: pointer;
+  } // li:hover
+} // li
+
 input {
   margin: 5px 0;
   padding: 10px;
