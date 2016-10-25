@@ -45,19 +45,16 @@ module.exports = function(grunt) {
       html: {
         files: ['public/*.html']
       } // html
-    } // watch
+    }, // watch
 	jasmine: {
-		components: {
-			src:[
-			'components/*ja'
-			],
-			options:{
-				specs: 'public/js/jasmine/spec/*Spec.js',
-				keepRunner : true,
-				//helpers: 'test/spec/*.js'
-			}
-		}
-	}
+      js: {
+        src: jsFiles,
+        options: {
+          specs: 'test/*_spec.js',
+          keepRunner : true,
+        }
+      }
+    },
   }); // initConfig
   
   grunt.registerTask('travis',['jshint','jasmine']);
