@@ -43,6 +43,7 @@ Thumbs.db
 ###########
 node_modules
 __pycache__/
+.grunt
 .sass-cache
 .idea
 .cache
