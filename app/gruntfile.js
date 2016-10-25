@@ -52,7 +52,7 @@ module.exports = function(grunt) {
 			'components/*ja'
 			],
 			options:{
-				specs: 'tests/spec/*Spec.js',
+				specs: 'public/js/jasmine/spec/*Spec.js',
 				keepRunner : true,
 				//helpers: 'test/spec/*.js'
 			}
