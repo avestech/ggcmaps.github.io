@@ -46,20 +46,19 @@ module.exports = function(grunt) {
         files: ['public/*.html']
       } // html
     }, // watch
-	jasmine: {
-		components: {
-              src: [
-              'tests/spec/*js'
-              ],
-              options: {
-                specs: 'tests/spec/*Spec.js',
-                keepRunner : true,
-                //helpers: 'test/spec/*.js'
-              }
-      
-    },
+  	jasmine: {
+  		components: {
+        src: [
+        'tests/spec/*.js'
+        ],
+        options: {
+          specs: 'tests/spec/Spec.js',
+          keepRunner : true
+        }
+      }
+    }
   }); // initConfig
-  
+
   grunt.registerTask('travis',['jasmine']);
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
