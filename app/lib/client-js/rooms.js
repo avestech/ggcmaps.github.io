@@ -191,7 +191,7 @@ function searchRoomNumber() {
         }
         else if (roomNum[0] === '2') {
           newBuilding = 'C';
-          newFlooar = '2';
+          newFloor = '2';
         }
         else if (roomNum[0] == '1') {
           newBuilding = 'C';
@@ -311,10 +311,14 @@ function searchRoomNumber() {
     alert('Invalid room number');
   }
 
+  console.log(building + ' ' + newBuilding);
+  console.log(floor + ' ' + newFloor);
   if (building !== newBuilding || floor !== newFloor) {
+    console.log('floor');
     searchNewFloor(newBuilding, newFloor, roomNum);
   }
   else {
+    console.log('actiate');
     activateRoom(roomNum, true);
   }
 }
