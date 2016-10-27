@@ -1,15 +1,27 @@
 .nav {
   @include transition;
   @include transition-duration(.5s);
+  @include span(13 of 15);
   position: absolute;
   background: $green;
-  @include span(3.5 of 15);
   height: 100%;
   @include box-shadow;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  left: - span(4 of 15);
+  left: - span(15);
+
+  @include susy-breakpoint($small) {
+    @include span(9 of 15);
+  } // small
+
+  @include susy-breakpoint($medium) {
+    @include span(6 of 15);
+  } // medium
+
+  @include susy-breakpoint($large) {
+    @include span(3.5 of 15);
+  } // large
 
   h1 {
     display: inline-block;
