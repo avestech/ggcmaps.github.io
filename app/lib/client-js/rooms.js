@@ -26,13 +26,13 @@ function addMap(mapLocation) {
 
     // Set the map height to the browser's height and enable panZoomTiger
     var map = mapHolder.childNodes[0];
-    map.style.height = screen.height;
+    map.style.height = nav.clientHeight;
     var panZoomTiger = svgPanZoom(map, {controlIconsEnabled:true, fit:1, center:1});
 
     // Resize the panZoomTiger when the window resizes
     window.addEventListener('resize', function() {
       // Resize the map height to adjust the panZoomTiger height
-      map.style.height = screen.height;
+      map.style.height = nav.clientHeight;
 
       panZoomTiger.resize();
       panZoomTiger.fit();
