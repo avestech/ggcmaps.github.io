@@ -1,21 +1,53 @@
 document.addEventListener('DOMContentLoaded', function() {
 
+  addMap('Building/C/First-Floor.html');
+
+});
+
+function convertToElement(html) {
+  var temp = document.createElement('div');
+  temp.innerHTML = html;
+  return temp.childNodes[0];
+}
+
+function addMap(mapLocation) {
   var nav = document.getElementsByClassName('nav')[0];
   var mapHolder = document.getElementById('svg-holder');
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'Building/C/First-Floor.html', true);
+  xhr.open('GET', mapLocation, true);
   xhr.onreadystatechange = function() {
     if (this.readyState!==4) return;
     if (this.status!==200) return;
-    mapHolder.innerHTML = this.responseText;
 
+    // Remove all maps
+    removeMap();
+    // Add new map
+    mapHolder.appendChild(convertToElement(this.responseText));
+
+    // Set the map height to the browser's height and enable panZoomTiger
     var map = mapHolder.childNodes[0];
-    map.style.height = nav.clientHeight;
-    var panZoomTiger = svgPanZoom(map, {controlIconsEnabled:true});
+    map.style.height = screen.height;
+    var panZoomTiger = svgPanZoom(map, {controlIconsEnabled:true, fit:1, center:1});
+
+    // Resize the panZoomTiger when the window resizes
+    window.addEventListener('resize', function() {
+      // Resize the map height to adjust the panZoomTiger height
+      map.style.height = screen.height;
+
+      panZoomTiger.resize();
+      panZoomTiger.fit();
+      panZoomTiger.center();
+    });
   };
   xhr.send();
+}
 
-});
+function removeMap() {
+  var mapHolder = document.getElementsByClassName('svg-holder')[0];
+  while (mapHolder.hasChildNodes()) {
+    mapHolder.removeChild(mapHolder.lastChild);
+  }
+}
 
 function activateRoom(roomID) {
   var roomClass = 'room-group';
@@ -50,6 +82,14 @@ function deactivateAllRooms() {
   for (var i = 0; i < room.length; i++) {
     room[i].classList.remove('active-room');
   }
+}
+
+function resetWidth(panZoomTiger) {
+  console.log('resize');
+  // var panZoomTiger = svgPanZoom(map, {controlIconsEnabled:true, fit:1, center:1});
+  panZoomTiger.resize();
+  panZoomTiger.fit();
+  panZoomTiger.center();
 }
 
 function searchFromBar(event) {
@@ -265,20 +305,7 @@ function changeFloor(building, floor) {
       break;
   }
 
-  var nav = document.getElementsByClassName('nav')[0];
-  var mapHolder = document.getElementById('svg-holder');
-  var xhr = new XMLHttpRequest();
-  xhr.open('GET', newWindow, true);
-  xhr.onreadystatechange = function() {
-    if (this.readyState!==4) return;
-    if (this.status!==200) return;
-    mapHolder.innerHTML = this.responseText;
-
-    var map = mapHolder.childNodes[0];
-    map.style.height = nav.clientHeight;
-    var panZoomTiger = svgPanZoom(map, {controlIconsEnabled:true});
-  };
-  xhr.send();
+  addMap(newWindow);
 }
 
 function searchNewFloor(building, floor, roomNum) {
@@ -328,20 +355,6 @@ function searchNewFloor(building, floor, roomNum) {
         break;
     }
 
-    var nav = document.getElementsByClassName('nav')[0];
-    var mapHolder = document.getElementById('svg-holder');
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', newWindow, true);
-    xhr.onreadystatechange = function() {
-      if (this.readyState!==4) return;
-      if (this.status!==200) return;
-      mapHolder.innerHTML = this.responseText;
-
-      var map = mapHolder.childNodes[0];
-      map.style.height = nav.clientHeight;
-      var panZoomTiger = svgPanZoom(map, {controlIconsEnabled:true});
-      activateRoom(roomNum);
-    };
-    xhr.send();
+    addMap(newWindow);
   }
 }
