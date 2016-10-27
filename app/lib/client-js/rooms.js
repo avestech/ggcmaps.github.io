@@ -49,7 +49,7 @@ function removeMap() {
   }
 }
 
-function activateRoom(roomID) {
+function activateRoom(roomID, search) {
   var roomClass = 'room-group';
   var room = document.getElementById(roomID);
 
@@ -58,7 +58,7 @@ function activateRoom(roomID) {
   } else {
     var roomClassName = room.className.baseVal;
 
-    if (roomClassName !== roomClass) {
+    if (roomClassName !== roomClass && !search) {
       // console.log('not active');
       if (roomClassName === roomClass + ' active-room') {
         deactivateAllRooms();
@@ -253,7 +253,7 @@ function searchRoomNumber() {
     searchNewFloor(newBuilding, newFloor, roomNum);
   }
   else {
-    activateRoom(roomNum);
+    activateRoom(roomNum, true);
   }
 }
 
