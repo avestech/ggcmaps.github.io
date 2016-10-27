@@ -351,6 +351,7 @@ body:after {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  overflow-y: auto;
   left: -125%;
 }
 @media (min-width: 30em) {
@@ -380,42 +381,42 @@ body:after {
     padding-right: 0.66667%;
   }
 }
-/* line 26, ../../lib/sass/_nav.scss */
+/* line 27, ../../lib/sass/_nav.scss */
 .nav h1 {
   display: inline-block;
   padding: 8px 10px;
   width: auto;
 }
-/* line 32, ../../lib/sass/_nav.scss */
+/* line 33, ../../lib/sass/_nav.scss */
 .nav i {
   float: right;
   display: inline-block;
   padding: 10px;
 }
-/* line 40, ../../lib/sass/_nav.scss */
+/* line 41, ../../lib/sass/_nav.scss */
 .nav ul li {
   padding: 0 10px;
 }
 
-/* line 46, ../../lib/sass/_nav.scss */
+/* line 47, ../../lib/sass/_nav.scss */
 .nav-active {
   left: 0;
 }
 
-/* line 50, ../../lib/sass/_nav.scss */
+/* line 51, ../../lib/sass/_nav.scss */
 .menu-section {
   margin-top: 5px;
   border-bottom: thin solid #fff;
 }
 
-/* line 57, ../../lib/sass/_nav.scss */
+/* line 58, ../../lib/sass/_nav.scss */
 .dining ul li {
   display: none;
   padding: 0;
   padding-left: 10px;
 }
 
-/* line 65, ../../lib/sass/_nav.scss */
+/* line 66, ../../lib/sass/_nav.scss */
 .dining-active {
   -moz-transition-property: height;
   -o-transition-property: height;
@@ -427,16 +428,16 @@ body:after {
   transition-duration: 2s;
   background: #fff;
 }
-/* line 70, ../../lib/sass/_nav.scss */
+/* line 71, ../../lib/sass/_nav.scss */
 .dining-active ul {
   margin-top: 5px;
   padding: 5px 0 8px;
 }
-/* line 73, ../../lib/sass/_nav.scss */
+/* line 74, ../../lib/sass/_nav.scss */
 .dining-active ul li {
   display: block;
 }
-/* line 75, ../../lib/sass/_nav.scss */
+/* line 76, ../../lib/sass/_nav.scss */
 .dining-active ul li a {
   color: #00704a;
   font-weight: 600;
