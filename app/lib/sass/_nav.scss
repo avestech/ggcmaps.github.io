@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
+  overflow-y: auto;
   left: - span(15);
 
   @include susy-breakpoint($small) {
