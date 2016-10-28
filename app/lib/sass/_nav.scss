@@ -7,22 +7,26 @@
   height: 100%;
   @include box-shadow;
   margin: 0;
-  padding: 0;
-  padding-bottom: 15px;
   overflow: hidden;
   overflow-y: auto;
   left: - span(15);
 
   @include susy-breakpoint($small) {
     @include span(9 of 15);
+    padding: 0;
+    padding-bottom: 15px;
   } // small
 
   @include susy-breakpoint($medium) {
     @include span(6 of 15);
+    padding: 0;
+    padding-bottom: 15px;
   } // medium
 
   @include susy-breakpoint($large) {
     @include span(3.5 of 15);
+    padding: 0;
+    padding-bottom: 15px;
   } // large
 
   h1 {
