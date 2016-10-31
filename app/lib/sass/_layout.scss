@@ -148,10 +148,9 @@ body {
       .door {
         fill:none;
         stroke:$border;
-        stroke-width:0.75;
+        stroke-width:2;
         stroke-linecap:square;
         stroke-miterlimit:10;
-        stroke-dasharray:8,3,2,3,2,3;
       } // door
 
       .label {
