@@ -1,6 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-  addMap('Building/C/First-Floor.html');
+  addMap('Building/C/First-Floor.html', 'C', '1').then(function(response) {
+    // console.log('Success!');
+  }, function(error) {
+    console.error('Failed!', error);
+  });
 
 });
 
@@ -10,98 +14,113 @@ function convertToElement(html) {
   return temp.childNodes[0];
 }
 
-function addMap(mapLocation) {
+function addMap(mapLocation, building, floor) {
+  var curBuild = document.getElementById('building');
+  var curFloor = document.getElementById('floor');
   var nav = document.getElementsByClassName('nav')[0];
   var mapHolder = document.getElementById('svg-holder');
-  var xhr = new XMLHttpRequest();
-  xhr.open('GET', mapLocation, true);
-  xhr.onreadystatechange = function() {
-    if (this.readyState!==4) return;
-    if (this.status!==200) return;
 
-    // Remove all maps
-    removeMap();
-    // Add new map
-    mapHolder.appendChild(convertToElement(this.responseText));
+  return new Promise(function(resolve, reject) {
 
-    // Set the map height to the browser's height and enable panZoomTiger
-    var map = mapHolder.childNodes[0];
-    map.style.height = nav.clientHeight;
+    var req = new XMLHttpRequest();
+    req.open('GET', mapLocation, true);
+    req.onload = function() {
+      // if (req.readyState!==4) reject(Error(req.statusText));
+      if (req.status!==200) reject(Error(req.statusText));
 
-    var eventsHandler;
-    eventsHandler = {
-      haltEventListeners: ['touchStart', 'touchend', 'touchmove', 'touchleave', 'touchcancel'],
-      init: function(options) {
-        var instance = options.instance,
-            initialScale = 1,
-            pannedX = 0,
-            pannedY = 0;
+      // Remove all maps
+      removeMap();
+      // Add new map
+      mapHolder.appendChild(convertToElement(req.response));
 
-        // Init Hammer
-        // Listen only for pointer and touch events
-        this.hammer = Hammer(options.svgElement, {
-          inputClass: Hammer.SUPPORT_POINTER_EVENTS ? Hammer.PointerEventInput : Hammer.TouchInput
-        });
+      // Set the map height to the browser's height and enable panZoomTiger
+      var map = mapHolder.childNodes[0];
+      map.style.height = nav.clientHeight;
+      curBuild.innerHTML = building;
+      curFloor.value = floor;
 
-        // Enable pinch
-        this.hammer.get('pinch').set({enable: true});
+      var eventsHandler;
+      eventsHandler = {
+        haltEventListeners: ['touchStart', 'touchend', 'touchmove', 'touchleave', 'touchcancel'],
+        init: function(options) {
+          var instance = options.instance,
+          initialScale = 1,
+          pannedX = 0,
+          pannedY = 0;
 
-        // Handle double tap
-        this.hammer.on('doubletap', function(ev) {
-          instance.zoomIn();
-        });
+          // Init Hammer
+          // Listen only for pointer and touch events
+          this.hammer = Hammer(options.svgElement, {
+            inputClass: Hammer.SUPPORT_POINTER_EVENTS ? Hammer.PointerEventInput : Hammer.TouchInput
+          });
 
-        // Handle pan
-        this.hammer.on('panstart panmove', function(ev) {
-          // On pan start reset panned variables
-          if (ev.type === 'panstart') {
-            pannedX = 0;
-            pannedY = 0;
-          }
+          // Enable pinch
+          this.hammer.get('pinch').set({enable: true});
 
-          // Pan only the difference
-          instance.panBy({x: ev.deltaX - pannedX, y: ev.deltaY - pannedY});
-          pannedX = ev.deltaX;
-          pannedY = ev.deltaY;
-        });
+          // Handle double tap
+          this.hammer.on('doubletap', function(ev) {
+            instance.zoomIn();
+          });
 
-        // Handle pinch
-        this.hammer.on('pinchstart pinchmove', function(ev) {
-          // On pinch start remember initial zoom
-          if (ev.type === 'pinchstart') {
-            initialScale = instance.getZoom();
+          // Handle pan
+          this.hammer.on('panstart panmove', function(ev) {
+            // On pan start reset panned variables
+            if (ev.type === 'panstart') {
+              pannedX = 0;
+              pannedY = 0;
+            }
+
+            // Pan only the difference
+            instance.panBy({x: ev.deltaX - pannedX, y: ev.deltaY - pannedY});
+            pannedX = ev.deltaX;
+            pannedY = ev.deltaY;
+          });
+
+          // Handle pinch
+          this.hammer.on('pinchstart pinchmove', function(ev) {
+            // On pinch start remember initial zoom
+            if (ev.type === 'pinchstart') {
+              initialScale = instance.getZoom();
+              instance.zoom(initialScale * ev.scale);
+            }
+
             instance.zoom(initialScale * ev.scale);
-          }
+          });
 
-          instance.zoom(initialScale * ev.scale);
-        });
+          // Prevent moving the page on some devices when panning over SVG
+          options.svgElement.addEventListener('touchmove', function(e) { e.preventDefault(); });
+        },
+        destroy: function() {
+          this.hammer.destroy();
+        }
+      };
 
-        // Prevent moving the page on some devices when panning over SVG
-        options.svgElement.addEventListener('touchmove', function(e) { e.preventDefault(); });
-      },
-      destroy: function() {
-        this.hammer.destroy();
-      }
+      var panZoomTiger = svgPanZoom(map, {
+        controlIconsEnabled:true,
+        fit:1,
+        center:1,
+        customEventsHandler: eventsHandler
+      });
+
+      // Resize the panZoomTiger when the window resizes
+      window.addEventListener('resize', function() {
+        // Resize the map height to adjust the panZoomTiger height
+        map.style.height = nav.clientHeight;
+
+        panZoomTiger.resize();
+        panZoomTiger.fit();
+        panZoomTiger.center();
+      });
+
+      resolve(req.response);
     };
 
-    var panZoomTiger = svgPanZoom(map, {
-      controlIconsEnabled:true,
-      fit:1,
-      center:1,
-      customEventsHandler: eventsHandler
-    });
+    req.onerror = function() {
+      reject(Error('Network Error'));
+    };
 
-    // Resize the panZoomTiger when the window resizes
-    window.addEventListener('resize', function() {
-      // Resize the map height to adjust the panZoomTiger height
-      map.style.height = nav.clientHeight;
-
-      panZoomTiger.resize();
-      panZoomTiger.fit();
-      panZoomTiger.center();
-    });
-  };
-  xhr.send();
+    req.send();
+  });
 }
 
 function removeMap() {
@@ -311,14 +330,10 @@ function searchRoomNumber() {
     alert('Invalid room number');
   }
 
-  console.log(building + ' ' + newBuilding);
-  console.log(floor + ' ' + newFloor);
   if (building !== newBuilding || floor !== newFloor) {
-    console.log('floor');
     searchNewFloor(newBuilding, newFloor, roomNum);
   }
   else {
-    console.log('actiate');
     activateRoom(roomNum, true);
   }
 }
@@ -327,11 +342,7 @@ function changeFloor(building, floor) {
   closeMenu();
   var newWindow = building;
   var searchBar = document.getElementById('roomSearch');
-  var curBuild = document.getElementById('building');
-  var curFloor = document.getElementById('floor');
   searchBar.value = '';
-  curBuild.innerHTML = building;
-  curFloor.value = floor;
 
   switch (building) {
     case 'A':
@@ -371,7 +382,12 @@ function changeFloor(building, floor) {
       break;
   }
 
-  addMap(newWindow);
+  addMap(newWindow, building, floor).then(function(response) {
+    // console.log('Success!');
+    activateRoom(roomNum, true);
+  }, function(error) {
+    console.error('Failed!', error);
+  });
 }
 
 function searchNewFloor(building, floor, roomNum) {
@@ -380,7 +396,7 @@ function searchNewFloor(building, floor, roomNum) {
   var curFloor = document.getElementById('floor');
 
   if (curBuild.innerHTML !== building || curFloor.value !== floor) {
-    curBuild.innerHTML = building;
+
     switch (building) {
       case 'A':
 
@@ -391,11 +407,9 @@ function searchNewFloor(building, floor, roomNum) {
       case 'C':
         if (floor === '1') {
           newWindow = 'Building/C/First-Floor.html';
-          curFloor.value = '1';
         }
         else {
           newWindow = 'Building/C/Second-Floor.html';
-          curFloor.value = '2';
         }
         break;
       case 'C3':
@@ -421,6 +435,11 @@ function searchNewFloor(building, floor, roomNum) {
         break;
     }
 
-    addMap(newWindow);
+    addMap(newWindow, building, floor).then(function(response) {
+      // console.log('Success!');
+      activateRoom(roomNum, true);
+    }, function(error) {
+      console.error('Failed!', error);
+    });
   }
 }
