@@ -206,7 +206,18 @@ function searchRoomNumber() {
         break;
       case 'C':
         if (roomNum[1] === '3') {
-          alert('C3 Building not currently searchable');
+          if (roomNum[0] === '2') {
+            newBuilding = 'C3';
+            newFloor = '2';
+          }
+          else if (roomNum[0] == '1') {
+            newBuilding = 'C3';
+            newFloor = '1';
+          }
+          else if (roomNum[0] == 'G') {
+            newBuilding = 'C3';
+            newFloor = 'G';
+          }
         }
         else if (roomNum[0] === '2') {
           newBuilding = 'C';
@@ -218,8 +229,19 @@ function searchRoomNumber() {
         }
         break;
       case 'C3':
-        alert('C3 Building not currently searchable');
-        break;
+      if (roomNum[0] === '2') {
+        newBuilding = 'C3';
+        newFloor = '2';
+      }
+      else if (roomNum[0] == '1') {
+        newBuilding = 'C3';
+        newFloor = '1';
+      }
+      else if (roomNum[0] == 'G') {
+        newBuilding = 'C3';
+        newFloor = 'G';
+      }
+      break;
       case 'D':
         alert('D Building not currently searchable');
         break;
@@ -260,8 +282,18 @@ function searchRoomNumber() {
         break;
       case 'c':
         if (roomNum[1] === '3') {
-          // newWindow = 'Building-C3-Ground-Floor.html';
-          alert('C3 Building not currently searchable');
+          if (roomNum[0] === '2') {
+            newBuilding = 'C3';
+            newFloor = '2';
+          }
+          else if (roomNum[0] == '1') {
+            newBuilding = 'C3';
+            newFloor = '1';
+          }
+          else if (roomNum[0] == 'G') {
+            newBuilding = 'C3';
+            newFloor = 'G';
+          }
         }
         else if (roomNum[0] === '2') {
           newBuilding = 'C';
@@ -274,8 +306,18 @@ function searchRoomNumber() {
         break;
       case 'C':
         if (roomNum[1] === '3') {
-          // newWindow = 'Building-C3-Ground-Floor.html';
-          alert('C3 Building not currently searchable');
+          if (roomNum[0] === '2') {
+            newBuilding = 'C3';
+            newFloor = '2';
+          }
+          else if (roomNum[0] == '1') {
+            newBuilding = 'C3';
+            newFloor = '1';
+          }
+          else if (roomNum[0] == 'G') {
+            newBuilding = 'C3';
+            newFloor = 'G';
+          }
         }
         else if (roomNum[0] === '2') {
           newBuilding = 'C';
@@ -360,7 +402,15 @@ function changeFloor(building, floor) {
       }
       break;
     case 'C3':
-
+      if (floor === 'G') {
+        newWindow = 'Building/C3/Ground-Floor.html';
+      }
+      else if (floor === '1') {
+        newWindow = 'Building/C3/First-Floor.html';
+      }
+      else if (floor === '2') {
+        newWindow = 'Building/C3/Second-Floor.html';
+      }
       break;
     case 'D':
 
@@ -413,7 +463,15 @@ function searchNewFloor(building, floor, roomNum) {
         }
         break;
       case 'C3':
-
+        if (floor === 'G') {
+          newWindow = 'Building/C3/Ground-Floor.html';
+        }
+        else if (floor === '1') {
+          newWindow = 'Building/C3/First-Floor.html';
+        }
+        else if (floor === '2') {
+          newWindow = 'Building/C3/Second-Floor.html';
+        }
         break;
       case 'D':
 
