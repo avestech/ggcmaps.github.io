@@ -327,7 +327,7 @@ function searchRoomNumber() {
     }
   }
   else {
-    alert('Invalid room number');
+    alert("Invalid room number. Please don't use any spaces");
   }
 
   if (building !== newBuilding || floor !== newFloor) {
