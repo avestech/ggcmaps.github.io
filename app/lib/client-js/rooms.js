@@ -1,4 +1,17 @@
-var floorsA = [];
+// Buildings
+var buildingA; // TODO
+var buildingB; // TODO
+var buildingC = ['Building/C/First-Floor.html', 'Building/C/Second-Floor.html'];
+var buildingC3 = ['Building/C3/Ground-Floor.html', 'Building/C3/First-Floor.html', 'Building/C3/Second-Floor.html'];
+var buildingD; // TODO
+var buildingE; // TODO
+var buildingF; // TODO
+var buildingH; // TODO
+var buildingI; // TODO
+var buildingL = ['Building/L/First-Floor.html', 'Building/L/Second-Floor.html', 'Building/L/Third-Floor.html'];
+
+// Floors
+var floorsA = ['1'];
 var floorsB = ['1', '2', '3'];
 var floorsC = ['1', '2'];
 var floorsC3 = ['G', '1', '2'];
@@ -11,7 +24,7 @@ var floorsL = ['1', '2', '3'];
 
 document.addEventListener('DOMContentLoaded', function() {
 
-  addMap('Building/C/First-Floor.html', 'C', '1').then(function(response) {
+  addMap(buildingC[0], 'C', '1').then(function(response) {
     // console.log('Success!');
     floorDropDown('C');
     document.getElementById('floor').value = '1';
@@ -259,31 +272,37 @@ function searchRoomNumber() {
   var newBuilding = '';
   var newFloor = '';
 
-  if (sRoom.length === 4) {
+  if (sRoom.length === 5) {
+    building = sRoom[0];
+    console.log(building);
+    roomNum = sRoom.substring(1);
+  }
 
-    switch (building) {
-      case 'A':
-        alert('A Building not currently searchable');
-        break;
-      case 'B':
-        alert('B Building not currently searchable');
-        break;
-      case 'C':
-        if (roomNum[1] === '3') {
-          if (roomNum[0] === '2') {
-            newBuilding = 'C3';
-            newFloor = '2';
-          }
-          else if (roomNum[0] == '1') {
-            newBuilding = 'C3';
-            newFloor = '1';
-          }
-          else if (roomNum[0] == 'G') {
-            newBuilding = 'C3';
-            newFloor = 'G';
-          }
+  switch (building[0].toUpperCase()) { // TODO
+    case 'A':
+      alert('A Building not currently searchable');
+      break;
+    case 'B':
+      alert('B Building not currently searchable');
+      break;
+    case 'C':
+      if (roomNum[1] === '3') { // C3
+        if (roomNum[0] === '2') {
+          newBuilding = 'C3';
+          newFloor = '2';
         }
-        else if (roomNum[0] === '2') {
+        else if (roomNum[0] === '1') {
+          newBuilding = 'C3';
+          newFloor = '1';
+        }
+        else if (roomNum[0].toUpperCase() === 'G') {
+          newBuilding = 'C3';
+          newFloor = 'G';
+        }
+      }
+      else { // C
+
+        if (roomNum[0] === '2') {
           newBuilding = 'C';
           newFloor = '2';
         }
@@ -291,149 +310,28 @@ function searchRoomNumber() {
           newBuilding = 'C';
           newFloor = '1';
         }
-        break;
-      case 'C3':
-      if (roomNum[0] === '2') {
-        newBuilding = 'C3';
-        newFloor = '2';
-      }
-      else if (roomNum[0] == '1') {
-        newBuilding = 'C3';
-        newFloor = '1';
-      }
-      else if (roomNum[0] == 'G') {
-        newBuilding = 'C3';
-        newFloor = 'G';
       }
       break;
-      case 'D':
-        alert('D Building not currently searchable');
-        break;
-      case 'E':
-        alert('E Building not currently searchable');
-        break;
-      case 'F':
-        alert('F Building not currently searchable');
-        break;
-      case 'H':
-        alert('H Building not currently searchable');
-        break;
-      case 'I':
-        alert('I Building not currently searchable');
-        break;
-      case 'L':
-        alert('L Building not currently searchable');
-        break;
-      default:
-        alert('Cannot find ' + sRoom);
-    }
-  }
-  else if (sRoom.length === 5) {
-    roomNum = sRoom.substring(1);
-
-    switch (sRoom[0]) {
-      case 'a':
-        alert('A Building not currently searchable');
-        break;
-      case 'A':
-        alert('A Building not currently searchable');
-        break;
-      case 'b':
-        alert('B Building not currently searchable');
-        break;
-      case 'B':
-        alert('B Building not currently searchable');
-        break;
-      case 'c':
-        if (roomNum[1] === '3') {
-          if (roomNum[0] === '2') {
-            newBuilding = 'C3';
-            newFloor = '2';
-          }
-          else if (roomNum[0] == '1') {
-            newBuilding = 'C3';
-            newFloor = '1';
-          }
-          else if (roomNum[0] == 'G') {
-            newBuilding = 'C3';
-            newFloor = 'G';
-          }
-        }
-        else if (roomNum[0] === '2') {
-          newBuilding = 'C';
-          newFloor = '2';
-        }
-        else if (roomNum[0] == '1') {
-          newBuilding = 'C';
-          newFloor = '1';
-        }
-        break;
-      case 'C':
-        if (roomNum[1] === '3') {
-          if (roomNum[0] === '2') {
-            newBuilding = 'C3';
-            newFloor = '2';
-          }
-          else if (roomNum[0] == '1') {
-            newBuilding = 'C3';
-            newFloor = '1';
-          }
-          else if (roomNum[0] == 'G') {
-            newBuilding = 'C3';
-            newFloor = 'G';
-          }
-        }
-        else if (roomNum[0] === '2') {
-          newBuilding = 'C';
-          newFloor = '2';
-        }
-        else if (roomNum[0] == '1') {
-          newBuilding = 'C';
-          newFloor = '1';
-        }
-        break;
-      case 'd':
-        alert('D Building not currently searchable');
-        break;
-      case 'D':
-        alert('D Building not currently searchable');
-        break;
-      case 'e':
-        alert('E Building not currently searchable');
-        break;
-      case 'E':
-        alert('E Building not currently searchable');
-        break;
-      case 'f':
-        alert('F Building not currently searchable');
-        break;
-      case 'F':
-        alert('F Building not currently searchable');
-        break;
-      case 'h':
-        alert('H Building not currently searchable');
-        break;
-      case 'H':
-        alert('H Building not currently searchable');
-        break;
-      case 'i':
-        alert('I Building not currently searchable');
-        break;
-      case 'I':
-        alert('I Building not currently searchable');
-        break;
-      case 'l':
-        alert('L Building not currently searchable');
-        break;
-      case 'L':
-        alert('L Building not currently searchable');
-        break;
-      default:
-        alert('Cannot find ' + sRoom);
-    }
-  }
-  else {
-    alert("Invalid room number. Please don't use any spaces");
+    case 'D':
+      alert('D Building not currently searchable');
+      break;
+    case 'E':
+      alert('E Building not currently searchable');
+      break;
+    case 'F':
+      alert('F Building not currently searchable');
+      break;
+    case 'H':
+      alert('H Building not currently searchable');
+      break;
+    case 'I':
+      alert('I Building not currently searchable');
+      break;
+    case 'L':
+      alert('L Building not currently searchable');
+      break;
+    default:
+      alert(roomNum + " is an invalid room number. Please don't use any spaces");
   }
 
   if (building !== newBuilding || floor !== newFloor) {
@@ -444,13 +342,11 @@ function searchRoomNumber() {
   }
 }
 
-function changeFloor(building, floor) {
-  closeMenu();
-  var newWindow = building.toUpperCase();
-  var searchBar = document.getElementById('roomSearch');
-  searchBar.value = '';
+function getMap(building, floor) {
 
-  switch (building.toUpperCase()) {
+  var newMap = '';
+
+  switch (building) { // TODO
     case 'A':
 
       break;
@@ -459,21 +355,21 @@ function changeFloor(building, floor) {
       break;
     case 'C':
       if (floor === '1') {
-        newWindow = 'Building/C/First-Floor.html';
+        newMap = buildingC[0];
       }
       else {
-        newWindow = 'Building/C/Second-Floor.html';
+        newMap = buildingC[1];
       }
       break;
     case 'C3':
-      if (floor === 'G') {
-        newWindow = 'Building/C3/Ground-Floor.html';
+      if (floor === '2') {
+        newMap = buildingC3[2];
       }
       else if (floor === '1') {
-        newWindow = 'Building/C3/First-Floor.html';
+        newMap = buildingC3[1];
       }
-      else if (floor === '2') {
-        newWindow = 'Building/C3/Second-Floor.html';
+      else {
+        newMap = buildingC3[0];
       }
       break;
     case 'D':
@@ -496,12 +392,25 @@ function changeFloor(building, floor) {
       break;
   }
 
-  addMap(newWindow, building, floor).then(function(response) {
-    // console.log('Success!');
-    activateRoom(roomNum, true);
-  }, function(error) {
-    console.error('Failed!', error);
-  });
+  return newMap;
+}
+
+function changeFloor(building, floor) {
+  closeMenu();
+  var newWindow = building.toUpperCase();
+  var searchBar = document.getElementById('roomSearch');
+  searchBar.value = '';
+
+  newWindow = getMap(building, floor);
+
+  if (newWindow !== '') {
+    addMap(newWindow, building, floor).then(function(response) {
+      // console.log('Success!');
+      activateRoom(roomNum, true);
+    }, function(error) {
+      console.error('Failed!', error);
+    });
+  }
 }
 
 function searchNewFloor(building, floor, roomNum) {
@@ -511,57 +420,15 @@ function searchNewFloor(building, floor, roomNum) {
 
   if (curBuild.innerHTML !== building || curFloor.value !== floor) {
 
-    switch (building) {
-      case 'A':
+    newWindow = getMap(building.toUpperCase(), floor);
 
-        break;
-      case 'B':
-
-        break;
-      case 'C':
-        if (floor === '1') {
-          newWindow = 'Building/C/First-Floor.html';
-        }
-        else {
-          newWindow = 'Building/C/Second-Floor.html';
-        }
-        break;
-      case 'C3':
-        if (floor === 'G') {
-          newWindow = 'Building/C3/Ground-Floor.html';
-        }
-        else if (floor === '1') {
-          newWindow = 'Building/C3/First-Floor.html';
-        }
-        else if (floor === '2') {
-          newWindow = 'Building/C3/Second-Floor.html';
-        }
-        break;
-      case 'D':
-
-        break;
-      case 'E':
-
-        break;
-      case 'F':
-
-        break;
-      case 'H':
-
-        break;
-      case 'I':
-
-        break;
-      case 'L':
-
-        break;
+    if (newWindow !== '') {
+      addMap(newWindow, building, floor).then(function(response) {
+        // console.log('Success!');
+        activateRoom(roomNum, true);
+      }, function(error) {
+        console.error('Failed!', error);
+      });
     }
-
-    addMap(newWindow, building, floor).then(function(response) {
-      // console.log('Success!');
-      activateRoom(roomNum, true);
-    }, function(error) {
-      console.error('Failed!', error);
-    });
   }
 }
