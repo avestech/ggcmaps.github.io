@@ -117,6 +117,13 @@ function addMap(mapLocation, building, floor) {
             instance.zoom(initialScale * ev.scale);
           });
 
+          this.hammer.on('tap', function(ev) {
+            var room = ev.target.parentNode.id;
+            if (room.length === 4) {
+              activateRoom(ev.target.parentNode.id);
+            }
+          });
+
           // Prevent moving the page on some devices when panning over SVG
           options.svgElement.addEventListener('touchmove', function(e) { e.preventDefault(); });
         },
