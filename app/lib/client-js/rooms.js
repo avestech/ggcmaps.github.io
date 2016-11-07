@@ -1,7 +1,20 @@
+var floorsA = [];
+var floorsB = ['1', '2', '3'];
+var floorsC = ['1', '2'];
+var floorsC3 = ['G', '1', '2'];
+var floorsD = ['1', '2'];
+var floorsE = ['1', '2', '3'];
+var floorsF = ['1', '2'];
+var floorsH = ['1', '2', '3'];
+var floorsI = ['1', '2'];
+var floorsL = ['1', '2', '3'];
+
 document.addEventListener('DOMContentLoaded', function() {
 
   addMap('Building/C/First-Floor.html', 'C', '1').then(function(response) {
     // console.log('Success!');
+    floorDropDown('C');
+    document.getElementById('floor').value = '1';
   }, function(error) {
     console.error('Failed!', error);
   });
@@ -27,6 +40,10 @@ function addMap(mapLocation, building, floor) {
     req.onload = function() {
       // if (req.readyState!==4) reject(Error(req.statusText));
       if (req.status!==200) reject(Error(req.statusText));
+
+      if (building !== curBuild) {
+        floorDropDown(building);
+      }
 
       // Remove all maps
       removeMap();
@@ -124,15 +141,62 @@ function addMap(mapLocation, building, floor) {
 }
 
 function removeMap() {
-  var mapHolder = document.getElementsByClassName('svg-holder')[0];
+  var mapHolder = document.getElementById('svg-holder');
   while (mapHolder.hasChildNodes()) {
     mapHolder.removeChild(mapHolder.lastChild);
   }
 }
 
+function floorDropDown(building) {
+  var dropdown = document.getElementById('floor');
+  while (dropdown.hasChildNodes()) {
+    dropdown.removeChild(dropdown.lastChild);
+  }
+
+  var floors = [];
+
+  switch (building) {
+    case 'A':
+      floors = floorsA;
+      break;
+    case 'B':
+      floors = floorsB;
+      break;
+    case 'C':
+      floors = floorsC;
+      break;
+    case 'C3':
+      floors = floorsC3;
+      break;
+    case 'D':
+      floors = floorsD;
+      break;
+    case 'E':
+      floors = floorsE;
+      break;
+    case 'F':
+      floors = floorsF;
+      break;
+    case 'H':
+      floors = floorsH;
+      break;
+    case 'I':
+      floors = floorsI;
+      break;
+    case 'L':
+      floors = floorsL;
+      break;
+  }
+
+  for (var i = 0; i < floors.length; i++) {
+    var option = '<option value="' + floors[i] + '">' + floors[i] + '</option>';
+    dropdown.appendChild(convertToElement(option));
+  }
+}
+
 function activateRoom(roomID, search) {
   var roomClass = 'room-group';
-  var room = document.getElementById(roomID);
+  var room = document.getElementById(roomID.toLowerCase());
 
   if (room === null) {
     alert('No room found for ' + roomID);
@@ -186,7 +250,7 @@ function searchFromMenu(sRoom) {
 }
 
 function searchRoomNumber() {
-  var sRoom = document.getElementById('roomSearch').value;
+  var sRoom = document.getElementById('roomSearch').value.toUpperCase();
   var roomNum = sRoom;
   var building = document.getElementById('building').innerHTML;
   var floor = document.getElementById('floor').value;
@@ -382,11 +446,11 @@ function searchRoomNumber() {
 
 function changeFloor(building, floor) {
   closeMenu();
-  var newWindow = building;
+  var newWindow = building.toUpperCase();
   var searchBar = document.getElementById('roomSearch');
   searchBar.value = '';
 
-  switch (building) {
+  switch (building.toUpperCase()) {
     case 'A':
 
       break;
