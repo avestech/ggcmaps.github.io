@@ -18,9 +18,7 @@
 				<i class="fa fa-search" aria-hidden="true" onclick="searchRoomNumber()"></i>
 				<span class="divider"></span>
 				<h2 id="building">C</h2>
-				<select name="floor" id="floor" onchange="changeFloor('C', value)">
-					<option value="1">1</option>
-					<option value="2">2</option>
+				<select name="floor" id="floor" onchange="changeFloor(document.getElementById('building').innerHTML, value)">
 				</select>
 			</div> <!-- search-menu -->
 
