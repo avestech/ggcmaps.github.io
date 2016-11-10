@@ -5,7 +5,7 @@
   "author": "Mike Deiters",
   "license": "Creative Commons",
   "scripts": {
-    "start": "http-server -p 3000",
+    "start": "cd ../docs && http-server -p 3000",
     "test": "grunt travis --verbose"
   },
   "devDependencies": {

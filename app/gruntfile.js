@@ -21,7 +21,7 @@ module.exports = function(grunt) {
       }, // options
       my_target: {
         files: {
-          'public/js/script.min.js': ['lib/client-js/*.js']
+          '../docs/js/script.min.js': ['lib/client-js/*.js']
         } // files
       } // my_target
     }, // uglify
@@ -43,7 +43,7 @@ module.exports = function(grunt) {
         tasks: ['compass:dev']
       }, // sass
       html: {
-        files: ['public/*.html']
+        files: ['../docs/*.html']
       } // html
     }, // watch
   	jasmine: {
