@@ -40,6 +40,10 @@ function convertToElement(html) {
   return temp.childNodes[0];
 }
 
+function getClientHeight() {
+  return (window.innerHeight || document.body.clientHeight) + 'px';
+}
+
 function addMap(mapLocation, building, floor) {
   var curBuild = document.getElementById('building');
   var curFloor = document.getElementById('floor');
@@ -65,7 +69,7 @@ function addMap(mapLocation, building, floor) {
 
       // Set the map height to the browser's height and enable panZoomTiger
       var map = mapHolder.childNodes[0];
-      map.style.height = nav.clientHeight;
+      map.style.height = getClientHeight();
       curBuild.innerHTML = building;
       curFloor.value = floor;
 
@@ -142,7 +146,7 @@ function addMap(mapLocation, building, floor) {
       // Resize the panZoomTiger when the window resizes
       window.addEventListener('resize', function() {
         // Resize the map height to adjust the panZoomTiger height
-        map.style.height = nav.clientHeight;
+        map.style.height = getClientHeight();
 
         panZoomTiger.resize();
         panZoomTiger.fit();
