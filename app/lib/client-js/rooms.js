@@ -273,6 +273,7 @@ function searchRoomNumber() {
   var sRoom = document.getElementById('roomSearch').value.toUpperCase();
   var roomNum = sRoom;
   var building = document.getElementById('building').innerHTML;
+  var curBuild = building;
   var floor = document.getElementById('floor').value;
 
   var newWindow = '';
@@ -352,7 +353,7 @@ function searchRoomNumber() {
       alert(roomNum + " is an invalid room number. Please don't use any spaces");
   }
 
-  if (building !== newBuilding || floor !== newFloor) {
+  if (curBuild !== newBuilding || floor !== newFloor) {
     searchNewFloor(newBuilding, newFloor, roomNum);
   }
   else {
@@ -417,7 +418,7 @@ function getMap(building, floor) {
 
       break;
   }
-
+console.log(newMap);
   return newMap;
 }
 
