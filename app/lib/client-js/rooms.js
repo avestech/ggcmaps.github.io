@@ -351,7 +351,18 @@ function searchRoomNumber() {
       alert('I Building not currently searchable');
       break;
     case 'L':
-      alert('L Building not currently searchable');
+      if (roomNum[0] === '3') {
+        newBuilding = 'L';
+        newFloor = '3';
+      }
+      else if (roomNum[0] === '2') {
+        newBuilding = 'L';
+        newFloor = '2';
+      }
+      else if (roomNum[0] === '1') {
+        newBuilding = 'L';
+        newFloor = '1';
+      }
       break;
     default:
       alert(roomNum + " is an invalid room number. Please don't use any spaces");
@@ -419,7 +430,15 @@ function getMap(building, floor) {
 
       break;
     case 'L':
-
+      if (floor === '3') {
+        newMap = buildingL[2];
+      }
+      else if (floor === '2') {
+        newMap = buildingL[1];
+      }
+      else {
+        newMap = buildingL[0];
+      }
       break;
   }
 console.log(newMap);
