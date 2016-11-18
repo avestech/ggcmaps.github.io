@@ -13,14 +13,32 @@
 	<body>
 		<div class="content">
 			<div class="search-menu">
-				<i class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
+				<div class="popup-group">
+					<i id="menu" class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
+					<div class="popup" id="menu-popup">
+						<h3>Menu</h3>
+					</div> <!-- menu-popup -->
+				</div> <!-- popup-group -->
 				<input type="text" id="roomSearch" placeholder="Search Rooms" onkeypress="searchFromBar(event)">
-				<i class="fa fa-search" aria-hidden="true" onclick="searchRoomNumber()"></i>
+				<div class="popup-group">
+					<i id="search" class="fa fa-search" aria-hidden="true" onclick="searchRoomNumber()"></i>
+					<div class="popup" id="search-popup">
+						<h3>Search</h3>
+					</div> <!-- search-popup -->
+				</div> <!-- popup-group -->
 				<span class="divider"></span>
-				<h2 id="building">C</h2>
-				<!-- <select name="floor" id="floor" onchange="changeFloor(document.getElementById('building').innerHTML, value)">
-				</select> -->
-				<h2 id="floor"></h2>
+				<div class="popup-group">
+					<h2 id="building">C</h2>
+					<div id="building-popup" class="popup">
+						<h3>Building</h3>
+					</div> <!-- building-popup -->
+				</div> <!-- popup-group -->
+				<div class="popup-group">
+					<h2 id="floor"></h2>
+					<div class="popup" id="floor-popup">
+						<h3>Floor</h3>
+					</div> <!-- floor-popup -->
+				</div> <!-- popup-group -->
 				<div class="dropdown">
 					<i class="fa fa-caret-down" id="dropdown" onclick="dropdown('floors', 'floors-active')" aria-hidden="true"></i>
 					<div class="floors"></div> <!-- floors -->
