@@ -241,7 +241,7 @@ function floorDropDown(building) {
 
 function activateRoom(roomID, search) {
   var roomClass = 'room-group';
-  var room = document.getElementById(roomID.toLowerCase());
+  var room = document.getElementById(roomID.toUpperCase());
 
   if (room === null) {
     alert('No room found for ' + roomID);
@@ -304,11 +304,16 @@ function searchRoomNumber() {
   var newWindow = '';
   var newBuilding = '';
   var newFloor = '';
-
-  if (sRoom.length === 5) {
-    building = sRoom[0];
-    console.log(building);
-    roomNum = sRoom.substring(1);
+  
+  var rInfo = parseSearch(sRoom);
+  if (rInfo.building !== '') {
+    building = rInfo.building;
+  }
+  if (rInfo.room !== '') {
+    roomNum = rInfo.room;
+  }
+  if (rInfo.roomName !== '') {
+    alert(rInfo.roomName + ' is a invalid room number. Please search for a valid room number.');
   }
 
   switch (building[0].toUpperCase()) { // TODO
@@ -386,7 +391,7 @@ function searchRoomNumber() {
       }
       break;
     default:
-      alert(roomNum + " is an invalid room number. Please don't use any spaces");
+      alert(roomNum + " is an invalid room number.");
   }
 
   if (curBuild !== newBuilding || floor !== newFloor) {
