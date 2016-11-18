@@ -16,6 +16,11 @@ function closeMenu() {
     menu.classList.remove('nav-active');
     content.classList.remove('active');
   }
+
+  var dd = document.getElementsByClassName('floors')[0];
+  if (dd.className === 'floors floors-active') {
+    dd.classList.remove('floors-active');
+  }
 } //closeMenu
 
 function diningSubMenu() {
