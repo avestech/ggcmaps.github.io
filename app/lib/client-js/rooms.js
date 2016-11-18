@@ -26,8 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   addMap(buildingC[0], 'C', '1').then(function(response) {
     // console.log('Success!');
-    floorDropDown('C');
-    document.getElementById('floor').value = '1';
   }, function(error) {
     console.error('Failed!', error);
   });
@@ -71,7 +69,7 @@ function addMap(mapLocation, building, floor) {
       var map = mapHolder.childNodes[0];
       map.style.height = getClientHeight();
       curBuild.innerHTML = building;
-      curFloor.value = floor;
+      curFloor.innerHTML = floor;
 
       var eventsHandler;
       eventsHandler = {
@@ -171,8 +169,13 @@ function removeMap() {
   }
 }
 
+function dropdown(drop, className) {
+  var dd = document.getElementsByClassName(drop)[0];
+  dd.classList.toggle(className);
+}
+
 function floorDropDown(building) {
-  var dropdown = document.getElementById('floor');
+  var dropdown = document.getElementsByClassName('floors')[0];
   while (dropdown.hasChildNodes()) {
     dropdown.removeChild(dropdown.lastChild);
   }
@@ -213,7 +216,7 @@ function floorDropDown(building) {
   }
 
   for (var i = 0; i < floors.length; i++) {
-    var option = '<option value="' + floors[i] + '">' + floors[i] + '</option>';
+    var option = '<h2 onclick="changeFloor(\'' + building + '\', \'' + floors[i] + '\')">' + floors[i] + ' Floor</h2>';
     dropdown.appendChild(convertToElement(option));
   }
 }
@@ -278,7 +281,7 @@ function searchRoomNumber() {
   var roomNum = sRoom;
   var building = document.getElementById('building').innerHTML;
   var curBuild = building;
-  var floor = document.getElementById('floor').value;
+  var floor = document.getElementById('floor').innerHTML;
 
   var newWindow = '';
   var newBuilding = '';
@@ -441,7 +444,7 @@ function getMap(building, floor) {
       }
       break;
   }
-console.log(newMap);
+  
   return newMap;
 }
 
@@ -456,7 +459,6 @@ function changeFloor(building, floor) {
   if (newWindow !== '') {
     addMap(newWindow, building, floor).then(function(response) {
       // console.log('Success!');
-      activateRoom(roomNum, true);
     }, function(error) {
       console.error('Failed!', error);
     });
@@ -468,7 +470,7 @@ function searchNewFloor(building, floor, roomNum) {
   var curBuild = document.getElementById('building');
   var curFloor = document.getElementById('floor');
 
-  if (curBuild.innerHTML !== building || curFloor.value !== floor) {
+  if (curBuild.innerHTML !== building || curFloor.innerHTML !== floor) {
 
     newWindow = getMap(building.toUpperCase(), floor);
 
