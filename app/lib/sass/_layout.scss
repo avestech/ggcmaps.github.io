@@ -65,12 +65,7 @@ body {
     #floor {
       color: $green;
       padding: 10px;
-      padding-right: 5px;
     } // floor
-
-    #dropdown {
-      padding-left: 5px;
-    }
 
     h2 {
       display: inline-block;
@@ -87,6 +82,7 @@ body {
 
   .dropdown {
     position: relative;
+    padding-left: 0;
 
     &:hover {
       cursor: pointer;
@@ -104,7 +100,7 @@ body {
     color: $green;
     font-size: 1.05rem;
     right: 0;
-    min-width: 100px;
+    min-width: 135px;
     text-align: center;
     @include box-shadow;
 
@@ -123,6 +119,48 @@ body {
   .floors-active {
     display: inline-block;
   } // floors-active
+
+  .popup-group {
+    position: relative;
+    display: inline-block;
+
+    .popup {
+      visibility: hidden;
+      width: 80px;
+      background-color: $green;
+      text-align: center;
+      border-radius: 6px;
+      padding: 3px;
+      position: absolute;
+      z-index: 1;
+      top: 100%;
+      left: 50%;
+      margin-left: -20px;
+      @include box-shadow;
+
+      h3 {
+        color: $border;
+        font-weight: normal;
+        font-size: .9rem;
+      } // h3
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -25px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent $green transparent;
+      } // popup::after
+    } // popup
+
+    .popup-active {
+      visibility: visible;
+    } // popup-active
+  } // popup-group
+
 
   .divider {
     width: 1px;
