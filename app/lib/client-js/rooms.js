@@ -41,25 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
   activatePopup(search, 'search-popup');
 });
 
-function activatePopup(popup, id) {
-  popup.onmouseover = function() {
-    document.getElementById(id).classList.toggle('popup-active');
-  };
-  popup.onmouseout = function() {
-    document.getElementById(id).classList.toggle('popup-active');
-  };
-}
-
-function convertToElement(html) {
-  var temp = document.createElement('div');
-  temp.innerHTML = html;
-  return temp.childNodes[0];
-}
-
-function getClientHeight() {
-  return (window.innerHeight || document.body.clientHeight) + 'px';
-}
-
 function addMap(mapLocation, building, floor) {
   var curBuild = document.getElementById('building');
   var curFloor = document.getElementById('floor');
@@ -187,11 +168,6 @@ function removeMap() {
   }
 }
 
-function dropdown(drop, className) {
-  var dd = document.getElementsByClassName(drop)[0];
-  dd.classList.toggle(className);
-}
-
 function floorDropDown(building) {
   var dropdown = document.getElementsByClassName('floors')[0];
   while (dropdown.hasChildNodes()) {
@@ -274,14 +250,6 @@ function deactivateAllRooms() {
   }
 }
 
-function resetWidth(panZoomTiger) {
-  console.log('resize');
-  // var panZoomTiger = svgPanZoom(map, {controlIconsEnabled:true, fit:1, center:1});
-  panZoomTiger.resize();
-  panZoomTiger.fit();
-  panZoomTiger.center();
-}
-
 function searchFromBar(event) {
   if (event.which == 13 || event.keyCode == 13) {
     searchRoomNumber();
@@ -304,7 +272,7 @@ function searchRoomNumber() {
   var newWindow = '';
   var newBuilding = '';
   var newFloor = '';
-  
+
   var rInfo = parseSearch(sRoom);
   if (rInfo.building !== '') {
     building = rInfo.building;

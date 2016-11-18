@@ -42,3 +42,35 @@ function parseSearch(str) {
 
   return result;
 }
+
+function activatePopup(popup, id) {
+  popup.onmouseover = function() {
+    document.getElementById(id).classList.toggle('popup-active');
+  };
+  popup.onmouseout = function() {
+    document.getElementById(id).classList.toggle('popup-active');
+  };
+}
+
+function convertToElement(html) {
+  var temp = document.createElement('div');
+  temp.innerHTML = html;
+  return temp.childNodes[0];
+}
+
+function getClientHeight() {
+  return (window.innerHeight || document.body.clientHeight) + 'px';
+}
+
+function dropdown(drop, className) {
+  var dd = document.getElementsByClassName(drop)[0];
+  dd.classList.toggle(className);
+}
+
+function resetWidth(panZoomTiger) {
+  console.log('resize');
+  // var panZoomTiger = svgPanZoom(map, {controlIconsEnabled:true, fit:1, center:1});
+  panZoomTiger.resize();
+  panZoomTiger.fit();
+  panZoomTiger.center();
+}
