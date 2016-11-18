@@ -30,7 +30,45 @@ document.addEventListener('DOMContentLoaded', function() {
     console.error('Failed!', error);
   });
 
+  var building = document.getElementById('building');
+  var floor = document.getElementById('floor');
+  var menu = document.getElementById('menu');
+  var search = document.getElementById('search');
+
+  building.onmouseover = function() {
+    activatePopup('building-popup');
+  }
+  building.onmouseout = function() {
+    activatePopup('building-popup');
+  }
+
+  floor.onmouseover = function() {
+    activatePopup('floor-popup');
+  }
+  floor.onmouseout = function() {
+    activatePopup('floor-popup');
+  }
+
+  menu.onmouseover = function() {
+    activatePopup('menu-popup');
+  }
+  menu.onmouseout = function() {
+    activatePopup('menu-popup');
+  }
+
+  search.onmouseover = function() {
+    activatePopup('search-popup');
+  }
+  search.onmouseout = function() {
+    activatePopup('search-popup');
+  }
 });
+
+function activatePopup(id) {
+  console.log(document.getElementById(id).className);
+  document.getElementById(id).classList.toggle('popup-active');
+  console.log(document.getElementById(id).className);
+}
 
 function convertToElement(html) {
   var temp = document.createElement('div');
@@ -444,7 +482,7 @@ function getMap(building, floor) {
       }
       break;
   }
-  
+
   return newMap;
 }
 
