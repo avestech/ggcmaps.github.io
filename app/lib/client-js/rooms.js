@@ -35,39 +35,19 @@ document.addEventListener('DOMContentLoaded', function() {
   var menu = document.getElementById('menu');
   var search = document.getElementById('search');
 
-  building.onmouseover = function() {
-    activatePopup('building-popup');
-  }
-  building.onmouseout = function() {
-    activatePopup('building-popup');
-  }
-
-  floor.onmouseover = function() {
-    activatePopup('floor-popup');
-  }
-  floor.onmouseout = function() {
-    activatePopup('floor-popup');
-  }
-
-  menu.onmouseover = function() {
-    activatePopup('menu-popup');
-  }
-  menu.onmouseout = function() {
-    activatePopup('menu-popup');
-  }
-
-  search.onmouseover = function() {
-    activatePopup('search-popup');
-  }
-  search.onmouseout = function() {
-    activatePopup('search-popup');
-  }
+  activatePopup(building, 'building-popup');
+  activatePopup(floor, 'floor-popup');
+  activatePopup(menu, 'menu-popup');
+  activatePopup(search, 'search-popup');
 });
 
-function activatePopup(id) {
-  console.log(document.getElementById(id).className);
-  document.getElementById(id).classList.toggle('popup-active');
-  console.log(document.getElementById(id).className);
+function activatePopup(popup, id) {
+  popup.onmouseover = function() {
+    document.getElementById(id).classList.toggle('popup-active');
+  };
+  popup.onmouseout = function() {
+    document.getElementById(id).classList.toggle('popup-active');
+  };
 }
 
 function convertToElement(html) {
