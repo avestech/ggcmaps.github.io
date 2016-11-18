@@ -17,7 +17,7 @@ function parseSearch(str) {
     if (res[i].length === 1 && isLetter(res[i])) {
       building = res[i];
     }
-    else if (res[i].length === 4 && isNumeric(res[i])) {
+    else if (res[i].length === 4 && (isNumeric(res[i]) || (res[i].charAt(0) === 'G' && isNumeric(res[i].substring(1))))) {
       room = res[i];
     }
     else if (res[i].length === 5 && isNumeric(res[i].substring(0,4))) {
@@ -28,17 +28,18 @@ function parseSearch(str) {
     }
   }
   if (building === '' && room === '' && roomName !== '') {
-    if (isLetter(str[0]) && isNumeric(str[1])) {
+    if (isLetter(str[0]) && isNumeric(str[2])) {
       building = str[0];
       room = str.substring(1);
+      roomName = '';
     }
   }
-
   var result = {
     building: building,
     room: room,
     roomName: roomName
   };
+  console.log(result);
 
   return result;
 }
