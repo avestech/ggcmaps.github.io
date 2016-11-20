@@ -235,6 +235,11 @@ body {
         stroke-miterlimit:10;
       } // door
 
+      .exit {
+        stroke: $blue;
+        stroke-width: 3;
+      } // exit
+
       .label {
         fill: $border;
         font-size: .6rem;
