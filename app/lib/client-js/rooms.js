@@ -286,10 +286,8 @@ function searchRoomNumber() {
 
   switch (building[0].toUpperCase()) { // TODO
     case 'A':
-      else if (roomNum[0] === '1') {
         newBuilding = 'A';
         newFloor = '1';
-      }
       break;
     case 'B':
       alert('B Building not currently searchable');
@@ -379,9 +377,7 @@ function getMap(building, floor) {
 
   switch (building) { // TODO
     case 'A':
-      if (floor === '1') {
         newMap = buildingA[0];
-      }
       break;
     case 'B':
 
