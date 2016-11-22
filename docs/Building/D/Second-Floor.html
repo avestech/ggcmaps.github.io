@@ -15,6 +15,8 @@
 	.st10{clip-path:url(#SVGID_12_);fill:#00704A;}
 	.st11{clip-path:url(#SVGID_4_);fill:#FFFFFF;}
 	.st12{clip-path:url(#SVGID_10_);}
+	#test{fill:red;}
+
 ]]>
 </style>
 <font horiz-adv-x="2048">
@@ -42,54 +44,82 @@
 </font>
 
 	<g id="outline">
-	<polygon class="st5" points="5.837,546.836 5.837,651.503 287.171,651.503 287.171,617.503 400.504,617.503 400.504,4.836
+	<polygon class="outline" points="5.837,546.836 5.837,651.503 287.171,651.503 287.171,617.503 400.504,617.503 400.504,4.836
 		287.171,4.836 287.171,546.836 	"/>
-	<line class="st5" x1="373.75" y1="213.25" x2="400.504" y2="213.25"/>
+	<line class="outline" x1="373.75" y1="213.25" x2="400.504" y2="213.25"/>
 </g>
 <g id="rooms">
-	<rect x="330.25" y="573.75" class="st5" width="70.254" height="43.753"/>
-	<rect x="354.75" y="518.5" class="st5" width="45.754" height="55.25"/>
-	<rect x="287.171" y="494.75" class="st5" width="48.829" height="52.086"/>
-	<rect x="287.171" y="440.75" class="st5" width="48.829" height="54"/>
-	<rect x="354.75" y="461.75" class="st5" width="45.754" height="56.75"/>
-	<polygon class="st5" points="287.171,304.25 400.504,304.25 400.504,440.75 347.249,440.75 347.25,414.251 309.5,414.25
-		309.5,376.75 287.171,376.75 	"/>
-	<polygon class="st5" points="309.5,414.25 309.5,376.75 287.171,376.75 287.171,440.75 347.25,440.75 347.25,414.251 	"/>
-	<polygon class="st5" points="287.171,304.25 373.75,304.25 373.75,277.5 350.5,277.5 350.499,258.5 287.171,258.5 	"/>
-	<polygon class="st5" points="287.171,213.25 321.499,213.25 321.5,192.75 350.5,192.75 350.499,213.25 373.75,213.25 373.75,240.5
-		350.5,240.5 350.499,258.5 287.171,258.5 	"/>
-	<polygon class="st5" points="321.5,192.75 321.499,213.25 287.171,213.25 287.171,161.75 350.499,161.75 350.499,192.75 	"/>
-	<rect x="287.171" y="4.836" class="st5" width="113.333" height="156.914"/>
-	<rect x="5.837" y="546.836" class="st5" width="281.334" height="104.667"/>
+	<g onclick="activateRoom('2106');" id="2106" class="room-group">
+		<rect x="330.25" y="573.75" class="room" width="70.254" height="43.753"/>
+		<text transform="matrix(1 0 0 1 354.75 599.1689)" class="label">2106</text>
+	</g>
+
+	<g onclick="activateRoom('2105');" id="2105" class="room-group">
+		<rect x="354.75" y="518.5" class="room" width="45.754" height="55.25"/>
+		<text transform="matrix(1 0 0 1 365.377 546.125)" class="label">2105</text>
+	</g>
+
+	<g onclick="activateRoom('2103');" id="2103" class="room-group">
+		<rect x="287.171" y="494.75" class="room" width="48.829" height="52.086"/>
+		<text transform="matrix(1 0 0 1 298.5049 523.75)" class="label">2103</text>
+	</g>
+
+	<g onclick="activateRoom('1302');" id="2102" class="room-group">
+		<rect x="287.171" y="440.75" class="room" width="48.829" height="54"/>
+		<text transform="matrix(1 0 0 1 298.5049 469.75)" class="label">2102</text>
+	</g>
+
+	<g onclick="activateRoom('2104');" id="2104" class="room-group">
+		<rect x="354.75" y="461.75" class="room" width="45.754" height="56.75"/>
+		<text transform="matrix(1 0 0 1 365.377 492.75)" class="label">2104</text>
+	</g>
+
+	<g onclick="activateRoom('2100');" id="2100" class="room-group">
+		<polygon class="room" points="287.171,304.25 400.504,304.25 400.504,440.75 347.249,440.75 347.25,414.251 309.5,414.25
+			309.5,376.75 287.171,376.75 	"/>
+			<text transform="matrix(1 0 0 1 339.1709 356)" class="label">2100</text>
+		</g>
+
+		<polygon class="room" points="309.5,414.25 309.5,376.75 287.171,376.75 287.171,440.75 347.25,440.75 347.25,414.251 	"/>
+		<polygon class="room" points="287.171,304.25 373.75,304.25 373.75,277.5 350.5,277.5 350.499,258.5 287.171,258.5 	"/>
+		<polygon class="room" points="287.171,213.25 321.499,213.25 321.5,192.75 350.5,192.75 350.499,213.25 373.75,213.25 373.75,240.5
+			350.5,240.5 350.499,258.5 287.171,258.5 	"/>
+
+	<g onclick="activateRoom('2107');" id="2107" class="room-group">
+		<polygon class="room" points="321.5,192.75 321.499,213.25 287.171,213.25 287.171,161.75 350.499,161.75 350.499,192.75 	"/>
+		<text transform="matrix(1 0 0 1 305.1719 181.5)" class="label">2107</text>
+	</g>
+
+	<g onclick="activateRoom('2108');" id="2108" class="room-group">
+		<rect x="287.171" y="4.836" class="room" width="113.333" height="156.914"/>
+		<text transform="matrix(1 0 0 1 333.25 86.249)" class="label">2108</text>
+	</g>
+
+	<g onclick="activateRoom('Mechanical');" id="Mechanical" class="room-group">
+		<rect x="5.837" y="546.836" class="room" width="281.334" height="104.667"/>
+		<text transform="matrix(1 0 0 1 111.416 601.1689)" class="label">Mechanical</text>
+	</g>
 </g>
 <g id="doors">
-	<line class="st8" x1="287.171" y1="578.25" x2="287.171" y2="550"/>
-	<line class="st8" x1="333.75" y1="573.75" x2="348.75" y2="573.75"/>
-	<line class="st8" x1="382.75" y1="440.75" x2="397.75" y2="440.75"/>
-	<line class="st8" x1="293.5" y1="4.836" x2="308.5" y2="4.836"/>
-	<line class="st8" x1="381.334" y1="161.75" x2="396.334" y2="161.75"/>
-	<line class="st8" x1="376.75" y1="213.25" x2="391.75" y2="213.25"/>
-	<line class="st8" x1="352.5" y1="277.5" x2="367.5" y2="277.5"/>
-	<line class="st8" x1="352.5" y1="240.5" x2="367.5" y2="240.5"/>
-	<line class="st8" x1="383.504" y1="304.25" x2="398.504" y2="304.25"/>
-	<line class="st8" x1="354.75" y1="520.5" x2="354.75" y2="535.5"/>
-	<line class="st8" x1="354.75" y1="501.5" x2="354.75" y2="516.5"/>
-	<line class="st8" x1="336" y1="496.75" x2="336" y2="511.75"/>
-	<line class="st8" x1="336" y1="477.75" x2="336" y2="492.75"/>
-	<line class="st8" x1="350.499" y1="163.75" x2="350.499" y2="178.75"/>
-	<line class="st8" x1="400.504" y1="342.5" x2="400.504" y2="357.5"/>
-	<line class="st8" x1="309.5" y1="378.75" x2="309.5" y2="393.75"/>
+	<line class="door" x1="287.171" y1="578.25" x2="287.171" y2="550"/>
+	<line class="door" x1="333.75" y1="573.75" x2="348.75" y2="573.75"/>
+	<line class="door" x1="382.75" y1="440.75" x2="397.75" y2="440.75"/>
+	<line class="door" x1="293.5" y1="4.836" x2="308.5" y2="4.836"/>
+	<line class="door" x1="381.334" y1="161.75" x2="396.334" y2="161.75"/>
+	<line class="door" x1="376.75" y1="213.25" x2="391.75" y2="213.25"/>
+	<line class="door" x1="352.5" y1="277.5" x2="367.5" y2="277.5"/>
+	<line class="door" x1="352.5" y1="240.5" x2="367.5" y2="240.5"/>
+	<line class="door" x1="383.504" y1="304.25" x2="398.504" y2="304.25"/>
+	<line class="door" x1="354.75" y1="520.5" x2="354.75" y2="535.5"/>
+	<line class="door" x1="354.75" y1="501.5" x2="354.75" y2="516.5"/>
+	<line class="door" x1="336" y1="496.75" x2="336" y2="511.75"/>
+	<line class="door" x1="336" y1="477.75" x2="336" y2="492.75"/>
+	<line class="door" x1="350.499" y1="163.75" x2="350.499" y2="178.75"/>
+	<line class="door" x1="400.504" y1="342.5" x2="400.504" y2="357.5"/>
+	<line class="door" x1="309.5" y1="378.75" x2="309.5" y2="393.75"/>
 </g>
 <g id="labels">
-	<text transform="matrix(1 0 0 1 354.75 599.1689)" class="st7 st9">2106</text>
-	<text transform="matrix(1 0 0 1 111.416 601.1689)" class="st7 st9">Mechanical</text>
-	<text transform="matrix(1 0 0 1 365.377 546.125)" class="st7 st9">2105</text>
-	<text transform="matrix(1 0 0 1 365.377 492.75)" class="st7 st9">2104</text>
-	<text transform="matrix(1 0 0 1 298.5049 469.75)" class="st7 st9">2102</text>
-	<text transform="matrix(1 0 0 1 298.5049 523.75)" class="st7 st9">2103</text>
-	<text transform="matrix(1 0 0 1 339.1709 356)" class="st7 st9">2100</text>
-	<text transform="matrix(1 0 0 1 333.25 86.249)" class="st7 st9">2108</text>
-	<text transform="matrix(1 0 0 1 305.1719 181.5)" class="st7 st9">2107</text>
+
 	<g>
 		<g>
 			<defs>

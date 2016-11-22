@@ -193,6 +193,10 @@ body {
         stroke-miterlimit:10;
       } // room
 
+      .bevel {
+        stroke-linejoin: bevel;
+      } // bevel
+
       .room-group {
         &:hover {
           cursor: pointer;
