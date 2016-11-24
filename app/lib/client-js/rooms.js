@@ -3,8 +3,8 @@ var buildingA = ['Building/A/First-Floor.html'];
 var buildingB; // TODO
 var buildingC = ['Building/C/First-Floor.html', 'Building/C/Second-Floor.html'];
 var buildingC3 = ['Building/C3/Ground-Floor.html', 'Building/C3/First-Floor.html', 'Building/C3/Second-Floor.html'];
-var buildingD = ['Building/D/First-Floor.html'];
-var buildingE = ['Building/E/First-Floor.html'];
+var buildingD = ['Building/D/First-Floor.html', 'Building/D/Second-Floor.html'];
+var buildingE = ['Building/E/First-Floor.html', 'Building/E/Second-Floor.html', 'Building/E/Third-Floor.html'];
 var buildingF; // TODO
 var buildingH = ['Building/H/First-Floor.html', 'Building/H/Second-Floor.html', 'Building/H/Third-Floor.html'];
 var buildingI; // TODO
