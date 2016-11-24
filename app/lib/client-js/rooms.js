@@ -4,7 +4,7 @@ var buildingB; // TODO
 var buildingC = ['Building/C/First-Floor.html', 'Building/C/Second-Floor.html'];
 var buildingC3 = ['Building/C3/Ground-Floor.html', 'Building/C3/First-Floor.html', 'Building/C3/Second-Floor.html'];
 var buildingD = ['Building/D/First-Floor.html'];
-var buildingE; // TODO
+var buildingE = ['Building/E/First-Floor.html'];
 var buildingF; // TODO
 var buildingH = ['Building/H/First-Floor.html', 'Building/H/Second-Floor.html', 'Building/H/Third-Floor.html'];
 var buildingI; // TODO
@@ -330,7 +330,14 @@ function searchRoomNumber() {
     }
       break;
     case 'E':
-      alert('E Building not currently searchable');
+    if (roomNum[0] === '2') {
+      newBuilding = 'E';
+      newFloor = '2';
+    }
+    else if (roomNum[0] === '1') {
+      newBuilding = 'E';
+      newFloor = '1';
+    }
       break;
     case 'F':
       alert('F Building not currently searchable');
@@ -410,14 +417,19 @@ function getMap(building, floor) {
       break;
     case 'D':
     if (floor === '2') {
-      newMap = buildingH[1];
+      newMap = buildingD[1];
     }
     else if (floor === '1') {
-      newMap = buildingH[0];
+      newMap = buildingD[0];
     }
       break;
     case 'E':
-
+    if (floor === '2') {
+      newMap = buildingE[1];
+    }
+    else if (floor === '1') {
+      newMap = buildingE[0];
+    }
       break;
     case 'F':
 
