@@ -1,0 +1,41 @@
+{
+  "A": {},
+  "B": {},
+  "C": {
+    "1": [
+      {
+        "name": "cisco-auditorium",
+        "id": "1260"
+      },
+      {
+        "name": "cisco",
+        "id": "1260"
+      }
+    ]
+  },
+  "C3": {
+    "G": [
+      {
+        "name": "acedemic enhancement center",
+        "id": "g360"
+      },
+      {
+        "name": "aec",
+        "id": "g360"
+      }
+    ]
+  },
+  "D": {},
+  "E": {
+    "1": [
+      {
+        "name": "game-room",
+        "id": "game-room"
+      }
+    ]
+  },
+  "F": {},
+  "H": {},
+  "I": {},
+  "L": {}
+}
