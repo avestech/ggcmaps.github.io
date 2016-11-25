@@ -24,7 +24,10 @@ function parseSearch(str) {
       room = res[i];
     }
     else {
-      roomName += res[i] + ' ';
+      if (roomName !== '') {
+        roomName += '-';
+      }
+      roomName += res[i];
     }
   }
   if (building === '' && room === '' && roomName !== '') {
@@ -37,9 +40,8 @@ function parseSearch(str) {
   var result = {
     building: building,
     room: room,
-    roomName: roomName
+    roomName: roomName.toLowerCase()
   };
-  console.log(result);
 
   return result;
 }
