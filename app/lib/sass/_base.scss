@@ -19,17 +19,14 @@ body {
 a {
   text-decoration: none;
   color: $border;
-  font-size: .8rem;
-  line-height: 110%;
-
-  &:hover {
-    color: $yellow;
-  } // hover
+  font-size: 1.1rem;
+  line-height: 190%;
 } // a
 
 li {
   &:hover {
     cursor: pointer;
+    background-color: $lightgreen;
   } // li:hover
 } // li
 
