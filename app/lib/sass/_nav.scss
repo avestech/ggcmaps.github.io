@@ -59,29 +59,22 @@
 } // menu-section
 
 .dining {
-  ul {
-    li {
-      display: none;
-      padding: 0;
-      padding-left: 10px;
-    } // li
-  } // ul
+  display: none;
+  li {
+    padding: 0;
+    padding-left: 20px;
+  } // li
 } // dining
 
 .dining-active {
   @include transition-property(height);
   @include transition-duration(2s);
-  background: #fff;
-
-  ul {
-    margin-top: 5px;
-    padding: 5px 0 8px;
-    li {
-      display: block;
-      a {
-        color: $green;
-        font-weight: 600;
-      } // a
-    } // li
-  } // ul
+  background: $blue;
+  display: block;
+  li {
+    a {
+      padding-left: 10px;
+      // color: $green;
+    } // a
+  } // li
 } // nav-active
