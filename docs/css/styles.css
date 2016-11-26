@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -88,20 +88,17 @@ h1, h2, h3, h4, h5, h6 {
 a {
   text-decoration: none;
   color: #fff;
-  font-size: .8rem;
-  line-height: 110%;
-}
-/* line 25, ../../app/lib/sass/_base.scss */
-a:hover {
-  color: #f5e100;
+  font-size: 1.1rem;
+  line-height: 190%;
 }
 
-/* line 31, ../../app/lib/sass/_base.scss */
+/* line 27, ../../app/lib/sass/_base.scss */
 li:hover {
   cursor: pointer;
+  background-color: #85c446;
 }
 
-/* line 36, ../../app/lib/sass/_base.scss */
+/* line 33, ../../app/lib/sass/_base.scss */
 input {
   margin: 5px 0;
   padding: 10px;
@@ -111,12 +108,12 @@ input {
   width: 100%;
   color: #fff;
 }
-/* line 45, ../../app/lib/sass/_base.scss */
+/* line 42, ../../app/lib/sass/_base.scss */
 input:focus {
   outline: none;
 }
 
-/* line 21, ../../../../../../var/lib/gems/1.9.1/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
+/* line 21, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -132,7 +129,7 @@ body {
   width: 100%;
   height: 100%;
 }
-/* line 12, ../../../../../../var/lib/gems/1.9.1/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+/* line 12, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
 body:after {
   content: " ";
   display: block;
@@ -177,25 +174,25 @@ body:after {
   padding: 10px;
   margin: 0;
 }
-/* line 61, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input:-moz-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
-/* line 64, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input::-moz-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
-/* line 67, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input:-ms-input-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
-/* line 56, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input::-webkit-input-placeholder {
   color: #a5acb0;
   font-size: .9rem;
@@ -511,14 +508,17 @@ body:after {
   border-bottom: thin solid #fff;
 }
 
-/* line 63, ../../app/lib/sass/_nav.scss */
-.dining ul li {
+/* line 61, ../../app/lib/sass/_nav.scss */
+.dining {
   display: none;
+}
+/* line 63, ../../app/lib/sass/_nav.scss */
+.dining li {
   padding: 0;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
-/* line 71, ../../app/lib/sass/_nav.scss */
+/* line 69, ../../app/lib/sass/_nav.scss */
 .dining-active {
   -moz-transition-property: height;
   -o-transition-property: height;
@@ -528,19 +528,10 @@ body:after {
   -o-transition-duration: 2s;
   -webkit-transition-duration: 2s;
   transition-duration: 2s;
-  background: #fff;
-}
-/* line 76, ../../app/lib/sass/_nav.scss */
-.dining-active ul {
-  margin-top: 5px;
-  padding: 5px 0 8px;
-}
-/* line 79, ../../app/lib/sass/_nav.scss */
-.dining-active ul li {
+  background: #0b7cbc;
   display: block;
 }
-/* line 81, ../../app/lib/sass/_nav.scss */
-.dining-active ul li a {
-  color: #00704a;
-  font-weight: 600;
+/* line 75, ../../app/lib/sass/_nav.scss */
+.dining-active li a {
+  padding-left: 10px;
 }
