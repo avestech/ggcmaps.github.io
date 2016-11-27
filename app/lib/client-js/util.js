@@ -77,3 +77,16 @@ function resetWidth(panZoomTiger) {
   panZoomTiger.fit();
   panZoomTiger.center();
 }
+
+function hideElement(element, hide) {
+  if (hide) {
+    if (!element.classList.contains('hide')) {
+      element.classList.toggle('hide');
+    }
+  }
+  else {
+    if (element.classList.contains('hide')) {
+      element.classList.toggle('hide');
+    }
+  }
+}
