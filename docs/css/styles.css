@@ -389,19 +389,23 @@ body:after {
   font-size: .6rem;
 }
 /* line 252, ../../app/lib/sass/_layout.scss */
+.content .svg-holder svg .micro-font {
+  font-size: .3rem;
+}
+/* line 256, ../../app/lib/sass/_layout.scss */
 .content .svg-holder svg .small-font {
   font-size: .43rem;
 }
-/* line 256, ../../app/lib/sass/_layout.scss */
+/* line 260, ../../app/lib/sass/_layout.scss */
 .content .svg-holder svg .medium-font {
   font-size: .48rem;
 }
-/* line 260, ../../app/lib/sass/_layout.scss */
+/* line 264, ../../app/lib/sass/_layout.scss */
 .content .svg-holder svg .no-fill {
   fill: none;
 }
 
-/* line 267, ../../app/lib/sass/_layout.scss */
+/* line 271, ../../app/lib/sass/_layout.scss */
 .content-disable {
   -moz-transition: all 1s ease-in;
   -o-transition: all 1s ease-in;
@@ -417,7 +421,7 @@ body:after {
   left: 0;
 }
 
-/* line 279, ../../app/lib/sass/_layout.scss */
+/* line 283, ../../app/lib/sass/_layout.scss */
 .active {
   display: block !important;
 }
