@@ -52,11 +52,11 @@
 		</div>
 
 		<div class="nav">
-			<h1>Gwinnett Grizzly Maps</h1>
+			<h1 onclick="changeFloor('Campus')">Gwinnett Grizzly Maps</h1>
 			<i class="fa fa-arrow-left" onclick="closeMenu()"></i>
 			<div class="menu-section"></div>
 			<ul>
-				<li onclick="changeFloor('A', '1')"><a>Building A</a></li>
+				<li onclick="changeFloor('A')"><a>Building A</a></li>
 				<li href="#"><a>Building B</a></li>
 				<li onclick="changeFloor('C', '1');"><a>Building C</a></li>
 				<li onclick="changeFloor('C3', 'G');"><a>Building C3</a></li>
@@ -90,6 +90,37 @@
 				<li onclick="searchFromMenu('a1510')"><a>The Den</a></li>
 			</ul>
 		</div> <!-- nav -->
+
+		<div class="campus-info">
+			<h4>Parking Legend</h4>
+			<div class="menu-section"></div>
+			<section>
+				<div class="parking-key">
+					<div id="staff-parking" class="color-label"></div>
+					<p>Staff</p>
+				</div>
+				<div class="parking-key">
+					<div id="open-parking" class="color-label"></div>
+					<p>Open</p>
+				</div>
+				<div class="parking-key">
+					<div id="reserved-parking" class="color-label"></div>
+					<p>Reserved</p>
+				</div>
+				<div class="parking-key">
+					<div id="resident-parking" class="color-label"></div>
+					<p>Residents</p>
+				</div>
+				<div class="parking-key">
+					<div id="student-parking" class="color-label"></div>
+					<p>Students</p>
+				</div>
+				<div class="parking-key">
+					<div id="visitor-parking" class="color-label"></div>
+					<p>Visitors</p>
+				</div>
+			</section>
+		</div> <!-- campus-info -->
 
 		<script src="http://localhost:35729/livereload.js"></script>
 	</body>
