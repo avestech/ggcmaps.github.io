@@ -1,5 +1,5 @@
 // Buildings
-var campus = 'Building/_Campus/campus.html';
+var campus = 'Building/(Campus)/campus.html';
 var buildingA = ['Building/A/First-Floor.html'];
 var buildingB; // TODO
 var buildingC = ['Building/C/First-Floor.html', 'Building/C/Second-Floor.html'];
@@ -98,7 +98,7 @@ function addMap(mapLocation, building, floor) {
 
         if (building === 'Campus') {
           hideElement(buildingPop, HIDE);
-          hideElement(legend, SHOW)
+          hideElement(legend, SHOW);
         }
         else {
           hideElement(buildingPop, SHOW);
