@@ -1,4 +1,5 @@
 // Buildings
+var campus = 'Building/_Campus/campus.html';
 var buildingA = ['Building/A/First-Floor.html'];
 var buildingB; // TODO
 var buildingC = ['Building/C/First-Floor.html', 'Building/C/Second-Floor.html'];
@@ -25,9 +26,13 @@ var floorsL = ['1', '2', '3'];
 // JSON of room names
 var roomNames;
 
+// Hiding the element or not
+var HIDE = true;
+var SHOW = false;
+
 document.addEventListener('DOMContentLoaded', function() {
 
-  addMap(buildingC[0], 'C', '1').then(function(response) {
+  addMap(campus, 'Campus').then(function(response) {
     // console.log('Success!');
   }, function(error) {
     console.error('Failed!', error);
@@ -87,7 +92,29 @@ function addMap(mapLocation, building, floor) {
       if (req.status!==200) reject(Error(req.statusText));
 
       if (building !== curBuild) {
-        floorDropDown(building);
+        var buildingPop = document.getElementById("building-popup");
+        var dropdown = document.getElementsByClassName('dropdown')[0];
+        var legend = document.getElementsByClassName('campus-info')[0];
+
+        if (building === 'Campus') {
+          hideElement(buildingPop, HIDE);
+          hideElement(legend, SHOW)
+        }
+        else {
+          hideElement(buildingPop, SHOW);
+          hideElement(legend, HIDE);
+        }
+
+        if (floor !== undefined) {
+          hideElement(curFloor, SHOW);
+          hideElement(dropdown, SHOW);
+          floorDropDown(building);
+          curFloor.innerHTML = floor;
+        }
+        else {
+          hideElement(curFloor, HIDE);
+          hideElement(dropdown, HIDE);
+        }
       }
 
       // Remove all maps
@@ -99,7 +126,6 @@ function addMap(mapLocation, building, floor) {
       var map = mapHolder.childNodes[0];
       map.style.height = getClientHeight();
       curBuild.innerHTML = building;
-      curFloor.innerHTML = floor;
 
       var eventsHandler;
       eventsHandler = {
@@ -343,7 +369,7 @@ function searchRoomNumber() {
     switch (building[0].toUpperCase()) { // TODO
       case 'A':
           newBuilding = 'A';
-          newFloor = '1';
+          newFloor = undefined;
         break;
       case 'B':
         alert('B Building not currently searchable');
@@ -447,8 +473,11 @@ function getMap(building, floor) {
   var newMap = '';
 
   switch (building) { // TODO
+    case 'Campus':
+      newMap = campus;
+      break;
     case 'A':
-        newMap = buildingA[0];
+      newMap = buildingA[0];
       break;
     case 'B':
 
