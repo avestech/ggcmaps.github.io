@@ -7,7 +7,12 @@ body {
   line-height: 110%;
   background: $lightgrey;
   overflow: scroll;
+  cursor: default;
 } // body
+
+svg {
+  cursor: move;
+}
 
 #{headings()} {
   font-family: $font-primary;
