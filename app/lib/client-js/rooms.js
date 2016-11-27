@@ -289,7 +289,7 @@ function floorDropDown(building) {
 
 function activateRoom(roomID, search) {
   var roomClass = 'room-group';
-  var room = document.getElementById(roomID);
+  var room = document.getElementById(roomID.toLowerCase());
 
   if (room === null) {
     alert('No room found for ' + roomID);
