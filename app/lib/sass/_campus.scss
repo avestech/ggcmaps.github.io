@@ -1,0 +1,82 @@
+svg {
+  .campus {
+    stroke:$green;
+    stroke-width:0.5;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+  } // campus
+
+  .campus-outline {
+    fill:none;
+  } // campus-outline
+
+  .campus-fill {
+    fill:$green;
+  } // campus-fill
+
+  .building-group {
+    cursor: pointer;
+
+    .building {
+      fill:$lightblue;
+      stroke:$green;
+      stroke-width:0.5;
+      stroke-miterlimit:10;
+    } // building
+
+    &:hover {
+      .building {
+        fill: darken($lightblue, 10);
+      } // building
+    } // building-group:hover
+  } // building-group
+
+  .student-parking {
+    fill: $pastelgreen;
+  } // student-parking
+
+  .staff-parking {
+    fill: $pastelorange;
+  } // staff-parking
+
+  .resident-parking {
+    fill: $pastelred;
+  } // resident-parking
+
+  .visitor-parking {
+    fill: $pastelblue;
+  } // visitor-parking
+
+  .open-parking {
+    fill: $pastellightblue;
+  } // open-parking
+
+  .reserved-parking {
+    fill: $pastelyellow;
+  } // reserved-parking
+
+  #parking-deck {
+    stroke: $green;
+  } // parking-deck
+
+  .building-label {
+    fill: $border;
+  } // building-label
+
+  .parking-label {
+    fill: $green;
+  } // parking-label
+
+  .small-label {
+    font-size: .8rem;
+  } // small-label
+
+  .medium-label {
+    font-size: 1.3rem;
+  } // medium-label
+
+  .large-label {
+    font-size: 1.7rem;
+  } // large-label
+} // svg
