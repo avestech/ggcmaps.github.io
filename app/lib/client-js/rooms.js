@@ -176,9 +176,24 @@ function addMap(mapLocation, building, floor) {
           });
 
           this.hammer.on('tap', function(ev) {
-            var room = ev.target.parentNode.id;
-            if (room.length === 4) {
-              activateRoom(ev.target.parentNode.id);
+            if (building === 'Campus') {
+              var target = ev.target.parentNode.id.toUpperCase();
+              if (target === 'A') {
+                changeFloor(target);
+              }
+              else {
+                for (var rbuilding in roomNames) {
+                  if (target === rbuilding) {
+                    changeFloor(rbuilding, '1');
+                  }
+                }
+              }
+            }
+            else {
+              var room = ev.target.parentNode.id;
+              if (room.length === 4 || room.length === 5) {
+                activateRoom(ev.target.parentNode.id);
+              }
             }
           });
 
@@ -510,7 +525,10 @@ function getMap(building, floor) {
       }
       break;
     case 'E':
-      if (floor === '2') {
+      if (floor === '3') {
+        newMap = buildingE[2];
+      }
+      else if (floor === '2') {
         newMap = buildingE[1];
       }
       else {
