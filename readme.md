@@ -3,6 +3,9 @@ Gwinnett Grizzlies Map
 
 **Repo URL:** *[https://github.com/soft-eng-practicum/ggm.git](https://github.com/soft-eng-practicum/ggm.git)*
 
+**Website URL**
+*[https://soft-eng-practicum.github.io/ggm/](https://soft-eng-practicum.github.io/ggm/)*
+
 **Process Tool:** *[Version One](https://www4.v1host.com/GeorgiaGwinnettCollege74/)*
 
 **Communication:** Slack Channel
