@@ -90,3 +90,33 @@ function hideElement(element, hide) {
     }
   }
 }
+
+function loadFile(element, file) {
+  return new Promise(function(resolve, reject) {
+
+    var req = new XMLHttpRequest();
+    req.open('GET', file, true);
+    req.onload = function() {
+      // if (req.readyState!==4) reject(Error(req.statusText));
+      if (req.status!==200) reject(Error(req.statusText));
+
+      var htmlElement = document.getElementById(element);
+      htmlElement.appendChild(convertToElement(req.response));
+
+      resolve(req.response);
+    };
+
+    req.onerror = function() {
+      reject(Error('Network Error'));
+    };
+
+    req.send();
+  });
+}
+
+function toggleEvent(ev, element, className) {
+  var target = document.getElementById(element);
+  if (ev.target.parentNode !== target && target.classList.contains(className)) {
+    target.classList.toggle(className);
+  }
+}
