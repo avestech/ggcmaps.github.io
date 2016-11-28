@@ -21,6 +21,15 @@
     @include span(6 of 15);
     padding: 0;
     padding-bottom: 15px;
+
+    ul {
+      li {
+        a {
+          font-size: .9rem;
+          line-height: 180%;
+        } // a
+      } // li
+    } // ul
   } // medium
 
   @include susy-breakpoint($large) {
