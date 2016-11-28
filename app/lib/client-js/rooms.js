@@ -26,6 +26,9 @@ var floorsL = ['1', '2', '3'];
 // JSON of room names
 var roomNames;
 
+// Help Documentation
+var helpFile = 'help.html';
+
 // Hiding the element or not
 var HIDE = true;
 var SHOW = false;
@@ -40,6 +43,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
   loadRooms().then(function(response) {
     // console.log(roomNames);
+  }, function(error) {
+    console.error('Failed!', error);
+  });
+
+  loadFile('helpbox', helpFile).then(function(response) {
+    // console.log('Help Content Loaded');
   }, function(error) {
     console.error('Failed!', error);
   });
