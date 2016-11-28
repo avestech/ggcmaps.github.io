@@ -181,6 +181,9 @@ function addMap(mapLocation, building, floor) {
               if (target === 'A') {
                 changeFloor(target);
               }
+              else if (target === 'C3') {
+                changeFloor(target, 'G');
+              }
               else {
                 for (var rbuilding in roomNames) {
                   if (target === rbuilding) {
