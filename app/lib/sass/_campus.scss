@@ -29,8 +29,19 @@ svg {
       .building {
         fill: darken($lightblue, 10);
       } // building
+
     } // building-group:hover
   } // building-group
+
+  .no-hover {
+    cursor: move;
+
+    &:hover {
+      .building {
+        fill: $lightblue;
+      } // building
+    } // no-hover:hover
+  } // no-hover
 
   .student-parking {
     fill: $pastelgreen;
