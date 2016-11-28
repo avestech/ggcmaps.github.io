@@ -1,0 +1,65 @@
+.help {
+  display: none;
+
+  section {
+    @include transition;
+    @include span(13 of 15);
+    @include box-shadow;
+    padding: 0;
+    background-color: $green;
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+    right: - span(15);
+
+    .title {
+      text-align: center;
+      // margin: 0 auto;
+
+      i {
+        float: left;
+        padding: .8rem;
+        display: inline-block;
+      } // i
+
+      h4 {
+        display: inline-block;
+        margin: 0 auto;
+        clear: left;
+        text-align: center;
+        font-size: 1.4rem;
+        padding: .8rem 0;
+      } // h4
+    } // title
+
+    .help-content {
+      overflow-y: scroll;
+    } // help-content
+
+    @include susy-breakpoint($small) {
+      @include span(9 of 15);
+      padding: 0;
+      padding-bottom: 15px;
+    } // small
+
+    @include susy-breakpoint($medium) {
+      @include span(6 of 15);
+      padding: 0;
+      padding-bottom: 15px;
+    } // medium
+
+    @include susy-breakpoint($large) {
+      @include span(3.5 of 15);
+      padding: 0;
+      padding-bottom: 15px;
+    } // large
+  } // section
+} // help
+
+.help-active {
+  display: block;
+  
+  section {
+    right: 0;
+  } // section
+} // help-active
