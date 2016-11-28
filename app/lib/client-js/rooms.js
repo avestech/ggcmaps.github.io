@@ -1,7 +1,7 @@
 // Buildings
 var campus = 'Building/(Campus)/campus.html';
 var buildingA = ['Building/A/First-Floor.html'];
-var buildingB; // TODO
+var buildingB = ['Building/B/first-floor.html', 'Building/B/second-floor.html', 'Building/B/third-floor.html'];
 var buildingC = ['Building/C/First-Floor.html', 'Building/C/Second-Floor.html'];
 var buildingC3 = ['Building/C3/Ground-Floor.html', 'Building/C3/First-Floor.html', 'Building/C3/Second-Floor.html'];
 var buildingD = ['Building/D/First-Floor.html', 'Building/D/Second-Floor.html'];
@@ -120,8 +120,9 @@ function addMap(mapLocation, building, floor) {
       // Remove all maps
       removeMap();
       // Add new map
+      // console.log(convertToElement(req.response));
       mapHolder.appendChild(convertToElement(req.response));
-
+      // console.log(mapHolder);
       // Set the map height to the browser's height and enable panZoomTiger
       var map = mapHolder.childNodes[0];
       map.style.height = getClientHeight();
@@ -390,7 +391,18 @@ function searchRoomNumber() {
           newFloor = undefined;
         break;
       case 'B':
-        alert('B Building not currently searchable');
+        if (roomNum[0] === '3') {
+          newBuilding = 'B';
+          newFloor = '3';
+        }
+        else if (roomNum[0] === '2') {
+          newBuilding = 'B';
+          newFloor = '2';
+        }
+        else {
+          newBuilding = 'B';
+          newFloor = '1';
+        }
         break;
       case 'C':
         if (roomNum[1] === '3') { // C3
@@ -516,7 +528,15 @@ function getMap(building, floor) {
       newMap = buildingA[0];
       break;
     case 'B':
-
+      if (floor === '3') {
+        newMap = buildingB[2];
+      }
+      else if (floor === '2') {
+        newMap = buildingB[1];
+      }
+      else {
+        newMap = buildingB[0];
+      }
       break;
     case 'C':
       if (floor === '1') {
