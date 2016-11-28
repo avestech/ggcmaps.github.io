@@ -483,6 +483,11 @@ body:after {
     padding: 0;
     padding-bottom: 15px;
   }
+  /* line 27, ../../app/lib/sass/_nav.scss */
+  .nav ul li a {
+    font-size: .9rem;
+    line-height: 180%;
+  }
 }
 @media (min-width: 70em) {
   /* line 1, ../../app/lib/sass/_nav.scss */
@@ -495,45 +500,45 @@ body:after {
     padding-bottom: 15px;
   }
 }
-/* line 32, ../../app/lib/sass/_nav.scss */
+/* line 41, ../../app/lib/sass/_nav.scss */
 .nav h1 {
   display: inline-block;
   padding: 8px 10px;
   width: auto;
 }
-/* line 38, ../../app/lib/sass/_nav.scss */
+/* line 47, ../../app/lib/sass/_nav.scss */
 .nav i {
   float: right;
   display: inline-block;
   padding: 10px;
 }
-/* line 46, ../../app/lib/sass/_nav.scss */
+/* line 55, ../../app/lib/sass/_nav.scss */
 .nav ul li {
   padding: 0 10px;
 }
 
-/* line 52, ../../app/lib/sass/_nav.scss */
+/* line 61, ../../app/lib/sass/_nav.scss */
 .nav-active {
   left: 0;
 }
 
-/* line 56, ../../app/lib/sass/_nav.scss */
+/* line 65, ../../app/lib/sass/_nav.scss */
 .menu-section {
   margin-top: 5px;
   border-bottom: thin solid #fff;
 }
 
-/* line 61, ../../app/lib/sass/_nav.scss */
+/* line 70, ../../app/lib/sass/_nav.scss */
 .dining {
   display: none;
 }
-/* line 63, ../../app/lib/sass/_nav.scss */
+/* line 72, ../../app/lib/sass/_nav.scss */
 .dining li {
   padding: 0;
   padding-left: 20px;
 }
 
-/* line 69, ../../app/lib/sass/_nav.scss */
+/* line 78, ../../app/lib/sass/_nav.scss */
 .dining-active {
   -moz-transition-property: height;
   -o-transition-property: height;
@@ -546,12 +551,12 @@ body:after {
   background: #0b7cbc;
   display: block;
 }
-/* line 75, ../../app/lib/sass/_nav.scss */
+/* line 84, ../../app/lib/sass/_nav.scss */
 .dining-active li a {
   padding-left: 10px;
 }
 
-/* line 82, ../../app/lib/sass/_nav.scss */
+/* line 91, ../../app/lib/sass/_nav.scss */
 .campus-info {
   -moz-transition: all 1s;
   -o-transition: all 1s;
@@ -569,16 +574,16 @@ body:after {
   margin-top: 60px;
   text-align: center;
 }
-/* line 91, ../../app/lib/sass/_nav.scss */
+/* line 100, ../../app/lib/sass/_nav.scss */
 .campus-info h4 {
   color: #00704a;
   padding: .3rem .8rem;
 }
-/* line 96, ../../app/lib/sass/_nav.scss */
+/* line 105, ../../app/lib/sass/_nav.scss */
 .campus-info .menu-section {
   border-bottom-color: #00704a;
 }
-/* line 100, ../../app/lib/sass/_nav.scss */
+/* line 109, ../../app/lib/sass/_nav.scss */
 .campus-info section {
   width: 100%;
   padding: .2rem .8rem;
@@ -587,7 +592,7 @@ body:after {
   vertical-align: middle;
   margin: auto;
 }
-/* line 108, ../../app/lib/sass/_nav.scss */
+/* line 117, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key {
   padding: .3rem .2rem;
   width: 16.66667%;
@@ -595,17 +600,17 @@ body:after {
   padding-left: 0.83333%;
   padding-right: 0.83333%;
 }
-/* line 112, ../../app/lib/sass/_nav.scss */
+/* line 121, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key p {
   color: #00704a;
   font-size: .7rem;
   line-height: normal;
 }
-/* line 118, ../../app/lib/sass/_nav.scss */
+/* line 127, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key .color-label {
   margin: auto;
 }
-/* line 122, ../../app/lib/sass/_nav.scss */
+/* line 131, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key #staff-parking {
   border-radius: 10px;
   background-color: #ffe5c6;
@@ -613,7 +618,7 @@ body:after {
   width: 10px;
   height: 10px;
 }
-/* line 126, ../../app/lib/sass/_nav.scss */
+/* line 135, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key #open-parking {
   border-radius: 10px;
   background-color: #d8eff5;
@@ -621,7 +626,7 @@ body:after {
   width: 10px;
   height: 10px;
 }
-/* line 130, ../../app/lib/sass/_nav.scss */
+/* line 139, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key #reserved-parking {
   border-radius: 10px;
   background-color: #fcf5c7;
@@ -629,7 +634,7 @@ body:after {
   width: 10px;
   height: 10px;
 }
-/* line 134, ../../app/lib/sass/_nav.scss */
+/* line 143, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key #resident-parking {
   border-radius: 10px;
   background-color: #f4c9c4;
@@ -637,7 +642,7 @@ body:after {
   width: 10px;
   height: 10px;
 }
-/* line 138, ../../app/lib/sass/_nav.scss */
+/* line 147, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key #student-parking {
   border-radius: 10px;
   background-color: #deedcd;
@@ -645,7 +650,7 @@ body:after {
   width: 10px;
   height: 10px;
 }
-/* line 142, ../../app/lib/sass/_nav.scss */
+/* line 151, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key #visitor-parking {
   border-radius: 10px;
   background-color: #afd7ef;
@@ -654,7 +659,7 @@ body:after {
   height: 10px;
 }
 @media (min-width: 30em) {
-  /* line 82, ../../app/lib/sass/_nav.scss */
+  /* line 91, ../../app/lib/sass/_nav.scss */
   .campus-info {
     width: 86.66667%;
     float: left;
@@ -663,11 +668,11 @@ body:after {
     margin-left: 6.66667%;
     margin-right: 6.66667%;
   }
-  /* line 156, ../../app/lib/sass/_nav.scss */
+  /* line 165, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key p {
     font-size: 1rem;
   }
-  /* line 160, ../../app/lib/sass/_nav.scss */
+  /* line 169, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #staff-parking {
     border-radius: 15px;
     background-color: #ffe5c6;
@@ -675,7 +680,7 @@ body:after {
     width: 15px;
     height: 15px;
   }
-  /* line 164, ../../app/lib/sass/_nav.scss */
+  /* line 173, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #open-parking {
     border-radius: 15px;
     background-color: #d8eff5;
@@ -683,7 +688,7 @@ body:after {
     width: 15px;
     height: 15px;
   }
-  /* line 168, ../../app/lib/sass/_nav.scss */
+  /* line 177, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #reserved-parking {
     border-radius: 15px;
     background-color: #fcf5c7;
@@ -691,7 +696,7 @@ body:after {
     width: 15px;
     height: 15px;
   }
-  /* line 172, ../../app/lib/sass/_nav.scss */
+  /* line 181, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #resident-parking {
     border-radius: 15px;
     background-color: #f4c9c4;
@@ -699,7 +704,7 @@ body:after {
     width: 15px;
     height: 15px;
   }
-  /* line 176, ../../app/lib/sass/_nav.scss */
+  /* line 185, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #student-parking {
     border-radius: 15px;
     background-color: #deedcd;
@@ -707,7 +712,7 @@ body:after {
     width: 15px;
     height: 15px;
   }
-  /* line 180, ../../app/lib/sass/_nav.scss */
+  /* line 189, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #visitor-parking {
     border-radius: 15px;
     background-color: #afd7ef;
@@ -717,7 +722,7 @@ body:after {
   }
 }
 @media (min-width: 39em) {
-  /* line 82, ../../app/lib/sass/_nav.scss */
+  /* line 91, ../../app/lib/sass/_nav.scss */
   .campus-info {
     width: 26.66667%;
     float: left;
@@ -727,17 +732,17 @@ body:after {
     margin: 10px;
     text-align: left;
   }
-  /* line 193, ../../app/lib/sass/_nav.scss */
+  /* line 202, ../../app/lib/sass/_nav.scss */
   .campus-info h4 {
     padding: .8rem 1rem;
     text-align: center;
   }
-  /* line 198, ../../app/lib/sass/_nav.scss */
+  /* line 207, ../../app/lib/sass/_nav.scss */
   .campus-info section {
     padding: .8rem;
     display: inline-block;
   }
-  /* line 202, ../../app/lib/sass/_nav.scss */
+  /* line 211, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key {
     width: 100%;
     display: flex;
@@ -745,17 +750,17 @@ body:after {
     vertical-align: middle;
     padding: .3rem 0;
   }
-  /* line 209, ../../app/lib/sass/_nav.scss */
+  /* line 218, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key p {
     margin-left: .5rem;
     line-height: 120%;
     font-size: 1.2rem;
   }
-  /* line 215, ../../app/lib/sass/_nav.scss */
+  /* line 224, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key .color-label {
     margin: 0;
   }
-  /* line 219, ../../app/lib/sass/_nav.scss */
+  /* line 228, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #staff-parking {
     border-radius: 20px;
     background-color: #ffe5c6;
@@ -763,7 +768,7 @@ body:after {
     width: 20px;
     height: 20px;
   }
-  /* line 223, ../../app/lib/sass/_nav.scss */
+  /* line 232, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #open-parking {
     border-radius: 20px;
     background-color: #d8eff5;
@@ -771,7 +776,7 @@ body:after {
     width: 20px;
     height: 20px;
   }
-  /* line 227, ../../app/lib/sass/_nav.scss */
+  /* line 236, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #reserved-parking {
     border-radius: 20px;
     background-color: #fcf5c7;
@@ -779,7 +784,7 @@ body:after {
     width: 20px;
     height: 20px;
   }
-  /* line 231, ../../app/lib/sass/_nav.scss */
+  /* line 240, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #resident-parking {
     border-radius: 20px;
     background-color: #f4c9c4;
@@ -787,7 +792,7 @@ body:after {
     width: 20px;
     height: 20px;
   }
-  /* line 235, ../../app/lib/sass/_nav.scss */
+  /* line 244, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #student-parking {
     border-radius: 20px;
     background-color: #deedcd;
@@ -795,7 +800,7 @@ body:after {
     width: 20px;
     height: 20px;
   }
-  /* line 239, ../../app/lib/sass/_nav.scss */
+  /* line 248, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #visitor-parking {
     border-radius: 20px;
     background-color: #afd7ef;
@@ -805,7 +810,7 @@ body:after {
   }
 }
 @media (min-width: 70em) {
-  /* line 82, ../../app/lib/sass/_nav.scss */
+  /* line 91, ../../app/lib/sass/_nav.scss */
   .campus-info {
     width: 16.66667%;
     float: left;
@@ -900,4 +905,94 @@ svg .medium-label {
 /* line 90, ../../app/lib/sass/_campus.scss */
 svg .large-label {
   font-size: 1.7rem;
+}
+
+/* line 1, ../../app/lib/sass/_help.scss */
+.help {
+  display: none;
+}
+/* line 4, ../../app/lib/sass/_help.scss */
+.help section {
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  width: 86.66667%;
+  float: left;
+  padding-left: 0.66667%;
+  padding-right: 0.66667%;
+  -moz-box-shadow: 1px 2px 5px #333333;
+  -webkit-box-shadow: 1px 2px 5px #333333;
+  box-shadow: 1px 2px 5px #333333;
+  padding: 0;
+  background-color: #00704a;
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  right: -125%;
+}
+/* line 15, ../../app/lib/sass/_help.scss */
+.help section .title {
+  text-align: center;
+}
+/* line 19, ../../app/lib/sass/_help.scss */
+.help section .title i {
+  float: left;
+  padding: .8rem;
+  display: inline-block;
+}
+/* line 25, ../../app/lib/sass/_help.scss */
+.help section .title h4 {
+  display: inline-block;
+  margin: 0 auto;
+  clear: left;
+  text-align: center;
+  font-size: 1.4rem;
+  padding: .8rem 0;
+}
+/* line 35, ../../app/lib/sass/_help.scss */
+.help section .help-content {
+  overflow-y: scroll;
+}
+@media (min-width: 30em) {
+  /* line 4, ../../app/lib/sass/_help.scss */
+  .help section {
+    width: 60%;
+    float: left;
+    padding-left: 0.66667%;
+    padding-right: 0.66667%;
+    padding: 0;
+    padding-bottom: 15px;
+  }
+}
+@media (min-width: 39em) {
+  /* line 4, ../../app/lib/sass/_help.scss */
+  .help section {
+    width: 40%;
+    float: left;
+    padding-left: 0.66667%;
+    padding-right: 0.66667%;
+    padding: 0;
+    padding-bottom: 15px;
+  }
+}
+@media (min-width: 70em) {
+  /* line 4, ../../app/lib/sass/_help.scss */
+  .help section {
+    width: 23.33333%;
+    float: left;
+    padding-left: 0.66667%;
+    padding-right: 0.66667%;
+    padding: 0;
+    padding-bottom: 15px;
+  }
+}
+
+/* line 59, ../../app/lib/sass/_help.scss */
+.help-active {
+  display: block;
+}
+/* line 62, ../../app/lib/sass/_help.scss */
+.help-active section {
+  right: 0;
 }
