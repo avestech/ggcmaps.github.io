@@ -6,9 +6,9 @@ var buildingC = ['Building/C/First-Floor.html', 'Building/C/Second-Floor.html'];
 var buildingC3 = ['Building/C3/Ground-Floor.html', 'Building/C3/First-Floor.html', 'Building/C3/Second-Floor.html'];
 var buildingD = ['Building/D/First-Floor.html', 'Building/D/Second-Floor.html'];
 var buildingE = ['Building/E/First-Floor.html', 'Building/E/Second-Floor.html', 'Building/E/Third-Floor.html'];
-var buildingF; // TODO
+var buildingF = ['Building/F/First-Floor.html', 'Building/F/Second-Floor.html'];
 var buildingH = ['Building/H/First-Floor.html', 'Building/H/Second-Floor.html', 'Building/H/Third-Floor.html'];
-var buildingI; // TODO
+var buildingI = ['Building/I/First-Floor.html', 'Building/I/Second-Floor.html', 'Building/I/Third-Floor.html'];
 var buildingL = ['Building/L/First-Floor.html', 'Building/L/Second-Floor.html', 'Building/L/Third-Floor.html'];
 
 // Floors
@@ -417,27 +417,34 @@ function searchRoomNumber() {
         }
         break;
       case 'D':
-      if (roomNum[0] === '2') {
-        newBuilding = 'D';
-        newFloor = '2';
-      }
-      else if (roomNum[0] === '1') {
-        newBuilding = 'D';
-        newFloor = '1';
-      }
+        if (roomNum[0] === '2') {
+          newBuilding = 'D';
+          newFloor = '2';
+        }
+        else if (roomNum[0] === '1') {
+          newBuilding = 'D';
+          newFloor = '1';
+        }
         break;
       case 'E':
-      if (roomNum[0] === '2') {
-        newBuilding = 'E';
-        newFloor = '2';
-      }
-      else if (roomNum[0] === '1') {
-        newBuilding = 'E';
-        newFloor = '1';
-      }
+        if (roomNum[0] === '2') {
+          newBuilding = 'E';
+          newFloor = '2';
+        }
+        else if (roomNum[0] === '1') {
+          newBuilding = 'E';
+          newFloor = '1';
+        }
         break;
       case 'F':
-        alert('F Building not currently searchable');
+        if (roomNum[0] === '2') {
+          newBuilding = 'F';
+          newFloor = '2';
+        }
+        else if (roomNum[0] === '1') {
+          newBuilding = 'F';
+          newFloor = '1';
+        }
         break;
       case 'H':
         if (roomNum[0] === '3') {
@@ -454,7 +461,18 @@ function searchRoomNumber() {
         }
         break;
       case 'I':
-        alert('I Building not currently searchable');
+        if (roomNum[0] === '3') {
+          newBuilding = 'I';
+          newFloor = '3';
+        }
+        else if (roomNum[0] === '2') {
+          newBuilding = 'I';
+          newFloor = '2';
+        }
+        else if (roomNum[0] === '1') {
+          newBuilding = 'I';
+          newFloor = '1';
+        }
         break;
       case 'L':
         if (roomNum[0] === '3') {
@@ -536,7 +554,12 @@ function getMap(building, floor) {
       }
       break;
     case 'F':
-
+      if (floor === '2') {
+        newMap = buildingF[1];
+      }
+      else {
+        newMap = buildingF[0];
+      }
       break;
     case 'H':
       if (floor === '3') {
@@ -550,7 +573,15 @@ function getMap(building, floor) {
       }
       break;
     case 'I':
-
+      if (floor === '3') {
+        newMap = buildingI[2];
+      }
+      else if (floor === '2') {
+        newMap = buildingI[1];
+      }
+      else {
+        newMap = buildingI[0];
+      }
       break;
     case 'L':
       if (floor === '3') {
