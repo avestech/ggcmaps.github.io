@@ -49,7 +49,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   loadFile('helpbox', helpFile).then(function(response) {
     // console.log('Help Content Loaded');
-    openTab('helpbox');
   }, function(error) {
     console.error('Failed!', error);
   });
