@@ -12,7 +12,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400i" rel="stylesheet">
 	</head>
 	<body>
-		<div onclick="toggleTab(event, 'helpbox')" class="content">
+		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'devbox');" class="content">
 			<div class="search-menu">
 				<div class="popup-group">
 					<i id="menu" class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
@@ -78,6 +78,7 @@
 			</div> <!-- campus-info -->
 
 			<div class="tab" id="helpbox"></div>
+			<div class="tab" id="devbox"></div>
 
 			<div id="svg-holder" class="svg-holder">
 
@@ -128,6 +129,7 @@
 			<div class="menu-section"></div>
 			<ul>
 				<li onclick="openTab('helpbox')"><a>Get Help</a></li>
+				<li onclick="openTab('devbox')"><a>Created By</a></li>
 			</ul>
 		</div> <!-- nav -->
 
