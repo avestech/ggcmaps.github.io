@@ -116,7 +116,18 @@ function loadFile(element, file) {
 
 function toggleTab(ev, element) {
   var target = document.getElementById(element);
-  if (ev.target.parentNode !== target && target.classList.contains('tab-active')) {
+  if (!isDescendant(target, ev.target) && target.classList.contains('tab-active')) {
     target.classList.toggle('tab-active');
   }
+}
+
+function isDescendant(parent, child) {
+  var node = child.parentNode;
+  while (node !== null) {
+    if (node === parent) {
+      return true;
+    }
+    node = node.parentNode;
+  }
+  return false;
 }
