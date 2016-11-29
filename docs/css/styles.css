@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   overflow: hidden;
   *zoom: 1;
-  font-family: Open Sans, Gill Sans MT, Gill Sans, Corbel, Arial;
+  font-family: Gill Sans MT, Gill Sans, Corbel, Arial;
   font-size: 1.2rem;
   font-weight: normal;
   color: #fff;
@@ -910,17 +910,18 @@ svg .large-label {
 /* line 1, ../../app/lib/sass/_infotab.scss */
 .tab {
   display: none;
+  font-family: Open Sans;
 }
-/* line 4, ../../app/lib/sass/_infotab.scss */
+/* line 5, ../../app/lib/sass/_infotab.scss */
 .tab section {
   -moz-transition: all 1s;
   -o-transition: all 1s;
   -webkit-transition: all 1s;
   transition: all 1s;
-  width: 86.66667%;
+  width: 100%;
   float: left;
-  padding-left: 0.66667%;
-  padding-right: 0.66667%;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
   -moz-box-shadow: 1px 2px 5px #333333;
   -webkit-box-shadow: 1px 2px 5px #333333;
   box-shadow: 1px 2px 5px #333333;
@@ -931,31 +932,51 @@ svg .large-label {
   overflow: hidden;
   right: -125%;
 }
-/* line 15, ../../app/lib/sass/_infotab.scss */
-.tab section .title {
-  text-align: center;
-}
-/* line 19, ../../app/lib/sass/_infotab.scss */
+/* line 17, ../../app/lib/sass/_infotab.scss */
 .tab section .title i {
   float: left;
   padding: .8rem;
   display: inline-block;
 }
-/* line 25, ../../app/lib/sass/_infotab.scss */
+/* line 23, ../../app/lib/sass/_infotab.scss */
 .tab section .title h4 {
   display: inline-block;
-  margin: 0 auto;
-  clear: left;
-  text-align: center;
   font-size: 1.4rem;
   padding: .8rem 0;
+  right: 0;
+  margin-left: 29.16667%;
 }
-/* line 35, ../../app/lib/sass/_infotab.scss */
+/* line 32, ../../app/lib/sass/_infotab.scss */
+.tab section .menu-section {
+  margin-bottom: .5rem;
+}
+/* line 36, ../../app/lib/sass/_infotab.scss */
 .tab section .tab-content {
-  overflow-y: scroll;
+  height: 100%;
+  overflow-y: auto;
+  padding: .5rem .8rem;
+  padding-bottom: 2rem;
+}
+/* line 42, ../../app/lib/sass/_infotab.scss */
+.tab section .tab-content p {
+  padding-bottom: .3rem;
+  font-weight: 300;
+  line-height: 120%;
+  font-size: 1rem;
+}
+/* line 49, ../../app/lib/sass/_infotab.scss */
+.tab section .tab-content h5 {
+  border-top: thin solid #85c446;
+  border-bottom: thin solid #85c446;
+  padding: .4rem;
+  margin: .3rem;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.2rem;
+  text-align: center;
 }
 @media (min-width: 30em) {
-  /* line 4, ../../app/lib/sass/_infotab.scss */
+  /* line 5, ../../app/lib/sass/_infotab.scss */
   .tab section {
     width: 60%;
     float: left;
@@ -966,7 +987,7 @@ svg .large-label {
   }
 }
 @media (min-width: 39em) {
-  /* line 4, ../../app/lib/sass/_infotab.scss */
+  /* line 5, ../../app/lib/sass/_infotab.scss */
   .tab section {
     width: 40%;
     float: left;
@@ -977,22 +998,44 @@ svg .large-label {
   }
 }
 @media (min-width: 70em) {
-  /* line 4, ../../app/lib/sass/_infotab.scss */
+  /* line 5, ../../app/lib/sass/_infotab.scss */
   .tab section {
-    width: 23.33333%;
+    width: 26.66667%;
     float: left;
     padding-left: 0.66667%;
     padding-right: 0.66667%;
     padding: 0;
     padding-bottom: 15px;
   }
+  /* line 79, ../../app/lib/sass/_infotab.scss */
+  .tab section .title h4 {
+    margin-left: 37.5%;
+    font-size: 1.3rem;
+  }
+  /* line 85, ../../app/lib/sass/_infotab.scss */
+  .tab section .menu-section {
+    margin-bottom: .3rem;
+  }
+  /* line 89, ../../app/lib/sass/_infotab.scss */
+  .tab section .tab-content {
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+  }
+  /* line 93, ../../app/lib/sass/_infotab.scss */
+  .tab section .tab-content p {
+    font-size: .9rem;
+  }
+  /* line 97, ../../app/lib/sass/_infotab.scss */
+  .tab section .tab-content h5 {
+    font-size: 1.1rem;
+  }
 }
 
-/* line 59, ../../app/lib/sass/_infotab.scss */
+/* line 105, ../../app/lib/sass/_infotab.scss */
 .tab-active {
   display: block;
 }
-/* line 62, ../../app/lib/sass/_infotab.scss */
+/* line 108, ../../app/lib/sass/_infotab.scss */
 .tab-active section {
   right: 0;
 }
