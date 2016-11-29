@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   loadFile('helpbox', helpFile).then(function(response) {
     // console.log('Help Content Loaded');
+    openTab('helpbox');
   }, function(error) {
     console.error('Failed!', error);
   });
@@ -186,6 +187,7 @@ function addMap(mapLocation, building, floor) {
           });
 
           this.hammer.on('tap', function(ev) {
+            toggleTab(ev, 'helpbox');
             if (building === 'Campus') {
               var target = ev.target.parentNode.id.toUpperCase();
               if (target === 'A') {
