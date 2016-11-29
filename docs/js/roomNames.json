@@ -1,6 +1,88 @@
 {
-  "A": {},
-  "B": {},
+  "A": {
+    "1": [
+      {
+        "name": "chick-fil-a",
+        "id": "1800"
+      },
+      {
+        "name": "panda-express",
+        "id": "1800:"
+      },
+      {
+        "name": "panda",
+        "id": "1800"
+      },
+      {
+        "name": "moe's-southwest-grill",
+        "id": "1800"
+      },
+      {
+        "name": "moe's",
+        "id": "1800"
+      },
+      {
+        "name": "moes",
+        "id": "1800"
+      },
+      {
+        "name": "pod-market",
+        "id": "1825"
+      },
+      {
+        "name": "pod",
+        "id": "1825"
+      },
+      {
+        "name": "the-den",
+        "id": "1510"
+      },
+      {
+        "name": "den",
+        "id": "1510"
+      },
+      {
+        "name": "dining-services",
+        "id": "1850"
+      },
+      {
+        "name": "technology-help-desk",
+        "id": "1400"
+      }
+    ]
+  },
+  "B": {
+    "1": [
+      {
+        "name": "einstein-bros-bagels",
+        "id": "einstein-bros-bagels"
+      },
+      {
+        "name": "einstein-bros",
+        "id": "einstein-bros-bagels"
+      },
+      {
+        "name": "einstein's",
+        "id": "einstein-bros-bagels"
+      }
+    ],
+    "2": [
+      {
+        "name": "human-resources",
+        "id": "2500"
+      }
+    ],
+    "3": [
+      {
+        "name": "president's-office",
+        "id": "3500"
+      },
+      {
+        "name": "office-of-the-president",
+        "id": "3500"
+      }
+    ]
+  },
   "C": {
     "1": [
       {
@@ -25,13 +107,135 @@
       }
     ]
   },
-  "D": {},
+  "D": {
+    "1": [
+      {
+        "name": "testing-services",
+        "id": "1301"
+      },
+      {
+        "name": "testing",
+        "id": "1301"
+      },
+      {
+        "name": "disability-service",
+        "id": ""
+      },
+      {
+        "name": "disability",
+        "id": ""
+      },
+      {
+        "name": "parking-services",
+        "id": "1123"
+      },
+      {
+        "name": "parking",
+        "id": "1123"
+      },
+      {
+        "name": "registrar",
+        "id": "1129"
+      },
+      {
+        "name": "student-accounts",
+        "id": "1147"
+      }
+    ],
+    "2": [
+      {
+        "name": "office-of-internationalization",
+        "id": "2100"
+      },
+      {
+        "name": "internationalization",
+        "id": "2100"
+      }
+    ]
+  },
   "E": {
     "1": [
       {
         "name": "game-room",
         "id": "game-room"
+      },
+      {
+        "name": "dining-hall",
+        "id": "dining-hall"
+      },
+      {
+        "name": "dining",
+        "id": "dining-hall"
+      },
+      {
+        "name": "multi-purpose-room",
+        "id": "multi-purpose-room"
+      },
+      {
+        "name": "private-dining",
+        "id": "private-dining"
+      },
+      {
+        "name": "food-stations",
+        "id": "food-stations"
+      },
+      {
+        "name": "kitchen-area",
+        "id": "kitchen-area"
+      },
+      {
+        "name": "kitchen",
+        "id": "kitchen-area"
+      },
+      {
+        "name": "outdoor-dining",
+        "id": "outdoor-dining"
       }
+    ],
+    "2": [
+      {
+        "name": "bookstore",
+        "id": "bookstore"
+      },
+      {
+        "name": "terrace",
+        "id": "terrace"
+      },
+      {
+        "name": "lvis",
+        "id": "lvis"
+      },
+      {
+        "name": "catering-kitchen",
+        "id": "catering-kitchen"
+      },
+      {
+        "name": "lounge",
+        "id": "lounge"
+      },
+      {
+        "name": "info-desk",
+        "id": "info-desk"
+      },
+      {
+        "name": "career-services",
+        "id": "2130"
+      },
+      {
+        "name": "office-of-career-services",
+        "id": "2130"
+      },
+      {
+        "name": "student-integrity",
+        "id": "2150"
+      },
+      {
+        "name": "office-of-student-integrity",
+        "id": "2150"
+      }
+    ],
+    "3": [
+
     ]
   },
   "F": {},
