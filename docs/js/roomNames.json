@@ -235,11 +235,164 @@
       }
     ],
     "3": [
-
+      {
+        "name": "mail-room",
+        "id": "3103"
+      },
+      {
+        "name": "claw-card-office",
+        "id": "3107"
+      },
+      {
+        "name": "claw-card",
+        "id": "3107"
+      },
+      {
+        "name": "office-of-get-involved",
+        "id": "3120"
+      },
+      {
+        "name": "get-involved",
+        "id": "3120"
+      },
+      {
+        "name": "student-involvement-center",
+        "id": "3130"
+      },
+      {
+        "name": "rso-lounge",
+        "id": "3130"
+      },
+      {
+        "name": "rso",
+        "id": "3130"
+      },
+      {
+        "name": "globe-office",
+        "id": "3151"
+      },
+      {
+        "name": "globe",
+        "id": "3151"
+      },
+      {
+        "name": "office-of-student-affairs",
+        "id": "3140"
+      },
+      {
+        "name": "student-affairs",
+        "id": "3140"
+      }
     ]
   },
-  "F": {},
+  "F": {
+    "1": [
+      {
+        "name": "jr-olympic-pool",
+        "id": "jr-olympic-pool"
+      },
+      {
+        "name": "swimming-pool",
+        "id": "jr-olympic-pool"
+      },
+      {
+        "name": "basketball-court",
+        "id": "basketball-court"
+      },
+      {
+        "name": "basketball",
+        "id": "basketball-court"
+      },
+      {
+        "name": "racquet-ball",
+        "id": "racquet-ball-court-1"
+      },
+      {
+        "name": "racquet-ball-court",
+        "id": "racquet-ball-court-1"
+      },
+      {
+        "name": "racquet-ball-court-1",
+        "id": "racquet-ball-court-1"
+      },
+      {
+        "name": "racquet-ball-court-2",
+        "id": "racquet-ball-court-2"
+      },
+      {
+        "name": "racquet-ball-court-3",
+        "id": "racquet-ball-court-3"
+      }
+    ],
+    "2": [
+      {
+        "name": "weight-machines",
+        "id": "weight-machines"
+      },
+      {
+        "name": "free-weights",
+        "id": "free-weights"
+      },
+      {
+        "name": "aerobics",
+        "id": "aerobics"
+      },
+      {
+        "name": "spin-room",
+        "id": "spin-room"
+      },
+      {
+        "name": "cardio",
+        "id": "cardio"
+      },
+      {
+        "name": "elevated-track",
+        "id": "elevated-track"
+      }
+    ]
+  },
   "H": {},
   "I": {},
-  "L": {}
+  "L": {
+    "1": [
+      {
+        "name": "starbucks",
+        "id": "1102"
+      },
+      {
+        "name": "circulation-desk",
+        "id": "1136"
+      }
+    ],
+    "3": [
+      {
+        "name": "heritage-room",
+        "id": "3148"
+      },
+      {
+        "name": "archives-and-special-collections",
+        "id": "3146"
+      },
+      {
+        "name": "grand-reading-room",
+        "id": "3111"
+      },
+      {
+        "name": "grand-reading",
+        "id": "3111"
+      },
+      {
+        "name": "quiet-reading-room",
+        "id": "3111"
+      },
+      {
+        "name": "quiet-reading",
+        "id": "3111"
+      },
+      {
+        "name": "reading-room",
+        "id": "3111"
+      }
+    ]
+  }
 }
