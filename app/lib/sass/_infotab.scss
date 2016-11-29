@@ -1,9 +1,10 @@
 .tab {
   display: none;
+  font-family: $tab-font;
 
   section {
     @include transition;
-    @include span(13 of 15);
+    @include span(12);
     @include box-shadow;
     padding: 0;
     background-color: $green;
@@ -13,9 +14,6 @@
     right: - span(15);
 
     .title {
-      text-align: center;
-      // margin: 0 auto;
-
       i {
         float: left;
         padding: .8rem;
@@ -24,16 +22,40 @@
 
       h4 {
         display: inline-block;
-        margin: 0 auto;
-        clear: left;
-        text-align: center;
         font-size: 1.4rem;
         padding: .8rem 0;
+        right: 0;
+        @include pre(3.5);
       } // h4
     } // title
 
+    .menu-section {
+      margin-bottom: .5rem;
+    } // menu-section
+
     .tab-content {
-      overflow-y: scroll;
+      height: 100%;
+      overflow-y: auto;
+      padding: .5rem .8rem;
+      padding-bottom: 2rem;
+
+      p {
+        padding-bottom: .3rem;
+        font-weight: 300;
+        line-height: 120%;
+        font-size: 1rem;
+      } // p
+
+      h5 {
+        border-top: thin solid $lightgreen;
+        border-bottom: thin solid $lightgreen;
+        padding: .4rem;
+        margin: .3rem;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 1.2rem;
+        text-align: center;
+      } // h5
     } // tab-content
 
     @include susy-breakpoint($small) {
@@ -49,9 +71,33 @@
     } // medium
 
     @include susy-breakpoint($large) {
-      @include span(3.5 of 15);
+      @include span(4 of 15);
       padding: 0;
       padding-bottom: 15px;
+
+      .title {
+        h4 {
+          @include pre(4.5);
+          font-size: 1.3rem;
+        } // h4
+      } // title
+
+      .menu-section {
+        margin-bottom: .3rem;
+      } // menu-section
+
+      .tab-content {
+        padding-top: 0;
+        padding-bottom: 1.5rem;
+
+        p {
+          font-size: .9rem;
+        } // p
+
+        h5 {
+          font-size: 1.1rem;
+        } // h5
+      } // tab-content
     } // large
   } // section
 } // tab
