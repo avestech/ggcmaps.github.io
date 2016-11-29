@@ -932,48 +932,76 @@ svg .large-label {
   overflow: hidden;
   right: -125%;
 }
-/* line 17, ../../app/lib/sass/_infotab.scss */
+/* line 16, ../../app/lib/sass/_infotab.scss */
+.tab section .title {
+  min-height: 42px;
+}
+/* line 19, ../../app/lib/sass/_infotab.scss */
 .tab section .title i {
-  float: left;
-  padding: .8rem;
-  display: inline-block;
+  top: 10px;
+  left: 10px;
+  position: absolute;
 }
-/* line 23, ../../app/lib/sass/_infotab.scss */
+/* line 25, ../../app/lib/sass/_infotab.scss */
 .tab section .title h4 {
-  display: inline-block;
   font-size: 1.4rem;
-  padding: .8rem 0;
-  right: 0;
-  margin-left: 29.16667%;
+  position: relative;
+  text-align: center;
+  padding-bottom: 10px;
+  top: 10px;
 }
-/* line 32, ../../app/lib/sass/_infotab.scss */
+/* line 34, ../../app/lib/sass/_infotab.scss */
 .tab section .menu-section {
   margin-bottom: .5rem;
 }
-/* line 36, ../../app/lib/sass/_infotab.scss */
+/* line 38, ../../app/lib/sass/_infotab.scss */
 .tab section .tab-content {
   height: 100%;
   overflow-y: auto;
   padding: .5rem .8rem;
   padding-bottom: 2rem;
 }
-/* line 42, ../../app/lib/sass/_infotab.scss */
+/* line 44, ../../app/lib/sass/_infotab.scss */
 .tab section .tab-content p {
   padding-bottom: .3rem;
   font-weight: 300;
   line-height: 120%;
   font-size: 1rem;
 }
-/* line 49, ../../app/lib/sass/_infotab.scss */
+/* line 51, ../../app/lib/sass/_infotab.scss */
 .tab section .tab-content h5 {
-  border-top: thin solid #85c446;
-  border-bottom: thin solid #85c446;
+  border-top: thin solid #63cae1;
+  border-bottom: thin solid #63cae1;
   padding: .4rem;
   margin: .3rem;
   font-weight: 400;
   font-style: italic;
   font-size: 1.2rem;
   text-align: center;
+}
+/* line 62, ../../app/lib/sass/_infotab.scss */
+.tab section .tab-content .tab-group {
+  margin: auto;
+  margin-bottom: .8rem;
+  text-align: center;
+}
+/* line 67, ../../app/lib/sass/_infotab.scss */
+.tab section .tab-content .tab-group img {
+  border-radius: 50%;
+  margin: .2rem;
+  padding: .2rem;
+  width: 150px;
+  border: medium solid #63cae1;
+}
+/* line 75, ../../app/lib/sass/_infotab.scss */
+.tab section .tab-content .tab-group a {
+  line-height: 120%;
+  font-size: 1rem;
+  font-weight: 300;
+}
+/* line 80, ../../app/lib/sass/_infotab.scss */
+.tab section .tab-content .tab-group a:hover {
+  color: #63cae1;
 }
 @media (min-width: 30em) {
   /* line 5, ../../app/lib/sass/_infotab.scss */
@@ -1007,35 +1035,34 @@ svg .large-label {
     padding: 0;
     padding-bottom: 15px;
   }
-  /* line 79, ../../app/lib/sass/_infotab.scss */
+  /* line 105, ../../app/lib/sass/_infotab.scss */
   .tab section .title h4 {
-    margin-left: 37.5%;
     font-size: 1.3rem;
   }
-  /* line 85, ../../app/lib/sass/_infotab.scss */
+  /* line 111, ../../app/lib/sass/_infotab.scss */
   .tab section .menu-section {
     margin-bottom: .3rem;
   }
-  /* line 89, ../../app/lib/sass/_infotab.scss */
+  /* line 115, ../../app/lib/sass/_infotab.scss */
   .tab section .tab-content {
     padding-top: 0;
     padding-bottom: 1.5rem;
   }
-  /* line 93, ../../app/lib/sass/_infotab.scss */
+  /* line 119, ../../app/lib/sass/_infotab.scss */
   .tab section .tab-content p {
     font-size: .9rem;
   }
-  /* line 97, ../../app/lib/sass/_infotab.scss */
+  /* line 123, ../../app/lib/sass/_infotab.scss */
   .tab section .tab-content h5 {
     font-size: 1.1rem;
   }
 }
 
-/* line 105, ../../app/lib/sass/_infotab.scss */
+/* line 131, ../../app/lib/sass/_infotab.scss */
 .tab-active {
   display: block;
 }
-/* line 108, ../../app/lib/sass/_infotab.scss */
+/* line 134, ../../app/lib/sass/_infotab.scss */
 .tab-active section {
   right: 0;
 }
