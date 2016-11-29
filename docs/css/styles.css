@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   overflow: hidden;
   *zoom: 1;
-  font-family: Gill Sans;
+  font-family: ArialMT;
   font-size: 1.2rem;
   font-weight: normal;
   color: #fff;
