@@ -14,18 +14,20 @@
     right: - span(15);
 
     .title {
+      min-height: 42px;
+
       i {
-        float: left;
-        padding: .8rem;
-        display: inline-block;
+        top: 10px;
+        left: 10px;
+        position: absolute;
       } // i
 
       h4 {
-        display: inline-block;
         font-size: 1.4rem;
-        padding: .8rem 0;
-        right: 0;
-        @include pre(3.5);
+        position: relative;
+        text-align: center;
+        padding-bottom: 10px;
+        top: 10px;
       } // h4
     } // title
 
@@ -47,8 +49,8 @@
       } // p
 
       h5 {
-        border-top: thin solid $lightgreen;
-        border-bottom: thin solid $lightgreen;
+        border-top: thin solid $lightblue;
+        border-bottom: thin solid $lightblue;
         padding: .4rem;
         margin: .3rem;
         font-weight: 400;
@@ -56,6 +58,30 @@
         font-size: 1.2rem;
         text-align: center;
       } // h5
+
+      .tab-group {
+        margin: auto;
+        margin-bottom: .8rem;
+        text-align: center;
+
+        img {
+          border-radius: 50%;
+          margin: .2rem;
+          padding: .2rem;
+          width: 150px;
+          border: medium solid $lightblue;
+        } // img
+
+        a {
+          line-height: 120%;
+          font-size: 1rem;
+          font-weight: 300;
+
+          &:hover {
+            color: $lightblue;
+          } // a:hover
+        } // a
+      } // tab-group
     } // tab-content
 
     @include susy-breakpoint($small) {
@@ -77,7 +103,7 @@
 
       .title {
         h4 {
-          @include pre(4.5);
+          // @include pre(4.5);
           font-size: 1.3rem;
         } // h4
       } // title
