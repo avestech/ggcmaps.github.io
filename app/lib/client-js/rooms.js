@@ -28,6 +28,8 @@ var roomNames;
 
 // Help Documentation
 var helpFile = 'help.html';
+// Developed By
+var devFile = 'devs.html';
 
 // Hiding the element or not
 var HIDE = true;
@@ -49,6 +51,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
   loadFile('helpbox', helpFile).then(function(response) {
     // console.log('Help Content Loaded');
+  }, function(error) {
+    console.error('Failed!', error);
+  });
+
+  loadFile('devbox', devFile).then(function(response) {
+    // console.log('Developer Content Loaded');
   }, function(error) {
     console.error('Failed!', error);
   });
@@ -187,6 +195,7 @@ function addMap(mapLocation, building, floor) {
 
           this.hammer.on('tap', function(ev) {
             toggleTab(ev, 'helpbox');
+            toggleTab(ev, 'devbox');
             if (building === 'Campus') {
               var target = ev.target.parentNode.id.toUpperCase();
               if (target === 'A') {
