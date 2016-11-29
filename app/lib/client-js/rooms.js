@@ -20,7 +20,7 @@ var floorsD = ['1', '2'];
 var floorsE = ['1', '2', '3'];
 var floorsF = ['1', '2'];
 var floorsH = ['1', '2', '3'];
-var floorsI = ['1', '2'];
+var floorsI = ['1', '2', '3'];
 var floorsL = ['1', '2', '3'];
 
 // JSON of room names
