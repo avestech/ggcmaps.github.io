@@ -114,9 +114,9 @@ function loadFile(element, file) {
   });
 }
 
-function toggleEvent(ev, element, className) {
+function toggleTab(ev, element) {
   var target = document.getElementById(element);
-  if (ev.target.parentNode !== target && target.classList.contains(className)) {
-    target.classList.toggle(className);
+  if (ev.target.parentNode !== target && target.classList.contains('tab-active')) {
+    target.classList.toggle('tab-active');
   }
 }

@@ -11,7 +11,7 @@
 		<script src="https://use.fontawesome.com/c559106939.js"></script>
 	</head>
 	<body>
-		<div onclick="toggleEvent(event, 'helpbox', 'help-active')" class="content">
+		<div onclick="toggleTab(event, 'helpbox')" class="content">
 			<div class="search-menu">
 				<div class="popup-group">
 					<i id="menu" class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
@@ -76,7 +76,7 @@
 				</section>
 			</div> <!-- campus-info -->
 
-			<div class="help" id="helpbox"></div>
+			<div class="tab" id="helpbox"></div>
 
 			<div id="svg-holder" class="svg-holder">
 
@@ -126,7 +126,7 @@
 			</ul>
 			<div class="menu-section"></div>
 			<ul>
-				<li onclick="openHelp()"><a>Get Help</a></li>
+				<li onclick="openTab('helpbox')"><a>Get Help</a></li>
 			</ul>
 		</div> <!-- nav -->
 

@@ -1,4 +1,4 @@
-.help {
+.tab {
   display: none;
 
   section {
@@ -32,9 +32,9 @@
       } // h4
     } // title
 
-    .help-content {
+    .tab-content {
       overflow-y: scroll;
-    } // help-content
+    } // tab-content
 
     @include susy-breakpoint($small) {
       @include span(9 of 15);
@@ -54,12 +54,12 @@
       padding-bottom: 15px;
     } // large
   } // section
-} // help
+} // tab
 
-.help-active {
+.tab-active {
   display: block;
-  
+
   section {
     right: 0;
   } // section
-} // help-active
+} // tab-active
