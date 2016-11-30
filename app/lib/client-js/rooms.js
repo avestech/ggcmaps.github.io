@@ -37,12 +37,6 @@ var SHOW = false;
 
 document.addEventListener('DOMContentLoaded', function() {
 
-  addMap(campus, 'Campus').then(function(response) {
-    // console.log('Success!');
-  }, function(error) {
-    console.error('Failed!', error);
-  });
-
   loadRooms().then(function(response) {
     // console.log(roomNames);
   }, function(error) {
@@ -70,7 +64,25 @@ document.addEventListener('DOMContentLoaded', function() {
   activatePopup(floor, 'floor-popup');
   activatePopup(menu, 'menu-popup');
   activatePopup(search, 'search-popup');
+
+  urlRoom();
 });
+
+function urlRoom() {
+  var url = window.location.href;
+  var room = url.substring(url.lastIndexOf('/'));
+  if (room !== '/' && room.includes('#')) {
+    searchFromMenu(room.substring(room.lastIndexOf('#')+1));
+  } else {
+    addMap(campus, 'Campus').then(function(response) {
+      // console.log('Success!');
+      window.location.href = '#Campus';
+      document.getElementById('search').value = '';
+    }, function(error) {
+      console.error('Failed!', error);
+    });
+  }
+}
 
 function loadRooms() {
   return new Promise(function(resolve, reject) {
@@ -353,7 +365,17 @@ function searchFromBar(event) {
 
 function searchFromMenu(sRoom) {
   closeMenu();
-  document.getElementById('roomSearch').value = sRoom;
+  var search = parseSearch(sRoom);
+  if (search.roomName.toLowerCase() === 'campus') {
+    document.getElementById('roomSearch').value = '';
+    changeFloor('campus');
+  }
+  else if (search.roomName !== '') {
+    document.getElementById('roomSearch').value = search.roomName;
+  }
+  else {
+    document.getElementById('roomSearch').value = search.building + ' ' + search.room;
+  }
   searchRoomNumber();
 }
 
@@ -397,6 +419,8 @@ function searchRoomNumber() {
         }
       }
     }
+
+    window.location.href = '#' + rInfo.roomName;
 
     if (roomNum === '') {
       alert(rInfo.roomName + ' is a invalid room. Please check your spelling.');
@@ -525,6 +549,7 @@ function searchRoomNumber() {
       default:
         alert(roomNum + " is an invalid room number.");
     }
+    window.location.href = '#' + building + '-' + roomNum;
   }
 
   if (curBuild !== newBuilding || floor !== newFloor) {
@@ -652,6 +677,7 @@ function changeFloor(building, floor) {
   if (newWindow !== '') {
     addMap(newWindow, building, floor).then(function(response) {
       // console.log('Success!');
+      window.location.href = '#' + building;
     }, function(error) {
       console.error('Failed!', error);
     });
