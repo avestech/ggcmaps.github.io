@@ -67,28 +67,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
   urlRoom();
 
-  window.onhashchange = function() {
-    updateHistory();
-  };
+  window.addEventListener('popstate', function(e) {
+    urlRoom();
+    console.log(e.state);
+  });
 });
 
 function urlRoom() {
-  var room = window.location.hash;
-  if (room !== '') {
-    searchFromMenu(room.substring(room.lastIndexOf('#')+1));
+  var room = window.location.pathname;
+  if (room !== '' && !room.includes('.')) {
+    if (room.length === 1) {
+      changeFloor(room);
+    }
+    else {
+      searchFromMenu(room.substring(room.lastIndexOf('/')+1));
+    }
   } else {
     addMap(campus, 'Campus').then(function(response) {
       // console.log('Success!');
-      window.location.hash = 'Campus';
+      history.replaceState(null, null, 'Campus');
+      history.pushState(null, null, 'Campus');
       document.getElementById('search').value = '';
     }, function(error) {
       console.error('Failed!', error);
     });
   }
-}
-
-function updateHistory() {
-  console.log(window.location.hash);
 }
 
 function loadRooms() {
@@ -427,7 +430,8 @@ function searchRoomNumber() {
       }
     }
 
-    window.location.hash = rInfo.roomName;
+    // history.replaceState(null, null, rInfo.roomName);
+    history.pushState(null, null, rInfo.roomName);
 
     if (roomNum === '') {
       alert(rInfo.roomName + ' is a invalid room. Please check your spelling.');
@@ -556,7 +560,8 @@ function searchRoomNumber() {
       default:
         alert(roomNum + " is an invalid room number.");
     }
-    window.location.hash = building + '-' + roomNum;
+    // history.replaceState(null, null, building.toUpperCase() + roomNum.toUpperCase());
+    history.pushState(null, null, building.toUpperCase() + roomNum.toUpperCase());
   }
 
   if (curBuild !== newBuilding || floor !== newFloor) {
@@ -684,7 +689,8 @@ function changeFloor(building, floor) {
   if (newWindow !== '') {
     addMap(newWindow, building, floor).then(function(response) {
       // console.log('Success!');
-      window.location.hash = building;
+      // history.replaceState(null, null, building);
+      history.pushState(null, null, building);
     }, function(error) {
       console.error('Failed!', error);
     });
