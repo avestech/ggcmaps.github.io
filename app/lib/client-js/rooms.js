@@ -66,27 +66,50 @@ document.addEventListener('DOMContentLoaded', function() {
   activatePopup(search, 'search-popup');
 
   urlRoom();
-
-  window.addEventListener('popstate', function(e) {
-    urlRoom();
-    console.log(e.state);
-  });
 });
 
 function urlRoom() {
-  var room = window.location.pathname;
-  if (room !== '' && !room.includes('.')) {
-    if (room.length === 1) {
-      changeFloor(room);
-    }
-    else {
-      searchFromMenu(room.substring(room.lastIndexOf('/')+1));
+  var hash = window.location.hash;
+  var room = hash.substring(hash.lastIndexOf('#')+1);
+  if (room !== '' && !room.includes('.') && room.toLowerCase() !== 'campus') {
+    switch (room.toUpperCase()) {
+      case 'A':
+        changeFloor('A');
+        break;
+      case 'B':
+        changeFloor('B', '1');
+        break;
+      case 'C':
+        changeFloor('C', '1');
+        break;
+      case 'C3':
+        changeFloor('C3', 'G');
+        break;
+      case 'D':
+        changeFloor('D', '1');
+        break;
+      case 'E':
+        changeFloor('E', '1');
+        break;
+      case 'F':
+        changeFloor('F', '1');
+        break;
+      case 'H':
+        changeFloor('H', '1');
+        break;
+      case 'I':
+        changeFloor('I', '1');
+        break;
+      case 'L':
+        changeFloor('L', '1');
+        break;
+      default:
+        searchFromMenu(room);
     }
   } else {
     addMap(campus, 'Campus').then(function(response) {
       // console.log('Success!');
-      history.replaceState(null, null, 'Campus');
-      history.pushState(null, null, 'Campus');
+      window.location.hash = "Campus";
       document.getElementById('search').value = '';
     }, function(error) {
       console.error('Failed!', error);
@@ -430,8 +453,7 @@ function searchRoomNumber() {
       }
     }
 
-    // history.replaceState(null, null, rInfo.roomName);
-    history.pushState(null, null, rInfo.roomName);
+    window.location.hash = rInfo.roomName;
 
     if (roomNum === '') {
       alert(rInfo.roomName + ' is a invalid room. Please check your spelling.');
@@ -560,8 +582,7 @@ function searchRoomNumber() {
       default:
         alert(roomNum + " is an invalid room number.");
     }
-    // history.replaceState(null, null, building.toUpperCase() + roomNum.toUpperCase());
-    history.pushState(null, null, building.toUpperCase() + roomNum.toUpperCase());
+    window.location.hash = building.toUpperCase() + roomNum.toUpperCase();
   }
 
   if (curBuild !== newBuilding || floor !== newFloor) {
@@ -689,8 +710,7 @@ function changeFloor(building, floor) {
   if (newWindow !== '') {
     addMap(newWindow, building, floor).then(function(response) {
       // console.log('Success!');
-      // history.replaceState(null, null, building);
-      history.pushState(null, null, building);
+      window.location.hash = building;
     }, function(error) {
       console.error('Failed!', error);
     });
