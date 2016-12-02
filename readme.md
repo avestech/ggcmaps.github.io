@@ -3,9 +3,9 @@ Gwinnett Grizzlies Map
 
 **Repo URL:** *[https://github.com/soft-eng-practicum/ggm.git](https://github.com/soft-eng-practicum/ggm.git)*
 
-**Website URL** *[https://soft-eng-practicum.github.io/ggm/](https://soft-eng-practicum.github.io/ggm/)*
+**Website URL:** *[https://soft-eng-practicum.github.io/ggm/](https://soft-eng-practicum.github.io/ggm/)*
 
-**Survey URL** *[https://docs.google.com/forms/d/1GavR9QYzEYSZ1eLda_Us6qejIYsI_QXIYpWfGt9jTnA
+**Survey URL:** *[https://docs.google.com/forms/d/1GavR9QYzEYSZ1eLda_Us6qejIYsI_QXIYpWfGt9jTnA
 ](https://docs.google.com/forms/d/1GavR9QYzEYSZ1eLda_Us6qejIYsI_QXIYpWfGt9jTnA)*
 
 **Process Tool:** *[Version One](https://www4.v1host.com/GeorgiaGwinnettCollege74/)*
