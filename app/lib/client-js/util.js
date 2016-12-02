@@ -7,7 +7,7 @@ function isNumeric(n) {
 }
 
 function parseSearch(str) {
-  var res = str.split(/[ -\s<>'"();/\\]+/);
+  var res = str.split(/[ \+-\s<>'"();/\\]+/);
   var building = '';
   var room = '';
   var roomName = '';
