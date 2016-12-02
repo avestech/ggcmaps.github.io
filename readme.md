@@ -22,15 +22,14 @@ Group Members
 Github Organization
 ---
 App
-*Our running application files are in here including javascript, but not html files
+* Our running application files are in here including javascript, but not html files
 Bugfix
-*Bug fixing folder, we started using, but ended with using GitHub issues tab
+* Bug fixing folder, we started using, but ended with using GitHub issues tab
 Docs
-*Building htmls, compiled css, minified javascript, images index.html
+* Building htmls, compiled css, minified javascript, images index.html
 Maps
-*Original SVGs in Adobe Illustrator format
+* Original SVGs in Adobe Illustrator format
 Planning
-*Mock-up, proposed help document, license agreement, notes, requirements in the readme
+* Mock-up, proposed help document, license agreement, notes, requirements in the readme
 Presentations
-*Group Presentations
-
+* Group Presentations
