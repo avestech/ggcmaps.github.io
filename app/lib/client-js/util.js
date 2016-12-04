@@ -92,6 +92,7 @@ function hideElement(element, hide) {
 }
 
 function loadFile(element, file) {
+  // Ensure that the file has loaded before certain functions are called
   return new Promise(function(resolve, reject) {
 
     var req = new XMLHttpRequest();

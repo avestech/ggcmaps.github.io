@@ -1,4 +1,4 @@
-// Buildings
+// Buildings Floor Files
 var campus = 'Building/(Campus)/campus.html';
 var buildingA = ['Building/A/First-Floor.html'];
 var buildingB = ['Building/B/first-floor.html', 'Building/B/second-floor.html', 'Building/B/third-floor.html'];
@@ -11,7 +11,7 @@ var buildingH = ['Building/H/First-Floor.html', 'Building/H/Second-Floor.html', 
 var buildingI = ['Building/I/First-Floor.html', 'Building/I/Second-Floor.html', 'Building/I/Third-Floor.html'];
 var buildingL = ['Building/L/First-Floor.html', 'Building/L/Second-Floor.html', 'Building/L/Third-Floor.html'];
 
-// Floors
+// Floors Numbers
 var floorsA = ['1'];
 var floorsB = ['1', '2', '3'];
 var floorsC = ['1', '2'];
@@ -23,6 +23,8 @@ var floorsH = ['1', '2', '3'];
 var floorsI = ['1', '2', '3'];
 var floorsL = ['1', '2', '3'];
 
+// JSON file for room names
+var roomNameFile = 'js/roomNames.json';
 // JSON of room names
 var roomNames;
 
@@ -35,31 +37,40 @@ var devFile = 'devs.html';
 var HIDE = true;
 var SHOW = false;
 
+// When DOM has loaded
 document.addEventListener('DOMContentLoaded', function() {
 
+  // Load roomNameFile
   loadRooms().then(function(response) {
+    // Check if content loaded
     // console.log(roomNames);
   }, function(error) {
     console.error('Failed!', error);
   });
 
+  // Load helpFile
   loadFile('helpbox', helpFile).then(function(response) {
+    // Check if content loaded
     // console.log('Help Content Loaded');
   }, function(error) {
     console.error('Failed!', error);
   });
 
+  // Load devFile
   loadFile('devbox', devFile).then(function(response) {
+    // Check if content loaded
     // console.log('Developer Content Loaded');
   }, function(error) {
     console.error('Failed!', error);
   });
 
+  // Popup elements
   var building = document.getElementById('building');
   var floor = document.getElementById('floor');
   var menu = document.getElementById('menu');
   var search = document.getElementById('search');
 
+  // Setup popup elements
   activatePopup(building, 'building-popup');
   activatePopup(floor, 'floor-popup');
   activatePopup(menu, 'menu-popup');
@@ -68,11 +79,14 @@ document.addEventListener('DOMContentLoaded', function() {
   urlRoom();
 });
 
+// Load the proper map based on url
 function urlRoom() {
+  // Get the location hash
   var hash = window.location.hash;
+  // Remove everything before the last '#' sign
   var room = hash.substring(hash.lastIndexOf('#')+1);
-  if (room !== '' && !room.includes('.') && room.toLowerCase() !== 'campus') {
-    switch (room.toUpperCase()) {
+  if (room !== '' && !room.includes('.') && room.toLowerCase() !== 'campus') { // If room is set and not campus or have a '.'
+    switch (room.toUpperCase()) { // If room is a building letter use changeFloor to lowest floor of building
       case 'A':
         changeFloor('A');
         break;
@@ -103,13 +117,17 @@ function urlRoom() {
       case 'L':
         changeFloor('L', '1');
         break;
-      default:
+      default: // If not a building letter search for the room
         searchFromMenu(room);
     }
-  } else {
+  } else { // Otherwise just load the map of campus
     addMap(campus, 'Campus').then(function(response) {
+      // Check if content loaded
       // console.log('Success!');
+
+      // Set hash to Campus
       window.location.hash = "Campus";
+      // Clear the search bar
       document.getElementById('search').value = '';
     }, function(error) {
       console.error('Failed!', error);
@@ -117,15 +135,18 @@ function urlRoom() {
   }
 }
 
+// Loads and parses roomNameFile into a JSON object
 function loadRooms() {
+  // Ensure that the file has loaded before certain functions are called
   return new Promise(function(resolve, reject) {
 
     var req = new XMLHttpRequest();
-    req.open('GET', 'js/roomNames.json', true);
+    req.open('GET', roomNameFile, true);
     req.onload = function() {
       // if (req.readyState!==4) reject(Error(req.statusText));
       if (req.status!==200) reject(Error(req.statusText));
 
+      // Parse the response into a JSON object
       roomNames = JSON.parse(req.response);
 
       resolve(req.response);
@@ -140,11 +161,11 @@ function loadRooms() {
 }
 
 function addMap(mapLocation, building, floor) {
-  var curBuild = document.getElementById('building');
-  var curFloor = document.getElementById('floor');
-  var nav = document.getElementsByClassName('nav')[0];
-  var mapHolder = document.getElementById('svg-holder');
+  var curBuild = document.getElementById('building'); // Current Building
+  var curFloor = document.getElementById('floor'); // Current Floor
+  var mapHolder = document.getElementById('svg-holder'); // Div that contains the map
 
+  // Ensure that the file has loaded before certain functions are called
   return new Promise(function(resolve, reject) {
 
     var req = new XMLHttpRequest();
@@ -153,27 +174,34 @@ function addMap(mapLocation, building, floor) {
       // if (req.readyState!==4) reject(Error(req.statusText));
       if (req.status!==200) reject(Error(req.statusText));
 
-      if (building !== curBuild) {
-        var buildingPop = document.getElementById("building-popup");
-        var dropdown = document.getElementsByClassName('dropdown')[0];
-        var legend = document.getElementsByClassName('campus-info')[0];
+      if (building !== curBuild) { // If building is being changed
+        var buildingPop = document.getElementById("building-popup"); // Building Popup
+        var dropdown = document.getElementsByClassName('dropdown')[0]; // Floor Dropdown
+        var legend = document.getElementsByClassName('campus-info')[0]; // Parking Legend
 
-        if (building === 'Campus') {
+        if (building === 'Campus') { // If changing to campus
+          // Hide the building popup
           hideElement(buildingPop, HIDE);
+          // Show the parking legend
           hideElement(legend, SHOW);
         }
-        else {
+        else { // Otherwise
+          // Show the building popup
           hideElement(buildingPop, SHOW);
+          // Hide the parking legend
           hideElement(legend, HIDE);
         }
 
-        if (floor !== undefined) {
+        if (floor !== undefined) { // If a floor is passed in
+          // Show the current floor and floor dropdown
           hideElement(curFloor, SHOW);
           hideElement(dropdown, SHOW);
           floorDropDown(building);
+          // Change the current floor
           curFloor.innerHTML = floor;
         }
-        else {
+        else { // Otherwise
+          // Hide the current floor and floor dropdown
           hideElement(curFloor, HIDE);
           hideElement(dropdown, HIDE);
         }
@@ -182,14 +210,14 @@ function addMap(mapLocation, building, floor) {
       // Remove all maps
       removeMap();
       // Add new map
-      // console.log(convertToElement(req.response));
       mapHolder.appendChild(convertToElement(req.response));
-      // console.log(mapHolder);
       // Set the map height to the browser's height and enable panZoomTiger
       var map = mapHolder.childNodes[0];
       map.style.height = getClientHeight();
+      // Set current building to building
       curBuild.innerHTML = building;
 
+      // Setup touch events
       var eventsHandler;
       eventsHandler = {
         haltEventListeners: ['touchStart', 'touchend', 'touchmove', 'touchleave', 'touchcancel'],
@@ -273,6 +301,7 @@ function addMap(mapLocation, building, floor) {
         }
       };
 
+      // Add the eventsHandler for touch to the svgPanZoom
       var panZoomTiger = svgPanZoom(map, {
         controlIconsEnabled:true,
         fit:1,
@@ -301,22 +330,27 @@ function addMap(mapLocation, building, floor) {
   });
 }
 
+// Remove all maps from the svg-holder
 function removeMap() {
   var mapHolder = document.getElementById('svg-holder');
+  // Just in case multiple elements get added to svg-holder
   while (mapHolder.hasChildNodes()) {
     mapHolder.removeChild(mapHolder.lastChild);
   }
 }
 
+// Reset the floor dropdown based on the building
 function floorDropDown(building) {
+  // Floor dropdown
   var dropdown = document.getElementsByClassName('floors')[0];
+  // Remove all floors from dropdown
   while (dropdown.hasChildNodes()) {
     dropdown.removeChild(dropdown.lastChild);
   }
 
   var floors = [];
 
-  switch (building) {
+  switch (building) { // Select the proper floor array based on building
     case 'A':
       floors = floorsA;
       break;
@@ -349,89 +383,103 @@ function floorDropDown(building) {
       break;
   }
 
-  for (var i = 0; i < floors.length; i++) {
+  for (var i = 0; i < floors.length; i++) { // Create a element for each floor and add it to the dropdown
     var option = '<h2 onclick="changeFloor(\'' + building + '\', \'' + floors[i] + '\')">Floor ' + floors[i] + '</h2>';
     dropdown.appendChild(convertToElement(option));
   }
 }
 
+// Highlight a room
+// roomID the ID of the room to highlight
+// search True/False was the room being searched for
 function activateRoom(roomID, search) {
   var roomClass = 'room-group';
   var room = document.getElementById(roomID.toLowerCase());
 
-  if (room === null) {
+  if (room === null) { // If room is null alert the user
     alert('No room found for ' + roomID);
   } else {
     var roomClassName = room.className.baseVal;
 
-    if (roomClassName !== roomClass && !search) {
-      // console.log('not active');
-      if (roomClassName === roomClass + ' active-room') {
+    // When searching for a room don't let searching for the same room twice add and remove active-room class the room
+    if (roomClassName !== roomClass && !search) { // If not searching for room
+
+      if (roomClassName === roomClass + ' active-room') { // Check to deactivate room
         deactivateAllRooms();
         return;
       }
       return;
     }
-    else if (roomClassName === roomClass) {
+    else if (roomClassName === roomClass) { // If searching for room
 
       deactivateAllRooms();
-
+      // add active-room to the room
       room.classList.add('active-room');
     }
   }
 }
 
+// Remove active-room from all rooms
 function deactivateAllRooms() {
   var roomClass = 'room-group';
   var room = document.getElementsByClassName(roomClass);
 
-  for (var i = 0; i < room.length; i++) {
+  for (var i = 0; i < room.length; i++) { // Remove active-room from all rooms
     room[i].classList.remove('active-room');
   }
 }
 
+// Call searchRoomNumber when the user presses enter
 function searchFromBar(event) {
   if (event.which == 13 || event.keyCode == 13) {
     searchRoomNumber();
   }
 }
 
+// Search by passing the room into the function
 function searchFromMenu(sRoom) {
   closeMenu();
   var search = parseSearch(sRoom);
   if (search.roomName.toLowerCase() === 'campus') {
+    // Clear search bar if roomName is campus
     document.getElementById('roomSearch').value = '';
     changeFloor('campus');
   }
   else if (search.roomName !== '') {
+    // If roomName is not empty then add the roomName to the search bar
     document.getElementById('roomSearch').value = search.roomName;
   }
   else {
+    // Otherwise add the building and room to the search bar
     document.getElementById('roomSearch').value = search.building + ' ' + search.room;
   }
   searchRoomNumber();
 }
 
+// Search for a room
 function searchRoomNumber() {
-  var sRoom = document.getElementById('roomSearch').value.toUpperCase();
+  var sRoom = document.getElementById('roomSearch').value.toUpperCase(); // The room being searched for
   var roomNum = sRoom;
-  var building = document.getElementById('building').innerHTML;
+  var building = document.getElementById('building').innerHTML; // Current Building
   var curBuild = building;
-  var floor = document.getElementById('floor').innerHTML;
+  var floor = document.getElementById('floor').innerHTML; // Current Floor
 
+  // Empty variables to compare the search to the current
   var newWindow = '';
   var newBuilding = '';
   var newFloor = '';
 
   var rInfo = parseSearch(sRoom);
+  // Assign variables from rInfo
   if (rInfo.building !== '') {
     building = rInfo.building;
   }
   if (rInfo.room !== '') {
     roomNum = rInfo.room;
   }
-  if (rInfo.roomName !== '') {
+  if (rInfo.roomName !== '') { // Search by names instead of numbers
     roomNum = '';
+    // Search through the roomNames object for the name being searched
     // Buildings
     for (var rmBuilding in roomNames) {
       var tempBuilding = rmBuilding;
@@ -445,6 +493,7 @@ function searchRoomNumber() {
           var tempRoom = roomNames[rmBuilding][rmFloor][rmRoom];
 
           if (tempRoom.name.toLowerCase() === rInfo.roomName.toLowerCase()) {
+            // Set the variables based on data from roomNames object
             newBuilding = tempBuilding;
             newFloor = tempFloor;
             roomNum = tempRoom.id;
@@ -453,15 +502,17 @@ function searchRoomNumber() {
       }
     }
 
+    // Update the location hash to the room name
     window.location.hash = rInfo.roomName;
 
-    if (roomNum === '') {
+    if (roomNum === '') { // If no room is found alert the user
       alert(rInfo.roomName + ' is a invalid room. Please check your spelling.');
     }
   }
   else {
 
-    switch (building[0].toUpperCase()) { // TODO
+    switch (building[0].toUpperCase()) {
+      // Select the proper building and floor for the search variables
       case 'A':
           newBuilding = 'A';
           newFloor = undefined;
@@ -481,6 +532,7 @@ function searchRoomNumber() {
         }
         break;
       case 'C':
+        // C3 is defined by the second number of the room as being a 3
         if (roomNum[1] === '3') { // C3
           if (roomNum[0] === '2') {
             newBuilding = 'C3';
@@ -579,25 +631,29 @@ function searchRoomNumber() {
           newFloor = '1';
         }
         break;
-      default:
+      default: // Alert user of invalid room number
         alert(roomNum + " is an invalid room number.");
     }
+
+    // Update the location hash to be the building plus the room number
     window.location.hash = building.toUpperCase() + roomNum.toUpperCase();
   }
 
-  if (curBuild !== newBuilding || floor !== newFloor) {
+  if (curBuild !== newBuilding || floor !== newFloor) { // If either the building or the floor are different then a different map has to be loaded
     searchNewFloor(newBuilding, newFloor, roomNum);
   }
-  else {
+  else { // Otherwise activate the room
     activateRoom(roomNum, true);
   }
 }
 
+// Retrieve the file location of the map
 function getMap(building, floor) {
 
   var newMap = '';
 
-  switch (building) { // TODO
+  switch (building) {
+    // Select the proper building and floor
     case 'Campus':
       newMap = campus;
       break;
@@ -699,17 +755,20 @@ function getMap(building, floor) {
   return newMap;
 }
 
+// Swap which floor of a building is being displayed
 function changeFloor(building, floor) {
   closeMenu();
   var newWindow = building.toUpperCase();
   var searchBar = document.getElementById('roomSearch');
+  // Clear the search bar
   searchBar.value = '';
 
   newWindow = getMap(building, floor);
 
-  if (newWindow !== '') {
+  if (newWindow !== '') { // Provided that newWindow got set then add the map
     addMap(newWindow, building, floor).then(function(response) {
       // console.log('Success!');
+      // Update the location hash to the building letter
       window.location.hash = building;
     }, function(error) {
       console.error('Failed!', error);
@@ -717,16 +776,17 @@ function changeFloor(building, floor) {
   }
 }
 
+// Load the new map before activating the room
 function searchNewFloor(building, floor, roomNum) {
   var newWindow = building;
   var curBuild = document.getElementById('building');
   var curFloor = document.getElementById('floor');
 
-  if (curBuild.innerHTML !== building || curFloor.innerHTML !== floor) {
+  if (curBuild.innerHTML !== building || curFloor.innerHTML !== floor) { // Check to make sure that the map needs to change
 
     newWindow = getMap(building.toUpperCase(), floor);
 
-    if (newWindow !== '') {
+    if (newWindow !== '') { // Provided that newWindow got set then add the map
       addMap(newWindow, building, floor).then(function(response) {
         // console.log('Success!');
         activateRoom(roomNum, true);
