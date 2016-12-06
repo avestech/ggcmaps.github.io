@@ -282,6 +282,50 @@
       {
         "name": "student-affairs",
         "id": "3140"
+      },
+      {
+        "name": "sga",
+        "id": "3132"
+      },
+      {
+        "name": "sga-office",
+        "id": "3132"
+      },
+      {
+        "name": "office-of-sga",
+        "id": "3132"
+      },
+      {
+        "name": "office-of-the-student-government-association",
+        "id": "3132"
+      },
+      {
+        "name": "student-government",
+        "id": "3132"
+      },
+      {
+        "name": "office-of-volunteer-ggc",
+        "id": "3133"
+      },
+      {
+        "name": "volunteer-ggc",
+        "id": "3133"
+      },
+      {
+        "name": "volunteer",
+        "id": "3133"
+      },
+      {
+        "name": "office-of-greenlight-activities-board",
+        "id": "3134"
+      },
+      {
+        "name": "greenlight-office",
+        "id": "3134"
+      },
+      {
+        "name": "greenlight",
+        "id": "3134"
       }
     ]
   },
