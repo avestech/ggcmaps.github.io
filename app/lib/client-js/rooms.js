@@ -77,6 +77,11 @@ document.addEventListener('DOMContentLoaded', function() {
   activatePopup(search, 'search-popup');
 
   urlRoom();
+
+  // If the user goes back in the browser reload the last loction
+  window.addEventListener('popstate', function(e) {
+    urlRoom();
+  });
 });
 
 // Load the proper map based on url
