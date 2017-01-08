@@ -1,6 +1,0 @@
-For running locally
-1.)Install http-server with "npm install http-server -g"
-2.)From the app directory run "npm start"
-
-3.)In your internet browser, navigate to localhost:3000 
-4.)App should display on the browser

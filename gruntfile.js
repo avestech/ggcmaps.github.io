@@ -21,7 +21,7 @@ module.exports = function(grunt) {
       }, // options
       my_target: {
         files: {
-          '../docs/js/script.min.js': ['lib/client-js/*.js']
+          '/js/script.min.js': ['lib/client-js/*.js']
         } // files
       } // my_target
     }, // uglify
@@ -43,20 +43,9 @@ module.exports = function(grunt) {
         tasks: ['compass:dev']
       }, // sass
       html: {
-        files: ['../docs/*.html']
+        files: ['/*.html']
       } // html
-    }, // watch
-  	jasmine: {
-  		components: {
-        src: [
-        'lib/test/*.js'
-        ],
-        options: {
-          specs: 'tests/spec/Spec.js',
-          keepRunner : true
-        }
-      }
-    }
+    } // watch
   }); // initConfig
 
 
@@ -64,9 +53,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks("grunt-contrib-jshint");
-  grunt.loadNpmTasks("grunt-contrib-jasmine");
 
-  grunt.registerTask('travis',['jasmine']);
   grunt.registerTask('js', ['uglify']);
   grunt.registerTask('css', ['compass:dev']);
   grunt.registerTask('default', ['watch']);

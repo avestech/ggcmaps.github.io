@@ -1,6 +1,6 @@
 require "susy"
-css_dir = '../docs/css'
+css_dir = '/css'
 sass_dir = 'lib/sass'
-javascripts_dir = '../docs/js'
+javascripts_dir = '/js'
 output_style = :expanded
 relative_assets = true;

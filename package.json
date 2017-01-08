@@ -1,17 +1,15 @@
 {
   "name": "GwinnettGrizzlyMaps",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "author": "Mike Deiters",
   "license": "Creative Commons",
   "scripts": {
-    "start": "cd ../docs && http-server -p 3000",
-    "test": "grunt travis --verbose"
+    "start": "http-server -p 3000"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-compass": "^1.1.1",
-    "grunt-contrib-jasmine": "^1.0.3",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",

@@ -1,3 +1,0 @@
-For developing
-1.)Install http-server with "npm install http-server -g"
-2.)From the app directory install the dev dependencies with "npm install --only=dev"
