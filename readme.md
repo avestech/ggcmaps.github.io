@@ -1,39 +1,29 @@
 Gwinnett Grizzlies Map
 ===
 
-**Repo URL:** *[https://github.com/soft-eng-practicum/ggm.git](https://github.com/soft-eng-practicum/ggm.git)*
-
-**Website URL:** *[https://soft-eng-practicum.github.io/ggm/](https://soft-eng-practicum.github.io/ggm/)*
+**Website URL:** *[ggcmaps.github.io](ggcmaps.github.io)*
 
 **Survey URL:** *[https://docs.google.com/forms/d/1GavR9QYzEYSZ1eLda_Us6qejIYsI_QXIYpWfGt9jTnA
 ](https://docs.google.com/forms/d/1GavR9QYzEYSZ1eLda_Us6qejIYsI_QXIYpWfGt9jTnA)*
 
-**Process Tool:** *[Version One](https://www4.v1host.com/GeorgiaGwinnettCollege74/)*
-
-**Communication:** Slack Channel
-
-Group Members
+Created By
 ---
-1. Mike Deiters - Project Manager/Data Modeler
-2. Aston Tsou - Lead Documentation/Client Liason
-3. Narith Seang - Lead Testing/Lead Developer
+1. Mike Deiters
+2. Aston Tsou
+3. Narith Seang
 
-Github Organization
+For running locally
 ---
-App
-* Our running application files are in here including javascript, but not html files
+1. Clone the repo on to your computer
+2. Install `http-server` with `npm install http-server -g`
+3. Run `npm start`
+4. In your internet browser, navigate to localhost:3000
 
-Bugfix
-* Bug fixing folder, we started using, but ended with using GitHub issues tab
-
-Docs
-* Building htmls, compiled css, minified javascript, images index.html
-
-Maps
-* Original SVGs in Adobe Illustrator format
-
-Planning
-* Mock-up, proposed help document, license agreement, notes, requirements in the readme
-
-Presentations
-* Group Presentations
+For developers
+---
+1. Clone the repo on to your computer
+2. Install `http-server` with `npm install http-server -g`
+3. Install the dev dependencies with `npm install --only=dev`
+4. In one terminal tab/window run `npm start`
+5. In another terminal tab/window run `grunt`
+6. In your internet browser, navigate to localhost:3000
