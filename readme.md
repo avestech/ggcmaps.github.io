@@ -27,3 +27,5 @@ For developers
 4. In one terminal tab/window run `npm start`
 5. In another terminal tab/window run `grunt`
 6. In your internet browser, navigate to localhost:3000
+
+For map updates we have our illustrator files available to download from dropbox *[here](https://www.dropbox.com/sh/vg22hm3euf1c1a8/AACf3K7j7Q4_mJ7MEhcVDET6a?dl=0)*.
