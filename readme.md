@@ -39,7 +39,7 @@ Presentations
 ### The Team
 #### Current Members (Spring '17)
 1. David Rivera - Project Manager/Client Liason
-2. [Team Member 2] - Position/Role
+2. Margaret Muse- UI/Documentation
 3. [Team Member 3] - Position/Role
 4. [Team Member 4] - Position/Role
 
