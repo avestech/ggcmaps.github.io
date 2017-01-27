@@ -1,25 +1,23 @@
-Gwinnett Grizzlies Map
-===
+# GGCMaps
 
-**Repo URL:** *[https://github.com/soft-eng-practicum/ggm.git](https://github.com/soft-eng-practicum/ggm.git)*
+## Table of Contents
+* [Description](https://github.com/soft-eng-practicum/ggcmaps#Description)
+* [Documentation](https://github.com/soft-eng-practicum/ggcmaps#Documentation)
+* [The Team](https://github.com/soft-eng-practicum/ggcmaps#Team)
+* [Website](https://ggcmaps.github.io)(External Link)
 
-**Website URL:** *[https://soft-eng-practicum.github.io/ggm/](https://soft-eng-practicum.github.io/ggm/)*
+### Description
 
-**Survey URL:** *[https://docs.google.com/forms/d/1GavR9QYzEYSZ1eLda_Us6qejIYsI_QXIYpWfGt9jTnA
-](https://docs.google.com/forms/d/1GavR9QYzEYSZ1eLda_Us6qejIYsI_QXIYpWfGt9jTnA)*
+### Documentation
+* Communication: (private) [Slack](https://ggc-dev.slack.com/messages/ggcmaps/details/)
+* Process Tool: [Trello Board](https://trello.com/b/0CNpNkKa/ggc-map-project)
+* Repository: [GGCMaps](https://github.com/soft-eng-practicum/ggcmaps)
+* Requirements Document: [Download Link](https://github.com/soft-eng-practicum/ggcmaps/blob/master/Planning/2017%20-%2001%20-%20Spring/Requirements%20Documentation.docx?raw=true)
+* Live Project: [Website](https://ggcmaps.github.io) (External Link)
 
-**Process Tool:** *[Version One](https://www4.v1host.com/GeorgiaGwinnettCollege74/)*
 
-**Communication:** Slack Channel
+<!-- ## Github Organization
 
-Group Members
----
-1. Mike Deiters - Project Manager/Data Modeler
-2. Aston Tsou - Lead Documentation/Client Liason
-3. Narith Seang - Lead Testing/Lead Developer
-
-Github Organization
----
 App
 * Our running application files are in here including javascript, but not html files
 
@@ -36,4 +34,17 @@ Planning
 * Mock-up, proposed help document, license agreement, notes, requirements in the readme
 
 Presentations
-* Group Presentations
+* Group Presentations -->
+
+### The Team
+#### Current Members (Spring '17)
+1. David Rivera - Project Manager/Client Liason
+2. [Team Member 2] - Position/Role
+3. [Team Member 3] - Position/Role
+4. [Team Member 4] - Position/Role
+
+#### Previous Members
+##### (Fall '16)
+1. Mike Deiters - Project Manager/Data Modeler
+2. Aston Tsou - Lead Documentation/Client Liason
+3. Narith Seang - Lead Testing/Lead Developer
