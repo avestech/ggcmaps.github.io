@@ -48,7 +48,7 @@ For map updates we have our illustrator files available to download from dropbox
 1. David Rivera - Project Manager/Client Liason
 2. Margaret Muse- UI/Documentation
 3. Carlos Pacheco - Programmer/Testing
-4. [Team Member 4] - Position/Role
+4. Joshua Gerth - Data Modeler
 
 #### Previous Members
 ##### (Fall '16)
