@@ -28,9 +28,9 @@ For map updates we have our illustrator files available to download from dropbox
 
 
 ## Table of Contents
-* [Description](https://github.com/soft-eng-practicum/ggcmaps#Description)
-* [Documentation](https://github.com/soft-eng-practicum/ggcmaps#Documentation)
-* [The Team](https://github.com/soft-eng-practicum/ggcmaps#Team)
+* [Description](https://github.com/soft-eng-practicum/ggcmaps#description)
+* [Documentation](https://github.com/soft-eng-practicum/ggcmaps#documentation)
+* [The Team](https://github.com/soft-eng-practicum/ggcmaps#the-team)
 * [Website](https://ggcmaps.github.io)(External Link)
 
 ### Description
