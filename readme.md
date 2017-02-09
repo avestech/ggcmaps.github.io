@@ -1,7 +1,7 @@
 Gwinnett Grizzlies Map
 ===
 
-**Website URL:** *[ggcmaps.github.io](ggcmaps.github.io)*
+**Website URL:** *[https://ggcmaps.github.io](ggcmaps.github.io)*
 
 **Survey URL:** *[https://docs.google.com/forms/d/1GavR9QYzEYSZ1eLda_Us6qejIYsI_QXIYpWfGt9jTnA
 ](https://docs.google.com/forms/d/1GavR9QYzEYSZ1eLda_Us6qejIYsI_QXIYpWfGt9jTnA)*
