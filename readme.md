@@ -31,11 +31,12 @@ For developers
 For map updates we have our illustrator files available to download from dropbox *[here](https://www.dropbox.com/sh/vg22hm3euf1c1a8/AACf3K7j7Q4_mJ7MEhcVDET6a?dl=0)*.
 
 
+
 ## Table of Contents
 * [Description](https://github.com/soft-eng-practicum/ggcmaps#description)
 * [Documentation](https://github.com/soft-eng-practicum/ggcmaps#documentation)
 * [The Team](https://github.com/soft-eng-practicum/ggcmaps#the-team)
-* [Website](https://ggcmaps.github.io)(External Link)
+* [Website](https://soft-eng-practicum.github.io/ggcmaps/)(External Link)
 
 ### Description
 
@@ -43,7 +44,7 @@ For map updates we have our illustrator files available to download from dropbox
 * Communication: (private) [Slack](https://ggc-dev.slack.com/messages/ggcmaps/details/)
 * Process Tool: [Trello Board](https://trello.com/b/0CNpNkKa/ggc-map-project)
 * Repository: [GGCMaps](https://github.com/soft-eng-practicum/ggcmaps)
-* Requirements Document: [Download Link](https://github.com/soft-eng-practicum/ggcmaps/blob/master/Planning/2017%20-%2001%20-%20Spring/Requirements%20Documentation.docx?raw=true)
+* Requirements Document: [Download Link](https://drive.google.com/file/d/0B10t50zhIuzvTmtRV29RVlVBcW8/view?usp=sharing)
 * Live Project: [Website](https://soft-eng-practicum.github.io/ggcmaps/) (External Link)
 
 
@@ -56,7 +57,7 @@ For map updates we have our illustrator files available to download from dropbox
 
 
 #### Previous Members
-##### (Fall '16)
+##### (Fall '16) - Created by:
 1. Mike Deiters - Project Manager/Data Modeler
 2. Aston Tsou - Lead Documentation/Client Liason
 3. Narith Seang - Lead Testing/Lead Developer
