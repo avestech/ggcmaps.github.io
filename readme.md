@@ -1,6 +1,10 @@
-# GGCMaps
+Gwinnett Grizzlies Map
+===
 
 **Website URL:** *[ggcmaps.github.io](https://ggcmaps.github.io)*
+
+**Survey URL:** *[https://docs.google.com/forms/d/1GavR9QYzEYSZ1eLda_Us6qejIYsI_QXIYpWfGt9jTnA
+](https://docs.google.com/forms/d/1GavR9QYzEYSZ1eLda_Us6qejIYsI_QXIYpWfGt9jTnA)*
 
 Created By
 ---
@@ -50,7 +54,7 @@ For map updates we have our illustrator files available to download from dropbox
 3. Carlos Pacheco - Programmer/Testing
 4. Joshua Gerth - Data Modeler/Programmer
 
->>>>>>> c84727cbef58b874f16d97de4ce2d2e85ed3d1fb
+
 #### Previous Members
 ##### (Fall '16)
 1. Mike Deiters - Project Manager/Data Modeler
