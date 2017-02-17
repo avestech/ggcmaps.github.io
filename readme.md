@@ -35,13 +35,13 @@ For map updates we have our illustrator files available to download from dropbox
 
 ### Description
 
-
 ### Documentation
 * Communication: (private) [Slack](https://ggc-dev.slack.com/messages/ggcmaps/details/)
 * Process Tool: [Trello Board](https://trello.com/b/0CNpNkKa/ggc-map-project)
 * Repository: [GGCMaps](https://github.com/soft-eng-practicum/ggcmaps)
 * Requirements Document: [Download Link](https://github.com/soft-eng-practicum/ggcmaps/blob/master/Planning/2017%20-%2001%20-%20Spring/Requirements%20Documentation.docx?raw=true)
 * Live Project: [Website](https://soft-eng-practicum.github.io/ggcmaps/) (External Link)
+
 
 ### The Team
 #### Current Members (Spring '17)
@@ -50,6 +50,7 @@ For map updates we have our illustrator files available to download from dropbox
 3. Carlos Pacheco - Programmer/Testing
 4. Joshua Gerth - Data Modeler/Programmer
 
+>>>>>>> c84727cbef58b874f16d97de4ce2d2e85ed3d1fb
 #### Previous Members
 ##### (Fall '16)
 1. Mike Deiters - Project Manager/Data Modeler
