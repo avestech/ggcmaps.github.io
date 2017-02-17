@@ -13,7 +13,7 @@
 * Process Tool: [Trello Board](https://trello.com/b/0CNpNkKa/ggc-map-project)
 * Repository: [GGCMaps](https://github.com/soft-eng-practicum/ggcmaps)
 * Requirements Document: [Download Link](https://github.com/soft-eng-practicum/ggcmaps/blob/master/Planning/2017%20-%2001%20-%20Spring/Requirements%20Documentation.docx?raw=true)
-* Live Project: [Website](https://ggcmaps.github.io) (External Link)
+* Live Project: [Website](https://soft-eng-practicum.github.io/ggcmaps/) (External Link)
 
 
 <!-- ## Github Organization
