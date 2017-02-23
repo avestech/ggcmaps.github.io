@@ -6,7 +6,7 @@
 * [Website](https://soft-eng-practicum.github.io/ggcmaps/)(External Link)
 
 ### Description
-
+ 
 ### Documentation
 * Communication: (private) [Slack](https://ggc-dev.slack.com/messages/ggcmaps/details/)
 * Process Tool: [Trello Board](https://trello.com/b/0CNpNkKa/ggc-map-project)
