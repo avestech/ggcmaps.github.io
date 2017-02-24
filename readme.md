@@ -15,8 +15,9 @@
 * Live Project: [Website](https://soft-eng-practicum.github.io/ggcmaps/) (External Link)
 
 
-### The Team!
-#### Current Members (Spring '17)
+### The Team
+#### Current Members (Spring '17):
+>>>>>>> integration
 1. David Rivera - Project Manager/Client Liason
 2. Margaret Muse- UI/Documentation
 3. Carlos Pacheco - Programmer/Testing
