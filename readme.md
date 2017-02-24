@@ -16,7 +16,7 @@
 
 
 ### The Team
-#### Current Members (Spring '17)
+#### Current Members (Spring '17):
 1. David Rivera - Project Manager/Client Liason
 2. Margaret Muse- UI/Documentation
 3. Carlos Pacheco - Programmer/Testing
