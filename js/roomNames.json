@@ -47,7 +47,11 @@
       },
       {
         "name": "technology-help-desk",
-        "id": "1400"
+        "id": "1040"
+      }
+      {
+        "name": "help-desk",
+        "id": "1040"
       }
     ]
   },
@@ -339,6 +343,10 @@
         "name": "swimming-pool",
         "id": "jr-olympic-pool"
       },
+      {
+        "name": "pool",
+        "id": "jr-olympic-pool"
+      }
       {
         "name": "basketball-court",
         "id": "basketball-court"
