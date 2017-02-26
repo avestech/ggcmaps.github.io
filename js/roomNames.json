@@ -2,14 +2,6 @@
   "A": {
     "1": [
       {
-        "name": "chick-fil",
-        "id": "1800"
-      },
-      {
-        "name": "chick",
-        "id": "1800"
-      },
-      {
         "name": "chick-fil-a",
         "id": "1800"
       },
@@ -147,6 +139,10 @@
       },
       {
         "name": "registrar",
+        "id": "1129"
+      },
+      {
+        "name": "registrar-office",
         "id": "1129"
       },
       {
@@ -451,6 +447,10 @@
       },
       {
         "name": "reading-room",
+        "id": "3111"
+      },
+      {
+        "name": "quiet-room",
         "id": "3111"
       }
     ]
