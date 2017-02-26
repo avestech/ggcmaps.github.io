@@ -7,7 +7,7 @@
       },
       {
         "name": "panda-express",
-        "id": "1800:"
+        "id": "1800"
       },
       {
         "name": "panda",
@@ -48,7 +48,7 @@
       {
         "name": "technology-help-desk",
         "id": "1040"
-      }
+      },
       {
         "name": "help-desk",
         "id": "1040"
@@ -346,7 +346,7 @@
       {
         "name": "pool",
         "id": "jr-olympic-pool"
-      }
+      },
       {
         "name": "basketball-court",
         "id": "basketball-court"
