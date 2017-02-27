@@ -21,7 +21,7 @@ module.exports = function(grunt) {
       }, // options
       my_target: {
         files: {
-          '/js/script.min.js': ['lib/client-js/*.js']
+          'js/script.min.js': ['lib/client-js/*.js']
         } // files
       } // my_target
     }, // uglify
