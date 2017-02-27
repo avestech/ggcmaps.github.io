@@ -7,7 +7,7 @@
       },
       {
         "name": "panda-express",
-        "id": "1800:"
+        "id": "1800"
       },
       {
         "name": "panda",
@@ -47,7 +47,11 @@
       },
       {
         "name": "technology-help-desk",
-        "id": "1400"
+        "id": "1040"
+      },
+      {
+        "name": "help-desk",
+        "id": "1040"
       }
     ]
   },
@@ -135,6 +139,10 @@
       },
       {
         "name": "registrar",
+        "id": "1129"
+      },
+      {
+        "name": "registrar-office",
         "id": "1129"
       },
       {
@@ -340,6 +348,10 @@
         "id": "jr-olympic-pool"
       },
       {
+        "name": "pool",
+        "id": "jr-olympic-pool"
+      },
+      {
         "name": "basketball-court",
         "id": "basketball-court"
       },
@@ -435,6 +447,10 @@
       },
       {
         "name": "reading-room",
+        "id": "3111"
+      },
+      {
+        "name": "quiet-room",
         "id": "3111"
       }
     ]
