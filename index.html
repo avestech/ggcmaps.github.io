@@ -32,7 +32,7 @@
 						<h3>Menu</h3>
 					</div> <!-- menu-popup -->
 				</div> <!-- popup-group -->
-				<input type="text" id="roomSearch" placeholder="Search Rooms" onkeypress="searchFromBar(event)" autofocus>
+				<input type="text" id="roomSearch" placeholder="Search (Ex: B 1200, Help Desk)" onkeypress="searchFromBar(event)" autofocus>
 				<div class="popup-group">
 					<i id="search" class="fa fa-search" aria-hidden="true" onclick="searchRoomNumber()"></i>
 					<div class="popup" id="search-popup">
@@ -47,7 +47,7 @@
 					</div> <!-- building-popup -->
 				</div> <!-- popup-group -->
 				<div class="popup-group">
-					<h2 id="floor" onclick="dropdown('floors', 'floors-active')" ></h2>
+					<h2 id="floor" onclick="deactivateAllRooms(), dropdown('floors', 'floors-active')"></h2>
 					<div class="popup" id="floor-popup">
 						<h3>Floor</h3>
 					</div> <!-- floor-popup -->
@@ -133,7 +133,7 @@
 				</ul>
 				<li onclick="searchFromMenu('game-room')"><a>Game Room</a></li>
 				<li onclick="searchFromMenu('lvis')"><a>LVIS</a></li>
-				<li onclick="searchFromMenu('cg309')"><a>Help Desk</a></li>
+				<li onclick="searchFromMenu('a1040')"><a>Help Desk</a></li>
 				<li onclick="searchFromMenu('d1125')"><a>Parking Services</a></li>
 				<li onclick="searchFromMenu('d1301')"><a>Testing Services</a></li>
 				<li onclick="searchFromMenu('a1510')"><a>The Den</a></li>
@@ -145,6 +145,6 @@
 			</ul>
 		</div> <!-- nav -->
 
-		<script src="https://localhost:35729/livereload.js"></script>
+		<!-- <script src="https://localhost:35729/livereload.js"></script> -->
 	</body>
 </html>
