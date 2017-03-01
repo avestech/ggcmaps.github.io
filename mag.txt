@@ -1,1 +1,16 @@
-Maggie
+UI Color Scheme
+
+as of 3/1/2017 *subject to changes
+
+Color legend
+Blue = handicap
+Light red = student resident parking
+Student Parking = dark orange
+Reserved parking = yellow
+Staff= dark red
+Building = dark green
+Rooms= green
+Dorm rooms = grey
+
+GGC maps icon – primary GGC colors
+Sports fields – beige (ggc athletics logo)
