@@ -19,7 +19,7 @@ This project was started by [Mike Deiters et al](https://github.com/soft-eng-pra
 * Repository: [GGCMaps](https://github.com/soft-eng-practicum/ggcmaps)
 * Requirements Document: [Download Link](https://drive.google.com/file/d/0B10t50zhIuzvTmtRV29RVlVBcW8/view?usp=sharing)
 * Live Project: [Website](https://soft-eng-practicum.github.io/ggcmaps/) (External Link)
-* [License]()
+* [License](https://drive.google.com/file/d/0B10t50zhIuzvdF90endmd1NYMGM/view?usp=sharing)
 
 
 ### The Team
