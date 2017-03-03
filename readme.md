@@ -7,8 +7,9 @@
 * [Website](https://soft-eng-practicum.github.io/ggcmaps/) (External Link)
 
 ### News:
+* **3/2/2017** - A few members (past and current) met with GGC's magazine, [*Engage*](http://www.ggc.edu/about-ggc/news/publications/), to be featured in an upcoming edition.
 * **2/25/2017** - Talks begin with [BrowserStack](http://browserstack.com/) for a sponsorship to help us test and squash bugs along the way.
-* **2/16/2017** - Project is presented to Director of Operations at GGC. Begins review for live version on the official ggc.edu website.
+###### [Past News](https://github.com/soft-eng-practicum/ggcmaps/blob/master/news.md)
 
 ### Description
 This project was started by [Mike Deiters et al](https://github.com/soft-eng-practicum/ggcmaps#fall-16---created-by), in Fall of 2016. It has since been picked up for continuation by [David Rivera et al](https://github.com/soft-eng-practicum/ggcmaps#current-members-spring-17), to further develop its features, and fix bugs as our Software Development II project.
