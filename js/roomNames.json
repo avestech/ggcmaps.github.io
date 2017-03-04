@@ -406,6 +406,14 @@
         "id": "free-weights"
       },
       {
+        "name": "weight-room",
+        "id": "free-weights"
+      },
+      {
+        "name": "weights-room",
+        "id": "free-weights"
+      },
+      {
         "name": "aerobics",
         "id": "aerobics"
       },
@@ -419,6 +427,10 @@
       },
       {
         "name": "elevated-track",
+        "id": "elevated-track"
+      },
+      {
+        "name": "indoor-track",
         "id": "elevated-track"
       }
     ]
