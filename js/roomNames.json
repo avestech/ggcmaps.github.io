@@ -2,6 +2,10 @@
   "A": {
     "1": [
       {
+        "name": "food-court",
+        "id": "1800"
+      },
+      {
         "name": "chick-fil-a",
         "id": "1800"
       },
@@ -188,6 +192,10 @@
         "id": "dining-hall"
       },
       {
+        "name": "dining-area",
+        "id": "dining-hall"
+      },
+      {
         "name": "dining",
         "id": "dining-hall"
       },
@@ -219,6 +227,10 @@
     "2": [
       {
         "name": "bookstore",
+        "id": "bookstore"
+      },
+      {
+        "name": "barnes-and-noble",
         "id": "bookstore"
       },
       {
@@ -406,6 +418,14 @@
         "id": "free-weights"
       },
       {
+        "name": "weight-room",
+        "id": "free-weights"
+      },
+      {
+        "name": "weights-room",
+        "id": "free-weights"
+      },
+      {
         "name": "aerobics",
         "id": "aerobics"
       },
@@ -419,6 +439,10 @@
       },
       {
         "name": "elevated-track",
+        "id": "elevated-track"
+      },
+      {
+        "name": "indoor-track",
         "id": "elevated-track"
       }
     ]
@@ -434,6 +458,12 @@
       {
         "name": "circulation-desk",
         "id": "1136"
+      }
+    ],
+    "2": [
+      {
+        "name": "reference-desk",
+        "id": "2101"
       }
     ],
     "3": [
