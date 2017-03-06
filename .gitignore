@@ -38,6 +38,7 @@
 *.lock
 ehthumbs.db
 Thumbs.db
+desktop.ini
 
 # Folders #
 ###########
