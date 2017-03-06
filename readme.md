@@ -1,6 +1,6 @@
 # Gwinnett Grizzlies Map
 #### Our Sponsors
-<a href="http://www.BrowserStack.com/"><img src="(https://github.com/soft-eng-practicum/ggcmaps/blob/master/images/tinylogoBrowserStack.png" atl="BrowserStack"></a>
+<a href="http://www.BrowserStack.com/"><img src="https://github.com/soft-eng-practicum/ggcmaps/blob/master/images/tinylogoBrowserStack.png" atl="BrowserStack"></a>
 
 ##### [Read More](https://github.com/soft-eng-practicum/ggcmaps#about-our-sponsors)
 
