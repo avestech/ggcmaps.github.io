@@ -610,26 +610,12 @@ body:after {
 .campus-info section .parking-key .color-label {
   margin: auto;
 }
-/* line 131, ../../app/lib/sass/_nav.scss */
-.campus-info section .parking-key #staff-parking {
-  border-radius: 10px;
-  background-color: #ffe5c6;
-  border: 1px solid #00704a;
-  width: 10px;
-  height: 10px;
-}
-/* line 135, ../../app/lib/sass/_nav.scss */
-.campus-info section .parking-key #open-parking {
-  border-radius: 10px;
-  background-color: #d8eff5;
-  border: 1px solid #00704a;
-  width: 10px;
-  height: 10px;
-}
+
+
 /* line 139, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key #reserved-parking {
   border-radius: 10px;
-  background-color: #fcf5c7;
+  background-color: #a33b10;
   border: 1px solid #00704a;
   width: 10px;
   height: 10px;
@@ -637,7 +623,7 @@ body:after {
 /* line 143, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key #resident-parking {
   border-radius: 10px;
-  background-color: #f4c9c4;
+  background-color: #ec6932;
   border: 1px solid #00704a;
   width: 10px;
   height: 10px;
@@ -645,7 +631,7 @@ body:after {
 /* line 147, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key #student-parking {
   border-radius: 10px;
-  background-color: #deedcd;
+  background-color: #faa634;
   border: 1px solid #00704a;
   width: 10px;
   height: 10px;
@@ -653,7 +639,7 @@ body:after {
 /* line 151, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key #visitor-parking {
   border-radius: 10px;
-  background-color: #afd7ef;
+  background-color: #85c446;
   border: 1px solid #00704a;
   width: 10px;
   height: 10px;
@@ -672,51 +658,37 @@ body:after {
   .campus-info section .parking-key p {
     font-size: 1rem;
   }
-  /* line 169, ../../app/lib/sass/_nav.scss */
-  .campus-info section .parking-key #staff-parking {
-    border-radius: 15px;
-    background-color: #ffe5c6;
-    border: 1px solid #00704a;
-    width: 15px;
-    height: 15px;
-  }
-  /* line 173, ../../app/lib/sass/_nav.scss */
-  .campus-info section .parking-key #open-parking {
-    border-radius: 15px;
-    background-color: #d8eff5;
-    border: 1px solid #00704a;
-    width: 15px;
-    height: 15px;
-  }
+
+
   /* line 177, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #reserved-parking {
     border-radius: 15px;
-    background-color: #fcf5c7;
-    border: 1px solid #00704a;
+    background-color: #a33b10;
+    border: 1px solid #000000;
     width: 15px;
     height: 15px;
   }
   /* line 181, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #resident-parking {
     border-radius: 15px;
-    background-color: #f4c9c4;
-    border: 1px solid #00704a;
+    background-color: #ec6932;
+    border: 1px solid #000000;
     width: 15px;
     height: 15px;
   }
   /* line 185, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #student-parking {
     border-radius: 15px;
-    background-color: #deedcd;
-    border: 1px solid #00704a;
+    background-color: #faa634;
+    border: 1px solid #000000;
     width: 15px;
     height: 15px;
   }
   /* line 189, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #visitor-parking {
     border-radius: 15px;
-    background-color: #afd7ef;
-    border: 1px solid #00704a;
+    background-color: #85c446;
+    border: 1px solid #000000;
     width: 15px;
     height: 15px;
   }
@@ -760,55 +732,42 @@ body:after {
   .campus-info section .parking-key .color-label {
     margin: 0;
   }
-  /* line 228, ../../app/lib/sass/_nav.scss */
-  .campus-info section .parking-key #staff-parking {
-    border-radius: 20px;
-    background-color: #ffe5c6;
-    border: 1px solid #00704a;
-    width: 20px;
-    height: 20px;
-  }
-  /* line 232, ../../app/lib/sass/_nav.scss */
-  .campus-info section .parking-key #open-parking {
-    border-radius: 20px;
-    background-color: #d8eff5;
-    border: 1px solid #00704a;
-    width: 20px;
-    height: 20px;
-  }
+
+
   /* line 236, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #reserved-parking {
     border-radius: 20px;
-    background-color: #fcf5c7;
-    border: 1px solid #00704a;
+    background-color: #a33b10;
+    border: 1px solid #000000;
     width: 20px;
     height: 20px;
   }
   /* line 240, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #resident-parking {
     border-radius: 20px;
-    background-color: #f4c9c4;
-    border: 1px solid #00704a;
+    background-color: #ec6932;
+    border: 1px solid #000000;
     width: 20px;
     height: 20px;
   }
   /* line 244, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #student-parking {
     border-radius: 20px;
-    background-color: #deedcd;
-    border: 1px solid #00704a;
+    background-color: #faa634;
+    border: 1px solid #000000;
     width: 20px;
     height: 20px;
   }
   /* line 248, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #visitor-parking {
     border-radius: 20px;
-    background-color: #afd7ef;
-    border: 1px solid #00704a;
+    background-color: #85c446;
+    border: 1px solid #000000;
     width: 20px;
     height: 20px;
   }
 }
+
 @media (min-width: 70em) {
   /* line 91, ../../app/lib/sass/_nav.scss */
   .campus-info {
@@ -821,7 +780,7 @@ body:after {
 
 /* line 2, ../../app/lib/sass/_campus.scss */
 svg .campus {
-  stroke: #00704a;
+  stroke: #000000;
   stroke-width: 0.5;
   stroke-linecap: round;
   stroke-linejoin: round;
