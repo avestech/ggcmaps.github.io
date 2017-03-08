@@ -2,12 +2,28 @@
   "A": {
     "1": [
       {
+        "name": "food-court",
+        "id": "1800"
+      },
+      {
         "name": "chick-fil-a",
         "id": "1800"
       },
       {
+        "name": "chickfila",
+        "id": "1800"
+      },
+      {
+        "name": "chick-fil",
+        "id": "1800"
+      },
+      {
+        "name": "chick",
+        "id": "1800"
+      },
+      {
         "name": "panda-express",
-        "id": "1800:"
+        "id": "1800"
       },
       {
         "name": "panda",
@@ -47,7 +63,11 @@
       },
       {
         "name": "technology-help-desk",
-        "id": "1400"
+        "id": "1040"
+      },
+      {
+        "name": "help-desk",
+        "id": "1040"
       }
     ]
   },
@@ -63,6 +83,10 @@
       },
       {
         "name": "einstein's",
+        "id": "einstein-bros-bagels"
+      },
+      {
+        "name": "einsteins",
         "id": "einstein-bros-bagels"
       }
     ],
@@ -138,6 +162,10 @@
         "id": "1129"
       },
       {
+        "name": "registrar-office",
+        "id": "1129"
+      },
+      {
         "name": "student-accounts",
         "id": "1147"
       }
@@ -161,6 +189,10 @@
       },
       {
         "name": "dining-hall",
+        "id": "dining-hall"
+      },
+      {
+        "name": "dining-area",
         "id": "dining-hall"
       },
       {
@@ -195,6 +227,10 @@
     "2": [
       {
         "name": "bookstore",
+        "id": "bookstore"
+      },
+      {
+        "name": "barnes-and-noble",
         "id": "bookstore"
       },
       {
@@ -340,6 +376,10 @@
         "id": "jr-olympic-pool"
       },
       {
+        "name": "pool",
+        "id": "jr-olympic-pool"
+      },
+      {
         "name": "basketball-court",
         "id": "basketball-court"
       },
@@ -378,6 +418,14 @@
         "id": "free-weights"
       },
       {
+        "name": "weight-room",
+        "id": "free-weights"
+      },
+      {
+        "name": "weights-room",
+        "id": "free-weights"
+      },
+      {
         "name": "aerobics",
         "id": "aerobics"
       },
@@ -391,6 +439,10 @@
       },
       {
         "name": "elevated-track",
+        "id": "elevated-track"
+      },
+      {
+        "name": "indoor-track",
         "id": "elevated-track"
       }
     ]
@@ -406,6 +458,12 @@
       {
         "name": "circulation-desk",
         "id": "1136"
+      }
+    ],
+    "2": [
+      {
+        "name": "reference-desk",
+        "id": "2101"
       }
     ],
     "3": [
@@ -435,6 +493,10 @@
       },
       {
         "name": "reading-room",
+        "id": "3111"
+      },
+      {
+        "name": "quiet-room",
         "id": "3111"
       }
     ]

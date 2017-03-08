@@ -7,7 +7,9 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<script src="js/svg-pan-zoom.min.js"></script>
     <script src="js/hammer.min.js"></script>
+		<script src="js/bluebird.min.js"></script>
 		<script src="js/script.min.js"></script>
+		<script src="js/detect.min.js"></script>
 		<script src="https://use.fontawesome.com/c559106939.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400i" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Yantramanav:300" rel="stylesheet">
@@ -23,6 +25,12 @@
 		</script>
 	</head>
 	<body>
+		<script>
+		var user = detect.parse(navigator.userAgent);
+			if (user.browser.family === 'IE') {
+  			alert('Please use a different browser (Chrome, Firefox, Opera),\nor use a mobile device for full features. \n\nClick "OK" to proceed with limited functionality.');
+			}
+		</script>
 		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'devbox');" class="content">
 			<div class="search-menu">
 				<div class="popup-group">
@@ -31,7 +39,7 @@
 						<h3>Menu</h3>
 					</div> <!-- menu-popup -->
 				</div> <!-- popup-group -->
-				<input type="text" id="roomSearch" placeholder="Search Rooms" onkeypress="searchFromBar(event)" autofocus>
+				<input type="text" id="roomSearch" placeholder="Search (Ex: B 1200, Help Desk)" onkeypress="searchFromBar(event)" autofocus>
 				<div class="popup-group">
 					<i id="search" class="fa fa-search" aria-hidden="true" onclick="searchRoomNumber()"></i>
 					<div class="popup" id="search-popup">
@@ -46,7 +54,7 @@
 					</div> <!-- building-popup -->
 				</div> <!-- popup-group -->
 				<div class="popup-group">
-					<h2 id="floor" onclick="dropdown('floors', 'floors-active')" ></h2>
+					<h2 id="floor" onclick="dropdown('floors', 'floors-active')"></h2>
 					<div class="popup" id="floor-popup">
 						<h3>Floor</h3>
 					</div> <!-- floor-popup -->
@@ -132,7 +140,7 @@
 				</ul>
 				<li onclick="searchFromMenu('game-room')"><a>Game Room</a></li>
 				<li onclick="searchFromMenu('lvis')"><a>LVIS</a></li>
-				<li onclick="searchFromMenu('cg309')"><a>Help Desk</a></li>
+				<li onclick="searchFromMenu('a1040')"><a>Help Desk</a></li>
 				<li onclick="searchFromMenu('d1125')"><a>Parking Services</a></li>
 				<li onclick="searchFromMenu('d1301')"><a>Testing Services</a></li>
 				<li onclick="searchFromMenu('a1510')"><a>The Den</a></li>
@@ -144,6 +152,6 @@
 			</ul>
 		</div> <!-- nav -->
 
-		<script src="http://localhost:35729/livereload.js"></script>
+		<!-- <script src="https://localhost:35729/livereload.js"></script> -->
 	</body>
 </html>
