@@ -444,6 +444,10 @@
       {
         "name": "indoor-track",
         "id": "elevated-track"
+      },
+      {
+        "name": "track",
+        "id": "elevated-track"
       }
     ]
   },
