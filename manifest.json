@@ -1,0 +1,26 @@
+{
+  "short_name": "GGCMaps",
+  "name": "Gwinnett Grizzlies Map",
+  "start_url": "index.html#Campus",
+  "background_color": "#a5acb0",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#00704a",
+  "icons": [
+    {
+      "src": "images/launcher-icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/launcher-icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/launcher-icon-4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
