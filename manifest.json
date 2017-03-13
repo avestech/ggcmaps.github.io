@@ -2,10 +2,10 @@
   "short_name": "GGCMaps",
   "name": "Gwinnett Grizzlies Map",
   "start_url": "index.html#Campus",
-  "background_color": "#2196F3",
+  "background_color": "#a5acb0",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#2196F3",
+  "theme_color": "#00704a",
   "icons": [
     {
       "src": "images/launcher-icon-1x.png",
