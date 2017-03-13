@@ -27,23 +27,6 @@
 			    });
 			  });
 			}
-			var CACHE_NAME = 'my-site-cache-v1';
-			var urlsToCache = [
-			  '/',
-			  '/styles/main.css',
-			  '/script/main.js'
-			];
-
-			self.addEventListener('install', function(event) {
-			  // Perform install steps
-			  event.waitUntil(
-			    caches.open(CACHE_NAME)
-			      .then(function(cache) {
-			        console.log('Opened cache');
-			        return cache.addAll(urlsToCache);
-			      })
-			  );
-			});
 		</script>
 
 		<script>
@@ -102,14 +85,6 @@
 				<h4>Parking Legend</h4>
 				<div class="menu-section"></div>
 				<section>
-					<div class="parking-key">
-						<div id="staff-parking" class="color-label"></div>
-						<p>Staff</p>
-					</div>
-					<div class="parking-key">
-						<div id="open-parking" class="color-label"></div>
-						<p>Open</p>
-					</div>
 					<div class="parking-key">
 						<div id="reserved-parking" class="color-label"></div>
 						<p>Reserved</p>
