@@ -1,7 +1,6 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  'Building/',
-  'Building/A/First-Floor.html',
+  'ggcmaps/Building/A/First-Floor.html',
   'Building/B/first-floor.html',
   'Building/B/second-floor.html',
   'Building/B/third-floor.html',
@@ -14,7 +13,7 @@ var urlsToCache = [
   'Building/D/Second-Floor.html',
   'Building/E/First-Floor.html',
   'Building/E/Second-Floor.html',
-  'Building/E/Third-Floor.html',
+  'ggcmaps/Building/E/Third-Floor.html',
   'Building/F/First-Floor.html',
   'Building/F/Second-Floor.html',
   'Building/H/First-Floor.html',
