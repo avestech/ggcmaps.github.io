@@ -1,4 +1,4 @@
-var CACHE_NAME = 'my-site-cache-v2';
+var CACHE_NAME = 'my-site-cache-v3';
 var urlsToCache = [
   'Building/A/First-Floor.html',
   'Building/B/first-floor.html',
@@ -28,9 +28,9 @@ var urlsToCache = [
   'css/',
   'images/',
   'js/script.min.js',
-  '/ggcmaps/index.html',
-  '/ggcmaps/devs.html',
-  '/ggcmaps/help.html',
+  '/index.html',
+  '/devs.html',
+  '/help.html',
 ];
 
 self.addEventListener('install', function(event) {
