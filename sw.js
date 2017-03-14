@@ -1,4 +1,4 @@
-var CACHE_NAME = 'my-site-cache-v3';
+var CACHE_NAME = 'GGCMaps-cache-v1';
 var urlsToCache = [
   'Building/A/First-Floor.html',
   'Building/B/first-floor.html',
