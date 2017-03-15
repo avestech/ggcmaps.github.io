@@ -28,9 +28,9 @@ var urlsToCache = [
   // 'css/',
   // 'images/',
   // 'js/script.min.js',
-  '/index.html',
-  'devs.html',
-  'help.html',
+  '/ggcmaps/index.html',
+  // 'devs.html',
+  'help.html'
 ];
 
 self.addEventListener('install', function(event) {
