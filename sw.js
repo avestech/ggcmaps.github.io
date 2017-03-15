@@ -1,5 +1,13 @@
 var CACHE_NAME = 'GGCMaps-cache-v1.0';
 var urlsToCache = [
+  '/ggcmaps/js/script.min.js',
+  '/ggcmaps/index.html',
+  '/ggcmaps/favicon.ico',
+  '/ggcmaps/css/styles.css',
+  '/ggcmaps/images/launcher-icon-1x.png',
+  '/ggcmaps/images/launcher-icon-2x.png',
+  '/ggcmaps/images/launcher-icon-3x.png',
+  '/ggcmaps/images/launcher-icon-4x.png',
   '/ggcmaps/Building/A/First-Floor.html',
   '/ggcmaps/Building/B/first-floor.html',
   '/ggcmaps/Building/B/second-floor.html',
@@ -25,10 +33,6 @@ var urlsToCache = [
   '/ggcmaps/Building/L/First-Floor.html',
   '/ggcmaps/Building/L/Second-Floor.html',
   '/ggcmaps/Building/L/Third-Floor.html',
-  '/ggcmaps/css/',
-  '/ggcmaps/images/',
-  '/ggcmaps/js/script.min.js',
-  '/ggcmaps/index.html',
   '/ggcmaps/devs.html',
   '/ggcmaps/help.html'
 ];
