@@ -1,6 +1,7 @@
 var CACHE_NAME = 'GGCMaps-cache-v1.0';
 var urlsToCache = [
   '/ggcmaps/js/script.min.js',
+  '/ggcmaps/js/roomNames.json',
   '/ggcmaps/index.html',
   '/ggcmaps/favicon.ico',
   '/ggcmaps/css/styles.css',
