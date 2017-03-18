@@ -11,15 +11,13 @@
     <script src="js/hammer.min.js"></script>
 		<script src="js/bluebird.min.js"></script>
 		<script src="js/script.min.js"></script>
-		<script src="js/detect.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Yantramanav:300" rel="stylesheet">
 		<!-- Script is run in the head so that there's no jump (partial load then redirect) for IE users  -->
 		<!-- Allows for the first paint to be the support page if agreement has not been accepted in current session -->
 		<script>
 			// Detect the user's browser... nasty, I know. A necessary evil :'(
-			var user = detect.parse(navigator.userAgent);
-			// If the detected browser is Internet Explorer...
-			if (user.browser.family === 'IE') {
+			// If the detected browser is Internet Explorer or Edge
+			if (window.navigator.userAgent.indexOf("Trident") > -1 || window.navigator.userAgent.indexOf("Edge") > -1) {
 				// Read through the user's cookie
 				// Function looks for "agreement" set to "accept" using the website
 				// with limited functionality
