@@ -1,4 +1,4 @@
-var CACHE_NAME = 'GGCMaps-cache-v1.0';
+var CACHE_NAME = 'GGCMaps-cache-v1.1';
 var urlsToCache = [
   '/ggcmaps/js/script.min.js',
   '/ggcmaps/js/roomNames.json',

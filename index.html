@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="theme-color" content="#00704a">
-		<title>Gwinnett Grizzly Maps</title>
+		<title>GGCMaps</title>
 		<link rel="manifest" href="manifest.json">
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="css/styles.css">
@@ -39,7 +39,7 @@
 				// if the function eatCookie() returns that cookie is not empty (user
 				// has accepted previously in this session) do nothing.
 				// else if it is null, redirect user to support page
-				if (eatCookie("agreement") != "") {
+				if (eatCookie("agreement") == "accept") {
 				} else {
 					window.location.replace("support.html");
 				}
@@ -138,7 +138,7 @@
 		</div>
 
 		<div class="nav">
-			<h1 onclick="changeFloor('Campus')">Gwinnett Grizzly Maps</h1>
+			<h1 onclick="changeFloor('Campus')">GGCMaps</h1>
 			<img src="images/arrow-left.svg" onclick="closeMenu()">
 			<div class="menu-section"></div>
 			<ul>
