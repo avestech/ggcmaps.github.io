@@ -74,7 +74,7 @@
   <script>
     function agreePage(ayenay){
       document.cookie = "agreement=" + ayenay;
-      window.location.replace("/index.html");
+      window.location.replace("index.html");
     };
   </script>
   <div class="content">
@@ -86,8 +86,8 @@
       <p class="message" style="color:red;">
         This browser is missing functionality...
       </p>
-      <a href="/learn-more.html" class="linkButton linkButtonSecondary">What am I missing?</a>
-      <a href="/" class="linkButton linkButtonSecondary" onclick="agreePage('accept')">Continue anyway</a>
+      <a href="learn-more.html" class="linkButton linkButtonSecondary">What am I missing?</a>
+      <a href="index.html" class="linkButton linkButtonSecondary" onclick="agreePage('accept')">Continue anyway</a>
       <br>
       <p class="message">Wanna download one of the suggested browsers instead?</p>
       <a href="https://www.google.com/chrome/browser/?hl=en-US" class="linkButton primaryButton">Download Google Chrome</a>
