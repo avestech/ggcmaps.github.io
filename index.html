@@ -13,6 +13,40 @@
 		<script src="js/script.min.js"></script>
 		<script src="js/detect.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Yantramanav:300" rel="stylesheet">
+		<!-- Script is run in the head so that there's no jump (partial load then redirect) for IE users  -->
+		<!-- Allows for the first paint to be the support page if agreement has not been accepted in current session -->
+		<script>
+			// Detect the user's browser... nasty, I know. A necessary evil :'(
+			var user = detect.parse(navigator.userAgent);
+			// If the detected browser is Internet Explorer...
+			if (user.browser.family === 'IE') {
+				// Read through the user's cookie
+				// Function looks for "agreement" set to "accept" using the website
+				// with limited functionality
+				function eatCookie(bite) {
+					var cookieDough = bite + "=";
+					var cookieCrusher = decodeURIComponent(document.cookie);
+					var cookieCrumbs = cookieCrusher.split(';');
+					for(var i=0; i<cookieCrumbs.length; i++){
+						var cookieDust = cookieCrumbs[i];
+						while (cookieDust.charAt(0) == ' '){
+							cookieDust = cookieDust.substring(1);
+						}
+						if(cookieDust.indexOf(cookieDough) == 0){
+							return cookieDust.substring(cookieDough.length, cookieDust.length);
+						}
+					}
+					return "";
+				}
+				// if the function eatCookie() returns that cookie is not empty (user
+				// has accepted previously in this session) do nothing.
+				// else if it is null, redirect user to support page
+				if (eatCookie("agreement") != "") {
+				} else {
+					window.location.replace("/support.html");
+				}
+			}
+		</script>
 		<script>
 			if ('serviceWorker' in navigator) {
 			  window.addEventListener('load', function() {
@@ -38,12 +72,6 @@
 		</script>
 	</head>
 	<body>
-		<script>
-		var user = detect.parse(navigator.userAgent);
-			if (user.browser.family === 'IE') {
-  			alert('Please use a different browser (Chrome, Firefox, Opera),\nor use a mobile device for full features. \n\nClick "OK" to proceed with limited functionality.');
-			}
-		</script>
 		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'devbox');" class="content">
 			<div class="search-menu">
 				<div class="popup-group">
