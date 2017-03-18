@@ -75,14 +75,14 @@
 		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'devbox');" class="content">
 			<div class="search-menu">
 				<div class="popup-group">
-					<img id="menu" src="images/bars.svg" onclick="openMenu()">
+					<img id="menu" src="images/bars.svg" onclick="openMenu()" alt="Menu Button">
 					<div class="popup" id="menu-popup">
 						<h3>Menu</h3>
 					</div> <!-- menu-popup -->
 				</div> <!-- popup-group -->
 				<input type="text" id="roomSearch" placeholder="Search (Ex: B 1200, Help Desk)" onkeypress="searchFromBar(event)" autofocus>
 				<div class="popup-group">
-					<img id="search" src="images/search.svg" onclick="searchRoomNumber()">
+					<img id="search" src="images/search.svg" onclick="searchRoomNumber()" alt="Search Icon">
 					<div class="popup" id="search-popup">
 						<h3>Search</h3>
 					</div> <!-- search-popup -->
@@ -101,7 +101,7 @@
 					</div> <!-- floor-popup -->
 				</div> <!-- popup-group -->
 				<div class="dropdown">
-					<img src="images/caret-down.svg" onclick="dropdown('floors', 'floors-active')">
+					<img src="images/caret-down.svg" onclick="dropdown('floors', 'floors-active')" alt="Dropdown button">
 					<div class="floors"></div> <!-- floors -->
 				</div> <!-- dropdown -->
 			</div> <!-- search-menu -->
