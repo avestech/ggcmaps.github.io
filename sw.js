@@ -1,8 +1,12 @@
-var CACHE_NAME = 'GGCMaps-cache-v1.0';
+var CACHE_NAME = 'GGCMaps-cache-v1.2.2';
 var urlsToCache = [
   '/ggcmaps/js/script.min.js',
   '/ggcmaps/js/roomNames.json',
   '/ggcmaps/index.html',
+  '/ggcmaps/images/bars.svg',
+  '/ggcmaps/images/caret-down.svg',
+  '/ggcmaps/images/arrow-right.svg',
+  '/ggcmaps/images/arrow-left.svg',
   '/ggcmaps/favicon.ico',
   '/ggcmaps/css/styles.css',
   '/ggcmaps/images/launcher-icon-1x.png',

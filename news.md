@@ -1,4 +1,4 @@
-# Gwinnett Grizzlies Map News
+# GGCMaps News
 ### Latest:
 * **3/6/2017** - [BrowserStack](http://browserstack.com/) approves sponsorship. Let an awesome testing phase begin (along with unit testing).
 
