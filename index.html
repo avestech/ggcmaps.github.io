@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
 		<meta charset="utf-8">
 		<meta name="theme-color" content="#00704a">
-		<title>Gwinnett Grizzly Maps</title>
+		<title>GGCMaps</title>
 		<link rel="manifest" href="manifest.json">
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="css/styles.css">
@@ -11,8 +12,40 @@
     <script src="js/hammer.min.js"></script>
 		<script src="js/bluebird.min.js"></script>
 		<script src="js/script.min.js"></script>
-		<script src="js/detect.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Yantramanav:300" rel="stylesheet">
+		<!-- Script is run in the head so that there's no jump (partial load then redirect) for IE users  -->
+		<!-- Allows for the first paint to be the support page if agreement has not been accepted in current session -->
+		<script>
+			// Detect the user's browser... nasty, I know. A necessary evil :'(
+			// If the detected browser is Internet Explorer or Edge
+			if (window.navigator.userAgent.indexOf("Trident") > -1 || window.navigator.userAgent.indexOf("Edge") > -1) {
+				// Read through the user's cookie
+				// Function looks for "agreement" set to "accept" using the website
+				// with limited functionality
+				function eatCookie(bite) {
+					var cookieDough = bite + "=";
+					var cookieCrusher = decodeURIComponent(document.cookie);
+					var cookieCrumbs = cookieCrusher.split(';');
+					for(var i=0; i<cookieCrumbs.length; i++){
+						var cookieDust = cookieCrumbs[i];
+						while (cookieDust.charAt(0) == ' '){
+							cookieDust = cookieDust.substring(1);
+						}
+						if(cookieDust.indexOf(cookieDough) == 0){
+							return cookieDust.substring(cookieDough.length, cookieDust.length);
+						}
+					}
+					return "";
+				}
+				// if the function eatCookie() returns that cookie is not empty (user
+				// has accepted previously in this session) do nothing.
+				// else if it is null, redirect user to support page
+				if (eatCookie("agreement") == "accept") {
+				} else {
+					window.location.replace("support.html");
+				}
+			}
+		</script>
 		<script>
 			if ('serviceWorker' in navigator) {
 			  window.addEventListener('load', function() {
@@ -38,23 +71,17 @@
 		</script>
 	</head>
 	<body>
-		<script>
-		var user = detect.parse(navigator.userAgent);
-			if (user.browser.family === 'IE') {
-  			alert('Please use a different browser (Chrome, Firefox, Opera),\nor use a mobile device for full features. \n\nClick "OK" to proceed with limited functionality.');
-			}
-		</script>
 		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'devbox');" class="content">
 			<div class="search-menu">
 				<div class="popup-group">
-					<img id="menu" src="images/bars.svg" onclick="openMenu()">
+					<img id="menu" src="images/bars.svg" onclick="openMenu()" alt="Menu Button">
 					<div class="popup" id="menu-popup">
 						<h3>Menu</h3>
 					</div> <!-- menu-popup -->
 				</div> <!-- popup-group -->
 				<input type="text" id="roomSearch" placeholder="Search (Ex: B 1200, Help Desk)" onkeypress="searchFromBar(event)" autofocus>
 				<div class="popup-group">
-					<img id="search" src="images/search.svg" onclick="searchRoomNumber()">
+					<img id="search" src="images/search.svg" onclick="searchRoomNumber()" alt="Search Icon">
 					<div class="popup" id="search-popup">
 						<h3>Search</h3>
 					</div> <!-- search-popup -->
@@ -73,7 +100,7 @@
 					</div> <!-- floor-popup -->
 				</div> <!-- popup-group -->
 				<div class="dropdown">
-					<img src="images/caret-down.svg" onclick="dropdown('floors', 'floors-active')">
+					<img src="images/caret-down.svg" onclick="dropdown('floors', 'floors-active')" alt="Dropdown button">
 					<div class="floors"></div> <!-- floors -->
 				</div> <!-- dropdown -->
 			</div> <!-- search-menu -->
@@ -112,8 +139,8 @@
 		</div>
 
 		<div class="nav">
-			<h1 onclick="changeFloor('Campus')">Gwinnett Grizzly Maps</h1>
-			<img src="images/arrow-left.svg" onclick="closeMenu()">
+			<h1 onclick="changeFloor('Campus')">GGCMaps</h1>
+			<img src="images/arrow-left.svg" onclick="closeMenu()" alt="Close Menu Button">
 			<div class="menu-section"></div>
 			<ul>
 				<li onclick="changeFloor('Campus')"><a>Campus</a></li>
