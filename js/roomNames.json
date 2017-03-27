@@ -418,6 +418,42 @@
       {
         "name": "racquet-ball-court-3",
         "id": "racquet-ball-court-3"
+      },
+      {
+        "name": "mens-lockers",
+        "id": "mens-lockers"
+      },
+      {
+        "name": "mens-locker",
+        "id": "mens-lockers"
+      },
+      {
+        "name": "mens-locker-room",
+        "id": "mens-lockers"
+      },
+      {
+        "name": "men-s-lockers",
+        "id": "mens-lockers"
+      },
+      {
+        "name": "men-s-locker-room",
+        "id": "mens-lockers"
+      },
+      {
+        "name": "womens-lockers",
+        "id": "womens-lockers"
+      },
+      {
+        "name": "womens-locker",
+        "id": "womens-lockers"
+      },
+      {
+        "name": "women-s-lockers",
+        "id": "womens-lockers"
+      },
+      {
+        "name": "women-s-locker-room",
+        "id": "womens-lockers"
       }
     ],
     "2": [
