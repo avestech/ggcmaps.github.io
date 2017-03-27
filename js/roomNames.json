@@ -30,11 +30,11 @@
         "id": "1800"
       },
       {
-        "name": "moe's-southwest-grill",
+        "name": "moe-s-southwest-grill",
         "id": "1800"
       },
       {
-        "name": "moe's",
+        "name": "moe-s",
         "id": "1800"
       },
       {
@@ -82,7 +82,7 @@
         "id": "einstein-bros-bagels"
       },
       {
-        "name": "einstein's",
+        "name": "einstein-s",
         "id": "einstein-bros-bagels"
       },
       {
@@ -98,7 +98,7 @@
     ],
     "3": [
       {
-        "name": "president's-office",
+        "name": "president-s-office",
         "id": "3500"
       },
       {
@@ -133,6 +133,18 @@
   },
   "D": {
     "1": [
+      {
+        "name": "onestop",
+        "id": "onestop"
+      },
+      {
+        "name": "one-stop",
+        "id": "onestop"
+      },
+      {
+        "name": "one-stop-shop",
+        "id": "onestop"
+      },
       {
         "name": "testing-services",
         "id": "1301"
