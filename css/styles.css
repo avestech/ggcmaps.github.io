@@ -359,6 +359,12 @@ body:after {
   stroke-miterlimit: 10;
 }
 /* line 184, ../../app/lib/sass/_layout.scss */
+.content .svg-holder svg .dark-fill {
+  fill: #636466;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+}
+/* line */
 .content .svg-holder svg .fill {
   fill: #fff;
   stroke: #fff;

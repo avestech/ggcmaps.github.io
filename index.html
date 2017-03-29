@@ -13,35 +13,35 @@
 		<script src="js/bluebird.min.js"></script>
 		<script src="js/script.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Yantramanav:300" rel="stylesheet">
-		<!-- Script is run in the head so that there's no jump (partial load then redirect) for IE users  -->
+		<!-- Script is run in the head so that there's no jump (partial load then redirect) for Incompatible Browser users  -->
 		<!-- Allows for the first paint to be the support page if agreement has not been accepted in current session -->
 		<script>
+		// Read through the user's cookie
+		function eatCookie(bite) {
+			var cookieDough = bite + "=";
+			var cookieCrusher = decodeURIComponent(document.cookie);
+			var cookieCrumbs = cookieCrusher.split(';');
+			for(var i=0; i<cookieCrumbs.length; i++){
+				var cookieDust = cookieCrumbs[i];
+				while (cookieDust.charAt(0) == ' '){
+					cookieDust = cookieDust.substring(1);
+				}
+				if(cookieDust.indexOf(cookieDough) == 0){
+					return cookieDust.substring(cookieDough.length, cookieDust.length);
+				}
+			}
+			return "";
+		}
 			// Detect the user's browser... nasty, I know. A necessary evil :'(
 			// If the detected browser is Internet Explorer or Edge
 			if (window.navigator.userAgent.indexOf("Trident") > -1 || window.navigator.userAgent.indexOf("Edge") > -1) {
-				// Read through the user's cookie
-				// Function looks for "agreement" set to "accept" using the website
-				// with limited functionality
-				function eatCookie(bite) {
-					var cookieDough = bite + "=";
-					var cookieCrusher = decodeURIComponent(document.cookie);
-					var cookieCrumbs = cookieCrusher.split(';');
-					for(var i=0; i<cookieCrumbs.length; i++){
-						var cookieDust = cookieCrumbs[i];
-						while (cookieDust.charAt(0) == ' '){
-							cookieDust = cookieDust.substring(1);
-						}
-						if(cookieDust.indexOf(cookieDough) == 0){
-							return cookieDust.substring(cookieDough.length, cookieDust.length);
-						}
-					}
-					return "";
-				}
 				// if the function eatCookie() returns that cookie is not empty (user
 				// has accepted previously in this session) do nothing.
 				// else if it is null, redirect user to support page
 				if (eatCookie("agreement") == "accept") {
+					// Do nothing, they've accepted previously
 				} else {
+					// Redirect to support page
 					window.location.replace("support.html");
 				}
 			}
@@ -105,8 +105,9 @@
 				</div> <!-- dropdown -->
 			</div> <!-- search-menu -->
 
-			<div class="campus-info">
-				<h4>Parking Legend</h4>
+			<div class="campus-info"> <!-- Important div. do not delete or comment out -->
+				<!-- Content Below can be deleted or commented out -->
+				<!-- <h4>Parking Legend</h4>
 				<div class="menu-section"></div>
 				<section>
 					<div class="parking-key">
@@ -125,7 +126,7 @@
 						<div id="visitor-parking" class="color-label"></div>
 						<p>Visitors</p>
 					</div>
-				</section>
+				</section> -->
 			</div> <!-- campus-info -->
 
 			<div class="tab" id="helpbox"></div>
