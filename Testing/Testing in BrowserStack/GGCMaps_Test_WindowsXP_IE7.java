@@ -7,6 +7,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.URL;
 //BrowserStack Testing using IE7, XP
+//Test Status: PASS
+
 public class GGCMaps_Test_WindowsXP_IE7 {
 
   public static final String USERNAME = "margaretmuse1";
@@ -24,10 +26,7 @@ public class GGCMaps_Test_WindowsXP_IE7 {
 
     WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
     driver.get("https://soft-eng-practicum.github.io/ggcmaps/");
-    WebElement element = driver.findElement(By.name("q"));
 
-    element.sendKeys("BrowserStack");
-    element.submit();
 
     System.out.println(driver.getTitle());
     driver.quit();

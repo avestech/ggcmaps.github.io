@@ -7,6 +7,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.URL;
 //BrowserStack Testing using Windows10 and Edge
+//Test Status: PASS
+
 public class GGCMaps_Test_Windows10_Edge {
 
 
@@ -33,10 +35,6 @@ public class GGCMaps_Test_Windows10_Edge {
     WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
     driver.get("https://soft-eng-practicum.github.io/ggcmaps/");
 
-    //webelement to get the name of the website above
-    WebElement element = driver.findElement(By.name("q"));
-    element.sendKeys("BrowserStack");
-    element.submit();
 
 
 //console prints the title of the URL it just got
