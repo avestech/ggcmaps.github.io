@@ -134,6 +134,26 @@
   "D": {
     "1": [
       {
+        "name": "public-safety",
+        "id": "1501"
+      },
+      {
+        "name": "public-safety-office",
+        "id": "1501"
+      },
+      {
+        "name": "Office-of-public-safety",
+        "id": "1501"
+      },
+      {
+        "name": "campus-police",
+        "id": "1501"
+      },
+      {
+        "name": "campus-security",
+        "id": "1501"
+      },
+      {
         "name": "onestop",
         "id": "onestop"
       },
