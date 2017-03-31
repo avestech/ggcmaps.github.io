@@ -16,22 +16,6 @@
 		<!-- Script is run in the head so that there's no jump (partial load then redirect) for Incompatible Browser users  -->
 		<!-- Allows for the first paint to be the support page if agreement has not been accepted in current session -->
 		<script>
-		// Read through the user's cookie
-		function eatCookie(bite) {
-			var cookieDough = bite + "=";
-			var cookieCrusher = decodeURIComponent(document.cookie);
-			var cookieCrumbs = cookieCrusher.split(';');
-			for(var i=0; i<cookieCrumbs.length; i++){
-				var cookieDust = cookieCrumbs[i];
-				while (cookieDust.charAt(0) == ' '){
-					cookieDust = cookieDust.substring(1);
-				}
-				if(cookieDust.indexOf(cookieDough) == 0){
-					return cookieDust.substring(cookieDough.length, cookieDust.length);
-				}
-			}
-			return "";
-		}
 			// Detect the user's browser... nasty, I know. A necessary evil :'(
 			// If the detected browser is Internet Explorer or Edge
 			if (window.navigator.userAgent.indexOf("Trident") > -1 || window.navigator.userAgent.indexOf("Edge") > -1) {
@@ -161,7 +145,7 @@
 				<li onclick="searchFromMenu('cg360')"><a>AEC</a></li>
 				<li onclick="searchFromMenu('bookstore')"><a>Book Store</a></li>
 				<li onclick="searchFromMenu('c1260')"><a>Cisco Auditorium</a></li>
-				<li onclick="diningSubMenu();"><a>Dining Services</a></li>
+				<li onclick="subMenu('dining');"><a>Dining Services</a></li>
 				<ul class="dining">
 					<li onclick="searchFromMenu('a1800')"><a>Chick-fil-A</a></li>
 					<li onclick="searchFromMenu('dining-hall')"><a>Dining Hall</a></li>
@@ -173,7 +157,11 @@
 				</ul>
 				<li onclick="searchFromMenu('game-room')"><a>Game Room</a></li>
 				<li onclick="searchFromMenu('lvis')"><a>LVIS</a></li>
-				<li onclick="searchFromMenu('a1040')"><a>Help Desk</a></li>
+				<li onclick="subMenu('help-desk');"><a>Tech Help Desks</a></li>
+				<ul class="help-desk">
+					<li onclick="searchFromMenu('A1040')"><a>A Building</a></li>
+					<li onclick="searchFromMenu('G309')"><a>C Building</a></li>
+				</ul>
 				<li onclick="searchFromMenu('d1125')"><a>Parking Services</a></li>
 				<li onclick="searchFromMenu('d1301')"><a>Testing Services</a></li>
 				<li onclick="searchFromMenu('a1510')"><a>The Den</a></li>

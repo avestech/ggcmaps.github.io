@@ -572,14 +572,17 @@ body:after {
 .dining {
   display: none;
 }
+.help-desk {
+  display: none;
+}
 /* line 72, ../../app/lib/sass/_nav.scss */
-.dining li {
+.help-desk li {
   padding: 0;
   padding-left: 20px;
 }
 
 /* line 78, ../../app/lib/sass/_nav.scss */
-.dining-active {
+.subMenu-active {
   -moz-transition-property: height;
   -o-transition-property: height;
   -webkit-transition-property: height;
@@ -592,7 +595,7 @@ body:after {
   display: block;
 }
 /* line 84, ../../app/lib/sass/_nav.scss */
-.dining-active li a {
+.subMenu-active li a {
   padding-left: 10px;
 }
 
