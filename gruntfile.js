@@ -12,6 +12,7 @@ module.exports = function(grunt) {
     }, // jshint
     uglify: {
       options: {
+        beautify : true, //Makes code readable so that the debugger can be used
         mangle: {
           except: [
             '$timeout',
