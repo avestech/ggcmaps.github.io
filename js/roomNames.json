@@ -7,39 +7,43 @@
       },
       {
         "name": "chick-fil-a",
-        "id": "1800"
+        "id": "chick-fil-a"
+      },
+      {
+        "name": "CFA",
+        "id": "chick-fil-a"
       },
       {
         "name": "chickfila",
-        "id": "1800"
+        "id": "chick-fil-a"
       },
       {
         "name": "chick-fil",
-        "id": "1800"
+        "id": "chick-fil-a"
       },
       {
         "name": "chick",
-        "id": "1800"
+        "id": "chick-fil-a"
       },
       {
         "name": "panda-express",
-        "id": "1800"
+        "id": "panda-express"
       },
       {
         "name": "panda",
-        "id": "1800"
+        "id": "panda-express"
       },
       {
         "name": "moe-s-southwest-grill",
-        "id": "1800"
+        "id": "moes"
       },
       {
         "name": "moe-s",
-        "id": "1800"
+        "id": "moes"
       },
       {
         "name": "moes",
-        "id": "1800"
+        "id": "moes"
       },
       {
         "name": "pod-market",
@@ -133,6 +137,30 @@
   },
   "D": {
     "1": [
+      {
+        "name": "public-safety",
+        "id": "1501"
+      },
+      {
+        "name": "public-safety-office",
+        "id": "1501"
+      },
+      {
+        "name": "Office-of-public-safety",
+        "id": "1501"
+      },
+      {
+        "name": "campus-police",
+        "id": "1501"
+      },
+      {
+        "name": "police",
+        "id": "1501"
+      },
+      {
+        "name": "campus-security",
+        "id": "1501"
+      },
       {
         "name": "onestop",
         "id": "onestop"
