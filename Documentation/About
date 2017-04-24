@@ -8,8 +8,10 @@ Parking lots are labeled by parking area.
 
 
 Developer Documentation
-A current list of rooms currently activated can be found in a file titled "Active Room List"
-A list of active nickname searches can be found in a file titles "Active Room List"
+/////A current list of rooms currently activated can be found in a file titled "Active Room List"
+////A list of active nickname searches can be found in a file titles "Active Room List"
+////pending.....
+
+
 Styling for this application can be found in lib > sass
-This application requires grunt and sass.
-A current set of GGC maps in .ai format can be found in the documentation folder.
+A set of GGC maps of GGC campus in .ai format can be found in the documentation folder.
