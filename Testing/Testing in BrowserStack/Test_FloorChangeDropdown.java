@@ -12,6 +12,7 @@ import java.net.URL;
 
 //BrowserStack Testing using Windows10 and Chrome57
 //this test locates the Search bar, search "B 1200", find drop down, **switch to second floor pending
+//test build in progress
 public class Test_FloorChangeDropdown {
   public static final String USERNAME = "margaretmuse1";
   public static final String AUTOMATE_KEY = "TkXzjX1qfdisxpdSMPb1";
