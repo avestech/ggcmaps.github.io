@@ -8,6 +8,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.URL;
 //BrowserStack Testing using Windows10 and Edge
 //Test Status: PASS
+//test opens the url and return the name of the page
 
 public class GGCMaps_Test_Windows10_Edge {
 
