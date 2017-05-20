@@ -325,7 +325,7 @@ body:after {
 }
 /* line 90, ../../app/lib/sass/_layout.scss */
 .content .dropdown:hover i {
-  color: #a5acb0;
+  color: #85c446;
 }
 /* line 96, ../../app/lib/sass/_layout.scss */
 .content .floors {
@@ -485,7 +485,7 @@ body:after {
 }
 /* line 242, ../../app/lib/sass/_layout.scss */
 .content .svg-holder svg .exit {
-  stroke: #fe5100;
+  stroke: #f5e100;
   stroke-width: 3;
 }
 /* line 247, ../../app/lib/sass/_layout.scss */
@@ -739,7 +739,7 @@ body:after {
 /* line 147, ../../app/lib/sass/_nav.scss */
 .campus-info section .parking-key #student-parking {
   border-radius: 10px;
-  background-color: #b4b2ac;
+  background-color: #deedcd;
   border: 1px solid #00704a;
   width: 10px;
   height: 10px;
@@ -787,7 +787,7 @@ body:after {
   /* line 185, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #student-parking {
     border-radius: 15px;
-    background-color: #b4b2ac;
+    background-color: #deedcd;
     border: 1px solid #000000;
     width: 15px;
     height: 15px;
@@ -861,7 +861,7 @@ body:after {
   /* line 244, ../../app/lib/sass/_nav.scss */
   .campus-info section .parking-key #student-parking {
     border-radius: 20px;
-    background-color: #b4b2ac;
+    background-color: #deedcd;
     border: 1px solid #000000;
     width: 20px;
     height: 20px;
@@ -900,7 +900,7 @@ svg .campus-outline {
 }
 /* line 14, ../../app/lib/sass/_campus.scss */
 svg .campus-fill {
-  fill: #00704a;
+  fill: #a5acb0;
 }
 /* line 18, ../../app/lib/sass/_campus.scss */
 svg .building-group {
@@ -915,7 +915,7 @@ svg .building-group .building {
 }
 /* line 29, ../../app/lib/sass/_campus.scss */
 svg .building-group:hover .building {
-  fill: #6b9741;
+  fill: #85c446;
 }
 /* line 36, ../../app/lib/sass/_campus.scss */
 svg .no-hover {
@@ -923,11 +923,11 @@ svg .no-hover {
 }
 /* line 40, ../../app/lib/sass/_campus.scss */
 svg .no-hover:hover .building {
-  fill: #63cae1;
+  fill: #00704a;
 }
 /* line 46, ../../app/lib/sass/_campus.scss */
 svg .student-parking {
-  fill: #b4b2ac
+  fill: #deedcd
 }
 /* line 50, ../../app/lib/sass/_campus.scss */
 svg .staff-parking {
@@ -943,7 +943,7 @@ svg .visitor-parking {
 }
 /* line 62, ../../app/lib/sass/_campus.scss */
 svg .open-parking {
-  fill: #b4b2ac;
+  fill: #deedcd;
 }
 /* line 66, ../../app/lib/sass/_campus.scss */
 svg .reserved-parking {
@@ -951,7 +951,7 @@ svg .reserved-parking {
 }
 /* line 70, ../../app/lib/sass/_campus.scss */
 svg #parking-deck {
-  stroke: #b4b2ac;
+  stroke: #00704a;
 }
 /* line 74, ../../app/lib/sass/_campus.scss */
 svg .building-label {

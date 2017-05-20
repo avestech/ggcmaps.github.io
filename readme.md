@@ -35,7 +35,7 @@ This project was started by [Mike Deiters et al](https://github.com/soft-eng-pra
 ### The Team
 #### Current Members (Spring '17):
 1. David Rivera - Project Manager/Client Liason
-2. Margaret Muse- UI/Documentation
+2. Margaret Muse- UI/Documentation/Testing
 3. Carlos Pacheco - Programmer/Testing
 4. Joshua Gerth - Data Modeler/Programmer
 
