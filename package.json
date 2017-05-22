@@ -1,39 +1,17 @@
 {
-  "name": "ggcmaps",
-  "version": "1.4.3",
+  "name": "GGCMaps",
+  "version": "1.4.2",
   "private": true,
-  "contributors": [
-    {
-      "name": "Aston Tsou",
-      "email": "astontsou@gmail.com"
-    },
-    {
-      "name": "Carlos Pacheco",
-      "email": "cpacheco4983@gmail.com"
-    },
-    {
-      "name": "David Rivera",
-      "email": "david@irl.solutions",
-      "url": "www.irl.solutions"
-    },
-    {
-      "name": "Josh Gerth",
-      "email": "jgerth@ggc.edu"
-    },
-    {
-      "name": "Maggie Muse"
-    },
-    {
-      "name": "Mike Deiters",
-      "email": "mike@mikedeiters.com",
-      "url": "about.me/mikedeiters"
-    },
-    {
-      "name": "Nareth Seang",
-      "email": "nseang2@gmail.com"
-    }
+  "authors": [
+    "Aston Tsou",
+    "Carlos Pacheco",
+    "David Rivera",
+    "Josh Gerth",
+    "Maggie Muse",
+    "Mike Deiters",
+    "Nareth Seang"
   ],
-  "license": "GPL-3.0",
+  "license": "Creative Commons",
   "scripts": {
     "start": "http-server -p 3000"
   },
