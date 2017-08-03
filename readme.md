@@ -26,7 +26,7 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 ### Documentation
 * Live Project: [Website](https://ggcmaps.github.io/ggcmaps/) (External Link)
 * [License](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/License.md)
-* [Contributor Guide](https://github.com/ggcmaps/ggcmaps.gitgub.io/blob/master/CONTRIBUTING.md)
+* [Contributor Guide](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/CONTRIBUTING.md)
 
 ### The Team By Semester
 #### Spring '17:
