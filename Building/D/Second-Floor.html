@@ -78,12 +78,20 @@
 		<polygon class="room" points="287.171,304.25 400.504,304.25 400.504,440.75 347.249,440.75 347.25,414.251 309.5,414.25
 			309.5,376.75 287.171,376.75 	"/>
 			<text transform="matrix(1 0 0 1 339.1709 356)" class="label">2100</text>
-		</g>
+	</g>
 
+	<g class="room-group">
 		<polygon class="room" points="309.5,414.25 309.5,376.75 287.171,376.75 287.171,440.75 347.25,440.75 347.25,414.251 	"/>
+	</g>
+
+	<g class="room-group">
 		<polygon class="room" points="287.171,304.25 373.75,304.25 373.75,277.5 350.5,277.5 350.499,258.5 287.171,258.5 	"/>
+	</g>
+
+	<g class="room-group">
 		<polygon class="room" points="287.171,213.25 321.499,213.25 321.5,192.75 350.5,192.75 350.499,213.25 373.75,213.25 373.75,240.5
 			350.5,240.5 350.499,258.5 287.171,258.5 	"/>
+	</g>
 
 	<g onclick="activateRoom('2107');" id="2107" class="room-group">
 		<polygon class="room" points="321.5,192.75 321.499,213.25 287.171,213.25 287.171,161.75 350.499,161.75 350.499,192.75 	"/>
@@ -95,7 +103,7 @@
 		<text transform="matrix(1 0 0 1 333.25 86.249)" class="label">2108</text>
 	</g>
 
-	<g onclick="activateRoom('Mechanical');" id="Mechanical" class="room-group">
+	<g onclick="activateRoom('mechanical');" id="mechanical" class="room-group">
 		<rect x="5.837" y="546.836" class="room" width="281.334" height="104.667"/>
 		<text transform="matrix(1 0 0 1 111.416 601.1689)" class="label">Mechanical</text>
 	</g>
@@ -194,3 +202,21 @@
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>

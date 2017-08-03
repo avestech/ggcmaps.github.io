@@ -240,19 +240,45 @@
 		</g>
 
 
+		<g class="room-group">
 		<path class="room" d="M222.671,40.5h-11.92l0-8.414c-24.949-1.177-52.621-3.351-81.683-6.556
 			c-23.545-2.597-46.052-5.654-66.833-9.001l-1.977,8.161l-31.425-6.029v44.338h194.163L222.671,40.5z"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="23.166,136.418 62.25,136.418 62.113,205.999 48.5,205.999 48.5,194.918 23.166,194.918 	"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="583.167,521.333 541.333,521.333 541.333,456.668 547.416,456.668 547.417,440.083 575.417,440.083
 				575.416,456.668 583.167,456.668 	"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="221.916,331.168 207.916,331.168 207.916,346.418 192.166,346.418 192.166,410.418 221.916,410.418
 			"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="162.666,410.418 192.166,410.418 192.166,346.418 176.666,346.418 176.666,331.168 162.666,331.168
 			"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="136.916" y="387.168" class="room" width="20.75" height="23.25"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="136.916" y="410.418" class="room" width="20.75" height="23.25"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="576.583" y="514.835" class="fill" width="3.917" height="4.25"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="544.249" y="514.835" class="fill" width="3.917" height="4.25"/>
+		</g>
 </g>
 <g id="doors">
 	<path class="door" d="M136.916,358.892v-8.919"/>
@@ -472,3 +498,21 @@
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>

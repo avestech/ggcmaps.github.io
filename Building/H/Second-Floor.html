@@ -284,18 +284,44 @@
 		<text transform="matrix(1 0 0 1 81 424.334)" class="label">2201F</text>
     </g>
 
+		<g class="room-group">
 		<path class="room" d="M538.667,206.149"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="544.833" y="181.333" class="room" width="73.167" height="31.333"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="638.834" y="400.167" class="room" width="6.667" height="16.166"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="638.834" y="420" class="room" width="6.667" height="15.167"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="638.834" y="438.833" class="room" width="6.667" height="14.168"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="178.835,410.333 206.668,410.333 206.668,485.167 194.003,485.167 194.002,473.667 178.835,473.667
 			"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="178.835,410.333 151.836,410.333 151.836,485.167 163.836,485.167 163.836,473.667 178.835,473.667
 			"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="617.667,448.5 592.335,448.5 592.335,410.333 151.836,410.333 151.836,382.334 617.667,382.334
 			617.667,387.417 610.417,387.417 610.417,410.167 617.667,410.167 	"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="592.335" y="448.5" class="room" width="22.165" height="29.333"/>
+		</g>
 
 </g>
 <g id="doors">
@@ -497,3 +523,21 @@
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>

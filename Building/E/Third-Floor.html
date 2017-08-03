@@ -200,7 +200,7 @@
 		398.329,261.75 	"/>
 	<rect x="254.188" y="256.063" class="fill" width="5.875" height="6.188"/>
 </g>
-<g id="room">
+<g id="rooms">
   <g onclick="activateRoom('3116');" id="3116" class="room-group">
 	   <path class="room" d="M606.356,134.677c14.416,8.095,28.503,15.537,42.358,22.481l-3.586,7.241l5.746,2.851l3.584-7.233
 		c1.161,0.574,2.321,1.144,3.479,1.71l-26.188,54.024l-3.041-1.474l3.422-6.9l-5.747-2.851l-3.447,6.952l-34.188-16.573v-14.321
@@ -220,24 +220,32 @@
     <text transform="matrix(1 0 0 1 470.0625 237.5)" class="label">3103</text>
   </g>
 
+	<g class="room-group">
 	<path class="room" d="M477.621,110.188c4.485,3.156,9.089,6.345,13.751,9.532l0.003,18.28h-18.75v-3h-7.5v-24.812H477.621z"/>
-
+	</g>
+	<g class="room-group">
 	<polygon class="room" points="571.125,222.625 571.125,192.083 555.333,192.083 555.333,181.083 537.499,181.083 537.499,222.625
 		"/>
-
+	</g>
+	<g class="room-group">
 	<polygon class="room" points="523.333,181.054 537.499,181.083 537.499,222.625 504.625,222.625 504.75,167.125 523.333,167.125
 		"/>
+	</g>
 
   <g onclick="activateRoom('bookstore');" id="bookstore" class="room-group">
 	   <polygon class="room" points="312.833,100.083 312.833,262.25 348.833,262.25 348.833,165.75 370.5,165.75 370.5,100.083 	"/>
      <text transform="matrix(0 -1 1 0 334.0562 209.2432)" class="label">Bookstore</text>
   </g>
 
+	<g class="room-group">
 	<rect x="288.875" y="119.625" class="room" width="23.958" height="21.794"/>
-
+	</g>
+	<g class="room-group">
 	<polyline class="room" points="288.875,122.044 288.875,100.083 272.875,100.083 272.875,122.044 288.875,122.044 	"/>
-
+	</g>
+	<g class="room-group">
 	<polyline class="room" points="288.875,122.044 288.875,141.419 272.875,141.419 272.875,122.044 288.875,122.044 	"/>
+	</g>
 
   <g onclick="activateRoom('3119');" id="3119" class="room-group">
 	   <rect x="246.875" y="100.083" class="room" width="26" height="41.335"/>
@@ -358,16 +366,25 @@
     <text transform="matrix(1 0 0 1 122.5 53.417)" class="label">3150</text>
   </g>
 
+	<g class="room-group">
 	<rect x="612.501" y="353" class="room" width="24.999" height="23.417"/>
+	</g>
 
+	<g class="room-group">
 	<rect x="588.75" y="376.417" class="room" width="48.75" height="19.333"/>
+	</g>
 
+	<g class="room-group">
 	<rect x="588.75" y="395.75" class="room" width="48.75" height="37"/>
+	</g>
 
+	<g class="room-group">
 	<rect x="588.75" y="432.75" class="room" width="48.75" height="29.667"/>
+	</g>
 
+	<g class="room-group">
 	<rect x="588.75" y="462.417" class="room" width="48.75" height="119.333"/>
-
+	</g>
 </g>
 <g id="doors">
 	<path class="door" d="M588.75,443.668v-8.918"/>
@@ -513,3 +530,21 @@
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>

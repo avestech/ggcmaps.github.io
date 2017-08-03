@@ -2,28 +2,48 @@
   "A": {
     "1": [
       {
-        "name": "chick-fil-a",
+        "name": "food-court",
         "id": "1800"
+      },
+      {
+        "name": "chick-fil-a",
+        "id": "chickfila"
+      },
+      {
+        "name": "CFA",
+        "id": "chickfila"
+      },
+      {
+        "name": "chickfila",
+        "id": "chickfila"
+      },
+      {
+        "name": "chick-fil",
+        "id": "chickfila"
+      },
+      {
+        "name": "chick",
+        "id": "chickfila"
       },
       {
         "name": "panda-express",
-        "id": "1800:"
+        "id": "pandaexpress"
       },
       {
         "name": "panda",
-        "id": "1800"
+        "id": "pandaexpress"
       },
       {
-        "name": "moe's-southwest-grill",
-        "id": "1800"
+        "name": "moe-s-southwest-grill",
+        "id": "moes"
       },
       {
-        "name": "moe's",
-        "id": "1800"
+        "name": "moe-s",
+        "id": "moes"
       },
       {
         "name": "moes",
-        "id": "1800"
+        "id": "moes"
       },
       {
         "name": "pod-market",
@@ -47,7 +67,11 @@
       },
       {
         "name": "technology-help-desk",
-        "id": "1400"
+        "id": "1040"
+      },
+      {
+        "name": "help-desk",
+        "id": "1040"
       }
     ]
   },
@@ -55,15 +79,19 @@
     "1": [
       {
         "name": "einstein-bros-bagels",
-        "id": "einstein-bros-bagels"
+        "id": "einsteinbrosbagels"
       },
       {
         "name": "einstein-bros",
-        "id": "einstein-bros-bagels"
+        "id": "einsteinbrosbagels"
       },
       {
-        "name": "einstein's",
-        "id": "einstein-bros-bagels"
+        "name": "einstein-s",
+        "id": "einsteinbrosbagels"
+      },
+      {
+        "name": "einsteins",
+        "id": "einsteinbrosbagels"
       }
     ],
     "2": [
@@ -74,7 +102,7 @@
     ],
     "3": [
       {
-        "name": "president's-office",
+        "name": "president-s-office",
         "id": "3500"
       },
       {
@@ -110,6 +138,42 @@
   "D": {
     "1": [
       {
+        "name": "public-safety",
+        "id": "1501"
+      },
+      {
+        "name": "public-safety-office",
+        "id": "1501"
+      },
+      {
+        "name": "Office-of-public-safety",
+        "id": "1501"
+      },
+      {
+        "name": "campus-police",
+        "id": "1501"
+      },
+      {
+        "name": "police",
+        "id": "1501"
+      },
+      {
+        "name": "campus-security",
+        "id": "1501"
+      },
+      {
+        "name": "onestop",
+        "id": "onestop"
+      },
+      {
+        "name": "one-stop",
+        "id": "onestop"
+      },
+      {
+        "name": "one-stop-shop",
+        "id": "onestop"
+      },
+      {
         "name": "testing-services",
         "id": "1301"
       },
@@ -138,6 +202,10 @@
         "id": "1129"
       },
       {
+        "name": "registrar-office",
+        "id": "1129"
+      },
+      {
         "name": "student-accounts",
         "id": "1147"
       }
@@ -156,45 +224,53 @@
   "E": {
     "1": [
       {
-        "name": "game-room",
-        "id": "game-room"
+        "name": "Game-Room",
+        "id": "gameroom"
       },
       {
-        "name": "dining-hall",
-        "id": "dining-hall"
+        "name": "Dining-Hall",
+        "id": "dininghall"
       },
       {
-        "name": "dining",
-        "id": "dining-hall"
+        "name": "Dining-Area",
+        "id": "dininghall"
       },
       {
-        "name": "multi-purpose-room",
-        "id": "multi-purpose-room"
+        "name": "Dining",
+        "id": "dininghall"
       },
       {
-        "name": "private-dining",
-        "id": "private-dining"
+        "name": "Multi-Purpose-room",
+        "id": "multipurposeroom"
       },
       {
-        "name": "food-stations",
-        "id": "food-stations"
+        "name": "Private-Dining",
+        "id": "privatedining"
       },
       {
-        "name": "kitchen-area",
-        "id": "kitchen-area"
+        "name": "Food-Stations",
+        "id": "foodstations"
       },
       {
-        "name": "kitchen",
-        "id": "kitchen-area"
+        "name": "Kitchen-Area",
+        "id": "kitchenarea"
       },
       {
-        "name": "outdoor-dining",
-        "id": "outdoor-dining"
+        "name": "Kitchen",
+        "id": "kitchenarea"
+      },
+      {
+        "name": "Outdoor-Dining",
+        "id": "outdoordining"
       }
     ],
     "2": [
       {
         "name": "bookstore",
+        "id": "bookstore"
+      },
+      {
+        "name": "barnes-and-noble",
         "id": "bookstore"
       },
       {
@@ -206,16 +282,16 @@
         "id": "lvis"
       },
       {
-        "name": "catering-kitchen",
-        "id": "catering-kitchen"
+        "name": "Catering-Kitchen",
+        "id": "cateringkitchen"
       },
       {
         "name": "lounge",
         "id": "lounge"
       },
       {
-        "name": "info-desk",
-        "id": "info-desk"
+        "name": "Info-Desk",
+        "id": "infodesk"
       },
       {
         "name": "career-services",
@@ -332,66 +408,122 @@
   "F": {
     "1": [
       {
-        "name": "jr-olympic-pool",
-        "id": "jr-olympic-pool"
+        "name": "Jr-Olympic-Pool",
+        "id": "jrolympicpool"
       },
       {
-        "name": "swimming-pool",
-        "id": "jr-olympic-pool"
+        "name": "Swimming-Pool",
+        "id": "jrolympicpool"
       },
       {
-        "name": "basketball-court",
-        "id": "basketball-court"
+        "name": "Pool",
+        "id": "jrolympicpool"
       },
       {
-        "name": "basketball",
-        "id": "basketball-court"
+        "name": "Basketball-Court",
+        "id": "basketballcourt"
       },
       {
-        "name": "racquet-ball",
-        "id": "racquet-ball-court-1"
+        "name": "Basketball",
+        "id": "basketballcourt"
       },
       {
-        "name": "racquet-ball-court",
-        "id": "racquet-ball-court-1"
+        "name": "Racquet-Ball",
+        "id": "racquetballcourt1"
       },
       {
-        "name": "racquet-ball-court-1",
-        "id": "racquet-ball-court-1"
+        "name": "Racquet-Ball-Court",
+        "id": "racquetballcourt1"
       },
       {
-        "name": "racquet-ball-court-2",
-        "id": "racquet-ball-court-2"
+        "name": "Racquet-Ball-Court-1",
+        "id": "racquetballcourt1"
       },
       {
-        "name": "racquet-ball-court-3",
-        "id": "racquet-ball-court-3"
+        "name": "Racquet-Ball-Court-2",
+        "id": "racquetballcourt2"
+      },
+      {
+        "name": "Racquet-Ball-Court-3",
+        "id": "racquetballcourt3"
+      },
+      {
+        "name": "Mens-Lockers",
+        "id": "menslockers"
+      },
+      {
+        "name": "Mens-Locker",
+        "id": "menslockers"
+      },
+      {
+        "name": "Mens-Locker-Room",
+        "id": "menslockers"
+      },
+      {
+        "name": "Men-s-Lockers",
+        "id": "menslockers"
+      },
+      {
+        "name": "Men-s-Locker-Room",
+        "id": "menslockers"
+      },
+      {
+        "name": "Womens-Lockers",
+        "id": "womenslockers"
+      },
+      {
+        "name": "Womens-Locker",
+        "id": "womenslockers"
+      },
+      {
+        "name": "Women-s-Lockers",
+        "id": "womenslockers"
+      },
+      {
+        "name": "Women-s-Locker-Room",
+        "id": "womenslockers"
       }
     ],
     "2": [
       {
-        "name": "weight-machines",
-        "id": "weight-machines"
+        "name": "Weight-Machines",
+        "id": "weightmachines"
       },
       {
-        "name": "free-weights",
-        "id": "free-weights"
+        "name": "Free-Weights",
+        "id": "freeweights"
       },
       {
-        "name": "aerobics",
+        "name": "Weight-Room",
+        "id": "freeweights"
+      },
+      {
+        "name": "Weights-Room",
+        "id": "freeweights"
+      },
+      {
+        "name": "Aerobics",
         "id": "aerobics"
       },
       {
-        "name": "spin-room",
-        "id": "spin-room"
+        "name": "Spin-Room",
+        "id": "spinroom"
       },
       {
-        "name": "cardio",
+        "name": "Cardio",
         "id": "cardio"
       },
       {
-        "name": "elevated-track",
-        "id": "elevated-track"
+        "name": "Elevated-Track",
+        "id": "elevatedtrack"
+      },
+      {
+        "name": "Indoor-Track",
+        "id": "elevatedtrack"
+      },
+      {
+        "name": "Track",
+        "id": "elevatedtrack"
       }
     ]
   },
@@ -406,6 +538,12 @@
       {
         "name": "circulation-desk",
         "id": "1136"
+      }
+    ],
+    "2": [
+      {
+        "name": "reference-desk",
+        "id": "2101"
       }
     ],
     "3": [
@@ -435,6 +573,10 @@
       },
       {
         "name": "reading-room",
+        "id": "3111"
+      },
+      {
+        "name": "quiet-room",
         "id": "3111"
       }
     ]

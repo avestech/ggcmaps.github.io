@@ -255,12 +255,23 @@
     </g>
 
 
+		<g class="room-group">
 		<rect x="548" y="178.667" class="room" width="73.166" height="31.333"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="182.001,407.667 209.835,407.667 209.835,482.501 197.169,482.501 197.169,471.001 182.001,471.001
 			"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="182.001,407.667 155.002,407.667 155.002,482.501 167.002,482.501 167.002,471.001 182.001,471.001
 			"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="595.502" y="445.834" class="room" width="22.164" height="29.333"/>
+		</g>
 </g>
 <g id="doors">
 	<path class="door" d="M541.834,203.483"/>
@@ -451,3 +462,21 @@
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>

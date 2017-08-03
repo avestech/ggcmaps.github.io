@@ -119,10 +119,10 @@
     <rect id=2200 x="290.667" y="256.834" class="room" width="34.625" height="22.875"/>
     <text transform="matrix(1 0 0 1 298.0483 272.0195)" class="label">2200</text>
     </g>
-	<g onclick="activateRoom('c210');" id="c210" class="room-group">
-    <polygon id=c210 class="room" points="325.292,256.834 325.292,244.834 321.917,244.834 321.917,213.584 325.292,213.584 325.292,203.334
+	<g onclick="activateRoom('2210');" id="2210" class="room-group">
+    <polygon id=2210 class="room" points="325.292,256.834 325.292,244.834 321.917,244.834 321.917,213.584 325.292,213.584 325.292,203.334
   		315.417,203.334 315.417,187.334 226.5,187.334 226.5,256.834 	"/>
-    <text transform="matrix(1 0 0 1 266.2983 225.3535)" class="label">C210</text>
+    <text transform="matrix(1 0 0 1 266.2983 225.3535)" class="label">2210</text>
     </g>
 	<g onclick="activateRoom('2220');" id="2220" class="room-group">
     <polygon id=2220 class="room" points="315.417,187.334 315.417,171.584 325.292,171.584 325.292,161.167 321.917,161.167 321.917,130.004
@@ -300,20 +300,38 @@
 
 
 
+	<g class="room-group">
   	<rect x="278.917" y="672" class="room" width="21.625" height="18.334"/>
+		</g>
+	<g class="room-group">
     <rect x="192" y="672" class="room" width="20.792" height="58"/>
+		</g>
+	<g class="room-group">
   	<polygon class="room" points="229.667,692.958 229.667,687.083 245.667,687.083 245.667,723.458 212.792,723.458 212.792,672
   		229.667,672 	"/>
+		</g>
+	<g class="room-group">
   	<polygon class="room" points="261.917,692.958 261.917,687.083 245.667,687.083 245.667,723.458 278.917,723.458 278.917,672
   		261.917,672 	"/>
+		</g>
+	<g class="room-group">
     <polygon class="room" points="231.417,279.709 231.417,256.834 242.917,256.834 242.917,270.834 290.667,270.834 290.667,279.709
   		"/>
+		</g>
+	<g class="room-group">
     <polygon class="room" points="298.583,97.584 298.583,93.167 283.333,93.167 283.333,118.422 308.25,118.422 308.25,113.584
   		321.917,113.584 321.917,81.167 298.583,81.167 	"/>
+		</g>
+	<g class="room-group">
   	<rect x="264.998" y="96.417" class="room" width="18.336" height="22.005"/>
+		</g>
+	<g class="room-group">
   	<polygon class="room" points="249.998,97.584 249.998,93.167 264.998,93.167 264.998,118.422 231.417,118.422 231.417,81.167
   		249.998,81.167 	"/>
+		</g>
+	<g class="room-group">
     <path class="room" d="M152,57.834"/>
+		</g>
 </g>
 <g id="labels">
 	<g>
@@ -573,3 +591,21 @@
 	<line class="door" x1="358.653" y1="148.666" x2="350.333" y2="148.666"/>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>

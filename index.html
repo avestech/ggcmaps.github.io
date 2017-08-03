@@ -1,24 +1,59 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
 		<meta charset="utf-8">
-		<title>Gwinnett Grizzly Maps</title>
+		<meta name="theme-color" content="#00704a">
+		<title>GGCMaps</title>
+		<link rel="manifest" href="manifest.json">
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="css/styles.css">
 		<script src="js/svg-pan-zoom.min.js"></script>
     <script src="js/hammer.min.js"></script>
+		<script src="js/bluebird.min.js"></script>
 		<script src="js/script.min.js"></script>
-		<script src="https://use.fontawesome.com/c559106939.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400i" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Yantramanav:300" rel="stylesheet">
+		<!-- Script is run in the head so that there's no jump (partial load then redirect) for Incompatible Browser users  -->
+		<!-- Allows for the first paint to be the support page if agreement has not been accepted in current session -->
 		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			// Detect the user's browser... nasty, I know. A necessary evil :'(
+			// If the detected browser is Internet Explorer or Edge
+			if (window.navigator.userAgent.indexOf("Trident") > -1 || window.navigator.userAgent.indexOf("Edge") > -1) {
+				// if the function eatCookie() returns that cookie is not empty (user
+				// has accepted previously in this session) do nothing.
+				// else if it is null, redirect user to support page
+				if (eatCookie("agreement") == "accept") {
+					// Do nothing, they've accepted previously
+				} else {
+					// Redirect to support page
+					window.location.replace("support.html");
+				}
+			}
+		</script>
+		<script>
+			firstLegend();
+		</script>
+		<script>
+			if ('serviceWorker' in navigator) {
+			  window.addEventListener('load', function() {
+			    navigator.serviceWorker.register('sw.js', {scope: './'}).then(function(registration) {
+			      // Registration was successful
+			      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+			    }).catch(function(err) {
+			      // registration failed :(
+			      console.log('ServiceWorker registration failed: ', err);
+			    });
+			  });
+			}
+		</script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-		  ga('create', 'UA-90481310-1', 'auto');
-		  ga('send', 'pageview');
+	 		ga('create', 'UA-98075346-1', 'auto');
+ 			ga('send', 'pageview');
 
 		</script>
 	</head>
@@ -26,14 +61,14 @@
 		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'devbox');" class="content">
 			<div class="search-menu">
 				<div class="popup-group">
-					<i id="menu" class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
+					<img id="menu" src="images/bars.svg" onclick="openMenu()" alt="Menu Button">
 					<div class="popup" id="menu-popup">
 						<h3>Menu</h3>
 					</div> <!-- menu-popup -->
 				</div> <!-- popup-group -->
-				<input type="text" id="roomSearch" placeholder="Search Rooms" onkeypress="searchFromBar(event)" autofocus>
+				<input type="text" id="roomSearch" placeholder="Search (Ex: B 1200, Help Desk)" onkeypress="searchFromBar(event)" autofocus>
 				<div class="popup-group">
-					<i id="search" class="fa fa-search" aria-hidden="true" onclick="searchRoomNumber()"></i>
+					<img id="search" src="images/search.svg" onclick="searchRoomNumber()" alt="Search Icon">
 					<div class="popup" id="search-popup">
 						<h3>Search</h3>
 					</div> <!-- search-popup -->
@@ -46,46 +81,46 @@
 					</div> <!-- building-popup -->
 				</div> <!-- popup-group -->
 				<div class="popup-group">
-					<h2 id="floor" onclick="dropdown('floors', 'floors-active')" ></h2>
+					<h2 id="floor" onclick="dropdown('floors', 'floors-active')"></h2>
 					<div class="popup" id="floor-popup">
 						<h3>Floor</h3>
 					</div> <!-- floor-popup -->
 				</div> <!-- popup-group -->
 				<div class="dropdown">
-					<i class="fa fa-caret-down" id="dropdown" onclick="dropdown('floors', 'floors-active')" aria-hidden="true"></i>
+					<img src="images/caret-down.svg" onclick="dropdown('floors', 'floors-active')" alt="Dropdown button">
 					<div class="floors"></div> <!-- floors -->
 				</div> <!-- dropdown -->
 			</div> <!-- search-menu -->
 
-			<div class="campus-info">
-				<h4>Parking Legend</h4>
-				<div class="menu-section"></div>
-				<section>
-					<div class="parking-key">
-						<div id="staff-parking" class="color-label"></div>
-						<p>Staff</p>
-					</div>
-					<div class="parking-key">
-						<div id="open-parking" class="color-label"></div>
-						<p>Open</p>
-					</div>
-					<div class="parking-key">
-						<div id="reserved-parking" class="color-label"></div>
-						<p>Reserved</p>
-					</div>
-					<div class="parking-key">
-						<div id="resident-parking" class="color-label"></div>
-						<p>Residents</p>
-					</div>
-					<div class="parking-key">
-						<div id="student-parking" class="color-label"></div>
-						<p>Students</p>
-					</div>
-					<div class="parking-key">
-						<div id="visitor-parking" class="color-label"></div>
-						<p>Visitors</p>
-					</div>
-				</section>
+			<div class="campus-info"> <!-- Important div. do not delete or comment out -->
+				<!-- Content Below can be deleted or commented out -->
+				<div id="pLegend">
+					<script>
+						if(eatCookie('legend') === 'hide') {
+							document.getElementById('pLegend').style.display = "none";
+						}
+					</script>
+					<h4>Parking Legend</h4>
+					<div class="menu-section"></div>
+					<section>
+						<div class="parking-key">
+							<div id="reserved-parking" class="color-label"></div>
+							<p>Reserved</p>
+						</div>
+						<div class="parking-key">
+							<div id="resident-parking" class="color-label"></div>
+							<p>Residents</p>
+						</div>
+						<div class="parking-key">
+							<div id="student-parking" class="color-label"></div>
+							<p>Students</p>
+						</div>
+						<div class="parking-key">
+							<div id="visitor-parking" class="color-label"></div>
+							<p>Visitors</p>
+						</div>
+					</section>
+				</div> <!-- pLegend div -->
 			</div> <!-- campus-info -->
 
 			<div class="tab" id="helpbox"></div>
@@ -99,8 +134,8 @@
 		</div>
 
 		<div class="nav">
-			<h1 onclick="changeFloor('Campus')">Gwinnett Grizzly Maps</h1>
-			<i class="fa fa-arrow-left" onclick="closeMenu()"></i>
+			<h1 onclick="changeFloor('Campus')">GGCMaps</h1>
+			<img src="images/arrow-left.svg" onclick="closeMenu()" alt="Close Menu Button">
 			<div class="menu-section"></div>
 			<ul>
 				<li onclick="changeFloor('Campus')"><a>Campus</a></li>
@@ -120,19 +155,23 @@
 				<li onclick="searchFromMenu('cg360')"><a>AEC</a></li>
 				<li onclick="searchFromMenu('bookstore')"><a>Book Store</a></li>
 				<li onclick="searchFromMenu('c1260')"><a>Cisco Auditorium</a></li>
-				<li onclick="diningSubMenu();"><a>Dining Services</a></li>
+				<li onclick="subMenu('dining');"><a>Dining Services</a></li>
 				<ul class="dining">
-					<li onclick="searchFromMenu('a1800')"><a>Chick-fil-A</a></li>
+					<li onclick="searchFromMenu('chick-fil-a')"><a>Chick-fil-A</a></li>
 					<li onclick="searchFromMenu('dining-hall')"><a>Dining Hall</a></li>
 					<li onclick="searchFromMenu('einstein-bros-bagels')"><a>Einstein Bros Bagels</a></li>
-					<li onclick="searchFromMenu('a1800')"><a>Moe's Southwest Grill</a></li>
-					<li onclick="searchFromMenu('a1800')"><a>Panda Express</a></li>
+					<li onclick="searchFromMenu('moes')"><a>Moe's Southwest Grill</a></li>
+					<li onclick="searchFromMenu('panda-express')"><a>Panda Express</a></li>
 					<li onclick="searchFromMenu('a1825')"><a>P.O.D. Market</a></li>
 					<li onclick="searchFromMenu('l1102')"><a>Starbucks</a></li>
 				</ul>
 				<li onclick="searchFromMenu('game-room')"><a>Game Room</a></li>
 				<li onclick="searchFromMenu('lvis')"><a>LVIS</a></li>
-				<li onclick="searchFromMenu('cg309')"><a>Help Desk</a></li>
+				<li onclick="subMenu('help-desk');"><a>Tech Help Desks</a></li>
+				<ul class="help-desk">
+					<li onclick="searchFromMenu('A1040')"><a>A Building</a></li>
+					<li onclick="searchFromMenu('G309')"><a>C Building</a></li>
+				</ul>
 				<li onclick="searchFromMenu('d1125')"><a>Parking Services</a></li>
 				<li onclick="searchFromMenu('d1301')"><a>Testing Services</a></li>
 				<li onclick="searchFromMenu('a1510')"><a>The Den</a></li>
@@ -142,8 +181,23 @@
 				<li onclick="openTab('helpbox')"><a>Get Help</a></li>
 				<li onclick="openTab('devbox')"><a>Created By</a></li>
 			</ul>
+			<div class="menu-section"></div>
+			<h1>Options</h1>
+			<ul>
+				<li>
+					<a>Show Legend
+						<div class="switchmenucontainer">
+							<label class="switch">
+			  				<input type="checkbox" onclick="cookieLegend(); addMap(campus,'Campus');" id="legendSwitch">
+			  				<div class="slider round"></div>
+							</label>
+						</div>
+					</a>
+				</li>
+			</ul>
 		</div> <!-- nav -->
 
-		<script src="http://localhost:35729/livereload.js"></script>
+		<!-- <script src="https://localhost:35729/livereload.js"></script> -->
+		<script>visitCheck();</script>
 	</body>
 </html>

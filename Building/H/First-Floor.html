@@ -430,20 +430,52 @@
 
 
 
+		<g class="room-group">
 		<rect x="451.165" class="room" width="67.5" height="28"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="125.915" y="112" class="room" width="65.5" height="42.5"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="135.999,203.328 135.999,187.5 125.915,187.5 125.915,255.5 149.165,255.5 149.165,203.328 	"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="149.165,255.5 171.999,255.5 171.999,187.5 160.998,187.5 160.998,203.328 149.165,203.328 	"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="528.582" y="313.845" class="room" width="23.833" height="20.987"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="497.415" y="225.167" class="room" width="19.5" height="25.667"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="530.915,370.25 552.415,370.25 552.415,380 518.665,380 518.665,334.832 552.415,334.832
 			552.415,370.25 	"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="569.665,370.25 552.415,370.25 552.415,334.832 582.915,334.832 582.915,380 552.415,380
 			552.415,370.25 	"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="347.415" y="349.669" class="room" width="12.375" height="12.331"/>
+		</g>
+
+		<g class="room-group">
 		<polygon class="room" points="167.415,424.875 480.29,424.875 480.29,399 359.79,399 359.79,362 347.415,362 347.415,399
 			167.415,399 	"/>
+		</g>
+
+		<g class="room-group">
 		<rect x="239.202" y="257.329" class="room" width="14.129" height="11.833"/>
+		</g>
 </g>
 <g id="doors">
 	<line class="exit" x1="537.165" y1="13.331" x2="537.165" y2="26.164"/>
@@ -800,3 +832,21 @@
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>

@@ -429,13 +429,21 @@
 </g>
 
 
+<g class="room-group">
 	<polygon class="room" points="74.875,219.213 74.875,198.379 98,198.379 98,170.546 167.5,170.546 167.5,219.213 	"/>
+</g>
+<g class="room-group">
 	<polygon class="room" points="74.875,141.713 98,141.713 98,170.546 167.5,170.546 167.5,120.88 74.875,120.88 	"/>
-
+</g>
+<g class="room-group">
 	<rect x="135.75" y="242.963" class="room" width="30.75" height="38.625"/>
+</g>
+<g class="room-group">
 	<rect x="106.5" y="242.963" class="room" width="29.25" height="38.625"/>
+	</g>
 </g>
 <g id="doors">
+	<path class="door" d="M43,230.8v8.9"/>
 	<path class="door" d="M559,64.881v-8.918"/>
 	<path class="door" d="M208.167,230.381v-8.918"/>
 	<path class="door" d="M208.167,271.194v-8.918"/>
@@ -664,3 +672,21 @@
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>

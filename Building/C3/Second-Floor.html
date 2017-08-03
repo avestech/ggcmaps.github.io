@@ -339,13 +339,21 @@ BAACAAAAAQAIAAEAEgAEAAAAAQAMAAEAAv9oAAEAAQAC")}
 		<text transform="matrix(1 0 0 1 79.666 273.7163)" class="label">2336</text>
 	</g>
 
-	<polygon class="room" points="101.063,171.714 174.5,171.714 174.5,122.135 76.667,122.135 76.667,143.714 101.063,143.714 	"/>
+	<g class="room-group">
+		<polygon class="room" points="101.063,171.714 174.5,171.714 174.5,122.135 76.667,122.135 76.667,143.714 101.063,143.714 	"/>
+	</g>
 
-	<polygon class="room" points="101.063,175.463 174.5,175.463 174.5,222.714 76.667,222.714 76.667,201.839 101.063,201.839 	"/>
+	<g class="room-group">
+		<polygon class="room" points="101.063,175.463 174.5,175.463 174.5,222.714 76.667,222.714 76.667,201.839 101.063,201.839 	"/>
+	</g>
 
-	<rect x="109.5" y="246.214" class="room" width="30.75" height="39"/>
+	<g class="room-group">
+		<rect x="109.5" y="246.214" class="room" width="30.75" height="39"/>
+	</g>
 
-	<rect x="140.25" y="246.214" class="room" width="34.25" height="39"/>
+	<g class="room-group">
+		<rect x="140.25" y="246.214" class="room" width="34.25" height="39"/>
+	</g>
 
 </g>
 
@@ -551,3 +559,21 @@ BAACAAAAAQAIAAEAEgAEAAAAAQAMAAEAAv9oAAEAAQAC")}
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>
