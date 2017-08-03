@@ -35,7 +35,7 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 3. Carlos Pacheco - Programmer/Testing
 4. Joshua Gerth - Data Modeler/Programmer
 
-##### Fall '16 - Created by:
+#### Fall '16 - Created by:
 1. Mike Deiters - Project Manager/Data Modeler
 2. Aston Tsou - Lead Documentation/Client Liason
 3. Narith Seang - Lead Testing/Lead Developer
