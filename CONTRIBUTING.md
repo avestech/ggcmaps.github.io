@@ -6,8 +6,9 @@ We would like to start off by thanking you for taking the time to contribute.
 
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
   * [Developer Dependencies](#developer-dependencies)
-  * [Getting Started with Grunt](#getting-started-with-grunt)
-  * [Using SASS, Compass, and Susy](#using-sass-compass-and-susy)
+  * [Getting Started Grunt](#setting-up-grunt)
+  * [Setting Up Sass](#setting-up-sass)
+  * [Setting Up Compass](#setting-up-compass)
 
 [Getting Started](#getting-started)
 [How do I update the maps?](#how-do-i-update-the-maps)
@@ -19,6 +20,7 @@ We would like to start off by thanking you for taking the time to contribute.
 
   * HTTP-Server
   * Ruby
+  * Sass
   * Grunt
   * Grunt-Contrib-Compass
   * Grunt-Contrib-JSHint
@@ -26,9 +28,35 @@ We would like to start off by thanking you for taking the time to contribute.
   * Grunt-Contrib-Watch
   * PhantomJS
 
-### Getting started with Grunt
+### Setting Up Grunt
 
-### Using SASS, Compass, and Susy
+  1. Before setting up Grunt ensure that your npm is up to date by running `npm update -g npm` (this might require `sudo` depending on your system)
+  2. To get started you need Grunt's command line interface (CLI) globally. Again you my need `sudo` to run `npm install -g grunt-cli`
+  3. Now after you install the project dependencies you will be able to run `grunt`
+
+### Setting Up Sass
+
+#### Linux
+
+If you're using a distribution of Linux, you'll need to install Ruby first. You can install Ruby through the apt package manager, rbenv, or rvm.
+`sudo gem install sass --no-user-install`
+
+#### Windows
+
+Before you start using Sass you will need to install Ruby. The fastest way to get Ruby on your Windows computer is to use [Ruby Installer](http://rubyinstaller.org/). It's a single-click installer that will get everything set up for you super fast.
+The installer will also install a Ruby command line powershell application that will let you use the Ruby libraries.
+
+#### Mac
+
+If you prefer the command line over an application then getting Sass set up is a fairly quick process. Sass has a Ruby dependency but if you're using a Mac, congratulations, Ruby comes pre-installed.
+In your terminal run `gem install sass`. If you get and error message then you will likely need to use `sudo` which will look like this `sudo gem install sass`
+
+### Setting Up Compass
+
+Compass will run on any computer with ruby installed. After ruby is installed run the following commands.
+
+  1. `gem update --system`
+  2. `gem install compass`
 
 ## Getting Started
 
@@ -48,7 +76,7 @@ To update any of the maps, we have our Illustrator files available to download f
 
 ## I want to submit a Pull Request
 
-After you have finished your new feature for the project, and you have toughly tested for bugs. You may submit a pull request for review. Make sure you follow the checklist below.
+After you have finished your new feature for the project, and you have thoroughly tested for bugs. You may submit a pull request for review. Make sure you follow the checklist below.
 
   * The feature/bug fix improves the user experience
   * Your code and feature/bug fix is well documented
