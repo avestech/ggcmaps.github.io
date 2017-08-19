@@ -1,6 +1,6 @@
 svg {
   .campus {
-    stroke:$green;
+    stroke:#000;
     stroke-width:0.5;
     stroke-linecap:round;
     stroke-linejoin:round;
@@ -12,14 +12,14 @@ svg {
   } // campus-outline
 
   .campus-fill {
-    fill:$green;
+    fill:$grey;
   } // campus-fill
 
   .building-group {
     cursor: pointer;
 
     .building {
-      fill:$lightblue;
+      fill:$green;
       stroke:$green;
       stroke-width:0.5;
       stroke-miterlimit:10;
@@ -27,7 +27,7 @@ svg {
 
     &:hover {
       .building {
-        fill: darken($lightblue, 10);
+        fill: $lightgreen;
       } // building
 
     } // building-group:hover
@@ -38,7 +38,7 @@ svg {
 
     &:hover {
       .building {
-        fill: $lightblue;
+        fill: $green;
       } // building
     } // no-hover:hover
   } // no-hover
@@ -48,23 +48,23 @@ svg {
   } // student-parking
 
   .staff-parking {
-    fill: $pastelorange;
+    fill: $pastelred;
   } // staff-parking
 
   .resident-parking {
-    fill: $pastelred;
+    fill: $pastelorange;
   } // resident-parking
 
   .visitor-parking {
-    fill: $pastelblue;
+    fill: $brown;
   } // visitor-parking
 
   .open-parking {
-    fill: $pastellightblue;
+    fill: $pastelgreen;
   } // open-parking
 
   .reserved-parking {
-    fill: $pastelyellow;
+    fill: $pastelred;
   } // reserved-parking
 
   #parking-deck {
@@ -76,7 +76,7 @@ svg {
   } // building-label
 
   .parking-label {
-    fill: $green;
+    fill: #000;
   } // parking-label
 
   .small-label {
