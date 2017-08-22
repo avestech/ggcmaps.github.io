@@ -38,7 +38,7 @@ body {
     position: fixed;
     align-items: center;
 
-    i {
+    img {
       color: $green;
       padding: 10px;
 
@@ -88,7 +88,7 @@ body {
       cursor: pointer;
 
       i {
-        color: $grey;
+        color: $lightgreen;
       } // i
     } // dropdown:hover
   } // dropdown
@@ -177,19 +177,25 @@ body {
 
       .outline {
         fill:$grey;
-        stroke:#fff;
+        stroke:$border;
         stroke-miterlimit:10;
       } // outline
 
+      .dark-fill {
+        fill: $darkgrey;
+        stroke: $border;
+        stroke-miterlimit:10;
+      } // dark-fill
+
       .fill {
-        fill:#fff;
-        stroke:#fff;
+        fill:$border;
+        stroke:$border;
         stroke-miterlimit:10;
       } // fill
 
       .room {
-        fill:#00704a;
-        stroke:#fff;
+        fill:$green;
+        stroke:$border;
         stroke-miterlimit:10;
       } // room
 
@@ -223,7 +229,7 @@ body {
 
         &:hover {
           .room {
-            fill:lighten($yellow, 20);
+            fill:$lightgreen;
           } // room
           .label {
             fill:$inversetext;
@@ -240,7 +246,7 @@ body {
       } // door
 
       .exit {
-        stroke: $blue;
+        stroke: $yellow;
         stroke-width: 3;
       } // exit
 

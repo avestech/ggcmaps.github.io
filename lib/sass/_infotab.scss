@@ -16,10 +16,11 @@
     .title {
       min-height: 42px;
 
-      i {
+      img {
         top: 10px;
         left: 10px;
         position: absolute;
+        cursor: pointer;
       } // i
 
       h4 {

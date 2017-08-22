@@ -44,10 +44,11 @@
     width: auto;
   } // h1
 
-  i {
+  img {
     float: right;
     display: inline-block;
     padding: 10px;
+    cursor: pointer;
   } // i
 
   ul {
@@ -67,7 +68,7 @@
   border-bottom: thin solid $border;
 } // menu-section
 
-.dining {
+.dining, .help-desk {
   display: none;
   li {
     padding: 0;
@@ -75,7 +76,7 @@
   } // li
 } // dining
 
-.dining-active {
+.subMenu-active {
   @include transition-property(height);
   @include transition-duration(2s);
   background: $blue;
@@ -83,7 +84,6 @@
   li {
     a {
       padding-left: 10px;
-      // color: $green;
     } // a
   } // li
 } // nav-active
@@ -128,20 +128,12 @@
         margin: auto;
       } // color-label
 
-      #staff-parking {
-        @include colorLabel($pastelorange, 10px);
-      } // staff-parking
-
-      #open-parking {
-        @include colorLabel($pastellightblue, 10px);
-      } // open-parking
-
       #reserved-parking {
-        @include colorLabel($pastelyellow, 10px);
+        @include colorLabel($pastelred, 10px);
       } // reserved-parking
 
       #resident-parking {
-        @include colorLabel($pastelred, 10px);
+        @include colorLabel($pastelorange, 10px);
       } // resident-parking
 
       #student-parking {
@@ -149,7 +141,7 @@
       } // student-parking
 
       #visitor-parking {
-        @include colorLabel($pastelblue, 10px);
+        @include colorLabel($brown, 10px);
       } // visitor-parking
     } // parking-key
   } // section
@@ -166,20 +158,12 @@
           font-size: 1rem;
         } // p
 
-        #staff-parking {
-          @include colorLabel($pastelorange, 15px);
-        } // staff-parking
-
-        #open-parking {
-          @include colorLabel($pastellightblue, 15px);
-        } // open-parking
-
         #reserved-parking {
-          @include colorLabel($pastelyellow, 15px);
+          @include colorLabel($pastelred, 15px);
         } // reserved-parking
 
         #resident-parking {
-          @include colorLabel($pastelred, 15px);
+          @include colorLabel($pastelorange, 15px);
         } // resident-parking
 
         #student-parking {
@@ -187,7 +171,7 @@
         } // student-parking
 
         #visitor-parking {
-          @include colorLabel($pastelblue, 15px);
+          @include colorLabel($brown, 15px);
         } // visitor-parking
       } // parking-key
     } // section
@@ -225,20 +209,12 @@
           margin: 0;
         } // color-label
 
-        #staff-parking {
-          @include colorLabel($pastelorange, 20px);
-        } // staff-parking
-
-        #open-parking {
-          @include colorLabel($pastellightblue, 20px);
-        } // open-parking
-
         #reserved-parking {
-          @include colorLabel($pastelyellow, 20px);
+          @include colorLabel($pastelred, 20px);
         } // reserved-parking
 
         #resident-parking {
-          @include colorLabel($pastelred, 20px);
+          @include colorLabel($pastelorange, 20px);
         } // resident-parking
 
         #student-parking {
@@ -246,7 +222,7 @@
         } // student-parking
 
         #visitor-parking {
-          @include colorLabel($pastelblue, 20px);
+          @include colorLabel($brown, 20px);
         } // visitor-parking
       } // parking-key
     } // section
@@ -256,3 +232,59 @@
     @include span(2.5 of 15);
   } // large
 } // campus-info
+
+#pLegend {
+  display: none;
+} // #pLegend
+
+.switchmenucontainer {
+  margin: auto;
+} // switchmenucontainer
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+
+  input {
+    display: none;
+
+    &:checked + .slider {
+      background-color: $lightblue;
+
+      &::before {
+        transform: translateX(13px);
+      } // slider:before
+    } // input:checked, slider
+  } // input
+} // switch
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $switchGrey;
+  transition: .4s;
+
+  &::before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: $border;
+  } // slider:before
+} // slider
+
+.slider.round {
+  border-radius: 17px;
+
+  &::before {
+    border-radius: 50%;
+  } // round:before
+} // slider.round
