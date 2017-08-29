@@ -56,6 +56,7 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 #### Team Members
 1. Robert Westervelt - Data Modeler/Code Architect
 2. Bryan Yeap - Programmer/Tester
+3. Matt Soucy - Tester/Programmer
 
 
 
