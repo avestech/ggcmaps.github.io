@@ -47,13 +47,13 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 
 
 
-#### Current Team 
-### Fall '17:
+### Current Team 
+#### Fall '17:
 * Team Name: Adventuras
 * Repo location: https://github.com/soft-eng-practicum/ggcmaps
 * Process tool: (I don't understand what this is asking for) - Robert W.
 * Communication: https://ggc-dev.slack.com and https://ggcmaps.slack.com/
-### Team Members
+#### Team Members
 1. Robert Westervelt - Data Modeler/Code Architect
 
 
