@@ -9,6 +9,7 @@ We would like to start off by thanking you for taking the time to contribute.
   * [Getting Started Grunt](#setting-up-grunt)
   * [Setting Up Sass](#setting-up-sass)
   * [Setting Up Compass](#setting-up-compass)
+  * [Helpful Lynda Tutorials](#helpful-lynda-tutorials)
 
 [Getting Started](#getting-started)
 [How do I update the maps?](#how-do-i-update-the-maps)
@@ -58,6 +59,11 @@ Compass will run on any computer with ruby installed. After ruby is installed ru
   1. `gem update --system`
   2. `gem install compass`
 
+### Helpful Lynda Tutorials
+
+* [Responsive CSS with Sass and Compass](https://www.lynda.com/CSS-tutorials/Responsive-CSS-Sass-Compass/140777-2.html)
+* [Coding Faster with Emmet](https://www.lynda.com/Emmet-tutorials/Coding-Faster-Emmet/133353-2.html)
+
 ## Getting Started
 
   1. Fork the repository
@@ -68,7 +74,7 @@ Compass will run on any computer with ruby installed. After ruby is installed ru
   6. In another terminal tab/window run `grunt`
   7. In your internet browser, navigate to localhost:3000
   8. Now your instance of the project running
-  9. Finally, create a new file named (Class Number)(Semester)(Year).md (This is where your team can keep your required class documentation.)
+  9. Finally, create a new file named (Class Number)-(Section Number)(Semester)(Year).md (This is where your team can keep your required class documentation.)
 
 ## How do I update the maps?
 
