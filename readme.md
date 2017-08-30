@@ -51,12 +51,13 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 #### Fall '17:
 * Team Name: Adventuras
 * Repo location: https://github.com/soft-eng-practicum/ggcmaps
-* Process tool: (I don't understand what this is asking for) - Robert W.
+* Process tool: JIRA
 * Communication: https://ggc-dev.slack.com and https://ggcmaps.slack.com/
 #### Team Members
 1. Robert Westervelt - Data Modeler/Code Architect
 2. Bryan Yeap - Programmer/Tester
 3. Matt Soucy - Tester/Programmer
+4. Nilaja Williams - Project Manager/Client Liaison/UI & UX 
 
 
 
