@@ -1,0 +1,46 @@
+﻿Team: Adventuras
+Members: Matt Soucy, Bryan Yeap, Robert Westervelt, Nilaja Williams
+Document: Client Requirements
+
+
+Requirements Document
+
+
+
+
+Functional Requirements:
+* Mobile Functionality with Android and Apple
+* Safe mode with toggle functionality
+* Detailed parking maps that include information for speciality spots such as handicap, delivery truck, and electric car charging stations.
+* Icons for stationery items such as ATMs, Vending machines, and Emergency equipment.
+* Title banner for GGC on maps application.
+* “Advertising” the app (?)
+* List of events that are happening within a selected building
+* The name of the building will be shown when hovered over (for example, Building L will say Kaufman Library)
+* Display availability of library study rooms.
+* Display availability of all common rooms at GGC.
+
+
+Non-Functional Requirements:
+* Legend alignment
+* Utilize negative space for improved aesthetics .
+* Improved visibility for the user
+* Fixing the service worker
+* Active parking notifications for open spots
+* Relocating Zoom function
+* Convert building letters into icons
+* Provide other color layouts
+* Implement a route tracker that navigates a user to a selected room from their current location by a line path on their map.
+* Description of rooms (i.e. H-1209 will display a description that it is a network lab)
+* Improving Search Functionality.
+* Fix 1000 Building Click-through Functionality.
+
+
+Domain Requirements:
+* Licensing agreement must be signed prior to contributing to system (CLA Agreement)
+* Instructor offices and campus police offices are considered classified and must not be showed to the public
+* Map only includes GGC related or affiliated objects.
+* Semantic Versioning is required (semver.org)
+* Hotfix branch is to be used for quick bug fixes
+* Receive approval for use of GGC data related to course schedules.
+* Receive approval for use of 25Live server data by GGC faculty.
