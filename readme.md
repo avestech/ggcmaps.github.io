@@ -58,13 +58,4 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 2. Bryan Yeap - Programmer/Tester
 3. Matt Soucy - Tester/Programmer
 
-#### Fall '17:
-* Team Name: Nav-Benders
-* Repo location: https://github.com/soft-eng-practicum/ggcmaps-navbenders.git
-* Process tool: SASS, JavaScript, Ruby, and HTML
-* Communication: https://ggc-dev.slack.com and https://ggcmaps.slack.com/
-#### Team Members
-1. Richard Williams - Team Manager/Client Liaison and Code architecture/lead programmer
-2. Maryam Najiarani - Documentation Lead and Code architecture/lead programmer 
-
 
