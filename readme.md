@@ -47,7 +47,7 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 
 
 
-### Current Team 
+### Current Team's
 #### Fall '17:
 * Team Name: Adventuras
 * Repo location: https://github.com/soft-eng-practicum/ggcmaps
@@ -57,6 +57,14 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 1. Robert Westervelt - Data Modeler/Code Architect
 2. Bryan Yeap - Programmer/Tester
 3. Matt Soucy - Tester/Programmer
+
+#### Fall '17:
+* Team Name: Nav-Benders
+* Repo location: https://github.com/soft-eng-practicum/ggcmaps-navbenders.git
+* Process tool: SASS, JavaScript, Ruby, HTML
+* Communication: https://ggc-dev.slack.com and https://ggcmaps.slack.com/
+#### Team Members
+1. Richard Williams - Team Manager/Client Liaison and Lead Programmer
 
 
 
