@@ -69,7 +69,6 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 1. Richard Williams - Team manager/Client liaison and Code architecture/lead programmer
 2. Maryam Najiarani - Documentation Lead and Code architecture/lead programmer 
 3. Magdalena Ledezma - Lead Tester 
-4. Joseph Pelletier - UI/UX Design Lead
 
 
 
