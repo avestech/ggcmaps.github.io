@@ -33,7 +33,7 @@
       "email": "nseang2@gmail.com"
     }
   ],
-  "license": "Creative Commons",
+  "license": "GNU General Public License v3.0",
   "scripts": {
     "start": "http-server -p 3000"
   },
