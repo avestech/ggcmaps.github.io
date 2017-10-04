@@ -50,3 +50,5 @@ __pycache__/
 .cache
 out
 target
+index.html
+js/script.min.js
