@@ -58,7 +58,7 @@
 		</script>
 	</head>
 	<body>
-		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'devbox'); toggleTab(event, 'campusEvents');" class="content">
+		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'devbox');" class="content">
 			<div class="search-menu">
 				<div class="popup-group">
 					<img id="menu" src="images/bars.svg" onclick="openMenu()" alt="Menu Button">
@@ -125,7 +125,6 @@
 
 			<div class="tab" id="helpbox"></div>
 			<div class="tab" id="devbox"></div>
-			<div class="tab" id="campusEvents"></div>
 
 			<div id="svg-holder" class="svg-holder">
 
@@ -155,7 +154,6 @@
 			<ul>
 				<li onclick="searchFromMenu('cg360')"><a>AEC</a></li>
 				<li onclick="searchFromMenu('bookstore')"><a>Book Store</a></li>
-				<li onclick="openTab('campusEvents')"><a>Campus Events</a></li>
 				<li onclick="searchFromMenu('c1260')"><a>Cisco Auditorium</a></li>
 				<li onclick="subMenu('dining');"><a>Dining Services</a></li>
 				<ul class="dining">
@@ -198,9 +196,8 @@
 				</li>
 			</ul>
 		</div> <!-- nav -->
-		<script>getEvents();</script>
+
 		<!-- <script src="https://localhost:35729/livereload.js"></script> -->
 		<script>visitCheck();</script>
-
 	</body>
 </html>
