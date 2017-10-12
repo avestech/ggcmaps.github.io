@@ -67,7 +67,7 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 * Communication: https://ggc-dev.slack.com and https://ggcmaps.slack.com/
 #### Team Members
 1. Richard Williams - Team manager/Client liaison and Code architecture/lead programmer/Lead Tester
-2. Maryam Najiarani - Documentation Lead and Code architecture/lead programmer/Lead Tester 
+2. Maryam Najiarani - Documentation Lead and Code architecture/lead programmer/Lead Tester  
 3. Joseph Pelletier - UI/UX Lead/ Lead Tester
 
 
