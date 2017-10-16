@@ -125,6 +125,39 @@
 				</div> <!-- pLegend div -->
 			</div> <!-- campus-info -->
 
+			<div class="building-info">
+				<div id="bLegend">
+					<h4>Building Legend</h4>
+					<div class="menu-section"></div>
+						<section>
+							<div class="building-key">
+								<p>D - Admissions</p>
+							</div>
+							<div class="building-key">
+								<p>E - Student Center</p>
+							</div>
+							<div class="building-key">
+								<p>F - Wellness and Recreation</p>
+							</div>
+							<div class="building-key">
+								<p>G - Athletic Complex</p>
+							</div>
+							<div class="building-key">
+								<div></div>
+								<p>H - Allied Health and Sciences</p>
+							</div>
+							<div class="building-key">
+								<p>L - Daniel J. Kaufman Library</p>
+							</div>
+							<div class="building-key">
+								<p>1000 - Residence Life</p>
+							</div>
+				</section>
+				</div> <!-- bLegend div -->
+			</div> <!-- building-info div -->
+
+
+
 			<div class="tab" id="helpbox"></div>
 			<div class="tab" id="devbox"></div>
 			<div class="tab" id="campusEvents"></div>
@@ -189,7 +222,17 @@
 			<h1>Options</h1>
 			<ul>
 				<li>
-					<a>Show Legend
+					<a>Show Building Legend
+						<div class="switchmenucontainer">
+							<label class="switch">
+			  				<input type="checkbox" onclick="buildingLegend()" id="buildingLegendSwitch">
+			  				<div class="slider round"></div>
+							</label>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a>Show Parking Legend
 						<div class="switchmenucontainer">
 							<label class="switch">
 			  				<input type="checkbox" onclick="cookieLegend(); addMap(campus,'Campus');" id="legendSwitch">
