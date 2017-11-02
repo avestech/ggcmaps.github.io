@@ -43,8 +43,8 @@ var urlsToCache = [
   baseURL + 'Building/L/Second-Floor.html',
   baseURL + 'Building/L/Third-Floor.html',
   baseURL + 'help.html',
-  baseURL + "campusEvents.html",
-  baseURL + "devs.html"
+  baseURL + 'devs.html',
+  baseURL + 'campusEvents.html'
 ];
 
 self.addEventListener('install', function(event) {
