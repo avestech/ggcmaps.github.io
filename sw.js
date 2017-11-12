@@ -1,4 +1,4 @@
-var CACHE_NAME = 'GGCMaps-cache-v1.4.5';
+var CACHE_NAME = 'GGCMaps-cache-v1.7.0';
 // baseURL is used to switch between hosting structures.
 // Set to null ('') for regular hosting
 // Set to directory inside Github Pages
@@ -42,7 +42,9 @@ var urlsToCache = [
   baseURL + 'Building/L/First-Floor.html',
   baseURL + 'Building/L/Second-Floor.html',
   baseURL + 'Building/L/Third-Floor.html',
-  baseURL + 'help.html'
+  baseURL + 'help.html',
+  baseURL + 'devs.html',
+  baseURL + 'campusEvents.html'
 ];
 
 self.addEventListener('install', function(event) {
