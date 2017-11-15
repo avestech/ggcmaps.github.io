@@ -1,6 +1,6 @@
 //when updates to the cached files are made, increment CACHE_NAME version
-//then place old CACHE_NAME value in line 59 so that old caches are deleted from
-//users browsers
+//then place old CACHE_NAME value in line 41 of index.html so that old caches
+//are deleted from users browsers
 var CACHE_NAME = 'GGCMaps-cache-v1.7.0';
 // baseURL is used to switch between hosting structures.
 // Set to null ('') for regular hosting
@@ -56,7 +56,6 @@ self.addEventListener('install', function(event) {
     caches.open(CACHE_NAME)
       .then(function(cache) {
         console.log('Opened cache');
-        caches.delete('GGCMaps-cache-v1.4.5');
         return cache.addAll(urlsToCache);
       })
   );
