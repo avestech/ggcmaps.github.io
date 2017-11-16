@@ -2,10 +2,14 @@
 //then place old CACHE_NAME value in line 41 of index.html so that old caches
 //are deleted from users browsers
 <<<<<<< HEAD
+<<<<<<< HEAD
 var CACHE_NAME = 'GGCMaps-cache-v1.7.0';
 =======
 var CACHE_NAME = 'GGCMaps-cache-v1.8.1';
 >>>>>>> 8b33859... v1.8.1, Event links bug fix
+=======
+var CACHE_NAME = 'GGCMaps-cache-v1.8.2';
+>>>>>>> a59626f... Remove all cache storage keys except current one
 // baseURL is used to switch between hosting structures.
 // Set to null ('') for regular hosting
 // Set to directory inside Github Pages
