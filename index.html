@@ -58,7 +58,7 @@
 		</script>
 	</head>
 	<body>
-		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'devbox');" class="content">
+		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'devbox'); toggleTab(event, 'campusEvents');" class="content">
 			<div class="search-menu">
 				<div class="popup-group">
 					<img id="menu" src="images/bars.svg" onclick="openMenu()" alt="Menu Button">
@@ -66,7 +66,9 @@
 						<h3>Menu</h3>
 					</div> <!-- menu-popup -->
 				</div> <!-- popup-group -->
-				<input type="text" id="roomSearch" placeholder="Search (Ex: B 1200, Help Desk)" onkeypress="searchFromBar(event)" autofocus>
+				<input input="text" list="rooms" id="roomSearch" placeholder="Search (Ex: B 1200, Help Desk)" onkeypress="searchFromBar(event)" oninput="searchSuggest(event)">
+				<input type="text" id="arrayStore" style="display:none">
+				<datalist id= "rooms"></datalist>
 				<div class="popup-group">
 					<img id="search" src="images/search.svg" onclick="searchRoomNumber()" alt="Search Icon">
 					<div class="popup" id="search-popup">
@@ -123,8 +125,42 @@
 				</div> <!-- pLegend div -->
 			</div> <!-- campus-info -->
 
+			<div class="building-info">
+				<div id="bLegend">
+					<h4>Building Legend</h4>
+					<div class="menu-section"></div>
+						<section>
+							<div class="building-key">
+								<p>D - Admissions</p>
+							</div>
+							<div class="building-key">
+								<p>E - Student Center</p>
+							</div>
+							<div class="building-key">
+								<p>F - Wellness and Recreation</p>
+							</div>
+							<div class="building-key">
+								<p>G - Athletic Complex</p>
+							</div>
+							<div class="building-key">
+								<div></div>
+								<p>H - Allied Health and Sciences</p>
+							</div>
+							<div class="building-key">
+								<p>L - Daniel J. Kaufman Library</p>
+							</div>
+							<div class="building-key">
+								<p>1000 - Residence Life</p>
+							</div>
+				</section>
+				</div> <!-- bLegend div -->
+			</div> <!-- building-info div -->
+
+
+
 			<div class="tab" id="helpbox"></div>
 			<div class="tab" id="devbox"></div>
+			<div class="tab" id="campusEvents"></div>
 
 			<div id="svg-holder" class="svg-holder">
 
@@ -149,6 +185,10 @@
 				<li onclick="changeFloor('H', '1');"><a>Building H</a></li>
 				<li onclick="changeFloor('I', '1')"><a>Building I</a></li>
 				<li onclick="changeFloor('L', '1');"><a>Building L / Library</a></li>
+			</ul>
+			<div class="menu-section"></div>
+			<ul>
+				<li onclick="sortEvents();"><a>Campus Events</a></li>
 			</ul>
 			<div class="menu-section"></div>
 			<ul>
@@ -185,10 +225,20 @@
 			<h1>Options</h1>
 			<ul>
 				<li>
-					<a>Show Legend
+					<a>Show Building Legend
 						<div class="switchmenucontainer">
 							<label class="switch">
-			  				<input type="checkbox" onclick="cookieLegend(); addMap(campus,'Campus');" id="legendSwitch">
+			  				<input type="checkbox" onclick="buildingLegend()" id="buildingLegendSwitch">
+			  				<div class="slider round"></div>
+							</label>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a>Show Parking Legend
+						<div class="switchmenucontainer">
+							<label class="switch">
+			  				<input type="checkbox" onclick="cookieLegend(); addMap(campus,'Campus'); switchLegend();" id="legendSwitch">
 			  				<div class="slider round"></div>
 							</label>
 						</div>
@@ -196,8 +246,8 @@
 				</li>
 			</ul>
 		</div> <!-- nav -->
-
 		<!-- <script src="https://localhost:35729/livereload.js"></script> -->
 		<script>visitCheck();</script>
+
 	</body>
 </html>
