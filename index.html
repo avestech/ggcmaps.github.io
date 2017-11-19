@@ -40,7 +40,8 @@
 			      // Registration was successful
 						caches.keys().then(function(keyList) {
 							for(var i = 0; i < keyList.length; i++) {
-								if(keyList[i] != 'GGCMaps-cache-v1.8.2') {
+								if(keyList[i] != 'GGCMaps-cache-v1.8.3') {
+									console.log(keyList[i]);
 									caches.delete(keyList[i]);
 								}
 							}
