@@ -638,8 +638,8 @@ body:after {
 .campus-info section .parking-key .color-label {
   margin: auto;
 }
-/* line 131, ../sass/_nav.scss */
-.campus-info section .parking-key #reserved-parking {
+/* line 131, ../lib/sass/_nav.scss */
+.campus-info section .parking-key #staff-parking {
   border-radius: 10px;
   background-color: #f4c9c4;
   border: 1px solid #000;
@@ -670,6 +670,31 @@ body:after {
   width: 10px;
   height: 10px;
 }
+/* line 143, ../lib/sass/_nav.scss */
+.campus-info section .parking-key #handicap-parking {
+  border-radius: 20px;
+  background-color: #0000FF;
+  opacity: 0.7;
+  border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+}
+/* line 143, ../lib/sass/_nav.scss */
+.campus-info section .parking-key #E-Car-parking {
+  border-radius: 20px;
+  background-color: #26E017;
+  border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+}
+.campus-info section .parking-key #Zip-Car-parking {
+  border-radius: 20px;
+  background-color: #FFFF00;
+  border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+}
+
 @media (min-width: 30em) {
   /* line 91, ../sass/_nav.scss */
   .campus-info {
@@ -716,6 +741,7 @@ body:after {
     width: 15px;
     height: 15px;
   }
+
 }
 @media (min-width: 39em) {
   /* line 91, ../sass/_nav.scss */
@@ -784,6 +810,34 @@ body:after {
   .campus-info section .parking-key #visitor-parking {
     border-radius: 20px;
     background-color: #cfab7a;
+    border: 1px solid #000;
+    width: 20px;
+    height: 20px;
+  }
+  .campus-info section .parking-key #police-parking {
+    border-radius: 20px;
+    background-color: #F42222;
+    border: 1px solid #000;
+    width: 20px;
+    height: 20px;
+  }
+  .campus-info section .parking-key #motorcycle-parking {
+    border-radius: 20px;
+    background-color: #EF9D26;
+    border: 1px solid #000;
+    width: 20px;
+    height: 20px;
+  }
+  .campus-info section .parking-key #foodPickUp-parking {
+    border-radius: 20px;
+    background-color: #D63DE2;
+    border: 1px solid #000;
+    width: 20px;
+    height: 20px;
+  }
+  .campus-info section .parking-key #noPark-parking {
+    border-radius: 20px;
+    background-color: #070707;
     border: 1px solid #000;
     width: 20px;
     height: 20px;
