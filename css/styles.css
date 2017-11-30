@@ -1225,7 +1225,6 @@ svg .large-label {
     font-size: 1.1rem;
   }
 }
-
 /* line 132, ../sass/_infotab.scss */
 .tab-active {
   display: block;
@@ -1233,4 +1232,7 @@ svg .large-label {
 /* line 135, ../sass/_infotab.scss */
 .tab-active section {
   right: 0;
+}
+#Safety {
+  display: none;
 }
