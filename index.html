@@ -38,6 +38,13 @@
 			  window.addEventListener('load', function() {
 			    navigator.serviceWorker.register('sw.js', {scope: './'}).then(function(registration) {
 			      // Registration was successful
+						caches.keys().then(function(keyList) {
+							for(var i = 0; i < keyList.length; i++) {
+								if(keyList[i] != 'GGCMaps-cache-v1.8.6') {
+									caches.delete(keyList[i]);
+								}
+							}
+						});
 			      console.log('ServiceWorker registration successful with scope: ', registration.scope);
 			    }).catch(function(err) {
 			      // registration failed :(
@@ -68,7 +75,7 @@
 				</div> <!-- popup-group -->
 				<input input="text" list="rooms" id="roomSearch" placeholder="Search (Ex: B 1200, Help Desk)" onkeypress="searchFromBar(event)" oninput="searchSuggest(event)">
 				<input type="text" id="arrayStore" style="display:none">
-				<datalist id="rooms"></datalist>
+				<datalist id= "rooms"></datalist>
 				<div class="popup-group">
 					<img id="search" src="images/search.svg" onclick="searchRoomNumber()" alt="Search Icon">
 					<div class="popup" id="search-popup">
@@ -107,7 +114,7 @@
 					<section>
 						<div class="parking-key">
 							<div id="reserved-parking" class="color-label"></div>
-							<p>Reserved</p>
+							<p>Staff/Faculty</p>
 						</div>
 						<div class="parking-key">
 							<div id="resident-parking" class="color-label"></div>
@@ -120,6 +127,34 @@
 						<div class="parking-key">
 							<div id="visitor-parking" class="color-label"></div>
 							<p>Visitors</p>
+						</div>
+						<div class="parking-key">
+							<div id="handicap-parking" class="color-label"></div>
+							<p>Handicap</p>
+						</div>
+						<div class="parking-key">
+							<div id="E-Car-parking" class="color-label"></div>
+							<p>E-Car</p>
+						</div>
+						<div class="parking-key">
+							<div id="Zip-Car-parking" class="color-label"></div>
+							<p>Zip-Car</p>
+						</div>
+						<div class="parking-key">
+							<div id="police-parking" class="color-label"></div>
+							<p>Police</p>
+						</div>
+						<div class="parking-key">
+							<div id="motorcycle-parking" class="color-label"></div>
+							<p>Motorcycle</p>
+						</div>
+						<div class="parking-key">
+							<div id="foodPickUp-parking" class="color-label"></div>
+							<p>Food Pick-up</p>
+						</div>
+						<div class="parking-key">
+							<div id="noPark-parking" class="color-label"></div>
+							<p>No-Parking</p>
 						</div>
 					</section>
 				</div> <!-- pLegend div -->
@@ -183,6 +218,7 @@
 				<li onclick="changeFloor('H', '1');"><a>Building H</a></li>
 				<li onclick="changeFloor('I', '1')"><a>Building I</a></li>
 				<li onclick="changeFloor('L', '1');"><a>Building L / Library</a></li>
+				<li onclick="changeFloor('3', '1');"><a>Building 3000</a></li>
 			</ul>
 			<div class="menu-section"></div>
 			<ul>
