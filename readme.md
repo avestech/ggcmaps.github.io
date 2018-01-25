@@ -24,7 +24,7 @@ GGCMaps aims to better, as well as ease, the experience of students at GGC when 
 This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcmaps.github.io#fall-16---created-by), in Fall of 2016. It has since been picked up for continuation by [David Rivera et al](https://github.com/ggcmaps/ggcmaps.github.io#spring-17), to further develop its features, and fix bugs as our Software Development II project.
 
 ### Documentation
-* Live Project: [Website](https://ggcmaps.github.io/ggcmaps/) (External Link)
+* Live Project: [Website](http://ggcmaps.com/) (External Link)
 * [License](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/License.md)
 * [Contributor Guide](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/CONTRIBUTING.md)
 
