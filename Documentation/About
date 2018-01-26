@@ -1,0 +1,17 @@
+User Documentation
+This application allows the user to view a detailed map of Georgia Gwinnett College campus.
+The search features allows a user to search for a room on campus using the "room number + building letter."
+A user may also search for an area on campus by using commonly used name or business name, for example: "One Stop Shop" or "Panda Express."
+Buildings may be viewed individually by performing a search, or by clicking on the building.
+Safety features include clearly defined exits on individual building maps.
+Parking lots are labeled by parking area.
+
+
+Developer Documentation
+/////A current list of rooms currently activated can be found in a file titled "Active Room List"
+////A list of active nickname searches can be found in a file titles "Active Room List"
+////pending.....
+
+
+Styling for this application can be found in lib > sass
+A set of GGC maps of GGC campus in .ai format can be found in the documentation folder.
