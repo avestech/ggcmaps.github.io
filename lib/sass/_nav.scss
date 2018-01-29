@@ -288,3 +288,103 @@
     border-radius: 50%;
   } // round:before
 } // slider.round
+
+.building-info {
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  position: absolute;
+  -moz-box-shadow: 1px 2px 5px #333333;
+  -webkit-box-shadow: 1px 2px 5px #333333;
+  box-shadow: 1px 2px 5px #333333;
+  background-color: #fff;
+  width: 100%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  margin-top: 60px;
+  text-align: center;
+}
+.building-info h4 {
+  color: #00704a;
+  padding: .3rem .8rem;
+}
+.building-info .menu-section {
+  border-bottom-color: #00704a;
+}
+.building-info section {
+  width: 100%;
+  padding: .2rem .8rem;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  margin: auto;
+}
+.building-info section .building-key {
+  padding: .3rem .2rem;
+  width: 16.66667%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+.building-info section .building-key p {
+  color: #00704a;
+  font-size: .7rem;
+  line-height: normal;
+}
+@media (min-width: 30em) {
+  .building-info {
+    width: 86.66667%;
+    float: left;
+    padding-left: 0.66667%;
+    padding-right: 0.66667%;
+    margin-left: 6.66667%;
+    margin-right: 6.66667%;
+  }
+  .building-info section .building-key p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 39em) {
+  .building-info {
+    width: 26.66667%;
+    float: left;
+    padding-left: 0.66667%;
+    padding-right: 0.66667%;
+    right: 0;
+    margin: 10px;
+    text-align: left;
+  }
+  .building-info h4 {
+    padding: .8rem 1rem;
+    text-align: center;
+  }
+  .building-info section {
+    padding: .8rem;
+    display: inline-block;
+  }
+  .building-info section .building-key {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding: .3rem 0;
+  }
+  .building-info section .building-key p {
+    margin-left: .5rem;
+    line-height: 120%;
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 70em) {
+  .building-info {
+    width: 16.66667%;
+    float: left;
+    padding-left: 0.66667%;
+    padding-right: 0.66667%;
+  }
+}
+#bLegend {
+  display: none;
+}//initially hide building legend
