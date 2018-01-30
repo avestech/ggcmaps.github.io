@@ -48,6 +48,17 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 
 
 ### Current Team's
+#### Spring 18':
+* Team Name: JPAN
+* Repo location: https://github.com/soft-eng-practicum/ggcmaps
+* Process tool: ATOM
+* Communication: https://ggc-dev.slack.com and https://ggcmaps.slack.com/
+#### Team Members
+1. Codjoe Jean-Paul Gamadeku - Lead Documentation/Client Liason
+
+
+
+
 #### Fall '17:
 * Team Name: Adventuras
 * Repo location: https://github.com/soft-eng-practicum/ggcmaps
