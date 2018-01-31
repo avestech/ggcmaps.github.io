@@ -54,8 +54,8 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 * Process tool: ATOM
 * Communication: https://ggc-dev.slack.com and https://ggcmaps.slack.com/
 #### Team Members
-1. Codjoe Jean-Paul Gamadeku - Lead Documentation/Client Liason
-2. Nabilah Lasker :smile: - UI/UX Design/Lead Tester
+1. Nabilah Lasker :smile: - Project Manager/UI/UX Design/Lead Tester
+2. Codjoe Jean-Paul Gamadeku - Lead Documentation/Client Liason
 3. Andres Blandon - Lead Programmer/ Code Architect
 
 
