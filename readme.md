@@ -74,5 +74,18 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 
 
 
+#### Fall '17:
+* Team Name: Nav-Benders
+* Repo location: https://github.com/soft-eng-practicum/ggcmaps-navbenders.git
+* Process tool: SASS, Ruby, Grunt and HTML
+* Communication: https://ggc-dev.slack.com and https://ggcmaps.slack.com/
+* Software Development tool: http://itec-gunay.duckdns.org:8080/projects/NAV/summary 
+#### Team Members
+1. Richard Williams - Team manager/Client liaison and Code architecture/lead programmer/Lead Tester
+2. Maryam Najiarani - Documentation Lead and Code architecture/lead programmer/Lead Tester  
+3. Joseph Pelletier - UI/UX Lead/ Lead Tester
+
+
+
 
 
