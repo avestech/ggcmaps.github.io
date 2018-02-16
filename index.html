@@ -65,6 +65,12 @@
 		</script>
 	</head>
 	<body>
+		<!--GGC Clickable Logo -->
+		<a href = "http://www.ggc.edu" target="_blank">
+			<img id = "logo" src= "images/ggcLogo.png" alt = "ggcLogo" height="200" width="350" align = "bottom"
+			style="position:absolute;padding-top:80px;padding-left:20px">
+		</a>
+		<!--GGC Clickable Logo -->
 		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'devbox'); toggleTab(event, 'campusEvents');" class="content">
 			<div class="search-menu">
 				<div class="popup-group">
@@ -100,7 +106,9 @@
 					<div class="floors"></div> <!-- floors -->
 				</div> <!-- dropdown -->
 			</div> <!-- search-menu -->
+			<div id = "logo">
 
+			</div>
 			<div class="campus-info"> <!-- Important div. do not delete or comment out -->
 				<!-- Content Below can be deleted or commented out -->
 				<div id="pLegend">
@@ -290,6 +298,7 @@
 				</li>
 			</ul>
 		</div> <!-- nav -->
+
 		<!-- <script src="https://localhost:35729/livereload.js"></script> -->
 		<script>visitCheck();</script>
 
