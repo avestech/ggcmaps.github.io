@@ -30,3 +30,32 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 
 ### About our Sponsors
 * [BrowserStack](http://browserstack.com/) partnered with us to allow us to use their services with the browser testing as well as their automated testing. You should probably check them out :D
+
+
+
+
+### Current Team's
+#### Fall '17:
+* Team Name: Adventuras
+* Repo location: https://github.com/soft-eng-practicum/ggcmaps
+* Process tool: (I don't understand what this is asking for) - Robert W.
+* Communication: https://ggc-dev.slack.com and https://ggcmaps.slack.com/
+#### Team Members
+1. Robert Westervelt - Data Modeler/Code Architect
+2. Bryan Yeap - Programmer/Tester
+3. Matt Soucy - Tester/Programmer
+
+#### Fall '17:
+* Team Name: Nav-Benders
+* Repo location: https://github.com/soft-eng-practicum/ggcmaps-navbenders.git
+* Process tool: SASS, Ruby, Grunt and HTML
+* Communication: https://ggc-dev.slack.com and https://ggcmaps.slack.com/
+#### Team Members
+1. Richard Williams - Team manager/Client liaison and Code architecture/lead programmer/Lead Tester
+2. Maryam Najiarani - Documentation Lead and Code architecture/lead programmer/Lead Tester  
+3. Joseph Pelletier - UI/UX Lead/ Lead Tester
+
+
+
+
+
