@@ -8,7 +8,7 @@
 * [News](https://github.com/ggcmaps/ggcmaps.github.io#news)
 * [Description](https://github.com/ggcmaps/ggcmaps.github.io#description)
 * [Documentation](https://github.com/ggcmaps/ggcmaps.github.io#documentation)
-* [The Team](https://github.com/ggcmaps/ggcmaps.github.io#the-team-by-semester)
+* [The Teams](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/teams.md)
 * [Our Sponsors](https://github.com/ggcmaps/ggcmaps.github.io#about-our-sponsors)
 * [Website](https://ggcmaps.github.io/) (External Link)
 
@@ -27,19 +27,6 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 * Live Project: [Website](http://ggcmaps.com/) (External Link)
 * [License](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/License.md)
 * [Contributor Guide](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/CONTRIBUTING.md)
-
-### The Team By Semester
-#### Spring '17:
-1. David Rivera - Project Manager/Client Liason
-2. Margaret Muse- UI/Documentation/Testing
-3. Carlos Pacheco - Programmer/Testing
-4. Joshua Gerth - Data Modeler/Programmer
-
-#### Fall '16 - Created by:
-1. Mike Deiters - Project Manager/Data Modeler
-2. Aston Tsou - Lead Documentation/Client Liason
-3. Narith Seang - Lead Testing/Lead Developer
-
 
 ### About our Sponsors
 * [BrowserStack](http://browserstack.com/) partnered with us to allow us to use their services with the browser testing as well as their automated testing. You should probably check them out :D
