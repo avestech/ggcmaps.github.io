@@ -2,10 +2,10 @@
 
 We would like to start off by thanking you for taking the time to contribute. Please note the following:
 * `Grunt` is used to compile Sass(.scss files) into the `styles.css` file, and minify all of the Javascript files into the `script.min.js` file.
-* `Script.min.js` and `styles.css` are created automatically and should not be edited manually.
+* `script.min.js` and `styles.css` are created automatically and should not be edited manually.
    * Manually editing either of the two files mentioned above will cause your work to be overwritten next time `grunt` is run.
 
-We use Grunt to improve your workflow, this helps us create the best product possible. When committing the files created by `grunt` (`Script.min.js` and `styles.css`), please commit both files in the same commit labeled with the message "grunt". Please **do not include other files** in the "grunt" commit.
+We use Grunt to improve your workflow, this helps us create the best product possible. When committing the files created by `grunt` (`script.min.js` and `styles.css`), please commit both files as needed in the same commit labeled with the message "grunt". Please **do not include other files** in the "grunt" commit.
 We have outlined below what tools are required, and how to get started to be able to contribute to the project.
 
 #### Table of Contents
