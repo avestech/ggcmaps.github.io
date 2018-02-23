@@ -1,6 +1,14 @@
 # Contributing to GGCMaps
 
-We would like to start off by thanking you for taking the time to contribute. We have outlined below what tools are required to be able to contribute to the project. Grunt is used to compile Sass(.scss files) into the styles.css file, and minify all of the JavaScript files into the script.min.js file. Script.min.js and styles.css are created automatically and should not be edited manually. Manually editing will cause your work to be over written next time grunt is ran. We use this tool to improve your workflow, and want to create the best product possible. Also note that when committing the files created by grunt, please commit both files, as needed, in the same commit labeled with the message grunt. Please do not include other files with the grunt files. This makes it easier for use when you submit a pull request.
+Contributing to GGCMaps
+
+We would like to start off by thanking you for taking the time to contribute. Please note the following:
+* `Grunt` is used to compile Sass(.scss files) into the `styles.css` file, and minify all of the Javascript files into the `script.min.js` file.
+* `Script.min.js` and `styles.css` are created automatically and should not be edited manually.
+   * Manually editing either of the two files mentioned above will cause your work to be overwritten next time `grunt` is run.
+
+We use Grunt to improve your workflow, this helps us create the best product possible. When committing the files created by `grunt` (`Script.min.js` and `styles.css`), please commit both files in the same commit labeled with the message "grunt". Please **do not include other files** in the "grunt" commit.
+We have outlined below what tools are required, and how to get started to be able to contribute to the project.
 
 #### Table of Contents
 
@@ -89,4 +97,4 @@ After you have finished your new feature for the project, and you have thoroughl
   * If you update any of the maps, include the updated Illustrator files in your request. *Please note that the Illustrator file is not to be in the repository.* Attach the files to the pull request or link to the files. We want to allow future contributors the ability to use the most updated maps.
   * Title the request something that appropriately describes your feature.
   * Keep the repo organized. We do not want clutter in the repository, so before submitting a request remove any unnecessary files.
-  * Commits labeled 'grunt' will be rejected, do not worry about this. We will run grunt after processing the pull request to prevent merge conflicts.
+  * Commits labeled "grunt" will be rejected, therefore **do not include** any other files aside from `script.min.js` and `styles.css`.
