@@ -1,7 +1,5 @@
 # Contributing to GGCMaps
 
-Contributing to GGCMaps
-
 We would like to start off by thanking you for taking the time to contribute. Please note the following:
 * `Grunt` is used to compile Sass(.scss files) into the `styles.css` file, and minify all of the Javascript files into the `script.min.js` file.
 * `Script.min.js` and `styles.css` are created automatically and should not be edited manually.
