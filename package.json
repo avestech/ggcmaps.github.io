@@ -34,8 +34,17 @@
     }
   ],
   "license": "GNU General Public License v3.0",
+  "config": {
+    "port": 3000,
+    "mount": "/mnt/dev/project",
+    "docker_image": "mdeiters/minimalistweb",
+    "image_version": "latest"
+  },
   "scripts": {
-    "start": "http-server -p 3000"
+    "start": "grunt dev",
+    "server": "grunt server",
+    "docker": "node .scripts/docker.js",
+    "purge": "docker containers prune"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
@@ -43,6 +52,7 @@
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-http-server": "^2.1.0",
     "phantomjs": "^2.1.7"
   }
 }
