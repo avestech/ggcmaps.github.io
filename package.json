@@ -41,10 +41,10 @@
     "image_version": "latest"
   },
   "scripts": {
-    "start": "grunt dev",
+    "dev": "grunt dev",
     "server": "grunt server",
     "docker": "node .scripts/docker.js",
-    "purge": "docker containers prune"
+    "purge": "docker container prune"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
