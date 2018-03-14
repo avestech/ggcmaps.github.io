@@ -1,8 +1,7 @@
-module.exports = function(grunt) {
-
+module.exports = function (grunt) {
   grunt.initConfig({
     jshint: {
-      files: ["lib/client-js/*.js"],
+      files: ['lib/client-js/*.js'],
       options: {
         esnext: true,
         globals: {
@@ -12,9 +11,9 @@ module.exports = function(grunt) {
     }, // jshint
     uglify: {
       options: {
-        beautify : true, //Makes code readable so that the debugger can be used
+        beautify: true, // Makes code readable so that the debugger can be used
         mangle: {
-          except: [
+          reserved: [
             '$timeout',
             '$eval'
           ]
@@ -62,11 +61,10 @@ module.exports = function(grunt) {
     } // watch
   }); // initConfig
 
-
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-compass');
-  grunt.loadNpmTasks("grunt-contrib-jshint");
+  grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-http-server');
 
   grunt.registerTask('js', ['uglify']);
