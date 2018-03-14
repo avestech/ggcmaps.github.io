@@ -41,6 +41,7 @@
     "image_version": "latest"
   },
   "scripts": {
+    "start": "http-server -p 3000",
     "dev": "grunt dev",
     "server": "grunt server",
     "docker": "node .scripts/docker.js",
