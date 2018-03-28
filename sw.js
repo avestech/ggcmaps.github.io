@@ -20,31 +20,60 @@ var urlsToCache = [
   baseURL + 'images/launcher-icon-2x.png',
   baseURL + 'images/launcher-icon-3x.png',
   baseURL + 'images/launcher-icon-4x.png',
+
+  baseURL + 'Building/1000/1000-Parking-Lot.html',
+
+  baseURL + 'Building/2000/First-Floor.html',
+
+  baseURL + 'Building/3000/3000-Parking-Lot.html',
+  baseURL + 'Building/3000/3000-First-Floor.html',
+  baseURL + 'Building/3000/3000-Second-Floor.html',
+  baseURL + 'Building/3000/3000-Third-Floor.html',
+  baseURL + 'Building/3000/3000-Fourth-Floor.html',
+
+  baseURL + 'Building/A/A-Parking-Lot.html',
   baseURL + 'Building/A/First-Floor.html',
+
+  baseURL + 'Building/B/B-Parking-Lot.html',
   baseURL + 'Building/B/first-floor.html',
   baseURL + 'Building/B/second-floor.html',
   baseURL + 'Building/B/third-floor.html',
+
   baseURL + 'Building/C/First-Floor.html',
   baseURL + 'Building/C/Second-Floor.html',
+
   baseURL + 'Building/C3/Ground-Floor.html',
   baseURL + 'Building/C3/First-Floor.html',
   baseURL + 'Building/C3/Second-Floor.html',
+
+  baseURL + 'Building/D/D-Parking-Lot.html',
+  baseURL + 'Building/D/Colonial-Lot.html',
   baseURL + 'Building/D/First-Floor.html',
   baseURL + 'Building/D/Second-Floor.html',
+
   baseURL + 'Building/E/First-Floor.html',
   baseURL + 'Building/E/Second-Floor.html',
   baseURL + 'Building/E/Third-Floor.html',
+
+  baseURL + 'Building/F/F-Parking-Lot.html',
   baseURL + 'Building/F/First-Floor.html',
   baseURL + 'Building/F/Second-Floor.html',
+
+  baseURL + 'Building/H/H-Parking-Lot.html',
   baseURL + 'Building/H/First-Floor.html',
   baseURL + 'Building/H/Second-Floor.html',
   baseURL + 'Building/H/Third-Floor.html',
+
+  baseURL + 'Building/I/I-Parking-Lot.html',
   baseURL + 'Building/I/First-Floor.html',
   baseURL + 'Building/I/Second-Floor.html',
   baseURL + 'Building/I/Third-Floor.html',
+
+  baseURL + 'Building/L/L-Parking-Lot.html',
   baseURL + 'Building/L/First-Floor.html',
   baseURL + 'Building/L/Second-Floor.html',
   baseURL + 'Building/L/Third-Floor.html',
+
   baseURL + 'help.html',
   baseURL + 'devs.html',
   baseURL + 'campusEvents.html'

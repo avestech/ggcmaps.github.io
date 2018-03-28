@@ -23,14 +23,15 @@ svg {
       stroke:$green;
       stroke-width:0.5;
       stroke-miterlimit:10;
+
+    }
     } // building
+
 
     &:hover {
       .building {
         fill: $lightgreen;
-      } // building
-
-    } // building-group:hover
+   } // building-group :hover
   } // building-group
 
   .no-hover {
@@ -39,9 +40,42 @@ svg {
     &:hover {
       .building {
         fill: $green;
+
       } // building
     } // no-hover:hover
   } // no-hover
+
+  .parking-group {
+    cursor: pointer;
+
+    .parking {
+      fill:$lightgrey;
+      stroke:$green;
+      stroke-width:0.5;
+      stroke-miterlimit:10;
+
+    }
+    } // building
+
+
+    &:hover {
+      .parking {
+        fill: $grey;
+
+   } // building-group :hover
+  } // building-group
+
+  .no-hover {
+    cursor: move;
+
+    &:hover {
+      .parking {
+        fill: $grey;
+
+      } // building
+    } // no-hover:hover
+  } // no-hover
+
 
   .student-parking {
     fill: $pastelgreen;

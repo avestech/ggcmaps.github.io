@@ -1085,6 +1085,28 @@ svg .no-hover {
 svg .no-hover:hover .building {
   fill: #00704a;
 }
+svg .parking-group {
+  cursor: pointer;
+}
+/* line 21, ../sass/_campus.scss */
+svg .parking-group .parking {
+  fill: #00704a;
+  stroke: #00704a;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+/* line 29, ../sass/_campus.scss */
+svg .parking-group:hover .parking {
+  fill: #85c446;
+}
+/* line 36, ../sass/_campus.scss */
+svg .no-hover {
+  cursor: move;
+}
+/* line 40, ../sass/_campus.scss */
+svg .no-hover:hover .parking {
+  fill: #00704a;
+}
 /* line 46, ../sass/_campus.scss */
 svg .student-parking {
   fill: #deedcd;

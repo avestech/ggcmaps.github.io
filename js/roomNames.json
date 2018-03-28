@@ -1,5 +1,11 @@
 {
   "3000": {
+    "Parking": [
+      {
+        "name": "3000-parking-lot",
+        "id": "3000parkinglot"
+      }
+    ],
     "1": [
       {
         "name": "3123d",
@@ -8,6 +14,12 @@
     ]
   },
   "A": {
+    "Parking": [
+      {
+        "name": "a-parking-lot",
+        "id": "aparkinglot"
+      }
+    ],
     "1": [
       {
         "name": "food-court",
@@ -84,6 +96,12 @@
     ]
   },
   "B": {
+      "Parking": [
+        {
+          "name": "b-parking-lot",
+          "id": "bparkinglot"
+        }
+      ],
     "1": [
       {
         "name": "einstein-bros-bagels",
@@ -144,6 +162,12 @@
     ]
   },
   "D": {
+      "Parking": [
+        {
+          "name": "d-parking-lot",
+          "id": "dparkinglot"
+        }
+      ],
     "1": [
       {
         "name": "public-safety",
@@ -418,6 +442,12 @@
     ]
   },
   "F": {
+      "Parking": [
+        {
+          "name": "f-parking-lot",
+          "id": "fparkinglot"
+        }
+      ],
     "1": [
       {
         "name": "Jr-Olympic-Pool",
@@ -539,9 +569,29 @@
       }
     ]
   },
-  "H": {},
-  "I": {},
+  "H": {
+      "Parking": [
+        {
+          "name": "h-parking-lot",
+          "id": "hparkinglot"
+        }
+      ],
+  },
+  "I": {
+    "Parking": [
+      {
+        "name": "i-parking-lot",
+        "id": "iparkinglot"
+      }
+    ],
+  },
   "L": {
+    "Parking": [
+      {
+        "name": "l-parking-lot",
+        "id": "lparkinglot"
+      }
+    ],
     "1": [
       {
         "name": "starbucks",
