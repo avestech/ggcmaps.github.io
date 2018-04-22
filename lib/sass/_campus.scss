@@ -1,3 +1,4 @@
+
 svg {
   .campus {
     stroke:#000;
@@ -15,6 +16,7 @@ svg {
     fill:$grey;
   } // campus-fill
 
+//Building Fills and Styles
   .building-group {
     cursor: pointer;
 
@@ -23,15 +25,14 @@ svg {
       stroke:$green;
       stroke-width:0.5;
       stroke-miterlimit:10;
-
-    }
     } // building
-
 
     &:hover {
       .building {
         fill: $lightgreen;
-   } // building-group :hover
+      } // building
+
+    } // building-group:hover
   } // building-group
 
   .no-hover {
@@ -40,65 +41,57 @@ svg {
     &:hover {
       .building {
         fill: $green;
-
       } // building
     } // no-hover:hover
   } // no-hover
 
-  .parking-group {
-    cursor: pointer;
-
-    .parking {
-      fill:$lightgrey;
-      stroke:$green;
-      stroke-width:0.5;
-      stroke-miterlimit:10;
-
-    }
-    } // building
-
-
-    &:hover {
-      .parking {
-        fill: $grey;
-
-   } // building-group :hover
-  } // building-group
-
-  .no-hover {
-    cursor: move;
-
-    &:hover {
-      .parking {
-        fill: $grey;
-
-      } // building
-    } // no-hover:hover
-  } // no-hover
-
-
+//Parking styles and Fills
   .student-parking {
     fill: $pastelgreen;
+    &:hover {
+      cursor: pointer;
+      fill: $grey;
+    }
   } // student-parking
 
   .staff-parking {
     fill: $pastelred;
+    &:hover {
+      cursor: pointer;
+      fill: $grey;
+    }
   } // staff-parking
 
   .resident-parking {
     fill: $pastelorange;
+    &:hover {
+      cursor: pointer;
+      fill: $grey;
+    }
   } // resident-parking
 
   .visitor-parking {
     fill: $brown;
+    &:hover {
+      cursor: pointer;
+      fill: $grey;
+    }
   } // visitor-parking
 
   .open-parking {
     fill: $pastelgreen;
+    &:hover {
+      cursor: pointer;
+      fill: $grey;
+    }
   } // open-parking
 
   .reserved-parking {
     fill: $pastelred;
+    &:hover {
+      cursor: pointer;
+      fill: $grey;
+    }
   } // reserved-parking
 
   #parking-deck {
@@ -123,5 +116,7 @@ svg {
 
   .large-label {
     font-size: 1.7rem;
+
   } // large-label
+
 } // svg

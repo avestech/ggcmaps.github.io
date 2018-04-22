@@ -43,6 +43,7 @@
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-uglify": "^3.3.0",
     "grunt-contrib-watch": "^1.0.0",
-    "phantomjs": "^2.1.7"
+    "phantomjs": "^2.1.7",
+    "susy": "^3.0.3"
   }
 }

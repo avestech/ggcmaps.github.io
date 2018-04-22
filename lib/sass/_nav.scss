@@ -128,6 +128,7 @@
         margin: auto;
       } // color-label
 
+
       #reserved-parking {
         @include colorLabel($pastelred, 10px);
       } // reserved-parking
@@ -280,6 +281,11 @@
     background-color: $border;
   } // slider:before
 } // slider
+
+.A-to-B {
+  @include colorLabel($pastelred, 10px);
+} // reserved-parking
+
 
 .slider.round {
   border-radius: 17px;

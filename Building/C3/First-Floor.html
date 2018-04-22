@@ -58,6 +58,7 @@
 	<polyline class="outline" points="121.25,338.964 121.25,334.714 87,334.714 	"/>
 	<polyline class="outline" points="568.334,334.962 530,334.962 530,338.296 	"/>
 </g>
+
 <g id="le-fill">
 	<rect x="527.875" y="194.714" class="fill" width="4.5" height="95"/>
 	<rect x="169.375" y="247.339" class="fill" width="4.375" height="38.875"/>
@@ -276,10 +277,6 @@
 	<text transform="matrix(1 0 0 1 576.752 57.9644)" class="label">1309</text>
 </g>
 
-
-
-
-
 <g class="room-group">
 	<rect x="108.75" y="247.339" class="room" width="29.625" height="38.875"/>
 	</g>
@@ -350,6 +347,7 @@
 	<path class="door" d="M87.526,247.339h-8.317"/>
 	<path class="door" d="M649.484,227.464h-8.317"/>
 </g>
+
 <g id="labels">
 	<g>
 		<g>
@@ -497,6 +495,18 @@
 		</g>
 	</g>
 </g>
+
+<g id = "floorButtons">
+<g onclick="changeFloor('C', '1')" >
+
+	<text transform="matrix(1 0 0 1 0 0)">→ Building C</text>
+</g>
+<g onclick="changeFloor('E', '1')" >
+
+	<text transform="matrix(1 0 0 1 0 0)">→ Building E</text>
+</g>
+</g>
+
 <g id="Safety" style="display:none">
 	<g>
 	<defs>
@@ -984,6 +994,8 @@
 	</g>
 	</g>
 </g>
+
+
 </svg>
 <script>
 		function roomPrinter() {

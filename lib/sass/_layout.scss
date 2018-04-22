@@ -203,6 +203,8 @@ body {
         stroke-linejoin: bevel;
       } // bevel
 
+      }
+
       .room-group {
         &:hover {
           cursor: pointer;
@@ -270,6 +272,14 @@ body {
       .no-fill {
         fill: none;
       } // no-fill
+
+      #floorButtons{
+        stroke: $green;
+      &:hover{
+          cursor: pointer;
+
+    }
+
     } // svg
   } // svg-holder
 } // content
