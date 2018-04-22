@@ -1,0 +1,48 @@
+{
+  "name": "ggcmaps",
+  "version": "1.4.5",
+  "private": true,
+  "contributors": [
+    {
+      "name": "Aston Tsou",
+      "email": "astontsou@gmail.com"
+    },
+    {
+      "name": "Carlos Pacheco",
+      "email": "cpacheco4983@gmail.com"
+    },
+    {
+      "name": "David Rivera",
+      "email": "david@irl.solutions",
+      "url": "www.irl.solutions"
+    },
+    {
+      "name": "Josh Gerth",
+      "email": "jgerth@ggc.edu"
+    },
+    {
+      "name": "Maggie Muse"
+    },
+    {
+      "name": "Mike Deiters",
+      "email": "mike@deiters.me",
+      "url": "www.deiters.me"
+    },
+    {
+      "name": "Nareth Seang",
+      "email": "nseang2@gmail.com"
+    }
+  ],
+  "license": "Creative Commons",
+  "scripts": {
+    "start": "http-server -p 3000"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "phantomjs": "^2.1.7"
+  }
+}
