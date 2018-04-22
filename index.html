@@ -10,8 +10,11 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<script src="js/svg-pan-zoom.min.js"></script>
     <script src="js/hammer.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/bluebird.min.js"></script>
 		<script src="js/script.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Yantramanav:300" rel="stylesheet">
 		<!-- Script is run in the head so that there's no jump (partial load then redirect) for Incompatible Browser users  -->
 		<!-- Allows for the first paint to be the support page if agreement has not been accepted in current session -->
@@ -65,6 +68,8 @@
 		</script>
 	</head>
 	<body>
+
+	 <!--GGC Clickable Logo end -->
 		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'devbox'); toggleTab(event, 'campusEvents');" class="content">
 			<div class="search-menu">
 				<div class="popup-group">
@@ -100,9 +105,68 @@
 					<div class="floors"></div> <!-- floors -->
 				</div> <!-- dropdown -->
 			</div> <!-- search-menu -->
-			<div id = "logo">
 
+			<div id = "logo"> <!-- this is where the logo padding end -->
+
+
+
+
+
+           <!-- All content of the legend toggle-->
+										<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+										<script src="js/jquery.dlmenu.js"></script>
+										<script>
+											$(function(){
+												$( '#dl-menu' ).dlmenu({
+													animationClasses : { classin : 'dl-animate-in-3', classout : 'dl-animate-out-3' }
+												});
+											});
+										</script>
+
+										<div class="column">
+											<div id="dl-menu" class="dl-menuwrapper">
+												<button class="dl-trigger">Open Legend Menu</button>
+												<ul class="dl-menu">
+													<li>
+
+														<h1>LEGEND</h1>
+														<ul>
+															<li>
+																<a>Show Building Legend
+																	<div class="switchmenucontainer">
+																		<label class="switch">
+														  				<input type="checkbox" onclick="buildingLegend()" id="buildingLegendSwitch">
+														  				<div class="slider round"></div>
+																		</label>
+																	</div>
+																</a>
+															</li>
+															<li>
+																<a>Show Safety Legend
+																	<div class="switchmenucontainer">
+																		<label class="switch">
+																			<input type="checkbox" onclick="safetyMode()" id="safetySwitch">
+																			<div class="slider round"></div>
+																		</label>
+																	</div>
+																</a>
+															</li>
+															<li>
+																<a>Show Parking Legend
+																	<div class="switchmenucontainer">
+																		<label class="switch">
+														  				<input type="checkbox" onclick="cookieLegend(); addMap(campus,'Campus'); switchLegend();" id="legendSwitch">
+														  				<div class="slider round"></div>
+																		</label>
+																	</div>
+																</a>
+															</li>
+														</ul>
+															<li>
+							</div> <!-- nav -->
+							</div> <!-- nav -->
 			</div>
+
 			<div class="campus-info"> <!-- Important div. do not delete or comment out -->
 				<!-- Content Below can be deleted or commented out -->
 				<div id="pLegend">
@@ -257,37 +321,7 @@
 				<li onclick="openTab('helpbox')"><a>Get Help</a></li>
 				<li onclick="openTab('devbox')"><a>Created By</a></li>
 			</ul>
-			<div class="menu-section"></div>
-			<h1>Options</h1>
-			<ul>
-				<li>
-					<a>Show Building Legend
-						<div class="switchmenucontainer">
-							<label class="switch">
-			  				<input type="checkbox" onclick="buildingLegend()" id="buildingLegendSwitch">
-			  				<div class="slider round"></div>
-							</label>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a>Show Safety Legend
-						<div class="switchmenucontainer">
-							<label class="switch">
-								<input type="checkbox" onclick="safetyMode()" id="safetySwitch">
-								<div class="slider round"></div>
-							</label>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a>Show Parking Legend
-						<div class="switchmenucontainer">
-							<label class="switch">
-			  				<input type="checkbox" onclick="cookieLegend(); addMap(campus,'Campus'); switchLegend();" id="legendSwitch">
-			  				<div class="slider round"></div>
-							</label>
-						</div>
+
 					</a>
 				</li>
 			</ul>
@@ -296,5 +330,8 @@
 		<!-- <script src="https://localhost:35729/livereload.js"></script> -->
 		<script>visitCheck();</script>
 
+
+
 	</body>
+
 </html>
