@@ -30,6 +30,7 @@ For developing GGC Maps you can either install the project dependencies to your 
 
   * Ruby
   * Sass
+  * Susy
   * Grunt
   * Grunt-Contrib-Compass
   * Grunt-Contrib-JSHint
@@ -49,7 +50,7 @@ For developing GGC Maps you can either install the project dependencies to your 
 #### Linux
 
 If you're using a distribution of Linux, you'll need to install Ruby first. You can install Ruby through the apt package manager, rbenv, or rvm.
-`sudo gem install sass --no-user-install`
+`sudo gem install sass --no-user-install -v 3.4`
 
 #### Windows
 
@@ -59,7 +60,7 @@ The installer will also install a Ruby command line powershell application that 
 #### Mac
 
 If you prefer the command line over an application then getting Sass set up is a fairly quick process. Sass has a Ruby dependency but if you're using a Mac, congratulations, Ruby comes pre-installed.
-In your terminal run `gem install sass`. If you get and error message then you will likely need to use `sudo` which will look like this `sudo gem install sass`
+In your terminal run `gem install sass -v 3.4`. If you get and error message then you will likely need to use `sudo` which will look like this `sudo gem install sass -v 3.4`
 
 ### Setting Up Compass
 
@@ -77,7 +78,7 @@ Compass will run on any computer with ruby installed. After ruby is installed ru
 
   1. Fork the repository
   2. Clone your fork to your computer
-  3. Install the developer dependencies with `npm install --only=dev`
+  3. Install the developer dependencies with `npm install`
   4. In your terminal run `npm run dev` or `grunt dev`
   5. In your internet browser, navigate to localhost:3000
   6. Now your instance of the project running
