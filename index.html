@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
 		<meta charset="utf-8">
@@ -10,7 +10,6 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<script src="js/svg-pan-zoom.min.js"></script>
     <script src="js/hammer.min.js"></script>
-		<script src="js/bluebird.min.js"></script>
 		<script src="js/script.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Yantramanav:300" rel="stylesheet">
 		<!-- Script is run in the head so that there's no jump (partial load then redirect) for Incompatible Browser users  -->
@@ -40,7 +39,7 @@
 			      // Registration was successful
 						caches.keys().then(function(keyList) {
 							for(var i = 0; i < keyList.length; i++) {
-								if(keyList[i] != 'GGCMaps-cache-v1.9.0') {
+								if(keyList[i] != 'GGCMaps-cache-v1.5.0') {
 									caches.delete(keyList[i]);
 								}
 							}
@@ -193,26 +192,13 @@
 			</ul>
 			<div class="menu-section"></div>
 			<ul>
-				<li onclick="openTab('helpbox')"><a>Get Help</a></li>
-				<li onclick="openTab('devbox')"><a>Contributors</a></li>
+				<li onclick="openTab('helpbox')"><a>Help</a></li>
+				<li><a href="https://github.com/ggcmaps/ggcmaps.github.io/graphs/contributors" target="_blank">Contributors</a></li>
 			</ul>
 			<div class="menu-section"></div>
 			<h1>Options</h1>
 			<ul>
-				<li>
-<<<<<<< HEAD
-					<a>Show Legend
-=======
-					<a>Show Building Legend
-						<div class="switchmenucontainer">
-							<label class="switch">
-			  				<input type="checkbox" onclick="buildingLegend()" id="buildingLegendSwitch">
-			  				<div class="slider round"></div>
-							</label>
-						</div>
-					</a>
-				</li>
-				<li>
+				<!-- <li>
 					<a>Show Safety Legend
 						<div class="switchmenucontainer">
 							<label class="switch">
@@ -221,13 +207,12 @@
 							</label>
 						</div>
 					</a>
-				</li>
+				</li> -->
 				<li>
 					<a>Show Parking Legend
->>>>>>> 5227ad8... Safety switch added to Menu. Safety Mode function added for toggling on and off.
 						<div class="switchmenucontainer">
 							<label class="switch">
-			  				<input type="checkbox" onclick="cookieLegend(); addMap(campus,'Campus'); switchLegend();" id="legendSwitch">
+			  				<input type="checkbox" onclick="cookieLegend(); addMap(campus,'Campus');" id="legendSwitch">
 			  				<div class="slider round"></div>
 							</label>
 						</div>
