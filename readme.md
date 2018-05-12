@@ -8,7 +8,6 @@
 * [News](https://github.com/ggcmaps/ggcmaps.github.io#news)
 * [Description](https://github.com/ggcmaps/ggcmaps.github.io#description)
 * [Documentation](https://github.com/ggcmaps/ggcmaps.github.io#documentation)
-* [The Teams](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/teams.md)
 * [Our Sponsors](https://github.com/ggcmaps/ggcmaps.github.io#about-our-sponsors)
 * [Website](https://ggcmaps.github.io/) (External Link)
 
