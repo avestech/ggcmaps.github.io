@@ -11,6 +11,7 @@ We have outlined below what tools are required, and how to get started to be abl
 #### Table of Contents
 
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
+  * [Using Docker](https://github.com/ggcmaps/ggcmaps.github.io#docker.md)
   * [Developer Dependencies](#developer-dependencies)
   * [Getting Started Grunt](#setting-up-grunt)
   * [Setting Up Sass](#setting-up-sass)
@@ -23,16 +24,19 @@ We have outlined below what tools are required, and how to get started to be abl
 
 ## What should I know before I get started?
 
+For developing GGC Maps you can either install the project dependencies to your development machine or use Docker. Below is the guide for installing what is require for the project to your machine. Follow this link to read the guide about using [Docker](https://github.com/ggcmaps/ggcmaps.github.io#docker.md).
+
 ### Developer Dependencies
 
-  * HTTP-Server
   * Ruby
   * Sass
+  * Susy
   * Grunt
   * Grunt-Contrib-Compass
   * Grunt-Contrib-JSHint
   * Grunt-Contrib-Uglify
   * Grunt-Contrib-Watch
+  * Grunt-Http-Server
   * PhantomJS
 
 ### Setting Up Grunt
@@ -46,7 +50,7 @@ We have outlined below what tools are required, and how to get started to be abl
 #### Linux
 
 If you're using a distribution of Linux, you'll need to install Ruby first. You can install Ruby through the apt package manager, rbenv, or rvm.
-`sudo gem install sass --no-user-install`
+`sudo gem install sass --no-user-install -v 3.4`
 
 #### Windows
 
@@ -56,7 +60,7 @@ The installer will also install a Ruby command line powershell application that 
 #### Mac
 
 If you prefer the command line over an application then getting Sass set up is a fairly quick process. Sass has a Ruby dependency but if you're using a Mac, congratulations, Ruby comes pre-installed.
-In your terminal run `gem install sass`. If you get and error message then you will likely need to use `sudo` which will look like this `sudo gem install sass`
+In your terminal run `gem install sass -v 3.4`. If you get and error message then you will likely need to use `sudo` which will look like this `sudo gem install sass -v 3.4`
 
 ### Setting Up Compass
 
@@ -74,13 +78,11 @@ Compass will run on any computer with ruby installed. After ruby is installed ru
 
   1. Fork the repository
   2. Clone your fork to your computer
-  3. Install `http-server` with `npm install http-server -g`
-  4. Install the developer dependencies with `npm install --only=dev`
-  5. In your terminal run `npm start`
-  6. In another terminal tab/window run `grunt`
-  7. In your internet browser, navigate to localhost:3000
-  8. Now your instance of the project running
-  9. Finally, create a new file named (Class Number)-(Section Number)(Semester)(Year).md (This is where your team can keep your required class documentation.)
+  3. Install the developer dependencies with `npm install`
+  4. In your terminal run `npm run dev` or `grunt dev`
+  5. In your internet browser, navigate to localhost:3000
+  6. Now your instance of the project running
+  7. Finally, create a new file named (Class Number)-(Section Number)(Semester)(Year).md (This is where your team can keep your required class documentation.)
 
 ## How do I update the maps?
 
