@@ -8,7 +8,6 @@
 * [News](https://github.com/ggcmaps/ggcmaps.github.io#news)
 * [Description](https://github.com/ggcmaps/ggcmaps.github.io#description)
 * [Documentation](https://github.com/ggcmaps/ggcmaps.github.io#documentation)
-* [The Teams](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/teams.md)
 * [Our Sponsors](https://github.com/ggcmaps/ggcmaps.github.io#about-our-sponsors)
 * [Website](https://ggcmaps.github.io/) (External Link)
 
@@ -26,7 +25,7 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 ### Documentation
 * Live Project: [Website](http://ggcmaps.com/) (External Link)
 * [License](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/License.md)
-* [Contributor Guide](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/CONTRIBUTING.md)
+* [Contributor Guide](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/Contributing.md)
 
 ### About our Sponsors
 * [BrowserStack](http://browserstack.com/) partnered with us to allow us to use their services with the browser testing as well as their automated testing. You should probably check them out :D
