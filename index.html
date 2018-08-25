@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
 		<meta charset="utf-8">
@@ -10,7 +10,6 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<script src="js/svg-pan-zoom.min.js"></script>
     <script src="js/hammer.min.js"></script>
-		<script src="js/bluebird.min.js"></script>
 		<script src="js/script.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Yantramanav:300" rel="stylesheet">
 		<!-- Script is run in the head so that there's no jump (partial load then redirect) for Incompatible Browser users  -->
@@ -38,6 +37,13 @@
 			  window.addEventListener('load', function() {
 			    navigator.serviceWorker.register('sw.js', {scope: './'}).then(function(registration) {
 			      // Registration was successful
+						caches.keys().then(function(keyList) {
+							for(var i = 0; i < keyList.length; i++) {
+								if(keyList[i] != 'GGCMaps-cache-v1.5.0') {
+									caches.delete(keyList[i]);
+								}
+							}
+						});
 			      console.log('ServiceWorker registration successful with scope: ', registration.scope);
 			    }).catch(function(err) {
 			      // registration failed :(
@@ -58,7 +64,7 @@
 		</script>
 	</head>
 	<body>
-		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'devbox');" class="content">
+		<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'campusEvents');" class="content">
 			<div class="search-menu">
 				<div class="popup-group">
 					<img id="menu" src="images/bars.svg" onclick="openMenu()" alt="Menu Button">
@@ -66,7 +72,9 @@
 						<h3>Menu</h3>
 					</div> <!-- menu-popup -->
 				</div> <!-- popup-group -->
-				<input type="text" id="roomSearch" placeholder="Search (Ex: B 1200, Help Desk)" onkeypress="searchFromBar(event)" autofocus>
+				<input input="text" list="rooms" id="roomSearch" placeholder="Search (Ex: B 1200, Help Desk)" onkeypress="searchFromBar(event)" oninput="searchSuggest(event)">
+				<input type="text" id="arrayStore" style="display:none">
+				<datalist id= "rooms"></datalist>
 				<div class="popup-group">
 					<img id="search" src="images/search.svg" onclick="searchRoomNumber()" alt="Search Icon">
 					<div class="popup" id="search-popup">
@@ -124,7 +132,7 @@
 			</div> <!-- campus-info -->
 
 			<div class="tab" id="helpbox"></div>
-			<div class="tab" id="devbox"></div>
+			<div class="tab" id="campusEvents"></div>
 
 			<div id="svg-holder" class="svg-holder">
 
@@ -150,6 +158,10 @@
 				<li onclick="changeFloor('I', '1')"><a>Building I</a></li>
 				<li onclick="changeFloor('L', '1');"><a>Building L / Library</a></li>
 				<li onclick="changeFloor('3', '1');"><a>Building 3000</a></li>
+			</ul>
+			<div class="menu-section"></div>
+			<ul>
+				<li onclick="sortEvents();"><a>Campus Events</a></li>
 			</ul>
 			<div class="menu-section"></div>
 			<ul>
@@ -179,14 +191,24 @@
 			</ul>
 			<div class="menu-section"></div>
 			<ul>
-				<li onclick="openTab('helpbox')"><a>Get Help</a></li>
-				<li onclick="openTab('devbox')"><a>Contributors</a></li>
+				<li onclick="openTab('helpbox')"><a>Help</a></li>
+				<li><a href="https://github.com/ggcmaps/ggcmaps.github.io/graphs/contributors" target="_blank">Contributors</a></li>
 			</ul>
 			<div class="menu-section"></div>
 			<h1>Options</h1>
 			<ul>
+				<!-- <li>
+					<a>Show Safety Legend
+						<div class="switchmenucontainer">
+							<label class="switch">
+								<input type="checkbox" onclick="safetyMode()" id="safetySwitch">
+								<div class="slider round"></div>
+							</label>
+						</div>
+					</a>
+				</li> -->
 				<li>
-					<a>Show Legend
+					<a>Show Parking Legend
 						<div class="switchmenucontainer">
 							<label class="switch">
 			  				<input type="checkbox" onclick="cookieLegend(); addMap(campus,'Campus');" id="legendSwitch">
@@ -197,8 +219,8 @@
 				</li>
 			</ul>
 		</div> <!-- nav -->
-
 		<!-- <script src="https://localhost:35729/livereload.js"></script> -->
 		<script>visitCheck();</script>
+
 	</body>
 </html>
