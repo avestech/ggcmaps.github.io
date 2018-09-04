@@ -39,7 +39,7 @@
 			      // Registration was successful
 						caches.keys().then(function(keyList) {
 							for(var i = 0; i < keyList.length; i++) {
-								if(keyList[i] != 'GGCMaps-cache-v1.5.2') {
+								if(keyList[i] != 'GGCMaps-cache-v1.5.3') {
 									caches.delete(keyList[i]);
 								}
 							}
@@ -211,7 +211,7 @@
 					<a>Show Parking Legend
 						<div class="switchmenucontainer">
 							<label class="switch">
-			  				<input type="checkbox" onclick="cookieLegend(); addMap(campus,'Campus');" id="legendSwitch">
+			  				<input type="checkbox" onclick="cookieLegend(); changeFloor('Campus');" id="legendSwitch">
 			  				<div class="slider round"></div>
 							</label>
 						</div>
