@@ -1,7 +1,7 @@
 //when updates to the cached files are made, increment CACHE_NAME version
 //then place old CACHE_NAME value in line 41 of index.html so that old caches
 //are deleted from users browsers
-var CACHE_NAME = 'GGCMaps-cache-v1.5.0';
+var CACHE_NAME = 'GGCMaps-cache-v1.5.3';
 // baseURL is used to switch between hosting structures.
 // Set to null ('') for regular hosting
 // Set to directory inside Github Pages
