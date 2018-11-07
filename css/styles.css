@@ -628,8 +628,20 @@ body:after {
   padding-left: 0.83333%;
   padding-right: 0.83333%;
 }
+.campus-info section .safety-key {
+  padding: .3rem .2rem;
+  width: 16.66667%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
 /* line 121, ../lib/sass/_nav.scss */
 .campus-info section .parking-key p {
+  color: #00704a;
+  font-size: .7rem;
+  line-height: normal;
+}
+.campus-info section .safety-key p {
   color: #00704a;
   font-size: .7rem;
   line-height: normal;
@@ -638,10 +650,20 @@ body:after {
 .campus-info section .parking-key .color-label {
   margin: auto;
 }
+.campus-info section .safety-key .color-label {
+  margin: auto;
+}
 /* line 131, ../lib/sass/_nav.scss */
 .campus-info section .parking-key #reserved-parking {
   border-radius: 10px;
   background-color: #f4c9c4;
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
+}
+.campus-info section .safety-key #fire-extinguisher {
+  border-radius: 10px;
+  background-color: #FF0000;
   border: 1px solid #000;
   width: 10px;
   height: 10px;
@@ -654,6 +676,13 @@ body:after {
   width: 10px;
   height: 10px;
 }
+.campus-info section .safety-key #defibrillator {
+  border-radius: 10px;
+  background-color: #ffa500;
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
+}
 /* line 139, ../lib/sass/_nav.scss */
 .campus-info section .parking-key #student-parking {
   border-radius: 10px;
@@ -662,10 +691,24 @@ body:after {
   width: 10px;
   height: 10px;
 }
+.campus-info section .safety-key #severe-weather {
+  border-radius: 10px;
+  background-color: #008000;
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
+}
 /* line 143, ../lib/sass/_nav.scss */
 .campus-info section .parking-key #visitor-parking {
   border-radius: 10px;
   background-color: #cfab7a;
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
+}
+.campus-info section .safety-key #fire-switch {
+  border-radius: 10px;
+  background-color: #0000ff;
   border: 1px solid #000;
   width: 10px;
   height: 10px;
@@ -684,6 +727,9 @@ body:after {
   .campus-info section .parking-key p {
     font-size: 1rem;
   }
+  .campus-info section .safety-key p {
+    font-size: 1rem;
+  }
   /* line 161, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #reserved-parking {
     border-radius: 15px;
@@ -691,6 +737,13 @@ body:after {
     border: 1px solid #000;
     width: 15px;
     height: 15px;
+  }
+  .campus-info section .safety-key #fire-extinguisher {
+    border-radius: 10px;
+    background-color: #FF0000;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
   }
   /* line 165, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #resident-parking {
@@ -700,6 +753,13 @@ body:after {
     width: 15px;
     height: 15px;
   }
+  .campus-info section .safety-key #defibrillator {
+    border-radius: 10px;
+    background-color: #ffa500;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+  }
   /* line 169, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #student-parking {
     border-radius: 15px;
@@ -708,6 +768,13 @@ body:after {
     width: 15px;
     height: 15px;
   }
+  .campus-info section .safety-key #sever-weather {
+    border-radius: 10px;
+    background-color: #008000;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+  }
   /* line 173, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #visitor-parking {
     border-radius: 15px;
@@ -715,6 +782,13 @@ body:after {
     border: 1px solid #000;
     width: 15px;
     height: 15px;
+  }
+  .campus-info section .safety-key #fire-switch {
+    border-radius: 10px;
+    background-color: #0000ff;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
   }
 }
 @media (min-width: 39em) {
@@ -746,14 +820,29 @@ body:after {
     vertical-align: middle;
     padding: .3rem 0;
   }
+  .campus-info section .safety-key {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding: .3rem 0;
+  }
   /* line 202, ../lib/sass/_nav.scss */
   .campus-info section .parking-key p {
     margin-left: .5rem;
     line-height: 120%;
     font-size: 1.2rem;
   }
+  .campus-info section .safety-key p {
+    margin-left: .5rem;
+    line-height: 120%;
+    font-size: 1.2rem;
+  }
   /* line 208, ../lib/sass/_nav.scss */
   .campus-info section .parking-key .color-label {
+    margin: 0;
+  }
+  .campus-info section .safety-key .color-label {
     margin: 0;
   }
   /* line 212, ../lib/sass/_nav.scss */
@@ -764,6 +853,13 @@ body:after {
     width: 20px;
     height: 20px;
   }
+  .campus-info section .safety-key #fire-extinguisher {
+    border-radius: 10px;
+    background-color: #FF0000;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+  }
   /* line 216, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #resident-parking {
     border-radius: 20px;
@@ -771,6 +867,13 @@ body:after {
     border: 1px solid #000;
     width: 20px;
     height: 20px;
+  }
+  .campus-info section .safety-key #defibrillator {
+    border-radius: 10px;
+    background-color: #ffa500;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
   }
   /* line 220, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #student-parking {
@@ -780,6 +883,13 @@ body:after {
     width: 20px;
     height: 20px;
   }
+  .campus-info section .safety-key #sever-weather {
+    border-radius: 10px;
+    background-color: #008000;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+  }
   /* line 224, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #visitor-parking {
     border-radius: 20px;
@@ -788,6 +898,14 @@ body:after {
     width: 20px;
     height: 20px;
   }
+  .campus-info section .safety-key #fire-switch {
+    border-radius: 10px;
+    background-color: #0000ff;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+  }
+}
 }
 @media (min-width: 70em) {
   /* line 91, ../lib/sass/_nav.scss */
@@ -922,6 +1040,21 @@ svg .open-parking {
 /* line 66, ../lib/sass/_campus.scss */
 svg .reserved-parking {
   fill: #f4c9c4;
+}
+svg .fire-extinguisher {
+  fill: #FF0000;
+}
+/* line 50, ../lib/sass/_campus.scss */
+svg .defibrillator {
+  fill: #ffa500;
+}
+/* line 54, ../lib/sass/_campus.scss */
+svg .severe-weather {
+  fill: #008000;
+}
+/* line 58, ../lib/sass/_campus.scss */
+svg .fire-switch {
+  fill: #cfab7a;
 }
 /* line 70, ../lib/sass/_campus.scss */
 svg #parking-deck {

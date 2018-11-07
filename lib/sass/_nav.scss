@@ -87,6 +87,154 @@
     } // a
   } // li
 } // nav-active
+.campus-info {
+  @include transition;
+  position: absolute;
+  @include box-shadow;
+  background-color: $border;
+  @include span(12);
+  margin-top: 60px;
+  text-align: center;
+
+  h4 {
+    color: $green;
+    padding: .3rem .8rem;
+  } // h4
+
+  .menu-section {
+    border-bottom-color: $green;
+  } // menu-section
+
+  section {
+    width: 100%;
+    padding: .2rem .8rem;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+
+    .safety-key {
+      padding: .3rem .2rem;
+      @include span(2 of 12);
+
+      p {
+        color: $green;
+        font-size: .7rem;
+        line-height: normal;
+      } // p
+
+      .color-label {
+        margin: auto;
+      } // color-label
+
+      #fire-extinguisher {
+        @include colorLabel($brightred, 10px);
+      } // fire-extinguisher
+
+      #defibrillator {
+        @include colorLabel($brightorange, 10px);
+      } // defibrillator
+
+      #severe-weather {
+        @include colorLabel($brightgreen, 10px);
+      } // severe-weather
+
+      #fire-switch {
+        @include colorLabel($brightblue, 10px);
+      } // fire-switch
+    } // safety-key
+  } // section
+
+  @include susy-breakpoint($small) {
+    @include span(13 of 15);
+    @include pre(1 of 15);
+    @include post(1 of 15);
+
+    section {
+      .safety-key {
+
+        p {
+          font-size: 1rem;
+        } // p
+
+        #fire-extinguisher {
+          @include colorLabel($brightred, 15px);
+        } // fire-extinguisher
+
+        #defibrillator {
+          @include colorLabel($brightorange, 15px);
+        } // defibrillator
+
+        #severe-weather {
+          @include colorLabel($brightgreen, 15px);
+        } // severe-weather
+
+        #fire-switch {
+          @include colorLabel($brightblue, 15px);
+        } // fire-switch
+      } // safety-key
+    } // section
+  } // small
+
+  @include susy-breakpoint($medium) {
+    @include span(4 of 15);
+    right: 0;
+    margin: 10px;
+    text-align: left;
+
+    h4 {
+      padding: .8rem 1rem;
+      text-align: center;
+    } // h4
+
+    section {
+      padding: .8rem;
+      display: inline-block;
+
+      .safety-key {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+        padding: .3rem 0;
+
+        p {
+          margin-left: .5rem;
+          line-height: 120%;
+          font-size: 1.2rem;
+        } // p
+
+        .color-label {
+          margin: 0;
+        } // color-label
+
+        #fire-extinguisher {
+          @include colorLabel($brightred, 20px);
+        } // fire-extinguisher
+
+        #defibrillator {
+          @include colorLabel($brightorange, 20px);
+        } // defibrillator
+
+        #severe-weather {
+          @include colorLabel($brightgreen, 20px);
+        } // severe-weather
+
+        #fire-switch {
+          @include colorLabel($brightblue, 20px);
+        } // fire-switch
+      } // safety-key
+    } // section
+  } // medium
+
+  @include susy-breakpoint($large) {
+    @include span(2.5 of 15);
+  } // large
+} // campus-info
+
+#sLegend {
+  display: none;
+} // #sLegend
 
 .campus-info {
   @include transition;

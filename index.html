@@ -33,6 +33,9 @@
 			firstLegend();
 		</script>
 		<script>
+			secondLegend();
+		</script>
+		<script>
 			if ('serviceWorker' in navigator) {
 			  window.addEventListener('load', function() {
 			    navigator.serviceWorker.register('sw.js', {scope: './'}).then(function(registration) {
@@ -104,7 +107,7 @@
 				<!-- Content Below can be deleted or commented out -->
 				<div id="pLegend">
 					<script>
-						if(eatCookie('legend') === 'hide') {
+						if(eatCookie('legend') === 'HIDE') {
 							document.getElementById('pLegend').style.display = "none";
 						}
 					</script>
@@ -129,6 +132,37 @@
 						</div>
 					</section>
 				</div> <!-- pLegend div -->
+			</div> <!-- campus-info -->
+
+			<div class="campus-info"> <!-- Important div. do not delete or comment out
+				<!-- Content Below can be deleted or commented out -->
+				<div id="sLegend">
+					<script>
+						<!-- if(eatCookie('legend') === 'HIDE') {
+							document.getElementById('sLegend').style.display = "none";
+						}
+					</script>
+					<h4>Safety Legend</h4>
+					<div class="menu-section"></div>
+					<section>
+						<div class="safety-key">
+							<div id="fire-extinguisher" class="color-label"></div>
+							<p>Fire Extinguisher</p>
+						</div>
+						<div class="safety-key">
+							<div id="fire-switch" class="color-label"></div>
+							<p>Fire Switch</p>
+						</div>
+						<div class="safety-key">
+							<div id="severe-weather" class="color-label"></div>
+							<p>Severe Weather</p>
+						</div>
+						<div class="safety-key">
+							<div id="defibrillator" class="color-label"></div>
+							<p>Defibrillator</p>
+						</div>
+					</section>
+				</div> <!-- sLegend div -->
 			</div> <!-- campus-info -->
 
 			<div class="tab" id="helpbox"></div>
@@ -201,7 +235,7 @@
 					<a>Show Safety Legend
 						<div class="switchmenucontainer">
 							<label class="switch">
-								<input type="checkbox" onclick="safetyMode()" id="safetySwitch">
+								<input type="checkbox" onclick="safetyMode(); closeMenu();" id="safetySwitch">
 								<div class="slider round"></div>
 							</label>
 						</div>
@@ -221,6 +255,7 @@
 		</div> <!-- nav -->
 		<!-- <script src="https://localhost:35729/livereload.js"></script> -->
 		<script>visitCheck();</script>
+		<script>visitSafety();</script>
 
 	</body>
 </html>
