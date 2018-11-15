@@ -110,11 +110,11 @@
 			<!-- Important div. do not delete or comment out -->
 			<!-- Content Below can be deleted or commented out -->
 			<div id="pLegend">
-				<script>
+				<!-- <script>
 					if(eatCookie('legend') === 'hide') {
-							document.getElementById('pLegend').style.display = "none";
-						}
-					</script>
+						document.getElementById('pLegend').style.display = "none";
+					}
+				</script> -->
 				<h4>Parking Legend</h4>
 				<div class="menu-section"></div>
 				<section>
@@ -136,15 +136,11 @@
 					</div>
 				</section>
 			</div> <!-- pLegend div -->
-			<!-- </div> <!-- campus-info
 
-		<div class="campus-info"> -->
-			<!-- Important div. do not delete or comment out
-				<!-- Content Below can be deleted or commented out -->
 			<div id="sLegend">
 				<script>
-					if(eatCookie('legend') === 'hide') {
-							document.getElementById('sLegend').style.display = "none";
+					if(eatCookie('mode') === 'hide') {
+						document.getElementById('sLegend').style.display = "none";
 					}
 				</script>
 				<h4>Safety Legend</h4>
@@ -240,7 +236,7 @@
 				<a>Show Safety Legend
 					<div class="switchmenucontainer">
 						<label class="switch">
-							<input type="checkbox" onclick="safetyMode(); closeMenu();" id="safetySwitch">
+							<input type="checkbox" onclick="safetyMode(); toggleSafetyMode();" id="safetySwitch">
 							<div class="slider round"></div>
 						</label>
 					</div>
@@ -262,10 +258,6 @@
 	<script>
 		visitCheck();
 	</script>
-	<script>
-		visitSafety();
-	</script>
-
 </body>
 
 </html>
