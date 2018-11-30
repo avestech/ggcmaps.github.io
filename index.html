@@ -139,9 +139,9 @@
 
 			<div id="sLegend">
 				<script>
-					if(eatCookie('mode') === 'hide') {
-						document.getElementById('sLegend').style.display = "none";
-					}
+					// if(eatCookie('mode') === 'hide') {
+					// 	document.getElementById('sLegend').style.display = "none";
+					// }
 				</script>
 				<h4>Safety Legend</h4>
 				<div class="menu-section"></div>
@@ -181,18 +181,18 @@
 		<img src="images/arrow-left.svg" onclick="closeMenu()" alt="Close Menu Button">
 		<div class="menu-section"></div>
 		<ul>
-			<li onclick="changeFloor('Campus')"><a>Campus</a></li>
-			<li onclick="changeFloor('A', '1')"><a>Building A</a></li>
-			<li onclick="changeFloor('B', '1')"><a>Building B</a></li>
-			<li onclick="changeFloor('C', '1');"><a>Building C</a></li>
-			<li onclick="changeFloor('D', '1');"><a>Building D / Admissions</a></li>
-			<li onclick="changeFloor('E', '1')"><a>Building E / Student Center</a></li>
-			<li onclick="changeFloor('F', '1')"><a>Building F / Fitness Center</a></li>
-			<li onclick="changeFloor('H', '1');"><a>Building H</a></li>
-			<li onclick="changeFloor('I', '1')"><a>Building I</a></li>
-			<li onclick="changeFloor('L', '1');"><a>Building L / Library</a></li>
-			<li onclick="changeFloor('W', '1');"><a>Building W</a></li>
-			<li onclick="changeFloor('3', '1');"><a>Building 3000</a></li>
+			<li onclick="changeFloor('Campus'); "><a>Campus</a></li>
+			<li onclick="changeFloor('A', '1'); "><a>Building A</a></li>
+			<li onclick="changeFloor('B', '1'); "><a>Building B</a></li>
+			<li onclick="changeFloor('C', '1'); "><a>Building C</a></li>
+			<li onclick="changeFloor('D', '1'); "><a>Building D / Admissions</a></li>
+			<li onclick="changeFloor('E', '1'); "><a>Building E / Student Center</a></li>
+			<li onclick="changeFloor('F', '1'); "><a>Building F / Fitness Center</a></li>
+			<li onclick="changeFloor('H', '1'); "><a>Building H</a></li>
+			<li onclick="changeFloor('I', '1'); "><a>Building I</a></li>
+			<li onclick="changeFloor('L', '1'); "><a>Building L / Library</a></li>
+			<li onclick="changeFloor('W', '1'); "><a>Building W</a></li>
+			<li onclick="changeFloor('3', '1'); "><a>Building 3000</a></li>
 		</ul>
 		<div class="menu-section"></div>
 		<ul>
@@ -218,7 +218,7 @@
 			<li onclick="subMenu('help-desk');"><a>Tech Help Desks</a></li>
 			<ul class="help-desk">
 				<li onclick="searchFromMenu('A1040')"><a>A Building</a></li>
-				<li onclick="searchFromMenu('G309')"><a>C Building</a></li>
+				<li onclick="searchFromMenu('1109')"><a>W Building</a></li>
 			</ul>
 			<li onclick="searchFromMenu('d1125')"><a>Parking Services</a></li>
 			<li onclick="searchFromMenu('d1301')"><a>Testing Services</a></li>
@@ -236,7 +236,7 @@
 				<a>Show Safety Legend
 					<div class="switchmenucontainer">
 						<label class="switch">
-							<input type="checkbox" onclick="safetyMode(); toggleSafetyMode();" id="safetySwitch">
+							<input type="checkbox" onclick="safetyMode(); toggleSafetyMode(); closeMenu();" id="safetySwitch">
 							<div class="slider round"></div>
 						</label>
 					</div>
