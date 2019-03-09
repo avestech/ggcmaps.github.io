@@ -15,7 +15,9 @@
     @include span(9 of 15);
     padding: 0;
     padding-bottom: 15px;
-  } // small
+  }
+
+  // small
 
   @include susy-breakpoint($medium) {
     @include span(6 of 15);
@@ -27,66 +29,314 @@
         a {
           font-size: .9rem;
           line-height: 180%;
-        } // a
-      } // li
-    } // ul
-  } // medium
+        }
+
+        // a
+      }
+
+      // li
+    }
+
+    // ul
+  }
+
+  // medium
 
   @include susy-breakpoint($large) {
     @include span(3.5 of 15);
     padding: 0;
     padding-bottom: 15px;
-  } // large
+  }
+
+  // large
 
   h1 {
     display: inline-block;
     padding: 8px 10px;
     width: auto;
-  } // h1
+  }
+
+  // h1
 
   img {
     float: right;
     display: inline-block;
     padding: 10px;
     cursor: pointer;
-  } // i
+  }
+
+  // i
 
   ul {
+
     // padding: 8px 10px;
     li {
       padding: 0 10px;
-    } // li
-  } // ul
-} // nav
+    }
+
+    // li
+  }
+
+  // ul
+}
+
+// nav
 
 .nav-active {
   left: 0;
-} // nav-active
+}
+
+// nav-active
 
 .menu-section {
   margin-top: 5px;
   border-bottom: thin solid $border;
-} // menu-section
+}
 
-.dining, .help-desk {
+// menu-section
+
+.dining,
+.help-desk {
   display: none;
+
   li {
     padding: 0;
     padding-left: 20px;
-  } // li
-} // dining
+  }
+
+  // li
+}
+
+// dining
 
 .subMenu-active {
   @include transition-property(height);
   @include transition-duration(2s);
   background: $blue;
   display: block;
+
   li {
     a {
       padding-left: 10px;
-    } // a
-  } // li
-} // nav-active
+    }
+
+    // a
+  }
+
+  // li
+}
+
+// nav-active
+.campus-info {
+  @include transition;
+  position: absolute;
+  @include box-shadow;
+  background-color: $border;
+  @include span(12);
+  margin-top: 60px;
+  text-align: center;
+
+  h4 {
+    color: $green;
+    padding: .3rem .8rem;
+  }
+
+  // h4
+
+  .menu-section {
+    border-bottom-color: $green;
+  }
+
+  // menu-section
+
+  section {
+    width: 100%;
+    padding: .2rem .8rem;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+
+    .safety-key {
+      padding: .3rem .2rem;
+      @include span(2 of 12);
+
+      p {
+        color: $green;
+        font-size: .7rem;
+        line-height: normal;
+      }
+
+      // p
+
+      .color-label {
+        margin: auto;
+      }
+
+      // color-label
+
+      #fire-extinguisher {
+        @include colorLabel($brightred, 10px);
+      }
+
+      // fire-extinguisher
+
+      #defibrillator {
+        @include colorLabel($brightorange, 10px);
+      }
+
+      // defibrillator
+
+      #severe-weather {
+        @include colorLabel($brightgreen, 10px);
+      }
+
+      // severe-weather
+
+      #fire-switch {
+        @include colorLabel($brightblue, 10px);
+      }
+
+      // fire-switch
+    }
+
+    // safety-key
+  }
+
+  // section
+
+  @include susy-breakpoint($small) {
+    @include span(13 of 15);
+    @include pre(1 of 15);
+    @include post(1 of 15);
+
+    section {
+      .safety-key {
+
+        p {
+          font-size: 1rem;
+        }
+
+        // p
+
+        #fire-extinguisher {
+          @include colorLabel($brightred, 15px);
+        }
+
+        // fire-extinguisher
+
+        #defibrillator {
+          @include colorLabel($brightorange, 15px);
+        }
+
+        // defibrillator
+
+        #severe-weather {
+          @include colorLabel($brightgreen, 15px);
+        }
+
+        // severe-weather
+
+        #fire-switch {
+          @include colorLabel($brightblue, 15px);
+        }
+
+        // fire-switch
+      }
+
+      // safety-key
+    }
+
+    // section
+  }
+
+  // small
+
+  @include susy-breakpoint($medium) {
+    @include span(4 of 15);
+    right: 0;
+    margin: 10px;
+    text-align: left;
+
+    h4 {
+      padding: .8rem 1rem;
+      text-align: center;
+    }
+
+    // h4
+
+    section {
+      padding: .8rem;
+      display: inline-block;
+
+      .safety-key {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+        padding: .3rem 0;
+
+        p {
+          margin-left: .5rem;
+          line-height: 120%;
+          font-size: 1.2rem;
+        }
+
+        // p
+
+        .color-label {
+          margin: 0;
+        }
+
+        // color-label
+
+        #fire-extinguisher {
+          @include colorLabel($brightred, 20px);
+        }
+
+        // fire-extinguisher
+
+        #defibrillator {
+          @include colorLabel($brightorange, 20px);
+        }
+
+        // defibrillator
+
+        #severe-weather {
+          @include colorLabel($brightgreen, 20px);
+        }
+
+        // severe-weather
+
+        #fire-switch {
+          @include colorLabel($brightblue, 20px);
+        }
+
+        // fire-switch
+      }
+
+      // safety-key
+    }
+
+    // section
+  }
+
+  // medium
+
+  @include susy-breakpoint($large) {
+    @include span(2.5 of 15);
+  }
+
+  // large
+}
+
+// campus-info
+
+#sLegend {
+  display: none;
+}
+
+// #sLegend
 
 .campus-info {
   @include transition;
@@ -100,11 +350,15 @@
   h4 {
     color: $green;
     padding: .3rem .8rem;
-  } // h4
+  }
+
+  // h4
 
   .menu-section {
     border-bottom-color: $green;
-  } // menu-section
+  }
+
+  // menu-section
 
   section {
     width: 100%;
@@ -122,29 +376,45 @@
         color: $green;
         font-size: .7rem;
         line-height: normal;
-      } // p
+      }
+
+      // p
 
       .color-label {
         margin: auto;
-      } // color-label
+      }
+
+      // color-label
 
       #reserved-parking {
         @include colorLabel($pastelred, 10px);
-      } // reserved-parking
+      }
+
+      // reserved-parking
 
       #resident-parking {
         @include colorLabel($pastelorange, 10px);
-      } // resident-parking
+      }
+
+      // resident-parking
 
       #student-parking {
         @include colorLabel($pastelgreen, 10px);
-      } // student-parking
+      }
+
+      // student-parking
 
       #visitor-parking {
         @include colorLabel($brown, 10px);
-      } // visitor-parking
-    } // parking-key
-  } // section
+      }
+
+      // visitor-parking
+    }
+
+    // parking-key
+  }
+
+  // section
 
   @include susy-breakpoint($small) {
     @include span(13 of 15);
@@ -156,26 +426,42 @@
 
         p {
           font-size: 1rem;
-        } // p
+        }
+
+        // p
 
         #reserved-parking {
           @include colorLabel($pastelred, 15px);
-        } // reserved-parking
+        }
+
+        // reserved-parking
 
         #resident-parking {
           @include colorLabel($pastelorange, 15px);
-        } // resident-parking
+        }
+
+        // resident-parking
 
         #student-parking {
           @include colorLabel($pastelgreen, 15px);
-        } // student-parking
+        }
+
+        // student-parking
 
         #visitor-parking {
           @include colorLabel($brown, 15px);
-        } // visitor-parking
-      } // parking-key
-    } // section
-  } // small
+        }
+
+        // visitor-parking
+      }
+
+      // parking-key
+    }
+
+    // section
+  }
+
+  // small
 
   @include susy-breakpoint($medium) {
     @include span(4 of 15);
@@ -186,7 +472,9 @@
     h4 {
       padding: .8rem 1rem;
       text-align: center;
-    } // h4
+    }
+
+    // h4
 
     section {
       padding: .8rem;
@@ -203,43 +491,69 @@
           margin-left: .5rem;
           line-height: 120%;
           font-size: 1.2rem;
-        } // p
+        }
+
+        // p
 
         .color-label {
           margin: 0;
-        } // color-label
+        }
+
+        // color-label
 
         #reserved-parking {
           @include colorLabel($pastelred, 20px);
-        } // reserved-parking
+        }
+
+        // reserved-parking
 
         #resident-parking {
           @include colorLabel($pastelorange, 20px);
-        } // resident-parking
+        }
+
+        // resident-parking
 
         #student-parking {
           @include colorLabel($pastelgreen, 20px);
-        } // student-parking
+        }
+
+        // student-parking
 
         #visitor-parking {
           @include colorLabel($brown, 20px);
-        } // visitor-parking
-      } // parking-key
-    } // section
-  } // medium
+        }
+
+        // visitor-parking
+      }
+
+      // parking-key
+    }
+
+    // section
+  }
+
+  // medium
 
   @include susy-breakpoint($large) {
     @include span(2.5 of 15);
-  } // large
-} // campus-info
+  }
+
+  // large
+}
+
+// campus-info
 
 #pLegend {
   display: none;
-} // #pLegend
+}
+
+// #pLegend
 
 .switchmenucontainer {
   margin: auto;
-} // switchmenucontainer
+}
+
+// switchmenucontainer
 
 .switch {
   position: relative;
@@ -250,15 +564,23 @@
   input {
     display: none;
 
-    &:checked + .slider {
+    &:checked+.slider {
       background-color: $lightblue;
 
       &::before {
         transform: translateX(13px);
-      } // slider:before
-    } // input:checked, slider
-  } // input
-} // switch
+      }
+
+      // slider:before
+    }
+
+    // input:checked, slider
+  }
+
+  // input
+}
+
+// switch
 
 .slider {
   position: absolute;
@@ -278,13 +600,21 @@
     left: 2px;
     bottom: 2px;
     background-color: $border;
-  } // slider:before
-} // slider
+  }
+
+  // slider:before
+}
+
+// slider
 
 .slider.round {
   border-radius: 17px;
 
   &::before {
     border-radius: 50%;
-  } // round:before
-} // slider.round
+  }
+
+  // round:before
+}
+
+// slider.round
