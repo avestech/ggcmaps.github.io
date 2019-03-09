@@ -30,6 +30,10 @@ Which version of Docker is right for you? Docker recommends you install their [n
 
 To get started working with Docker run `npm run docker`. This command will pull down the docker container if you do not already have it locally. Then it will start a container, mount your current working directory, and port forward to your local system on port 3000. Alternatively you can pull and run the container manually.
 
+### Using Docker Toolbox
+
+When using Docker Toolbox on windows, you have to have your repo located under your user folder on the C Drive. Due to Virtual Box's shared folder system for mounting volumes inside of the guest operating systems, volumes outside of your user folder will mount read-only. For the Docker container setup for this project, you need to be able to mount read/write. For grunt to function it needs to rewrite the styles.css and script.min.js files.
+
 ### Docker Commands
 
   * Pull container: `docker pull mdeiters/minimalistweb:latest`
