@@ -1,17 +1,85 @@
 /* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -26,7 +94,8 @@ html {
 }
 
 /* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
@@ -37,18 +106,25 @@ table {
 }
 
 /* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
+caption,
+th,
+td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
 /* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
+q,
+blockquote {
   quotes: none;
 }
+
 /* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
   content: "";
   content: none;
 }
@@ -59,7 +135,19 @@ a img {
 }
 
 /* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
   display: block;
 }
 
@@ -70,6 +158,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 300;
   font-size: "light";
 }
+
 @font-face {
   font-family: "Open Sans";
   src: url("OpenSans-Regular-webfont.eot");
@@ -77,6 +166,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 400;
   font-size: "normal";
 }
+
 @font-face {
   font-family: "Open Sans";
   src: url("OpenSans-Italic-webfont.eot");
@@ -84,6 +174,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 400;
   font-size: "italic";
 }
+
 /* line 1, ../lib/sass/_base.scss */
 body {
   overflow: hidden;
@@ -104,7 +195,12 @@ svg {
 }
 
 /* line 17, ../lib/sass/_base.scss */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Teko, Sans-Serif;
   font-weight: bold;
   color: #fff;
@@ -135,13 +231,16 @@ input {
   width: 100%;
   color: #fff;
 }
+
 /* line 47, ../lib/sass/_base.scss */
 input:focus {
   outline: none;
 }
 
 /* line 21, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -156,6 +255,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 /* line 12, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
 body:after {
   content: " ";
@@ -171,6 +271,7 @@ body:after {
   padding-right: 0.83333%;
   padding: 0;
 }
+
 /* line 32, ../lib/sass/_layout.scss */
 .content .search-menu {
   margin: 10px;
@@ -183,15 +284,18 @@ body:after {
   position: fixed;
   align-items: center;
 }
+
 /* line 41, ../lib/sass/_layout.scss */
 .content .search-menu img {
   color: #00704a;
   padding: 10px;
 }
+
 /* line 45, ../lib/sass/_layout.scss */
 .content .search-menu img:hover {
   cursor: pointer;
 }
+
 /* line 50, ../lib/sass/_layout.scss */
 .content .search-menu input {
   border: none;
@@ -201,35 +305,41 @@ body:after {
   padding: 10px;
   margin: 0;
 }
+
 /* line 61, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input:-moz-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
+
 /* line 64, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input::-moz-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
+
 /* line 67, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input:-ms-input-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
+
 /* line 56, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input::-webkit-input-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
+
 /* line 65, ../lib/sass/_layout.scss */
 .content .search-menu #floor {
   color: #00704a;
   padding: 10px;
 }
+
 /* line 70, ../lib/sass/_layout.scss */
 .content .search-menu h2 {
   display: inline-block;
@@ -238,23 +348,28 @@ body:after {
   font-weight: normal;
   padding: 10px;
 }
+
 /* line 77, ../lib/sass/_layout.scss */
 .content .search-menu h2:hover {
   cursor: default;
 }
+
 /* line 83, ../lib/sass/_layout.scss */
 .content .dropdown {
   position: relative;
   padding-left: 0;
 }
+
 /* line 87, ../lib/sass/_layout.scss */
 .content .dropdown:hover {
   cursor: pointer;
 }
+
 /* line 90, ../lib/sass/_layout.scss */
 .content .dropdown:hover i {
   color: #85c446;
 }
+
 /* line 96, ../lib/sass/_layout.scss */
 .content .floors {
   display: none;
@@ -269,26 +384,31 @@ body:after {
   -webkit-box-shadow: 1px 2px 5px #333333;
   box-shadow: 1px 2px 5px #333333;
 }
+
 /* line 107, ../lib/sass/_layout.scss */
 .content .floors h2 {
   padding: 5px 10px;
   width: 100%;
 }
+
 /* line 111, ../lib/sass/_layout.scss */
 .content .floors h2:hover {
   background-color: #85c446;
   color: #fff;
   cursor: pointer;
 }
+
 /* line 119, ../lib/sass/_layout.scss */
 .content .floors-active {
   display: inline-block;
 }
+
 /* line 123, ../lib/sass/_layout.scss */
 .content .popup-group {
   position: relative;
   display: inline-block;
 }
+
 /* line 127, ../lib/sass/_layout.scss */
 .content .popup-group .popup {
   visibility: hidden;
@@ -306,12 +426,14 @@ body:after {
   -webkit-box-shadow: 1px 2px 5px #333333;
   box-shadow: 1px 2px 5px #333333;
 }
+
 /* line 141, ../lib/sass/_layout.scss */
 .content .popup-group .popup h3 {
   color: #fff;
   font-weight: normal;
   font-size: .9rem;
 }
+
 /* line 147, ../lib/sass/_layout.scss */
 .content .popup-group .popup::after {
   content: "";
@@ -323,86 +445,104 @@ body:after {
   border-style: solid;
   border-color: transparent transparent #00704a transparent;
 }
+
 /* line 159, ../lib/sass/_layout.scss */
 .content .popup-group .popup-active {
   visibility: visible;
 }
+
 /* line 165, ../lib/sass/_layout.scss */
 .content .divider {
   width: 1px;
   height: 1.2em;
   background: #a5acb0;
 }
+
 /* line 171, ../lib/sass/_layout.scss */
 .content .svg-holder {
   width: 100%;
   height: 100%;
 }
+
 /* line 175, ../lib/sass/_layout.scss */
 .content .svg-holder svg {
   width: 100%;
 }
+
 /* line 178, ../lib/sass/_layout.scss */
 .content .svg-holder svg .outline {
   fill: #a5acb0;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
+
 /* line 184, ../lib/sass/_layout.scss */
 .content .svg-holder svg .dark-fill {
   fill: #636466;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
+
 /* line 190, ../lib/sass/_layout.scss */
 .content .svg-holder svg .fill {
   fill: #fff;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
+
 /* line 196, ../lib/sass/_layout.scss */
 .content .svg-holder svg .room {
   fill: #00704a;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
+
 /* line 202, ../lib/sass/_layout.scss */
 .content .svg-holder svg .bevel {
   stroke-linejoin: bevel;
 }
+
 /* line 207, ../lib/sass/_layout.scss */
 .content .svg-holder svg .room-group:hover {
   cursor: pointer;
 }
+
 /* line 210, ../lib/sass/_layout.scss */
 .content .svg-holder svg .room-group:hover .room {
   fill: #85c446;
 }
+
 /* line 213, ../lib/sass/_layout.scss */
 .content .svg-holder svg .room-group:hover .label {
   fill: #fff;
 }
+
 /* line 219, ../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room {
   cursor: pointer;
 }
+
 /* line 222, ../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room .room {
   fill: #f5e100;
 }
+
 /* line 225, ../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room .label {
   fill: #000;
   font-weight: bold;
 }
+
 /* line 231, ../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room:hover .room {
   fill: #85c446;
 }
+
 /* line 234, ../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room:hover .label {
   fill: #000;
 }
+
 /* line 240, ../lib/sass/_layout.scss */
 .content .svg-holder svg .door {
   fill: none;
@@ -411,28 +551,34 @@ body:after {
   stroke-linecap: square;
   stroke-miterlimit: 10;
 }
+
 /* line 248, ../lib/sass/_layout.scss */
 .content .svg-holder svg .exit {
   stroke: #f5e100;
   stroke-width: 3;
 }
+
 /* line 253, ../lib/sass/_layout.scss */
 .content .svg-holder svg .label {
   fill: #fff;
   font-size: .6rem;
 }
+
 /* line 258, ../lib/sass/_layout.scss */
 .content .svg-holder svg .micro-font {
   font-size: .3rem;
 }
+
 /* line 262, ../lib/sass/_layout.scss */
 .content .svg-holder svg .small-font {
   font-size: .43rem;
 }
+
 /* line 266, ../lib/sass/_layout.scss */
 .content .svg-holder svg .medium-font {
   font-size: .48rem;
 }
+
 /* line 270, ../lib/sass/_layout.scss */
 .content .svg-holder svg .no-fill {
   fill: none;
@@ -489,7 +635,9 @@ body:after {
   overflow-y: auto;
   left: -125%;
 }
+
 @media (min-width: 30em) {
+
   /* line 1, ../lib/sass/_nav.scss */
   .nav {
     width: 60%;
@@ -500,7 +648,9 @@ body:after {
     padding-bottom: 15px;
   }
 }
+
 @media (min-width: 39em) {
+
   /* line 1, ../lib/sass/_nav.scss */
   .nav {
     width: 40%;
@@ -510,13 +660,16 @@ body:after {
     padding: 0;
     padding-bottom: 15px;
   }
+
   /* line 27, ../lib/sass/_nav.scss */
   .nav ul li a {
     font-size: .9rem;
     line-height: 180%;
   }
 }
+
 @media (min-width: 70em) {
+
   /* line 1, ../lib/sass/_nav.scss */
   .nav {
     width: 23.33333%;
@@ -527,12 +680,14 @@ body:after {
     padding-bottom: 15px;
   }
 }
+
 /* line 41, ../lib/sass/_nav.scss */
 .nav h1 {
   display: inline-block;
   padding: 8px 10px;
   width: auto;
 }
+
 /* line 47, ../lib/sass/_nav.scss */
 .nav img {
   float: right;
@@ -540,6 +695,7 @@ body:after {
   padding: 10px;
   cursor: pointer;
 }
+
 /* line 56, ../lib/sass/_nav.scss */
 .nav ul li {
   padding: 0 10px;
@@ -557,11 +713,14 @@ body:after {
 }
 
 /* line 71, ../lib/sass/_nav.scss */
-.dining, .help-desk {
+.dining,
+.help-desk {
   display: none;
 }
+
 /* line 73, ../lib/sass/_nav.scss */
-.dining li, .help-desk li {
+.dining li,
+.help-desk li {
   padding: 0;
   padding-left: 20px;
 }
@@ -579,6 +738,7 @@ body:after {
   background: #0b7cbc;
   display: block;
 }
+
 /* line 85, ../lib/sass/_nav.scss */
 .subMenu-active li a {
   padding-left: 10px;
@@ -602,15 +762,18 @@ body:after {
   margin-top: 60px;
   text-align: center;
 }
+
 /* line 100, ../lib/sass/_nav.scss */
 .campus-info h4 {
   color: #00704a;
   padding: .3rem .8rem;
 }
+
 /* line 105, ../lib/sass/_nav.scss */
 .campus-info .menu-section {
   border-bottom-color: #00704a;
 }
+
 /* line 109, ../lib/sass/_nav.scss */
 .campus-info section {
   width: 100%;
@@ -620,6 +783,7 @@ body:after {
   vertical-align: middle;
   margin: auto;
 }
+
 /* line 117, ../lib/sass/_nav.scss */
 .campus-info section .parking-key {
   padding: .3rem .2rem;
@@ -628,16 +792,37 @@ body:after {
   padding-left: 0.83333%;
   padding-right: 0.83333%;
 }
+
+.campus-info section .safety-key {
+  padding: .3rem .2rem;
+  width: 16.66667%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
 /* line 121, ../lib/sass/_nav.scss */
 .campus-info section .parking-key p {
   color: #00704a;
   font-size: .7rem;
   line-height: normal;
 }
+
+.campus-info section .safety-key p {
+  color: #00704a;
+  font-size: .7rem;
+  line-height: normal;
+}
+
 /* line 127, ../lib/sass/_nav.scss */
 .campus-info section .parking-key .color-label {
   margin: auto;
 }
+
+.campus-info section .safety-key .color-label {
+  margin: auto;
+}
+
 /* line 131, ../lib/sass/_nav.scss */
 .campus-info section .parking-key #reserved-parking {
   border-radius: 10px;
@@ -646,6 +831,15 @@ body:after {
   width: 10px;
   height: 10px;
 }
+
+.campus-info section .safety-key #fire-extinguisher {
+  border-radius: 10px;
+  background-color: #FF0000;
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
+}
+
 /* line 135, ../lib/sass/_nav.scss */
 .campus-info section .parking-key #resident-parking {
   border-radius: 10px;
@@ -654,6 +848,15 @@ body:after {
   width: 10px;
   height: 10px;
 }
+
+.campus-info section .safety-key #defibrillator {
+  border-radius: 10px;
+  background-color: #ffa500;
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
+}
+
 /* line 139, ../lib/sass/_nav.scss */
 .campus-info section .parking-key #student-parking {
   border-radius: 10px;
@@ -662,6 +865,15 @@ body:after {
   width: 10px;
   height: 10px;
 }
+
+.campus-info section .safety-key #severe-weather {
+  border-radius: 10px;
+  background-color: #008000;
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
+}
+
 /* line 143, ../lib/sass/_nav.scss */
 .campus-info section .parking-key #visitor-parking {
   border-radius: 10px;
@@ -670,7 +882,17 @@ body:after {
   width: 10px;
   height: 10px;
 }
+
+.campus-info section .safety-key #fire-switch {
+  border-radius: 10px;
+  background-color: #0000ff;
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
+}
+
 @media (min-width: 30em) {
+
   /* line 91, ../lib/sass/_nav.scss */
   .campus-info {
     width: 86.66667%;
@@ -680,10 +902,16 @@ body:after {
     margin-left: 6.66667%;
     margin-right: 6.66667%;
   }
+
   /* line 157, ../lib/sass/_nav.scss */
   .campus-info section .parking-key p {
     font-size: 1rem;
   }
+
+  .campus-info section .safety-key p {
+    font-size: 1rem;
+  }
+
   /* line 161, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #reserved-parking {
     border-radius: 15px;
@@ -692,6 +920,15 @@ body:after {
     width: 15px;
     height: 15px;
   }
+
+  .campus-info section .safety-key #fire-extinguisher {
+    border-radius: 10px;
+    background-color: #FF0000;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+  }
+
   /* line 165, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #resident-parking {
     border-radius: 15px;
@@ -700,6 +937,15 @@ body:after {
     width: 15px;
     height: 15px;
   }
+
+  .campus-info section .safety-key #defibrillator {
+    border-radius: 10px;
+    background-color: #ffa500;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+  }
+
   /* line 169, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #student-parking {
     border-radius: 15px;
@@ -708,6 +954,15 @@ body:after {
     width: 15px;
     height: 15px;
   }
+
+  .campus-info section .safety-key #sever-weather {
+    border-radius: 10px;
+    background-color: #008000;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+  }
+
   /* line 173, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #visitor-parking {
     border-radius: 15px;
@@ -716,8 +971,18 @@ body:after {
     width: 15px;
     height: 15px;
   }
+
+  .campus-info section .safety-key #fire-switch {
+    border-radius: 10px;
+    background-color: #0000ff;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+  }
 }
+
 @media (min-width: 39em) {
+
   /* line 91, ../lib/sass/_nav.scss */
   .campus-info {
     width: 26.66667%;
@@ -728,16 +993,19 @@ body:after {
     margin: 10px;
     text-align: left;
   }
+
   /* line 186, ../lib/sass/_nav.scss */
   .campus-info h4 {
     padding: .8rem 1rem;
     text-align: center;
   }
+
   /* line 191, ../lib/sass/_nav.scss */
   .campus-info section {
     padding: .8rem;
     display: inline-block;
   }
+
   /* line 195, ../lib/sass/_nav.scss */
   .campus-info section .parking-key {
     width: 100%;
@@ -746,16 +1014,37 @@ body:after {
     vertical-align: middle;
     padding: .3rem 0;
   }
+
+  .campus-info section .safety-key {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding: .3rem 0;
+  }
+
   /* line 202, ../lib/sass/_nav.scss */
   .campus-info section .parking-key p {
     margin-left: .5rem;
     line-height: 120%;
     font-size: 1.2rem;
   }
+
+  .campus-info section .safety-key p {
+    margin-left: .5rem;
+    line-height: 120%;
+    font-size: 1.2rem;
+  }
+
   /* line 208, ../lib/sass/_nav.scss */
   .campus-info section .parking-key .color-label {
     margin: 0;
   }
+
+  .campus-info section .safety-key .color-label {
+    margin: 0;
+  }
+
   /* line 212, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #reserved-parking {
     border-radius: 20px;
@@ -764,6 +1053,15 @@ body:after {
     width: 20px;
     height: 20px;
   }
+
+  .campus-info section .safety-key #fire-extinguisher {
+    border-radius: 10px;
+    background-color: #FF0000;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+  }
+
   /* line 216, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #resident-parking {
     border-radius: 20px;
@@ -772,6 +1070,15 @@ body:after {
     width: 20px;
     height: 20px;
   }
+
+  .campus-info section .safety-key #defibrillator {
+    border-radius: 10px;
+    background-color: #ffa500;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+  }
+
   /* line 220, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #student-parking {
     border-radius: 20px;
@@ -780,6 +1087,15 @@ body:after {
     width: 20px;
     height: 20px;
   }
+
+  .campus-info section .safety-key #sever-weather {
+    border-radius: 10px;
+    background-color: #008000;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+  }
+
   /* line 224, ../lib/sass/_nav.scss */
   .campus-info section .parking-key #visitor-parking {
     border-radius: 20px;
@@ -788,8 +1104,19 @@ body:after {
     width: 20px;
     height: 20px;
   }
+
+  .campus-info section .safety-key #fire-switch {
+    border-radius: 10px;
+    background-color: #0000ff;
+    border: 1px solid #000;
+    width: 10px;
+    height: 10px;
+  }
 }
+}
+
 @media (min-width: 70em) {
+
   /* line 91, ../lib/sass/_nav.scss */
   .campus-info {
     width: 16.66667%;
@@ -816,16 +1143,19 @@ body:after {
   width: 30px;
   height: 17px;
 }
+
 /* line 250, ../lib/sass/_nav.scss */
 .switch input {
   display: none;
 }
+
 /* line 253, ../lib/sass/_nav.scss */
-.switch input:checked + .slider {
+.switch input:checked+.slider {
   background-color: #63cae1;
 }
+
 /* line 256, ../lib/sass/_nav.scss */
-.switch input:checked + .slider::before {
+.switch input:checked+.slider::before {
   transform: translateX(13px);
 }
 
@@ -840,6 +1170,7 @@ body:after {
   background-color: #ccc;
   transition: .4s;
 }
+
 /* line 273, ../lib/sass/_nav.scss */
 .slider::before {
   position: absolute;
@@ -855,6 +1186,7 @@ body:after {
 .slider.round {
   border-radius: 17px;
 }
+
 /* line 287, ../lib/sass/_nav.scss */
 .slider.round::before {
   border-radius: 50%;
@@ -868,18 +1200,22 @@ svg .campus {
   stroke-linejoin: round;
   stroke-miterlimit: 10;
 }
+
 /* line 10, ../lib/sass/_campus.scss */
 svg .campus-outline {
   fill: none;
 }
+
 /* line 14, ../lib/sass/_campus.scss */
 svg .campus-fill {
   fill: #a5acb0;
 }
+
 /* line 18, ../lib/sass/_campus.scss */
 svg .building-group {
   cursor: pointer;
 }
+
 /* line 21, ../lib/sass/_campus.scss */
 svg .building-group .building {
   fill: #00704a;
@@ -887,62 +1223,96 @@ svg .building-group .building {
   stroke-width: 0.5;
   stroke-miterlimit: 10;
 }
+
 /* line 29, ../lib/sass/_campus.scss */
 svg .building-group:hover .building {
   fill: #85c446;
 }
+
 /* line 36, ../lib/sass/_campus.scss */
 svg .no-hover {
   cursor: move;
 }
+
 /* line 40, ../lib/sass/_campus.scss */
 svg .no-hover:hover .building {
   fill: #00704a;
 }
+
 /* line 46, ../lib/sass/_campus.scss */
 svg .student-parking {
   fill: #deedcd;
 }
+
 /* line 50, ../lib/sass/_campus.scss */
 svg .staff-parking {
   fill: #f4c9c4;
 }
+
 /* line 54, ../lib/sass/_campus.scss */
 svg .resident-parking {
   fill: #ffe5c6;
 }
+
 /* line 58, ../lib/sass/_campus.scss */
 svg .visitor-parking {
   fill: #cfab7a;
 }
+
 /* line 62, ../lib/sass/_campus.scss */
 svg .open-parking {
   fill: #deedcd;
 }
+
 /* line 66, ../lib/sass/_campus.scss */
 svg .reserved-parking {
   fill: #f4c9c4;
 }
+
+svg .fire-extinguisher {
+  fill: #FF0000;
+}
+
+/* line 50, ../lib/sass/_campus.scss */
+svg .defibrillator {
+  fill: #ffa500;
+}
+
+/* line 54, ../lib/sass/_campus.scss */
+svg .severe-weather {
+  fill: #008000;
+}
+
+/* line 58, ../lib/sass/_campus.scss */
+svg .fire-switch {
+  fill: #cfab7a;
+}
+
 /* line 70, ../lib/sass/_campus.scss */
 svg #parking-deck {
   stroke: #00704a;
 }
+
 /* line 74, ../lib/sass/_campus.scss */
 svg .building-label {
   fill: #fff;
 }
+
 /* line 78, ../lib/sass/_campus.scss */
 svg .parking-label {
   fill: #000;
 }
+
 /* line 82, ../lib/sass/_campus.scss */
 svg .small-label {
   font-size: .8rem;
 }
+
 /* line 86, ../lib/sass/_campus.scss */
 svg .medium-label {
   font-size: 1.3rem;
 }
+
 /* line 90, ../lib/sass/_campus.scss */
 svg .large-label {
   font-size: 1.7rem;
@@ -953,6 +1323,7 @@ svg .large-label {
   display: none;
   font-family: "Open Sans";
 }
+
 /* line 5, ../lib/sass/_infotab.scss */
 .tab section {
   -moz-transition: all 1s;
@@ -973,10 +1344,12 @@ svg .large-label {
   overflow: hidden;
   right: -125%;
 }
+
 /* line 16, ../lib/sass/_infotab.scss */
 .tab section .title {
   min-height: 42px;
 }
+
 /* line 19, ../lib/sass/_infotab.scss */
 .tab section .title img {
   top: 10px;
@@ -984,6 +1357,7 @@ svg .large-label {
   position: absolute;
   cursor: pointer;
 }
+
 /* line 26, ../lib/sass/_infotab.scss */
 .tab section .title h4 {
   font-size: 1.4rem;
@@ -992,10 +1366,12 @@ svg .large-label {
   padding-bottom: 10px;
   top: 10px;
 }
+
 /* line 35, ../lib/sass/_infotab.scss */
 .tab section .menu-section {
   margin-bottom: .5rem;
 }
+
 /* line 39, ../lib/sass/_infotab.scss */
 .tab section .tab-content {
   height: 100%;
@@ -1003,6 +1379,7 @@ svg .large-label {
   padding: .5rem .8rem;
   padding-bottom: 2rem;
 }
+
 /* line 45, ../lib/sass/_infotab.scss */
 .tab section .tab-content p {
   padding-bottom: .3rem;
@@ -1010,6 +1387,7 @@ svg .large-label {
   line-height: 120%;
   font-size: 1rem;
 }
+
 /* line 52, ../lib/sass/_infotab.scss */
 .tab section .tab-content h5 {
   border-top: thin solid #63cae1;
@@ -1021,12 +1399,14 @@ svg .large-label {
   font-size: 1.2rem;
   text-align: center;
 }
+
 /* line 63, ../lib/sass/_infotab.scss */
 .tab section .tab-content .tab-group {
   margin: auto;
   margin-bottom: .8rem;
   text-align: center;
 }
+
 /* line 68, ../lib/sass/_infotab.scss */
 .tab section .tab-content .tab-group img {
   border-radius: 50%;
@@ -1035,17 +1415,21 @@ svg .large-label {
   width: 150px;
   border: medium solid #63cae1;
 }
+
 /* line 76, ../lib/sass/_infotab.scss */
 .tab section .tab-content .tab-group a {
   line-height: 120%;
   font-size: 1rem;
   font-weight: 300;
 }
+
 /* line 81, ../lib/sass/_infotab.scss */
 .tab section .tab-content .tab-group a:hover {
   color: #63cae1;
 }
+
 @media (min-width: 30em) {
+
   /* line 5, ../lib/sass/_infotab.scss */
   .tab section {
     width: 60%;
@@ -1056,7 +1440,9 @@ svg .large-label {
     padding-bottom: 15px;
   }
 }
+
 @media (min-width: 39em) {
+
   /* line 5, ../lib/sass/_infotab.scss */
   .tab section {
     width: 40%;
@@ -1067,7 +1453,9 @@ svg .large-label {
     padding-bottom: 15px;
   }
 }
+
 @media (min-width: 70em) {
+
   /* line 5, ../lib/sass/_infotab.scss */
   .tab section {
     width: 26.66667%;
@@ -1077,23 +1465,28 @@ svg .large-label {
     padding: 0;
     padding-bottom: 15px;
   }
+
   /* line 106, ../lib/sass/_infotab.scss */
   .tab section .title h4 {
     font-size: 1.3rem;
   }
+
   /* line 112, ../lib/sass/_infotab.scss */
   .tab section .menu-section {
     margin-bottom: .3rem;
   }
+
   /* line 116, ../lib/sass/_infotab.scss */
   .tab section .tab-content {
     padding-top: 0;
     padding-bottom: 1.5rem;
   }
+
   /* line 120, ../lib/sass/_infotab.scss */
   .tab section .tab-content p {
     font-size: .9rem;
   }
+
   /* line 124, ../lib/sass/_infotab.scss */
   .tab section .tab-content h5 {
     font-size: 1.1rem;
@@ -1104,10 +1497,12 @@ svg .large-label {
 .tab-active {
   display: block;
 }
+
 /* line 135, ../lib/sass/_infotab.scss */
 .tab-active section {
   right: 0;
 }
-#Safety {
+
+#sLegend {
   display: none;
 }

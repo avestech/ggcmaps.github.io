@@ -67,6 +67,22 @@ svg {
     fill: $pastelred;
   } // reserved-parking
 
+    .severe-weather {
+      fill: $brightgreen;
+    } // severe-weather
+
+    .fire-extinguisher {
+      fill: $brightred;
+    } // fire-extinguisher
+
+    .defibrillator {
+      fill: $brightorange;
+    } // defibrillator
+
+    .fire-switch {
+      fill: $brightblue;
+    } // fire-switch
+
   #parking-deck {
     stroke: $green;
   } // parking-deck
