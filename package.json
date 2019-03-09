@@ -56,7 +56,10 @@
     "grunt-http-server": "^2.1.0",
     "install-peerdeps": "^1.9.0",
     "phantomjs": "^2.1.7",
-    "susy": "^3.0.5"
+    "susy": "^3.0.5",
+    "cryptiles": ">=4.1.2",
+    "lodash": ">=4.17.11",
+    "hoek": ">=4.2.1"
   },
   "devDependencies": {
     "grunt-contrib-compass": "^1.1.1"
