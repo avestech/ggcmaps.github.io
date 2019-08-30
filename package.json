@@ -1,6 +1,6 @@
 {
   "name": "ggcmaps",
-  "version": "1.5.2",
+  "version": "1.6.2",
   "private": true,
   "contributors": [
     {
@@ -48,13 +48,20 @@
     "purge": "docker container prune"
   },
   "dependencies": {
-    "susy": "^3.0.5",
     "grunt": "^1.0.1",
-    "grunt-contrib-compass": "^1.1.1",
-    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^2.0.0",
-    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-http-server": "^2.1.0",
-    "phantomjs": "^2.1.7"
+    "install-peerdeps": "^1.9.0",
+    "phantomjs": "^2.1.7",
+    "susy": "^3.0.5",
+    "cryptiles": ">=4.1.2",
+    "lodash": ">=4.17.11",
+    "hoek": ">=4.2.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-compass": "^1.1.1"
   }
 }
