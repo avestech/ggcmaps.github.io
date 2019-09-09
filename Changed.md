@@ -1,10 +1,17 @@
-<h1> This is the read.me file for the Vegant group!</h1>
-<p> There is no need to import this file nor /docs into the original GGC-Maps file. </p>
+# GGCMaps
 
-<h2>Vegant Group Roles: (Primary), (Secondary)</h2>
-<ul>
-<li> Marcelo Mariduena: Team Manager, UI/UX Designer </li>
-<li> Graham Giles: Testing Lead, Client Liason </li>
-<li> Jonathan Mwizerwa: Lead Programmer, UI/UX Designer </li>
-<li> Phil Wall: Data Modeling, Documentation </li>
-</ul>
+## Vegan't Group Members and Roles:
+* [Marcelo Mariduena](https://github.com/MarceloMariduena): Team Manager / UI/UX Designer 
+
+
+## Repository:
+* https://github.com/GGC-SD/ggcmaps3
+
+## Progress Tracking Tool:
+* Jira
+
+### Other Communication Tool:
+* Discord
+
+### Description
+GGCMaps aims to better, as well as ease, the experience of students at GGC when trying to find various locations across campus. It allows users to search rooms and have them be highlighted on an interactive map for easier meetups, less time wasted finding that one classroom for the first time, and easier navigation across campus for guests.
