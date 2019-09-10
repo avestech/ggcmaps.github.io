@@ -1,7 +1,8 @@
 # GGCMaps
 
 ## Vegan't Group Members and Roles:
-* [Marcelo Mariduena](https://github.com/MarceloMariduena): Team Manager / UI/UX Designer 
+* [Marcelo Mariduena](https://github.com/MarceloMariduena): Team Manager / UI/UX Designer
+* Jonathan Mwizerwa: Lead Programmer / UI/UX Designer :100:
 
 
 ## Repository:
