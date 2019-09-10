@@ -3,6 +3,7 @@
 ## Vegan't Group Members and Roles:
 * [Marcelo Mariduena](https://github.com/MarceloMariduena): Team Manager / UI/UX Designer  :stuck_out_tongue_closed_eyes: :stuck_out_tongue_closed_eyes: :stuck_out_tongue_closed_eyes:
 * Jonathan Mwizerwa: Lead Programmer / UI/UX Designer :100:
+* [Philip Wall](https://github.com/Nhorr): Data Modeler / Documentation Lead  :file_cabinet: :speech_balloon: 
 
 
 ## Repository:
