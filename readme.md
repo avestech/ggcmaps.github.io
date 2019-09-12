@@ -50,6 +50,6 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 
 ### Member Roles
 * **Karen Banks**- *Primary Role: Documentation Lead, Secondary Role: Data Modeler* 👸
-* **Austin Edwards**-
+* **Austin Edwards**-*UI/UX Design, Code Architecture, Lead Programmer* :Dragon:
 * **Jacob Wise**- *Lead for presentation (UI/UX & Testing Lead)* :beginner:
 * **Josue Pastore-Manzano**- *Team Manager & Code Architecture/Lead Programmer & Client Liaison* :100:
