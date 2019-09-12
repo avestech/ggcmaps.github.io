@@ -28,7 +28,7 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 * [Contributor Guide](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/Contributing.md)
 
 ### Team PlugIt Roles
-1. **Karen Banks**-
+1. **Karen Banks**-Primary Role: Documentation Lead, Secondary Role: Data Modeler 👸
 2. **Austin Edwards**-
 3. **Jacob Wise**-
 4. **Josue Pastore-Manzano**- *Team Manager & Code Architecture/Lead Programmer & Client Liaison* :100:
