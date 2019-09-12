@@ -33,6 +33,13 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 * [License](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/License.md)
 * [Contributor Guide](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/Contributing.md)
 
+### Team PlugIt Roles
+1. **Karen Banks**-
+2. **Austin Edwards**-
+3. **Jacob Wise**-
+4. **Josue Pastore-Manzano**- *Team Manager & Code Architecture/Lead Programmer & Client Liaison* :100:
+
+
 ### About our Sponsors
 * [BrowserStack](http://browserstack.com/) partnered with us to allow us to use their services with the browser testing as well as their automated testing. You should probably check them out :D
 
