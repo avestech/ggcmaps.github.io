@@ -10,6 +10,12 @@
 * [Documentation](https://github.com/ggcmaps/ggcmaps.github.io#documentation)
 * [Our Sponsors](https://github.com/ggcmaps/ggcmaps.github.io#about-our-sponsors)
 * [Website](https://ggcmaps.github.io/) (External Link)
+* [Team PlugIt GGCMaps Fall 2019 SD2](https://github.com/ggcmaps/ggcmaps.github.io#Team-PlugIt-GGCMaps-Fall-2019-SD2)
+* [Repo Location](https://github.com/ggcmaps/ggcmaps.github.io#Repo-Location)
+* [Progress Tracking Tools](https://github.com/ggcmaps/ggcmaps.github.io#Progress-Tracking-Tools)
+* [Communication Tools](https://github.com/ggcmaps/ggcmaps.github.io#Communication-Tools)
+* [Member Roles](https://github.com/ggcmaps/ggcmaps.github.io#Member-roles)
+
 
 ### News:
 * **3/6/2017** - [BrowserStack](http://browserstack.com/) approves sponsorship. Let an awesome testing phase begin (along with unit testing).
@@ -29,3 +35,18 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 
 ### About our Sponsors
 * [BrowserStack](http://browserstack.com/) partnered with us to allow us to use their services with the browser testing as well as their automated testing. You should probably check them out :D
+
+### Team PlugIt GGCMaps Fall 2019 SD2
+* We are team PlugIt and we are working on improving bug and adding new features to the GGC Maps Online application for Fall 2019 Software Development 2
+
+### Repo Location
+* The repo location can be found using this link [GitHub](https://github.com/soft-eng-practicum/ggcmaps)
+
+### Progress Tracking Tools
+* We are using Trello in order to track our progress
+
+### Communication Tools
+* We are using Discord to communicate outside of the classroom
+
+### Member Roles
+* Jacob Wise :beginner: Lead for presentation (UI/UX & Testing Lead)
