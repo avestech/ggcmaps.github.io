@@ -11,7 +11,7 @@
 * [Our Sponsors](https://github.com/soft-eng-practicum/ggcmaps.github.io#about-our-sponsors)
 * [Website](https://ggcmaps.github.io/) (External Link)
 * [Team PlugIt GGCMaps Fall 2019 SD2](https://github.com/soft-eng-practicum/ggcmaps.github.io#Team-PlugIt-GGCMaps-Fall-2019-SD2)
-* [Repo Location](https://github.com/soft-eng-practicum/ggcmaps.github.io#Repo-Location)
+* [Repo Location](https://github.com/soft-eng-practicum/ggcmaps)
 * [Progress Tracking Tools](https://github.com/soft-eng-practicum/ggcmaps.github.io#Progress-Tracking-Tools)
 * [Communication Tools](https://github.com/soft-eng-practicum/ggcmaps.github.io#Communication-Tools)
 * [Member Roles](https://github.com/soft-eng-practicum/ggcmaps.github.io#Member-roles)
