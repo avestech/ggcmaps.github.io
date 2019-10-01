@@ -182,13 +182,13 @@
       // fire-extinguisher
 
       #defibrillator {
-        @include colorLabel($brightorange, 10px);
+        @include colorLabel($yellow, 10px);
       }
 
       // defibrillator
 
       #severe-weather {
-        @include colorLabel($brightgreen, 10px);
+        @include colorLabel($darkgrey, 10px);
       }
 
       // severe-weather
@@ -297,13 +297,13 @@
         // fire-extinguisher
 
         #defibrillator {
-          @include colorLabel($brightorange, 20px);
+          @include colorLabel($yellow, 20px);
         }
 
         // defibrillator
 
         #severe-weather {
-          @include colorLabel($brightgreen, 20px);
+          @include colorLabel($darkgrey, 20px);
         }
 
         // severe-weather
