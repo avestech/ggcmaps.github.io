@@ -44,7 +44,8 @@ For developing GGC Maps you can either install the project dependencies to your 
   1. Navigate to the filepath containing the project and run the following commands as they are folder specific
   2. Before setting up Grunt ensure that your npm is up to date by running `npm update -g npm` (this might require `sudo` depending on your system)
   3. To get started you need Grunt's command line interface (CLI) globally. Again you my need `sudo` to run `npm install -g grunt-cli`
-  4. Now after you install the project dependencies you will be able to run `grunt`
+  4. Now you will need to run gem install susy
+  5. Now after you install the project dependencies you will be able to run `grunt`
 
 
 ### Setting Up Sass
