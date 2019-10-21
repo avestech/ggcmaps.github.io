@@ -18,7 +18,8 @@
 ### Description
 GGCMaps aims to better, as well as ease, the experience of students at GGC when trying to find various locations across campus. It allows users to search rooms and have them be highlighted on an interactive map for easier meetups, less time wasted finding that one classroom for the first time, and easier navigation across campus for guests.
 
-### Features added:
+
+# Features added:
 
 ## Fire Escape Routes
 We added a toggle button next to the other toggle buttons on the side menu. When flipped "on", fire escape routes will be display ontop of the selected building floor.
