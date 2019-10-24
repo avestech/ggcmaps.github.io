@@ -94,6 +94,7 @@
 					<h3>Building</h3>
 				</div> <!-- building-popup -->
 			</div> <!-- popup-group -->
+			<span class="divider"></span>
 			<div class="popup-group">
 				<h2 id="floor" onclick="dropdown('floors', 'floors-active')"></h2>
 				<div class="popup" id="floor-popup">
@@ -104,6 +105,30 @@
 				<img src="images/caret-down.svg" onclick="dropdown('floors', 'floors-active')" alt="Dropdown button">
 				<div class="floors"></div> <!-- floors -->
 			</div> <!-- dropdown -->
+			<span class="divider"></span>
+			<div class="popup-group">
+				<h2 id="safety"> Safety <div class="switchmenucontainer">
+					<label class="switch">
+						<input type="checkbox" onclick="safetyMode(); toggleSafetyMode(); closeMenu();" id="safetySwitch">
+						<div class="slider round"></div>
+					</label>
+				</div></h2>
+				<div id="safety-popup" class="popup">
+					<h3>Safety Legend</h3>
+				</div>
+			</div>
+			<span class="divider"></span>
+			<div class="popup-group">
+				<h2 id="parking"> Parking <div class="switchmenucontainer">
+					<label class="switch">
+						<input type="checkbox" onclick="cookieLegend(); changeFloor('Campus');" id="legendSwitch">
+						<div class="slider round"></div>
+					</label>
+				</div></h2>
+				<div id="parking-popup" class="popup">
+					<h3>Parking Legend</h3>
+				</div>
+			</div>
 		</div> <!-- search-menu -->
 
 		<div class="campus-info">
@@ -147,11 +172,11 @@
 				<div class="menu-section"></div>
 				<section>
 					<div class="safety-key">
-						<div id="fire-extinguisher" class="color-label"></div>
+						<div img src="C:\Users\jwise\OneDrive\Documents\College\Soft dev 2\ggcmaps\SVG Images\Safety\fire extinguisher2.svg" ></div>
 						<p>Fire Extinguisher</p>
 					</div>
 					<div class="safety-key">
-						<div id="fire-switch" class="color-label"></div>
+						<div id="fire-switch" > </div>
 						<p>Fire Switch</p>
 					</div>
 					<div class="safety-key">
@@ -230,29 +255,6 @@
 			<li><a href="https://github.com/ggcmaps/ggcmaps.github.io/graphs/contributors" target="_blank">Contributors</a></li>
 		</ul>
 		<div class="menu-section"></div>
-		<h1>Options</h1>
-		<ul>
-			<li>
-				<a>Show Safety Legend
-					<div class="switchmenucontainer">
-						<label class="switch">
-							<input type="checkbox" onclick="safetyMode(); toggleSafetyMode(); closeMenu();" id="safetySwitch">
-							<div class="slider round"></div>
-						</label>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a>Show Parking Legend
-					<div class="switchmenucontainer">
-						<label class="switch">
-							<input type="checkbox" onclick="cookieLegend(); changeFloor('Campus');" id="legendSwitch">
-							<div class="slider round"></div>
-						</label>
-					</div>
-				</a>
-			</li>
-		</ul>
 	</div> <!-- nav -->
 	<!-- <script src="https://localhost:35729/livereload.js"></script> -->
 	<script>
