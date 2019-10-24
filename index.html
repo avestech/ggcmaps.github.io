@@ -105,6 +105,7 @@
 				<img src="images/caret-down.svg" onclick="dropdown('floors', 'floors-active')" alt="Dropdown button">
 				<div class="floors"></div> <!-- floors -->
 			</div> <!-- dropdown -->
+
 			<span class="divider"></span>
 			<div class="popup-group">
 				<h2 id="safety"> Safety <div class="switchmenucontainer">
@@ -116,7 +117,8 @@
 				<div id="safety-popup" class="popup">
 					<h3>Safety Legend</h3>
 				</div>
-			</div>
+				</div>
+
 			<span class="divider"></span>
 			<div class="popup-group">
 				<h2 id="parking"> Parking <div class="switchmenucontainer">
@@ -129,11 +131,26 @@
 					<h3>Parking Legend</h3>
 				</div>
 			</div>
+
+			<span class="divider"></span>
+			<div class="popup-group">
+				<h2 id="vending"> Vending <div class="switchmenucontainer">
+					<label class="switch">
+						<input type="checkbox" onclick="cookieLegend(); changeFloor('Campus');" id="legendSwitch">
+						<div class="slider round"></div>
+					</label>
+				</div></h2>
+				<div id="vending-popup" class="popup">
+					<h3>Vending Legend</h3>
+				</div>
+			</div>
+
 		</div> <!-- search-menu -->
 
 		<div class="campus-info">
 			<!-- Important div. do not delete or comment out -->
 			<!-- Content Below can be deleted or commented out -->
+
 			<div id="pLegend">
 				<!-- <script>
 					if(eatCookie('legend') === 'hide') {
@@ -172,7 +189,7 @@
 				<div class="menu-section"></div>
 				<section>
 					<div class="safety-key">
-						<div img src="C:\Users\jwise\OneDrive\Documents\College\Soft dev 2\ggcmaps\SVG Images\Safety\fire extinguisher2.svg" ></div>
+						<div id="fire-extinguisher" class="color-label" ></div>
 						<p>Fire Extinguisher</p>
 					</div>
 					<div class="safety-key">
@@ -279,10 +296,8 @@
 			<li><a href="https://github.com/ggcmaps/ggcmaps.github.io/graphs/contributors" target="_blank">Contributors</a></li>
 		</ul>
 		<div class="menu-section"></div>
-<<<<<<< HEAD
-=======
-		<h1>Options</h1>
-		<ul>
+		<!-- <h1>Options</h1> -->
+		<!-- <ul>
 
 			<li>
 				<a>Show Safety Legend
@@ -293,9 +308,9 @@
 						</label>
 					</div>
 				</a>
-			</li>
+			</li> -->
 
-			<li>
+			<!-- <li>
 				<a>Show Parking Legend
 					<div class="switchmenucontainer">
 						<label class="switch">
@@ -315,10 +330,8 @@
 						</label>
 					</div>
 				</a>
-			</li>
-
-		</ul>
->>>>>>> 48df15f994964755324917fcd3f5d67dd25a867c
+			</li> -->
+		<!-- </ul> -->
 	</div> <!-- nav -->
 	<!-- <script src="https://localhost:35729/livereload.js"></script> -->
 	<script>
