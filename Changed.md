@@ -18,11 +18,6 @@
 ### Description
 GGCMaps aims to better, as well as ease, the experience of students at GGC when trying to find various locations across campus. It allows users to search rooms and have them be highlighted on an interactive map for easier meetups, less time wasted finding that one classroom for the first time, and easier navigation across campus for guests.
 
-### IP Agreement
-Click [here](https://github.com/GGC-SD/ggcmaps3/raw/add-license-1/VegantIPAgreement.docx) to download.
-
-### Burndown Chart
-![alt-text](https://raw.githubusercontent.com/GGC-SD/ggcmaps3/add-license-1/burndown.PNG "Burndown Chart")
 
 # Features added:
 
