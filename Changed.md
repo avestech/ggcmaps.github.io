@@ -27,3 +27,8 @@ We added a toggle button next to the other toggle buttons on the side menu. When
 * html code for the toggle button was added onto index.html line 256
 * showHideFireRoutes.js containing the code for hiding and displaying the fire routes was added under lib/scrips-js
 * svg code containing the fire routes was added at the very end of the svg elements found in the html under the following buildings: A, B, C, D, E, F, H, I, L, W
+
+# Features being worked on:
+
+## Routes From Building to Building and Estimated Travel Times
+We will be adding routes between buildings and the estimated time it takes to walk them.
