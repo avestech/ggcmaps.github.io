@@ -106,6 +106,39 @@
 			</div> <!-- dropdown -->
 		</div> <!-- search-menu -->
 
+		<div id="routeSelectorLegend" class="travel-routes">
+			<h2>From</h2> 
+			<div class="travel-routes-select-wrapper">
+				<select id="fromBuilding" onchange="selectTravelTimeRoute();">
+					<option value="A" selected>A</option>
+					<option value="B">B</option>
+					<option value="C">C</option>
+					<option value="D">D</option>
+					<option value="E">E</option>
+					<option value="F">F</option>
+					<option value="H">H</option>
+					<option value="I">I</option>
+					<option value="L">L</option>
+					<option value="W">W</option>
+				</select>
+			</div>
+			<h2>| To</h2>
+			<div class="travel-routes-select-wrapper">
+				<select id="toBuilding" onchange="selectTravelTimeRoute();">
+					<option value="A" selected>A</option>
+					<option value="B">B</option>
+					<option value="C">C</option>
+					<option value="D">D</option>
+					<option value="E">E</option>
+					<option value="F">F</option>
+					<option value="H">H</option>
+					<option value="I">I</option>
+					<option value="L">L</option>
+					<option value="W">W</option>
+				</select>
+			</div>
+		</div>
+
 		<div class="campus-info">
 			<!-- Important div. do not delete or comment out -->
 			<!-- Content Below can be deleted or commented out -->
@@ -269,33 +302,6 @@
 							<input id="routesTravelTimesSelector" type="checkbox" onchange="selectTravelTimeRoute();">
 							<div class="slider round"></div>
 						</label>
-						&nbsp; &nbsp;
-						<select id="fromBuilding" onchange="selectTravelTimeRoute();">
-							<option value=""></option>
-							<option value="A">A</option>
-							<option value="B">B</option>
-							<option value="C">C</option>
-							<option value="D">D</option>
-							<option value="E">E</option>
-							<option value="F">F</option>
-							<option value="H">H</option>
-							<option value="I">I</option>
-							<option value="L">L</option>
-							<option value="W">W</option>
-						</select>
-						<select id="toBuilding" onchange="selectTravelTimeRoute();">
-							<option value=""></option>
-							<option value="A">A</option>
-							<option value="B">B</option>
-							<option value="C">C</option>
-							<option value="D">D</option>
-							<option value="E">E</option>
-							<option value="F">F</option>
-							<option value="H">H</option>
-							<option value="I">I</option>
-							<option value="L">L</option>
-							<option value="W">W</option>
-						</select>
 					</div>
 				</a>
 			</li>
