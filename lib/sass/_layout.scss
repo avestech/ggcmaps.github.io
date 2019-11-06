@@ -80,7 +80,7 @@ body {
     } // h2
   } // search-menu
 
-  .travel-routes 
+  .travel-routes-selector
   {
     @include box-shadow;
     background-color: $border;
@@ -104,6 +104,25 @@ body {
       } // h2:hover
     } // h2
   }// time-travel-routes
+
+  #travelTimesLegend
+  {
+    @include box-shadow;
+    background-color: #FFF;
+    padding: 10px;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    h4
+    {
+      display: inline-block;
+      color: $green;
+    }
+    hr
+    {
+      color: $green;
+    }
+  }
 
   .dropdown {
     position: relative;
