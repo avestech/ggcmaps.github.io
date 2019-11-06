@@ -80,6 +80,31 @@ body {
     } // h2
   } // search-menu
 
+  .travel-routes 
+  {
+    @include box-shadow;
+    background-color: $border;
+    padding: 3px 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    align-items: center;
+
+    h2 
+    {
+      display: inline-block;
+      color: $green;
+      font-size: 1.1rem;
+      font-weight: normal;
+      padding: 10px;
+      &:hover {
+        cursor: default;
+      } // h2:hover
+    } // h2
+  }// time-travel-routes
+
   .dropdown {
     position: relative;
     padding-left: 0;
