@@ -109,14 +109,15 @@
 		<div id="travelTimesLegend">
 			<h4>Travel Times</h4>
 			<hr/>
-
+			<p id="currentTravelTime">Placeholder</p>
 		</div>
 
-		<div id="routeSelectorLegend" class="travel-routes-selector">
-			<h2>From</h2> 
-			<div class="travel-routes-select-wrapper">
+		<div id="routeSelectorLegend">
+			<h2>From: </h2> 
+			<div>
 				<select id="fromBuilding" onchange="selectTravelTimeRoute();">
-					<option value="A" selected>A</option>
+					<option value="" checked></option>
+					<option value="A">A</option>
 					<option value="B">B</option>
 					<option value="C">C</option>
 					<option value="D">D</option>
@@ -128,10 +129,11 @@
 					<option value="W">W</option>
 				</select>
 			</div>
-			<h2>| To</h2>
-			<div class="travel-routes-select-wrapper">
+			<h2>To: </h2>
+			<div>
 				<select id="toBuilding" onchange="selectTravelTimeRoute();">
-					<option value="A" selected>A</option>
+					<option value="" checked></option>
+					<option value="A">A</option>
 					<option value="B">B</option>
 					<option value="C">C</option>
 					<option value="D">D</option>
