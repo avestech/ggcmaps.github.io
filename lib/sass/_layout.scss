@@ -84,7 +84,7 @@ body {
   #routeSelectorLegend
   {
     @include box-shadow;
-    display: flex;
+    display: none;
     background-color: $border;
     padding: 3px 10px;
     position: fixed;
@@ -109,7 +109,7 @@ body {
   #travelTimesLegend
   {
     @include box-shadow;
-    display:block;
+    display: none;
     background-color: #FFF;
     padding: 10px;
     position: fixed;
@@ -123,6 +123,11 @@ body {
     hr
     {
       color: $green;
+    }
+    p 
+    {
+      text-align: center;
+      color: black;
     }
   }
   
