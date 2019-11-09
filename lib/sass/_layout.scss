@@ -113,22 +113,18 @@ body {
     background-color: #FFF;
     padding: 10px;
     position: fixed;
+    width: 200px;
     right: 30px;
     top: 30px;
-    h4
-    {
-      display: inline-block;
-      color: $green;
-    }
-    hr
-    {
-      color: $green;
-    }
-    p 
-    {
-      text-align: center;
-      color: black;
-    }
+    text-align: center;
+    color: $green;
+    h4, hr
+    {color: $green;}
+    img {width: 20px;}
+    div{text-align: center;}
+    section {display: flex;}
+    span {font-size: 18px;}
+    #travelTimesWalkingIcon{display:none;}
   }
   
   .dropdown {
