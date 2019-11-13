@@ -1151,7 +1151,7 @@ svg .reserved-parking {
 }
 /* line 74, ../lib/sass/_campus.scss */
 svg .severe-weather {
-  fill: #636466;
+  fill: #FF0000;
 }
 /* line 78, ../lib/sass/_campus.scss */
 svg .fire-extinguisher {
@@ -1159,11 +1159,11 @@ svg .fire-extinguisher {
 }
 /* line 82, ../lib/sass/_campus.scss */
 svg .defibrillator {
-  fill: #f5e100;
+  fill: #FF0000;
 }
 /* line 86, ../lib/sass/_campus.scss */
 svg .fire-switch {
-  fill: #0000ff;
+  fill: #FF0000;
 }
 /* line 90, ../lib/sass/_campus.scss */
 svg #parking-deck {
