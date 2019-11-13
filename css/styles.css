@@ -643,7 +643,7 @@ body:after {
 /* line 178, ../lib/sass/_nav.scss */
 .campus-info section .safety-key #fire-extinguisher {
   border-radius: 10px;
-  background-color: #FF0000;
+  background-color: #f4c9c4;
   border: 1px solid #000;
   width: 10px;
   height: 10px;
@@ -1134,54 +1134,58 @@ svg .resident-parking {
   fill: #ffe5c6;
 }
 /* line 58, ../lib/sass/_campus.scss */
+svg .staff-parking2 {
+  fill: #ffe5c6;
+}
+/* line 62, ../lib/sass/_campus.scss */
 svg .visitor-parking {
   fill: #cfab7a;
 }
-/* line 62, ../lib/sass/_campus.scss */
+/* line 66, ../lib/sass/_campus.scss */
 svg .open-parking {
   fill: #deedcd;
 }
-/* line 66, ../lib/sass/_campus.scss */
+/* line 70, ../lib/sass/_campus.scss */
 svg .reserved-parking {
   fill: #f4c9c4;
 }
-/* line 70, ../lib/sass/_campus.scss */
+/* line 74, ../lib/sass/_campus.scss */
 svg .severe-weather {
   fill: #636466;
 }
-/* line 74, ../lib/sass/_campus.scss */
+/* line 78, ../lib/sass/_campus.scss */
 svg .fire-extinguisher {
   fill: #FF0000;
 }
-/* line 78, ../lib/sass/_campus.scss */
+/* line 82, ../lib/sass/_campus.scss */
 svg .defibrillator {
   fill: #f5e100;
 }
-/* line 82, ../lib/sass/_campus.scss */
+/* line 86, ../lib/sass/_campus.scss */
 svg .fire-switch {
   fill: #0000ff;
 }
-/* line 86, ../lib/sass/_campus.scss */
+/* line 90, ../lib/sass/_campus.scss */
 svg #parking-deck {
   stroke: #00704a;
 }
-/* line 90, ../lib/sass/_campus.scss */
+/* line 94, ../lib/sass/_campus.scss */
 svg .building-label {
   fill: #fff;
 }
-/* line 94, ../lib/sass/_campus.scss */
+/* line 98, ../lib/sass/_campus.scss */
 svg .parking-label {
   fill: #000;
 }
-/* line 98, ../lib/sass/_campus.scss */
+/* line 102, ../lib/sass/_campus.scss */
 svg .small-label {
   font-size: .8rem;
 }
-/* line 102, ../lib/sass/_campus.scss */
+/* line 106, ../lib/sass/_campus.scss */
 svg .medium-label {
   font-size: 1.3rem;
 }
-/* line 106, ../lib/sass/_campus.scss */
+/* line 110, ../lib/sass/_campus.scss */
 svg .large-label {
   font-size: 1.7rem;
 }
