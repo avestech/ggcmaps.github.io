@@ -667,7 +667,7 @@ body:after {
 /* line 196, ../lib/sass/_nav.scss */
 .campus-info section .safety-key #fire-switch {
   border-radius: 10px;
-  background-color: #0000ff;
+  background-color: #ff050c;
   border: 1px solid #000;
   width: 10px;
   height: 10px;
@@ -697,7 +697,7 @@ body:after {
   /* line 228, ../lib/sass/_nav.scss */
   .campus-info section .safety-key #defibrillator {
     border-radius: 15px;
-    background-color: #ffa500;
+    background-color: #FF0000;
     border: 1px solid #000;
     width: 15px;
     height: 15px;
@@ -705,7 +705,7 @@ body:after {
   /* line 234, ../lib/sass/_nav.scss */
   .campus-info section .safety-key #severe-weather {
     border-radius: 15px;
-    background-color: #008000;
+    background-color: #FF0000;
     border: 1px solid #000;
     width: 15px;
     height: 15px;
@@ -713,7 +713,7 @@ body:after {
   /* line 240, ../lib/sass/_nav.scss */
   .campus-info section .safety-key #fire-switch {
     border-radius: 15px;
-    background-color: #0000ff;
+    background-color: #FF0000;
     border: 1px solid #000;
     width: 15px;
     height: 15px;
