@@ -72,7 +72,7 @@ svg {
   } // reserved-parking
 
     .severe-weather {
-      fill: $darkgrey;
+      fill: $brightred;
     } // severe-weather
 
     .fire-extinguisher {
@@ -80,11 +80,11 @@ svg {
     } // fire-extinguisher
 
     .defibrillator {
-      fill: $yellow;
+      fill: $brightred;
     } // defibrillator
 
     .fire-switch {
-      fill: $brightblue;
+      fill: $brightred;
     } // fire-switch
 
   #parking-deck {
