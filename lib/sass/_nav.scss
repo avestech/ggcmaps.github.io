@@ -226,19 +226,19 @@
         // fire-extinguisher
 
         #defibrillator {
-          @include colorLabel($brightorange, 15px);
+          @include colorLabel($brightred, 15px);
         }
 
         // defibrillator
 
         #severe-weather {
-          @include colorLabel($brightgreen, 15px);
+          @include colorLabel($brightred, 15px);
         }
 
         // severe-weather
 
         #fire-switch {
-          @include colorLabel($brightblue, 15px);
+          @include colorLabel($brightred, 15px);
         }
 
         // fire-switch
