@@ -1,16 +1,16 @@
 /*
 Error: Invalid CSS after "// slider.round": expected "}", was ""
-        on line 751 of C:/Users/junio/Desktop/ggcmaps/lib/sass/_nav.scss
+        on line 753 of C:/Users/junio/Desktop/ggcmaps/lib/sass/_nav.scss
         from line 9 of C:/Users/junio/Desktop/ggcmaps/lib/sass/styles.scss
 
-746: 
-747:   // round:before
-748: }
-749: 
-750: // slider.round
+748: 
+749:   // round:before
+750: }
+751: 
+752: // slider.round
 
 Backtrace:
-C:/Users/junio/Desktop/ggcmaps/lib/sass/_nav.scss:751
+C:/Users/junio/Desktop/ggcmaps/lib/sass/_nav.scss:753
 C:/Users/junio/Desktop/ggcmaps/lib/sass/styles.scss:9
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
@@ -80,4 +80,4 @@ C:/Ruby25-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"// slider.round\": expected \"}\", was \"\"\A         on line 751 of C:/Users/junio/Desktop/ggcmaps/lib/sass/_nav.scss\A         from line 9 of C:/Users/junio/Desktop/ggcmaps/lib/sass/styles.scss\A \A 746: \A 747:   // round:before\A 748: }\A 749: \A 750: // slider.round"; }
+  content: "Error: Invalid CSS after \"// slider.round\": expected \"}\", was \"\"\A         on line 753 of C:/Users/junio/Desktop/ggcmaps/lib/sass/_nav.scss\A         from line 9 of C:/Users/junio/Desktop/ggcmaps/lib/sass/styles.scss\A \A 748: \A 749:   // round:before\A 750: }\A 751: \A 752: // slider.round"; }
