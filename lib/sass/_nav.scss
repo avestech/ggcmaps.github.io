@@ -176,25 +176,25 @@
       // color-label
 
       #fire-extinguisher {
-        @include colorLabel($pastelred, 10px);
+        @include colorLabel($brightred, 10px);
       }
 
       // fire-extinguisher
 
       #defibrillator {
-        @include colorLabel($yellow, 10px);
+        @include colorLabel($brightred, 10px);
       }
 
       // defibrillator
 
       #severe-weather {
-        @include colorLabel($darkgrey, 10px);
+        @include colorLabel($brightred, 10px);
       }
 
       // severe-weather
 
       #fire-switch {
-        @include colorLabel($brightblue, 10px);
+        @include colorLabel($brightred, 10px);
       }
 
       // fire-switch
@@ -423,19 +423,19 @@
         // fire-extinguisher
 
         #defibrillator {
-          @include colorLabel($yellow, 20px);
+          @include colorLabel($brightred, 20px);
         }
 
         // defibrillator
 
         #severe-weather {
-          @include colorLabel($darkgrey, 20px);
+          @include colorLabel($brightred, 20px);
         }
 
         // severe-weather
 
         #fire-switch {
-          @include colorLabel($brightblue, 20px);
+          @include colorLabel($brightred, 20px);
         }
 
         // fire-switch
