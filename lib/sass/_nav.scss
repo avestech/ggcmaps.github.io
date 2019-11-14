@@ -247,7 +247,7 @@
       // safety-key
     }
 
-      
+
     //  Vending section
    }
    section {
@@ -271,7 +271,7 @@
       .color-label {
         margin: auto;
       }
-      
+
       //snack machine
 
       #snack-machine {
@@ -298,7 +298,7 @@
         font-size: 1rem;
       }
 
-      // Snack Machine 
+      // Snack Machine
 
       #snack-machine {
         @include colorLabel($brightred, 15px);
@@ -464,6 +464,12 @@
 }
 
 // #sLegend
+
+//#vLegend
+
+#vLegend {
+  display: none;
+}
 
 .campus-info {
   @include transition;
