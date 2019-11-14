@@ -457,6 +457,9 @@
   // large
 }
 
+#vLegend{
+  display: none;
+}
 // campus-info
 
 #sLegend {
@@ -464,12 +467,6 @@
 }
 
 // #sLegend
-
-//#vLegend
-
-#vLegend {
-  display: none;
-}
 
 .campus-info {
   @include transition;
