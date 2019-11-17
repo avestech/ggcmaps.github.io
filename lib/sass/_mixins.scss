@@ -6,3 +6,10 @@
   height: $radius;
 
 }
+
+@mixin svgImages($image, $size) {
+width: $size;
+height: $size;
+background-image: $image();
+
+}

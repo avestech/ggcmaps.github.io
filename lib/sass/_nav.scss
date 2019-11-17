@@ -175,26 +175,26 @@
 
       // color-label
 
-      // #fire-extinguisher {
-      //   @include colorLabel($pastelred, 10px);
-      // }
+      #fire-extinguisher {
+        @include colorLabel($brightred, 10px);
+      }
 
       // fire-extinguisher
 
       #defibrillator {
-        @include colorLabel($yellow, 10px);
+        @include colorLabel($brightred, 10px);
       }
 
       // defibrillator
 
       #severe-weather {
-        @include colorLabel($darkgrey, 10px);
+        @include colorLabel($brightred, 10px);
       }
 
       // severe-weather
 
       #fire-switch {
-        @include colorLabel($brightblue, 10px);
+        @include colorLabel($brightred, 10px);
       }
 
       // fire-switch
@@ -226,19 +226,19 @@
         // fire-extinguisher
 
         #defibrillator {
-          @include colorLabel($brightorange, 15px);
+          @include colorLabel($brightred, 15px);
         }
 
         // defibrillator
 
         #severe-weather {
-          @include colorLabel($brightgreen, 15px);
+          @include colorLabel($brightred, 15px);
         }
 
         // severe-weather
 
         #fire-switch {
-          @include colorLabel($brightblue, 15px);
+          @include colorLabel($brightred, 15px);
         }
 
         // fire-switch
@@ -247,10 +247,136 @@
       // safety-key
     }
 
-    // section
+
+    //  Vending section
+   }
+   section {
+    width: 100%;
+    padding: .2rem .8rem;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+
+   vending-key {
+    padding: .3rem .2rem;
+    @include span(2 of 12);
+
+    p {
+      color: $green;
+      font-size: .7rem;
+      line-height: normal;
+      }
+
+      .color-label {
+        margin: auto;
+      }
+
+      //snack machine
+
+      #snack-machine {
+        @include colorLabel($brightred, 10px);
+      }
+
+      // drink-machine
+
+      #drink-machine {
+        @include colorLabel($brightorange, 10px);
+      }
+
+      // water-fountain
+
+      #water-fountain {
+        @include colorLabel($brightgreen, 10px);
+      }
+
+     // Vending-key
+     section {
+     .Vending-key {
+
+      p {
+        font-size: 1rem;
+      }
+
+      // Snack Machine
+
+      #snack-machine {
+        @include colorLabel($brightred, 15px);
+      }
+
+      // drink-machine
+
+      #drink-machine {
+        @include colorLabel($brightorange, 15px);
+      }
+
+      // water-fountain
+
+      #water-fountain {
+        @include colorLabel($brightgreen, 15px);
+      }
+
+    }
   }
 
-  // small
+  @include susy-breakpoint($medium) {
+    @include span(4 of 15);
+    right: 0;
+    margin: 10px;
+    text-align: left;
+
+    h4 {
+      padding: .8rem 1rem;
+      text-align: center;
+    }
+
+    // h4
+
+    section {
+      padding: .8rem;
+      display: inline-block;
+
+      .vending-key {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+        padding: .3rem 0;
+
+        p {
+          margin-left: .5rem;
+          line-height: 120%;
+          font-size: 1.2rem;
+        }
+
+        // color-label
+
+        .color-label {
+          margin: 0;
+        }
+
+        // snack machine
+
+        #snack-machine {
+          @include colorLabel($brightred, 20px);
+        }
+
+        // drink machine
+
+        #drink-machine {
+          @include colorLabel($brightorange, 20px);
+        }
+
+        // Water Fountain
+
+        #water-fountain {
+          @include colorLabel($brightgreen, 20px);
+        }
+
+  //  vending section end
+}
+
+  // saftey-key 20px
 
   @include susy-breakpoint($medium) {
     @include span(4 of 15);
@@ -297,19 +423,19 @@
         // fire-extinguisher
 
         #defibrillator {
-          @include colorLabel($yellow, 20px);
+          @include colorLabel($brightred, 20px);
         }
 
         // defibrillator
 
         #severe-weather {
-          @include colorLabel($darkgrey, 20px);
+          @include colorLabel($brightred, 20px);
         }
 
         // severe-weather
 
         #fire-switch {
-          @include colorLabel($brightblue, 20px);
+          @include colorLabel($brightred, 20px);
         }
 
         // fire-switch
@@ -318,7 +444,8 @@
       // safety-key
     }
 
-    // section
+    // safety-key section end
+    // Split the end of the safety section inbetween the vending on accident
   }
 
   // medium
@@ -331,6 +458,11 @@
 }
 
 // campus-info
+
+//vLegend
+#vLegend{
+  display:none;
+}
 
 #sLegend {
   display: none;

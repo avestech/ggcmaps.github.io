@@ -1,4 +1,4 @@
-/* line 5, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -140,7 +140,7 @@ input:focus {
   outline: none;
 }
 
-/* line 21, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/susy-2.2.14/sass/susy/language/susy/_box-sizing.scss */
+/* line 21, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/susy-2.2.14/sass/susy/language/susy/_box-sizing.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -156,7 +156,7 @@ body {
   width: 100%;
   height: 100%;
 }
-/* line 12, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/susy-2.2.14/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/susy-2.2.14/sass/susy/output/support/_clearfix.scss */
 body:after {
   content: " ";
   display: block;
@@ -201,25 +201,25 @@ body:after {
   padding: 10px;
   margin: 0;
 }
-/* line 61, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input:-moz-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
-/* line 64, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input::-moz-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
-/* line 67, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input:-ms-input-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
-/* line 56, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input::-webkit-input-placeholder {
   color: #a5acb0;
   font-size: .9rem;
@@ -643,7 +643,7 @@ body:after {
 /* line 178, ../lib/sass/_nav.scss */
 .campus-info section .safety-key #fire-extinguisher {
   border-radius: 10px;
-  background-color: #FF0000;
+  background-color: #f4c9c4;
   border: 1px solid #000;
   width: 10px;
   height: 10px;
@@ -667,7 +667,7 @@ body:after {
 /* line 196, ../lib/sass/_nav.scss */
 .campus-info section .safety-key #fire-switch {
   border-radius: 10px;
-  background-color: #0000ff;
+  background-color: #ff050c;
   border: 1px solid #000;
   width: 10px;
   height: 10px;
@@ -697,7 +697,7 @@ body:after {
   /* line 228, ../lib/sass/_nav.scss */
   .campus-info section .safety-key #defibrillator {
     border-radius: 15px;
-    background-color: #ffa500;
+    background-color: #FF0000;
     border: 1px solid #000;
     width: 15px;
     height: 15px;
@@ -705,7 +705,7 @@ body:after {
   /* line 234, ../lib/sass/_nav.scss */
   .campus-info section .safety-key #severe-weather {
     border-radius: 15px;
-    background-color: #008000;
+    background-color: #FF0000;
     border: 1px solid #000;
     width: 15px;
     height: 15px;
@@ -713,7 +713,7 @@ body:after {
   /* line 240, ../lib/sass/_nav.scss */
   .campus-info section .safety-key #fire-switch {
     border-radius: 15px;
-    background-color: #0000ff;
+    background-color: #FF0000;
     border: 1px solid #000;
     width: 15px;
     height: 15px;
@@ -769,7 +769,7 @@ body:after {
   /* line 299, ../lib/sass/_nav.scss */
   .campus-info section .safety-key #defibrillator {
     border-radius: 20px;
-    background-color: #f5e100;
+    background-color: #FF0000;
     border: 1px solid #000;
     width: 20px;
     height: 20px;
@@ -777,7 +777,7 @@ body:after {
   /* line 305, ../lib/sass/_nav.scss */
   .campus-info section .safety-key #severe-weather {
     border-radius: 20px;
-    background-color: #636466;
+    background-color: #FF0000;
     border: 1px solid #000;
     width: 20px;
     height: 20px;
@@ -785,7 +785,7 @@ body:after {
   /* line 311, ../lib/sass/_nav.scss */
   .campus-info section .safety-key #fire-switch {
     border-radius: 20px;
-    background-color: #0000ff;
+    background-color: #FF0000;
     border: 1px solid #000;
     width: 20px;
     height: 20px;
@@ -1134,54 +1134,58 @@ svg .resident-parking {
   fill: #ffe5c6;
 }
 /* line 58, ../lib/sass/_campus.scss */
+svg .staff-parking2 {
+  fill: #ffe5c6;
+}
+/* line 62, ../lib/sass/_campus.scss */
 svg .visitor-parking {
   fill: #cfab7a;
 }
-/* line 62, ../lib/sass/_campus.scss */
+/* line 66, ../lib/sass/_campus.scss */
 svg .open-parking {
   fill: #deedcd;
 }
-/* line 66, ../lib/sass/_campus.scss */
+/* line 70, ../lib/sass/_campus.scss */
 svg .reserved-parking {
   fill: #f4c9c4;
 }
-/* line 70, ../lib/sass/_campus.scss */
-svg .severe-weather {
-  fill: #636466;
-}
 /* line 74, ../lib/sass/_campus.scss */
-svg .fire-extinguisher {
+svg .severe-weather {
   fill: #FF0000;
 }
 /* line 78, ../lib/sass/_campus.scss */
-svg .defibrillator {
-  fill: #f5e100;
+svg .fire-extinguisher {
+  fill: #FF0000;
 }
 /* line 82, ../lib/sass/_campus.scss */
-svg .fire-switch {
-  fill: #0000ff;
+svg .defibrillator {
+  fill: #FF0000;
 }
 /* line 86, ../lib/sass/_campus.scss */
+svg .fire-switch {
+  fill: #FF0000;
+}
+/* line 90, ../lib/sass/_campus.scss */
 svg #parking-deck {
   stroke: #00704a;
 }
-/* line 90, ../lib/sass/_campus.scss */
+/* line 94, ../lib/sass/_campus.scss */
 svg .building-label {
   fill: #fff;
 }
-/* line 94, ../lib/sass/_campus.scss */
+/* line 98, ../lib/sass/_campus.scss */
 svg .parking-label {
   fill: #000;
 }
-/* line 98, ../lib/sass/_campus.scss */
+/* line 102, ../lib/sass/_campus.scss */
 svg .small-label {
   font-size: .8rem;
 }
-/* line 102, ../lib/sass/_campus.scss */
+/* line 106, ../lib/sass/_campus.scss */
 svg .medium-label {
   font-size: 1.3rem;
 }
-/* line 106, ../lib/sass/_campus.scss */
+/* line 110, ../lib/sass/_campus.scss */
 svg .large-label {
   font-size: 1.7rem;
 }
