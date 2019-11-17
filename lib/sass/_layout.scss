@@ -80,32 +80,6 @@ body {
     } // h2
   } // search-menu
 
-
-  #routeSelectorLegend
-  {
-    @include box-shadow;
-    display: none;
-    background-color: $border;
-    padding: 3px 10px;
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    align-items: center;
-
-    h2 
-    {
-      display: inline-block;
-      color: $green;
-      font-size: 1.1rem;
-      font-weight: normal;
-      padding: 10px;
-      &:hover {
-        cursor: default;
-      } // h2:hover
-    } // h2
-  }// time-travel-routes
-
   #travelTimesLegend
   {
     @include box-shadow;
@@ -125,6 +99,51 @@ body {
     section {display: flex;}
     span {font-size: 18px;}
     #travelTimesWalkingIcon{display:none;}
+  }
+  #routeSelectorLegend
+  {
+    @include box-shadow;
+    display: none;
+    background-color: $border;
+    padding: 3px 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 35%;
+    align-items: center;
+    h2 
+    {
+      display: inline-block;
+      color: $green;
+      font-size: 16px;
+      font-weight: normal;
+      padding: 10px;
+      &:hover {
+        cursor: default;
+      } // h2:hover
+    } // h2
+  }// time-travel-routes
+  @media only screen and (max-width: 600px) 
+  {
+    #travelTimesLegend
+    {
+      top: 65px;
+      width: 90px;
+      left: 10px;
+      h4{ font-size: 16px; }
+      span { font-size: 14px; }
+    }
+    #routeSelectorLegend 
+    {
+      left: 10px;
+      bottom: 10px;
+      h2
+      { 
+        font-size: 14px;
+        padding: 6px; 
+      }
+      select { font-size: 10px; }
+      option { font-size: 10px; }
+    }
   }
   
   .dropdown {

@@ -1,4 +1,4 @@
-/* line 5, ../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -140,7 +140,7 @@ input:focus {
   outline: none;
 }
 
-/* line 21, ../../../../var/lib/gems/2.5.0/gems/susy-2.2.14/sass/susy/language/susy/_box-sizing.scss */
+/* line 21, ../../../../../var/lib/gems/2.5.0/gems/susy-2.2.14/sass/susy/language/susy/_box-sizing.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -156,7 +156,7 @@ body {
   width: 100%;
   height: 100%;
 }
-/* line 12, ../../../../var/lib/gems/2.5.0/gems/susy-2.2.14/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../var/lib/gems/2.5.0/gems/susy-2.2.14/sass/susy/output/support/_clearfix.scss */
 body:after {
   content: " ";
   display: block;
@@ -201,25 +201,25 @@ body:after {
   padding: 10px;
   margin: 0;
 }
-/* line 61, ../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 61, ../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input:-moz-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
-/* line 64, ../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 64, ../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input::-moz-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
-/* line 67, ../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 67, ../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input:-ms-input-placeholder {
   color: #a5acb0;
   font-size: .9rem;
   font-style: italic;
 }
-/* line 56, ../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+/* line 56, ../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
 .content .search-menu input::-webkit-input-placeholder {
   color: #a5acb0;
   font-size: .9rem;
@@ -242,33 +242,7 @@ body:after {
 .content .search-menu h2:hover {
   cursor: default;
 }
-/* line 84, ../lib/sass/_layout.scss */
-.content #routeSelectorLegend {
-  -moz-box-shadow: 1px 2px 5px #333333;
-  -webkit-box-shadow: 1px 2px 5px #333333;
-  box-shadow: 1px 2px 5px #333333;
-  display: none;
-  background-color: #fff;
-  padding: 3px 10px;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  align-items: center;
-}
-/* line 96, ../lib/sass/_layout.scss */
-.content #routeSelectorLegend h2 {
-  display: inline-block;
-  color: #00704a;
-  font-size: 1.1rem;
-  font-weight: normal;
-  padding: 10px;
-}
-/* line 103, ../lib/sass/_layout.scss */
-.content #routeSelectorLegend h2:hover {
-  cursor: default;
-}
-/* line 109, ../lib/sass/_layout.scss */
+/* line 83, ../lib/sass/_layout.scss */
 .content #travelTimesLegend {
   -moz-box-shadow: 1px 2px 5px #333333;
   -webkit-box-shadow: 1px 2px 5px #333333;
@@ -283,44 +257,103 @@ body:after {
   text-align: center;
   color: #00704a;
 }
-/* line 121, ../lib/sass/_layout.scss */
+/* line 95, ../lib/sass/_layout.scss */
 .content #travelTimesLegend h4, .content #travelTimesLegend hr {
   color: #00704a;
 }
-/* line 123, ../lib/sass/_layout.scss */
+/* line 97, ../lib/sass/_layout.scss */
 .content #travelTimesLegend img {
   width: 20px;
 }
-/* line 124, ../lib/sass/_layout.scss */
+/* line 98, ../lib/sass/_layout.scss */
 .content #travelTimesLegend div {
   text-align: center;
 }
-/* line 125, ../lib/sass/_layout.scss */
+/* line 99, ../lib/sass/_layout.scss */
 .content #travelTimesLegend section {
   display: flex;
 }
-/* line 126, ../lib/sass/_layout.scss */
+/* line 100, ../lib/sass/_layout.scss */
 .content #travelTimesLegend span {
   font-size: 18px;
 }
-/* line 127, ../lib/sass/_layout.scss */
+/* line 101, ../lib/sass/_layout.scss */
 .content #travelTimesLegend #travelTimesWalkingIcon {
   display: none;
 }
-/* line 130, ../lib/sass/_layout.scss */
+/* line 103, ../lib/sass/_layout.scss */
+.content #routeSelectorLegend {
+  -moz-box-shadow: 1px 2px 5px #333333;
+  -webkit-box-shadow: 1px 2px 5px #333333;
+  box-shadow: 1px 2px 5px #333333;
+  display: none;
+  background-color: #fff;
+  padding: 3px 10px;
+  position: fixed;
+  bottom: 20px;
+  left: 35%;
+  align-items: center;
+}
+/* line 113, ../lib/sass/_layout.scss */
+.content #routeSelectorLegend h2 {
+  display: inline-block;
+  color: #00704a;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 10px;
+}
+/* line 120, ../lib/sass/_layout.scss */
+.content #routeSelectorLegend h2:hover {
+  cursor: default;
+}
+@media only screen and (max-width: 600px) {
+  /* line 127, ../lib/sass/_layout.scss */
+  .content #travelTimesLegend {
+    top: 65px;
+    width: 90px;
+    left: 10px;
+  }
+  /* line 132, ../lib/sass/_layout.scss */
+  .content #travelTimesLegend h4 {
+    font-size: 16px;
+  }
+  /* line 133, ../lib/sass/_layout.scss */
+  .content #travelTimesLegend span {
+    font-size: 14px;
+  }
+  /* line 135, ../lib/sass/_layout.scss */
+  .content #routeSelectorLegend {
+    left: 10px;
+    bottom: 10px;
+  }
+  /* line 139, ../lib/sass/_layout.scss */
+  .content #routeSelectorLegend h2 {
+    font-size: 14px;
+    padding: 6px;
+  }
+  /* line 144, ../lib/sass/_layout.scss */
+  .content #routeSelectorLegend select {
+    font-size: 10px;
+  }
+  /* line 145, ../lib/sass/_layout.scss */
+  .content #routeSelectorLegend option {
+    font-size: 10px;
+  }
+}
+/* line 149, ../lib/sass/_layout.scss */
 .content .dropdown {
   position: relative;
   padding-left: 0;
 }
-/* line 134, ../lib/sass/_layout.scss */
+/* line 153, ../lib/sass/_layout.scss */
 .content .dropdown:hover {
   cursor: pointer;
 }
-/* line 137, ../lib/sass/_layout.scss */
+/* line 156, ../lib/sass/_layout.scss */
 .content .dropdown:hover i {
   color: #85c446;
 }
-/* line 143, ../lib/sass/_layout.scss */
+/* line 162, ../lib/sass/_layout.scss */
 .content .floors {
   display: none;
   position: absolute;
@@ -334,27 +367,27 @@ body:after {
   -webkit-box-shadow: 1px 2px 5px #333333;
   box-shadow: 1px 2px 5px #333333;
 }
-/* line 154, ../lib/sass/_layout.scss */
+/* line 173, ../lib/sass/_layout.scss */
 .content .floors h2 {
   padding: 5px 10px;
   width: 100%;
 }
-/* line 158, ../lib/sass/_layout.scss */
+/* line 177, ../lib/sass/_layout.scss */
 .content .floors h2:hover {
   background-color: #85c446;
   color: #fff;
   cursor: pointer;
 }
-/* line 166, ../lib/sass/_layout.scss */
+/* line 185, ../lib/sass/_layout.scss */
 .content .floors-active {
   display: inline-block;
 }
-/* line 170, ../lib/sass/_layout.scss */
+/* line 189, ../lib/sass/_layout.scss */
 .content .popup-group {
   position: relative;
   display: inline-block;
 }
-/* line 174, ../lib/sass/_layout.scss */
+/* line 193, ../lib/sass/_layout.scss */
 .content .popup-group .popup {
   visibility: hidden;
   width: 80px;
@@ -371,13 +404,13 @@ body:after {
   -webkit-box-shadow: 1px 2px 5px #333333;
   box-shadow: 1px 2px 5px #333333;
 }
-/* line 188, ../lib/sass/_layout.scss */
+/* line 207, ../lib/sass/_layout.scss */
 .content .popup-group .popup h3 {
   color: #fff;
   font-weight: normal;
   font-size: .9rem;
 }
-/* line 194, ../lib/sass/_layout.scss */
+/* line 213, ../lib/sass/_layout.scss */
 .content .popup-group .popup::after {
   content: "";
   position: absolute;
@@ -388,87 +421,87 @@ body:after {
   border-style: solid;
   border-color: transparent transparent #00704a transparent;
 }
-/* line 206, ../lib/sass/_layout.scss */
+/* line 225, ../lib/sass/_layout.scss */
 .content .popup-group .popup-active {
   visibility: visible;
 }
-/* line 212, ../lib/sass/_layout.scss */
+/* line 231, ../lib/sass/_layout.scss */
 .content .divider {
   width: 1px;
   height: 1.2em;
   background: #a5acb0;
 }
-/* line 218, ../lib/sass/_layout.scss */
+/* line 237, ../lib/sass/_layout.scss */
 .content .svg-holder {
   width: 100%;
   height: 100%;
 }
-/* line 222, ../lib/sass/_layout.scss */
+/* line 241, ../lib/sass/_layout.scss */
 .content .svg-holder svg {
   width: 100%;
 }
-/* line 225, ../lib/sass/_layout.scss */
+/* line 244, ../lib/sass/_layout.scss */
 .content .svg-holder svg .outline {
   fill: #a5acb0;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 231, ../lib/sass/_layout.scss */
+/* line 250, ../lib/sass/_layout.scss */
 .content .svg-holder svg .dark-fill {
   fill: #636466;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 237, ../lib/sass/_layout.scss */
+/* line 256, ../lib/sass/_layout.scss */
 .content .svg-holder svg .fill {
   fill: #fff;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 243, ../lib/sass/_layout.scss */
+/* line 262, ../lib/sass/_layout.scss */
 .content .svg-holder svg .room {
   fill: #00704a;
   stroke: #fff;
   stroke-miterlimit: 10;
 }
-/* line 255, ../lib/sass/_layout.scss */
+/* line 274, ../lib/sass/_layout.scss */
 .content .svg-holder svg .bevel {
   stroke-linejoin: bevel;
 }
-/* line 260, ../lib/sass/_layout.scss */
+/* line 279, ../lib/sass/_layout.scss */
 .content .svg-holder svg .room-group:hover {
   cursor: pointer;
 }
-/* line 263, ../lib/sass/_layout.scss */
+/* line 282, ../lib/sass/_layout.scss */
 .content .svg-holder svg .room-group:hover .room {
   fill: #85c446;
 }
-/* line 266, ../lib/sass/_layout.scss */
+/* line 285, ../lib/sass/_layout.scss */
 .content .svg-holder svg .room-group:hover .label {
   fill: #fff;
 }
-/* line 272, ../lib/sass/_layout.scss */
+/* line 291, ../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room {
   cursor: pointer;
 }
-/* line 275, ../lib/sass/_layout.scss */
+/* line 294, ../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room .room {
   fill: #f5e100;
 }
-/* line 278, ../lib/sass/_layout.scss */
+/* line 297, ../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room .label {
   fill: #000;
   font-weight: bold;
 }
-/* line 284, ../lib/sass/_layout.scss */
+/* line 303, ../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room:hover .room {
   fill: #85c446;
 }
-/* line 287, ../lib/sass/_layout.scss */
+/* line 306, ../lib/sass/_layout.scss */
 .content .svg-holder svg .active-room:hover .label {
   fill: #000;
 }
-/* line 293, ../lib/sass/_layout.scss */
+/* line 312, ../lib/sass/_layout.scss */
 .content .svg-holder svg .door {
   fill: none;
   stroke: #fff;
@@ -476,34 +509,34 @@ body:after {
   stroke-linecap: square;
   stroke-miterlimit: 10;
 }
-/* line 301, ../lib/sass/_layout.scss */
+/* line 320, ../lib/sass/_layout.scss */
 .content .svg-holder svg .exit {
   stroke: #f5e100;
   stroke-width: 3;
 }
-/* line 306, ../lib/sass/_layout.scss */
+/* line 325, ../lib/sass/_layout.scss */
 .content .svg-holder svg .label {
   fill: #fff;
   font-size: .6rem;
 }
-/* line 311, ../lib/sass/_layout.scss */
+/* line 330, ../lib/sass/_layout.scss */
 .content .svg-holder svg .micro-font {
   font-size: .3rem;
 }
-/* line 315, ../lib/sass/_layout.scss */
+/* line 334, ../lib/sass/_layout.scss */
 .content .svg-holder svg .small-font {
   font-size: .43rem;
 }
-/* line 319, ../lib/sass/_layout.scss */
+/* line 338, ../lib/sass/_layout.scss */
 .content .svg-holder svg .medium-font {
   font-size: .48rem;
 }
-/* line 323, ../lib/sass/_layout.scss */
+/* line 342, ../lib/sass/_layout.scss */
 .content .svg-holder svg .no-fill {
   fill: none;
 }
 
-/* line 330, ../lib/sass/_layout.scss */
+/* line 349, ../lib/sass/_layout.scss */
 .content-disable {
   -moz-transition: all 1s;
   -o-transition: all 1s;
@@ -519,12 +552,12 @@ body:after {
   left: 0;
 }
 
-/* line 342, ../lib/sass/_layout.scss */
+/* line 361, ../lib/sass/_layout.scss */
 .hide {
   display: none !important;
 }
 
-/* line 346, ../lib/sass/_layout.scss */
+/* line 365, ../lib/sass/_layout.scss */
 .active {
   display: block !important;
 }
