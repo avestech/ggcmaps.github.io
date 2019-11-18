@@ -69,6 +69,7 @@
 </head>
 
 <body>
+
 	<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'campusEvents');" class="content">
 		<div class="search-menu">
 			<div class="popup-group">
@@ -180,6 +181,10 @@
 					</div>
 				</section>
 			</div> <!-- pLegend div -->
+
+			<!-- Display of Dining Times -->
+			<div id="diningTimes" style="display:none;"><iframe height="600" width="350" src="https://ggc.campusdish.com/LocationsAndMenus"></iframe></div>
+
 
 			<div id="sLegend">
 				<script>
@@ -316,12 +321,42 @@
 					</div>
 				</a>
 			</li>
+			<!-- Start of Marcelo's Fire Escape Routes Toggler -->
+
+			<!-- Start of Jonathan's Dining Services Toggler -->
+			<li>
+				<a>Show Dining Services Times
+					<div class="switchmenucontainer">
+						<label class="switch">
+							<input type="checkbox" onclick="showDiningTimes();">
+							<div class="slider round"></div>
+						</label>
+					</div>
+				</a>
+			</li>
+			<!-- Start of Jonathan's Dining Services Toggler -->
 		</ul>
 	</div> <!-- nav -->
 	
 	<!-- <script src="https://localhost:35729/livereload.js"></script> -->
 	<script>
 		visitCheck();
+
+		/**
+		 * Contributor:     Jonathan Mwizerwa
+		 * Description:     This javascript file allows for toggling visibility of dining services times on all pages of the web-app.
+		 *
+		 * Other changes:   Toggle button added under:
+		 *                  + index.html
+		*/
+		function showDiningTimes() {
+			var x = document.getElementById("diningTimes");
+			if (x.style.display === "none") {
+					x.style.display = "block";
+			} else {
+					x.style.display = "none";
+			}
+		}
 	</script>
 </body>
 
