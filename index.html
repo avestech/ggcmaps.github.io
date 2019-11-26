@@ -118,7 +118,6 @@
 
 		<div id="routeSelectorLegend">
 			<h2>From: </h2> 
-			<div>
 				<select id="fromBuilding" onchange="selectTravelTimeRoute();">
 					<option value="" checked></option>
 					<option value="A">A</option>
@@ -132,7 +131,6 @@
 					<option value="L">L</option>
 					<option value="W">W</option>
 				</select>
-			</div>
 			<h2>To: </h2>
 			<div>
 				<select id="toBuilding" onchange="selectTravelTimeRoute();">
@@ -251,29 +249,68 @@
 		</ul>
 		<div class="menu-section"></div>
 		<ul>
-			<li onclick="searchFromMenu('w1160')"><a>AEC</a></li>
-			<li onclick="searchFromMenu('bookstore')"><a>Book Store</a></li>
-			<li onclick="searchFromMenu('c1260')"><a>Cisco Auditorium</a></li>
-			<li onclick="subMenu('dining');"><a>Dining Services</a></li>
+			<li onclick="searchFromMenu('w1160')">
+				<a>AEC 
+					<span style='position: absolute; right: 10px;'>🙋</span>
+				</a>
+			</li>
+			<li onclick="searchFromMenu('bookstore')"><a>Book Store 
+					<span style='position: absolute; right: 10px;'>📚</span>
+				</a>
+			</li>
+			<li onclick="searchFromMenu('c1260')"><a>Cisco Auditorium
+					<span style='position: absolute; right: 10px;'>👨‍💼</span>
+				</a>
+			</li>
+			<li onclick="subMenu('dining');"><a>Dining Services
+					<span style='position: absolute; right: 10px;'>🍴</span>
+				</a>
+			</li>
 			<ul class="dining">
-				<li onclick="searchFromMenu('chick-fil-a')"><a>Chick-fil-A</a></li>
-				<li onclick="searchFromMenu('dining-hall')"><a>Dining Hall</a></li>
-				<li onclick="searchFromMenu('einstein-bros-bagels')"><a>Einstein Bros Bagels</a></li>
-				<li onclick="searchFromMenu('moes')"><a>Moe's Southwest Grill</a></li>
-				<li onclick="searchFromMenu('panda-express')"><a>Panda Express</a></li>
-				<li onclick="searchFromMenu('a1825')"><a>P.O.D. Market</a></li>
-				<li onclick="searchFromMenu('l1102')"><a>Starbucks</a></li>
+				<li onclick="searchFromMenu('chick-fil-a')"><a>Chick-fil-A
+					<span style='position: absolute; right: 10px;'>🐔</span>
+				</a></li>
+				<li onclick="searchFromMenu('dining-hall')"><a>Dining Hall
+					<span style='position: absolute; right: 10px;'>🍽</span>
+				</a></li>
+				<li onclick="searchFromMenu('einstein-bros-bagels')"><a>Einstein Bros Bagels
+					<span style='position: absolute; right: 10px;'>🍩</span>
+				</a></li>
+				<li onclick="searchFromMenu('moes')"><a>Moe's Southwest Grill
+					<span style='position: absolute; right: 10px;'>🌯</span>
+				</a></li>
+				<li onclick="searchFromMenu('panda-express')"><a>Panda Express
+					<span style='position: absolute; right: 10px;'>🥡</span>
+				</a></li>
+				<li onclick="searchFromMenu('a1825')"><a>P.O.D. Market
+					<span style='position: absolute; right: 10px;'>🍪</span>
+				</a></li>
+				<li onclick="searchFromMenu('l1102')"><a>Starbucks
+					<span style='position: absolute; right: 10px;'>🥛</span>
+				</a></li>
 			</ul>
-			<li onclick="searchFromMenu('game-room')"><a>Game Room</a></li>
-			<li onclick="searchFromMenu('lvis')"><a>LVIS</a></li>
-			<li onclick="subMenu('help-desk');"><a>Tech Help Desks</a></li>
+			<li onclick="searchFromMenu('game-room')"><a>Game Room
+				<span style='position: absolute; right: 10px;'>🎮</span>
+			</a></li>
+			<li onclick="searchFromMenu('lvis')"><a>LVIS
+				<span style='position: absolute; right: 10px;'>💺</span>
+			</a></li>
+			<li onclick="subMenu('help-desk');"><a>Tech Help Desks
+				<span style='position: absolute; right: 10px;'>👩‍💻</span>
+			</a></li>
 			<ul class="help-desk">
 				<li onclick="searchFromMenu('A1040')"><a>A Building</a></li>
 				<li onclick="searchFromMenu('1109')"><a>W Building</a></li>
 			</ul>
-			<li onclick="searchFromMenu('d1125')"><a>Parking Services</a></li>
-			<li onclick="searchFromMenu('d1301')"><a>Testing Services</a></li>
-			<li onclick="searchFromMenu('a1510')"><a>The Den</a></li>
+			<li onclick="searchFromMenu('d1125')"><a>Parking Services
+				<span style='position: absolute; right: 10px;'>🚘</span>
+			</a></li>
+			<li onclick="searchFromMenu('d1301')"><a>Testing Services
+				<span style='position: absolute; right: 10px;'>📝</span>
+			</a></li>
+			<li onclick="searchFromMenu('a1510')"><a>The Den
+				<span style='position: absolute; right: 10px;'>🖥</span>
+			</a></li>
 		</ul>
 		<div class="menu-section"></div>
 		<ul>
