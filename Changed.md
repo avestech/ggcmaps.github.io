@@ -18,8 +18,6 @@ GGCMaps aims to better, as well as ease, the experience of students at GGC when 
 # Communication Tool:
 * Discord
 
-# Features added:
-
 # Fire Escape Routes
 We added a toggle button next to the other toggle buttons on the side menu. When flipped "on", fire escape routes will be display ontop of the selected building floor.
 * a fireRoute layer containing the fire escape routes was added onto the adobe illustrator files.
