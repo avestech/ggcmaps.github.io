@@ -1,23 +1,22 @@
-# GGCMaps
+# GGCMaps - TEAM VEGAN'T
+We're about to implement some new dank features.
+GGCMaps aims to better, as well as ease, the experience of students at GGC when trying to find various locations across campus. It allows users to search rooms and have them be highlighted on an interactive map for easier meetups, less time wasted finding that one classroom for the first time, and easier navigation across campus for guests.
+... and we're about to implement some dank new features!
 
-## Vegan't Group Members and Roles:
+# Vegan't Group Members and Roles:
 * [Marcelo Mariduena](https://github.com/MarceloMariduena): Team Manager / UI/UX Designer  :stuck_out_tongue_closed_eyes: :stuck_out_tongue_closed_eyes: :stuck_out_tongue_closed_eyes:
 * [Jonathan Mwizerwa](https://github.com/JonathanMwizerwa): Lead Programmer / UI/UX Designer :100:
 * [Philip Wall](https://github.com/Nhorr): Data Modeler / Documentation Lead  :file_cabinet: :speech_balloon:
 * [Graham Giles](https://github.com/gra-am): Q&A / Backend :japanese_goblin:
 
-## Repository:
+# Repository:
 * https://github.com/GGC-SD/ggcmaps3
 
-## Progress Tracking Tool:
+# Progress Tracking Tool:
 * Jira
 
-### Other Communication Tool:
+# Communication Tool:
 * Discord
-
-### Description
-GGCMaps aims to better, as well as ease, the experience of students at GGC when trying to find various locations across campus. It allows users to search rooms and have them be highlighted on an interactive map for easier meetups, less time wasted finding that one classroom for the first time, and easier navigation across campus for guests.
-
 
 # Features added:
 
@@ -39,5 +38,5 @@ We added a toggle button next to the other toggle buttons on the side menu. When
 * added an iframes element to the index.html file
 * displays information from https://ggc.campusdish.com/en/LocationsAndMenus
 
-## Final Report
+# Final Report
 https://docs.google.com/presentation/d/1__IvOHw8mgGDwvCxQTn7QWchXIBWzEOoPX0s3YpFqM8/edit?usp=sharing
