@@ -38,3 +38,6 @@ We added a toggle button next to the other toggle buttons on the side menu. When
 We added a toggle button next to the other toggle buttons on the side menu. When selected it displays a pane with information from the Dining Services site.
 * added an iframes element to the index.html file
 * displays information from https://ggc.campusdish.com/en/LocationsAndMenus
+
+## Final Report
+https://docs.google.com/presentation/d/1__IvOHw8mgGDwvCxQTn7QWchXIBWzEOoPX0s3YpFqM8/edit?usp=sharing
