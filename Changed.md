@@ -29,7 +29,12 @@ We added a toggle button next to the other toggle buttons on the side menu. When
 * svg code containing the fire routes was added at the very end of the svg elements found in the html under the following buildings: A, B, C, D, E, F, H, I, L, W
 
 ## Routes From Building to Building and Estimated Travel Times
-We added two drop down menus with corresponding buildings which represent travel routes
+We added a toggle button next to the other toggle buttons on the side menu. When selected it shows two drop down menus with corresponding buildings which represent travel routes.
 * a layer representing the routes between buildings
 * information about how long those routes take
 * showHideTravelTimes.js containing the code for hiding and displaying the travel routes was added under lib/scripts-js
+
+## Dining Services Pane for Dining Menus and Hours
+We added a toggle button next to the other toggle buttons on the side menu. When selected it displays a pane with information from the Dining Services site.
+* added an iframes element to the index.html file
+* displays information from https://ggc.campusdish.com/en/LocationsAndMenus
