@@ -22,10 +22,10 @@ GGCMaps aims to better, as well as ease, the experience of students at GGC when 
 
 * Fire Escape Routes
 We added a toggle button next to the other toggle buttons on the side menu. When flipped "on", fire escape routes will be display ontop of the selected building floor.
--> a fireRoute layer containing the fire escape routes was added onto the adobe illustrator files.
--> html code for the toggle button was added onto index.html line 256
--> showHideFireRoutes.js containing the code for hiding and displaying the fire routes was added under lib/scripts-js
--> svg code containing the fire routes was added at the very end of the svg elements found in the html under the following buildings: A, B, C, D, E, F, H, I, L, W
+** a fireRoute layer containing the fire escape routes was added onto the adobe illustrator files.
+** html code for the toggle button was added onto index.html line 256
+** showHideFireRoutes.js containing the code for hiding and displaying the fire routes was added under lib/scripts-js
+** svg code containing the fire routes was added at the very end of the svg elements found in the html under the following buildings: A, B, C, D, E, F, H, I, L, W
 
 * Routes From Building to Building and Estimated Travel Times
 We added a toggle button next to the other toggle buttons on the side menu. When selected it shows two drop down menus with corresponding buildings which represent travel routes.
