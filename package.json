@@ -48,7 +48,7 @@
     "purge": "docker container prune"
   },
   "dependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.3.0",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-uglify-es": "^3.3.0",
