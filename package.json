@@ -58,7 +58,7 @@
     "phantomjs": "^2.1.7",
     "susy": "^3.0.5",
     "cryptiles": ">=4.1.2",
-    "lodash": ">=4.17.11",
+    "lodash": ">=4.17.21",
     "hoek": ">=4.2.1"
   },
   "devDependencies": {
