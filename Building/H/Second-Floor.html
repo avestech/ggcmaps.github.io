@@ -1277,22 +1277,48 @@
 	</g>
 	</g>
 </g>
+
+<g id="fireRoute" style="display:none;" transform="translate(2, 182)">
+    <line x1="308.3692" y1="114.6663" x2="137.7305" y2="114.6666" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <g>
+      <line x1="136.3369" y1="160.4459" x2="51.2813" y2="209.5528" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+      <path d="M63.9337,371.4515a1.25,1.25,0,0,1,.5311,1.6865l-8.8335,16.9628,19.107.8313A1.25,1.25,0,0,1,74.63,393.43l-21.0681-.917a1.2506,1.2506,0,0,1-1.0546-1.8267l9.74-18.704a1.2509,1.2509,0,0,1,1.6864-.5311Z" transform="translate(-3.8555 -180.8335)" style="fill: #ed1c24"/>
+    </g>
+    <line x1="623.0886" y1="315.397" x2="479.6445" y2="315.3973" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <line x1="624.395" y1="313.6437" x2="624.395" y2="20.1644" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <g>
+      <line x1="608.9702" y1="215.4172" x2="266.5626" y2="215.4174" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+      <path d="M595.74,384.2512a1.25,1.25,0,0,0,.3833,1.726l16.1315,10.2735-16.1315,10.2734a1.25,1.25,0,0,0,1.3428,2.1094l17.787-11.3281a1.2507,1.2507,0,0,0,0-2.1094l-17.787-11.3281a1.251,1.251,0,0,0-1.7261.3833Z" transform="translate(-3.8555 -180.8335)" style="fill: #ed1c24"/>
+    </g>
+    <line x1="425.3115" y1="315.3971" x2="138.7283" y2="315.3973" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <line x1="621.3124" y1="116.9163" x2="379.1465" y2="116.9166" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <line x1="137.7304" y1="315.4425" x2="137.7304" y2="208.8904" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <g>
+      <line x1="137.6921" y1="208.1667" x2="114.2514" y2="208.1667" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+      <path d="M135.1927,377.0008a1.2505,1.2505,0,0,1-.3833,1.726L118.6779,389l16.1315,10.2735a1.25,1.25,0,0,1-1.3428,2.1094L115.68,390.0549a1.2506,1.2506,0,0,1,0-2.1093l17.787-11.3282a1.2509,1.2509,0,0,1,1.7261.3834Z" transform="translate(-3.8555 -180.8335)" style="fill: #ed1c24"/>
+    </g>
+    <line x1="137.2719" y1="159.0991" x2="137.2719" y2="114.6663" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <g>
+      <line x1="620.3184" y1="20.1644" x2="588.6444" y2="20.1644" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+      <path d="M609.5857,188.9984a1.2505,1.2505,0,0,1-.3833,1.726l-16.1316,10.2735,16.1316,10.2735a1.25,1.25,0,1,1-1.3428,2.1093l-17.787-11.3281a1.2507,1.2507,0,0,1,0-2.1094l17.787-11.3281a1.251,1.251,0,0,1,1.7261.3833Z" transform="translate(-3.8555 -180.8335)" style="fill: #ed1c24"/>
+    </g>
+  </g>
 </svg>
 <script>
-		function roomPrinter() {
-				var buildingContent = document.getElementById('rooms').childNodes;
-				var roomList = [];
-				var i;
-				var n;
-				for (i = 0; i < buildingContent.length; i++) {
-						roomList.push(buildingContent[i].id);
-				}
-				for(n = roomList.length; n--;){
-				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
-				}
-				for (nn=0; nn < roomList.length; nn++){
-					console.log(roomList[nn]);
-				}
+	function roomPrinter() {
+		var buildingContent = document.getElementById('rooms').childNodes;
+		var roomList = [];
+		var i;
+		var n;
+		for (i = 0; i < buildingContent.length; i++) {
+			roomList.push(buildingContent[i].id);
 		}
-		roomPrinter();
-	</script>
+		for(n = roomList.length; n--;){
+			if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+		}
+		for (nn=0; nn < roomList.length; nn++){
+			console.log(roomList[nn]);
+		}
+	}
+	roomPrinter();
+</script>
