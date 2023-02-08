@@ -11,3 +11,9 @@ HTML,CSS,JS are run within a selected browser
 1.Team Manager
 2. Client Liason
 3. Testing Lead
+
+**Nick Wen**:
+:smiley:
+1.UI/UX design
+2.Data Modeler
+:smiley:
