@@ -18,3 +18,10 @@ HTML,CSS,JS are run within a selected browser
 1.UI/UX design
 2.Data Modeler
 :smiley:
+
+*Ti Nguyen**:
+
+😙
+1.Documentation Lead
+2.Lead Programmer
+🥇
