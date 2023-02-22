@@ -19,7 +19,7 @@ HTML,CSS,JS are run within a selected browser
 2.Data Modeler
 :smiley:
 
-*Ti Nguyen**:
+**Ti Nguyen**:
 
 😙
 1.Documentation Lead
