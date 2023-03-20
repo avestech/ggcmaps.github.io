@@ -37,7 +37,7 @@ When using Docker Toolbox on windows, you have to have your repo located under y
 ### Docker Commands
 
   * Pull container: `docker pull mdeiters/minimalistweb:latest`
-  * Run container: `docker run -it -p 3000:3000 -v $PWD:/mnt/dev/project mdeiters/minimalistweb:latest`
+  * Run container: `docker run -p 3000:3000 -v $PWD:/mnt/dev/project mdeiters/minimalistweb:latest`
   * Clean up stopped containers: `docker prune containers`
 
 ### NPM scripts for Docker
