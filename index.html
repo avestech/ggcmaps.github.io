@@ -70,6 +70,8 @@
 
 <body>
 	<div onclick="toggleTab(event, 'helpbox'); toggleTab(event, 'campusEvents');" class="content">
+		
+
 		<div class="search-menu">
 			<div class="popup-group">
 				<img id="menu" src="images/bars.svg" onclick="openMenu()" alt="Menu Button">
@@ -105,6 +107,45 @@
 				<div class="floors"></div> <!-- floors -->
 			</div> <!-- dropdown -->
 		</div> <!-- search-menu -->
+			
+		<div class = "legend-bar">
+			
+			<ul>
+				<h1>Display legend </h1>
+				<li>	
+						<div class="switchmenucontainer">
+							<label class="switch">
+								<input type="checkbox" onclick="safetyMode(); toggleSafetyMode(); closeMenu();" id="safetySwitch">
+								<div class="slider round"></div>
+							</label>
+							<a>Safety Legend</a>
+						</div>
+						
+				</li>
+				<li>
+					
+						<div class="switchmenucontainer">
+							<label class="switch">
+								<input type="checkbox" onclick="cookieLegend(); changeFloor('Campus');" id="legendSwitch">
+								<div class="slider round"></div>
+							</label>
+							<a>Parking Legend</a>
+						</div>
+					
+				</li>
+				<li>
+					
+						<div class="switchmenucontainer">
+							<label class="switch">
+								<input type="checkbox" onclick="showHideFireRoutes();" id ="fireSwitch">
+								<div class="slider round"></div>
+							</label>
+							<a>Fire Escape Routes</a>
+						</div>
+					
+				</li>
+			</ul>
+		</div>	
 
 		<div class="campus-info">
 			<!-- Important div. do not delete or comment out -->
@@ -231,39 +272,8 @@
 			<li><a href="https://github.com/ggcmaps/ggcmaps.github.io/graphs/contributors" target="_blank">Contributors</a></li>
 		</ul>
 		<div class="menu-section"></div>
-		<h1>Options</h1>
-		<ul>
-			<li>
-				<a>Show Safety Legend
-					<div class="switchmenucontainer">
-						<label class="switch">
-							<input type="checkbox" onclick="safetyMode(); toggleSafetyMode(); closeMenu();" id="safetySwitch">
-							<div class="slider round"></div>
-						</label>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a>Show Parking Legend
-					<div class="switchmenucontainer">
-						<label class="switch">
-							<input type="checkbox" onclick="cookieLegend(); changeFloor('Campus');" id="legendSwitch">
-							<div class="slider round"></div>
-						</label>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a>Show Fire Escape Routes
-					<div class="switchmenucontainer">
-						<label class="switch">
-							<input type="checkbox" onclick="showHideFireRoutes();" id ="fireSwitch">
-							<div class="slider round"></div>
-						</label>
-					</div>
-				</a>
-			</li>
-		</ul>
+		
+		
 	</div> <!-- nav -->
 	<!-- <script src="https://localhost:35729/livereload.js"></script> -->
 	<script>
