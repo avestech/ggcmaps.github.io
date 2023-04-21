@@ -177,7 +177,7 @@ summary {
 
 /* line 1, ../lib/sass/_base.scss */
 body {
-  overflow: hidden;
+  overflow: hidden, scroll;
   *zoom: 1;
   font-family: Yantramanav, Sans-Serif;
   font-size: 1.2rem;
@@ -185,7 +185,6 @@ body {
   color: #fff;
   line-height: 110%;
   background: #d4d5d7;
-  overflow: scroll;
   cursor: default;
 }
 
