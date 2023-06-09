@@ -302,9 +302,9 @@ body:after {
   text-align: left;
 }
 .legend-bar a {
-  
+
   color: #00704a;
-  
+
 }
 .legend-bar h1{
   text-align: center;
@@ -1158,7 +1158,7 @@ body:after {
 }
 
 /* line 240, ../lib/sass/_nav.scss */
-.switchmenucontainer {
+.switch-menu-container {
   margin: auto;
 }
 
