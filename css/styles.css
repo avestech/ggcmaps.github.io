@@ -177,7 +177,7 @@ summary {
 
 /* line 1, ../lib/sass/_base.scss */
 body {
-  overflow: hidden;
+  overflow: hidden, scroll;
   *zoom: 1;
   font-family: Yantramanav, Sans-Serif;
   font-size: 1.2rem;
@@ -185,7 +185,6 @@ body {
   color: #fff;
   line-height: 110%;
   background: #d4d5d7;
-  overflow: scroll;
   cursor: default;
 }
 
@@ -283,6 +282,33 @@ body:after {
   display: flex;
   position: fixed;
   align-items: center;
+}
+
+.content .legend-bar{
+  margin-top:90px;
+  margin-left: 10px;
+  -moz-box-shadow: 1px 2px 5px #333333;
+  -webkit-box-shadow: 1px 2px 5px #333333;
+  box-shadow: 1px 2px 5px #333333;
+  background: white;
+  padding: 0;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  padding-top: 5px;
+  padding-left:10px;
+  padding-right : 10px;
+
+  text-align: left;
+}
+.legend-bar a {
+
+  color: #00704a;
+
+}
+.legend-bar h1{
+  text-align: center;
+  color: #00704a;
 }
 
 /* line 41, ../lib/sass/_layout.scss */
@@ -1113,7 +1139,7 @@ body:after {
     height: 10px;
   }
 }
-}
+
 
 @media (min-width: 70em) {
 
@@ -1132,7 +1158,7 @@ body:after {
 }
 
 /* line 240, ../lib/sass/_nav.scss */
-.switchmenucontainer {
+.switch-menu-container {
   margin: auto;
 }
 

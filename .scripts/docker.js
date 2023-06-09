@@ -18,7 +18,7 @@ for (var i = 0; i < cwd.length; i++) {
   }
 }
 
-const cmd = ['run', '-it', '-p', port + ':' + port, '-v', currentDir + ':' + mount, image + ':' + version];
+const cmd = ['run','-p', port + ':' + port, '-v', currentDir + ':' + mount, image + ':' + version];
 
 const p = spawn('docker', cmd, {
   shell: true,

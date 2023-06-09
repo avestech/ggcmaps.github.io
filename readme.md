@@ -1,4 +1,19 @@
-# GGCMaps
+# GGCMaps - GM23 (02/07/2023)
+
+#### Technology stack:
+* JavaScript
+* HTML
+* CSS
+* Docker
+* API
+* Vector drawing with Adobe Illustrator
+
+#### Installation insructions:
+* Install Visual Studio Code
+* Enable HTML, JavaScript, CSS, inside Visual Studio Code 
+* Download Docker desktop
+* Setup Docker develop environment
+
 #### Our Sponsors
 <a href="http://www.BrowserStack.com/"><img src="https://github.com/ggcmaps/ggcmaps.github.io/blob/master/images/tinylogoBrowserStack.png" atl="BrowserStack"></a>
 
