@@ -48,18 +48,18 @@
     "purge": "docker container prune"
   },
   "dependencies": {
+    "cryptiles": ">=4.1.2",
     "grunt": "^1.5.3",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^2.0.0",
-    "grunt-contrib-uglify-es": "^3.3.0",
+    "grunt-contrib-uglify-es": "github:gruntjs/grunt-contrib-uglify#harmony",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-http-server": "^2.1.0",
+    "hoek": ">=4.2.1",
     "install-peerdeps": "^1.9.0",
-    "phantomjs": "^2.1.7",
-    "susy": "^3.0.5",
-    "cryptiles": ">=4.1.2",
     "lodash": ">=4.17.21",
-    "hoek": ">=4.2.1"
+    "phantomjs": "^2.1.7",
+    "susy": "^3.0.5"
   },
   "devDependencies": {
     "grunt-contrib-compass": "^1.1.1"
