@@ -404,11 +404,11 @@
 
       // student-parking
 
-      #visitor-parking {
-        @include colorLabel($brown, 10px);
+      #handicap-parking {
+        @include colorLabel($pastelblue, 10px);
       }
 
-      // visitor-parking
+      // handicap-parking
     }
 
     // parking-key
@@ -448,11 +448,11 @@
 
         // student-parking
 
-        #visitor-parking {
-          @include colorLabel($brown, 15px);
+        #handicap-parking {
+          @include colorLabel($pastelblue, 15px);
         }
 
-        // visitor-parking
+        // handicap-parking
       }
 
       // parking-key
@@ -519,11 +519,11 @@
 
         // student-parking
 
-        #visitor-parking {
-          @include colorLabel($brown, 20px);
+        #handicap-parking {
+          @include colorLabel($pastelblue, 20px);
         }
 
-        // visitor-parking
+        // handicap-parking
       }
 
       // parking-key
