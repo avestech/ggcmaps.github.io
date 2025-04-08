@@ -122,8 +122,17 @@
 
     <div class="legend-bar">
 
+        <h1>Display Legend</h1>
         <ul>
-            <h1>Display Legend</h1>
+            <li>
+                <div class="switch-menu-container">
+                    <label class="switch">
+                        <input type="checkbox" onclick="cookieLegend();" id="legendSwitch">
+                        <div class="slider round"></div>
+                    </label>
+                    <a>Parking Legend</a>
+                </div>
+            </li>
             <li>
                 <div class="switch-menu-container">
                     <label class="switch">
@@ -135,15 +144,6 @@
                         <div class="slider round"></div>
                     </label>
                     <a>Safety Legend</a>
-                </div>
-            </li>
-            <li>
-                <div class="switch-menu-container">
-                    <label class="switch">
-                        <input type="checkbox" onclick="cookieLegend(); changeFloor('Campus');" id="legendSwitch">
-                        <div class="slider round"></div>
-                    </label>
-                    <a>Parking Legend</a>
                 </div>
             </li>
             <li>
@@ -183,8 +183,8 @@
                     <p>Students</p>
                 </div>
                 <div class="parking-key">
-                    <div id="visitor-parking" class="color-label"></div>
-                    <p>Visitors</p>
+                    <div id="handicap-parking" class="color-label"></div>
+                    <p>Handicap</p>
                 </div>
             </section>
         </div> <!-- pLegend div -->

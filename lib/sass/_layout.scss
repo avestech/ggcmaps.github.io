@@ -29,6 +29,30 @@ body {
   @include span(full);
   padding: 0;
 
+  .legend-bar{
+    -moz-box-shadow: 1px 2px 5px #333333;
+    -webkit-box-shadow: 1px 2px 5px #333333;
+    box-shadow: 1px 2px 5px #333333;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:90px;
+    left: 10px;
+    align-items: center;
+    padding: 5px 10px 0;
+    text-align: left;
+
+    a {
+      color: #00704a;
+    }
+
+    h1 {
+      text-align: center;
+      color: #00704a;
+    }
+  }
+
   .search-menu {
     margin: 10px;
     @include box-shadow;
