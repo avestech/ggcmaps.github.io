@@ -58,7 +58,7 @@
     "hoek": ">=4.2.1",
     "install-peerdeps": "^3.0.3",
     "lodash": ">=4.17.21",
-    "phantomjs": "^1.9.20",
+    "phantomjs": "^2.1.7",
     "susy": "^3.0.5"
   },
   "devDependencies": {
