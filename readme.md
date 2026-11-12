@@ -30,7 +30,7 @@ The production build is a static export in `out/`. GitHub Pages deployment setti
 - `scripts/extract-room-data.js` reads room IDs from map SVGs into `data/rooms.json`.
 - `components/legend.jsx` contains the rendered legend content.
 
-The Convocation Center SVGs are contributed in a separate map PR. Merge that PR before extracting CC room IDs or adding/running CC map tests; those assets are deliberately excluded from this refactor branch.
+The Convocation Center maps and their React support are included together in this contribution.
 
 ## Feature parity
 

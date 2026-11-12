@@ -62,6 +62,7 @@ test.each([
 
 test.each([
   ['w116', '/building/W/GL?room=1160', /Ground Level/],
+  ['cc1301a', '/building/CC/L3?room=1301A', /Level 3/],
   [' B 2200 ', '/building/B/L2?room=2200', /Level 2/],
 ])('keyboard selection of %s uses the displayed floor', async (query, route, floor) => {
   render(<Find />);

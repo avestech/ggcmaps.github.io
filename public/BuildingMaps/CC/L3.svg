@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1040"
+   height="430"
+   viewBox="3 46 208 192"
+   version="1.1"
+   id="cc-floor-l3" role="img" aria-label="CC Level 3 floor map"
+   xml:space="preserve"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="L3.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.73512617"
+     inkscape:cx="399.93135"
+     inkscape:cy="448.22238"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" /><style id="cc-l3-room-hover">
+#cc-floor-l3 .room-group { cursor: pointer; }
+#cc-floor-l3 .room-group:hover .room { fill: #85c446; }
+#cc-floor-l3 .room.active-room, #cc-floor-l3 .active-room .room { fill: #f5e100 !important; }
+#cc-floor-l3 .label { text-anchor: start !important; }
+#cc-floor-l3 .label--active, #cc-floor-l3 .active-room .label { fill: #000000; font-weight: bold; }
+#cc-floor-l3 :is(#path7, #path8, #path63) { cursor: pointer; }
+#cc-floor-l3 :is(#path7, #path8, #path63):hover { fill: #85c446 !important; }
+</style><defs
+     id="defs1" /><g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Outline"
+     style="display:inline;opacity:1"
+     sodipodi:insensitive="true"><path
+       style="opacity:1;fill:#a5acb1;fill-opacity:1;stroke:#ffffff;stroke-width:1.32292"
+       d="M 6.75,49.05 V 236.5 H 208 V 49.05 H 62.86 v 8.7 H 37.75 v -8.7 z"
+       id="path1"
+       sodipodi:nodetypes="ccccccccc" /><path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="M 6.75,236.5 H 208 V 117.3 h -22.4 v -3.55 h -53.5 v 3.55 H 82.25 v -3.55 H 30.2 v 8.35 h -9.9 v 6 H 6.75 Z"
+       id="path40"
+       sodipodi:nodetypes="ccccccccccccccc" /><path
+       style="opacity:1;fill:#ffffff;stroke:#ffffff;stroke-width:0.79375;stroke-dasharray:none"
+       d="m 132.5389,106.17508 -0.17996,-5.48871 H 82.060742 l -0.134968,5.44372 H 47.148936 l 0.08998,-19.12051 25.643982,0.179958 v 1.349683 l 74.772462,-0.08998 -0.045,17.545889 z"
+       id="path41"
+       sodipodi:nodetypes="ccccccccccc" /></g><g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Rooms"
+     style="opacity:1"><path
+       style="opacity:1;fill:#00704b;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-dasharray:none"
+       d="m 109.95,68.5 v 10.15 h 8.8 V 68.5 Z"
+       id="path7" /><path
+       style="opacity:1;fill:#00704b;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-dasharray:none"
+       d="M 118.75,68.5 H 127 v 10.15 h -8.25 z"
+       id="path8" /><g class="room-group"
+       id="1317"
+       style="stroke-width:0.529167;stroke-dasharray:none"><path class="room" fill="#00704b"
+         style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-dasharray:none"
+         d="M 197.4,83.6 V 73 h 9.6 v 10.6 z"
+         id="path11" /><text class="label" fill="#ffffff"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-dasharray:none"
+         x="198.95874"
+         y="79.286827"
+         id="text20"><tspan
+           sodipodi:role="line"
+           id="tspan20"
+           style="stroke-width:0.529167;stroke-dasharray:none"
+           x="198.95874"
+           y="79.286827">1317</tspan></text></g><g class="room-group"
+       id="1300"
+       style="stroke-width:0.529167;stroke-dasharray:none"><path class="room" fill="#00704b"
+         style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-dasharray:none"
+         d="M 6.654563,49.958657 6.75,79.5 h 25 V 57.75 h 6 l -0.0543,-7.813838 z"
+         id="path4"
+         sodipodi:nodetypes="ccccccc" /><text class="label" fill="#ffffff"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-dasharray:none"
+         x="15.750827"
+         y="65.619095"
+         id="text12"><tspan
+           sodipodi:role="line"
+           id="tspan12"
+           style="fill-opacity:1;stroke-width:0.529167;stroke-dasharray:none"
+           x="15.750827"
+           y="65.619095">1300</tspan></text></g><g class="room-group"
+       id="1301"
+       style="stroke-width:0.529167;stroke-dasharray:none"><path class="room" fill="#00704b"
+         style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-dasharray:none"
+         d="m 31.75,73 h 6 V 57.75 h -6 z"
+         id="path3" /><text class="label" fill="#ffffff"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-dasharray:none"
+         x="61.431488"
+         y="-33.899738"
+         id="text13"
+         transform="rotate(90.240274)"><tspan
+           sodipodi:role="line"
+           id="tspan13"
+           style="stroke-width:0.529167;stroke-dasharray:none"
+           x="61.431488"
+           y="-33.899738">1301</tspan></text></g><g class="room-group"
+       id="1301A"
+       style="stroke-width:0.529167;stroke-dasharray:none"><path class="room" fill="#00704b"
+         style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-dasharray:none"
+         d="M 37.75,73 H 49 V 57.75 H 37.75 Z"
+         id="path2" /><text class="label" fill="#ffffff"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-dasharray:none"
+         x="60.493301"
+         y="-42.02467"
+         id="text14"
+         transform="rotate(89.540167)"><tspan
+           sodipodi:role="line"
+           id="tspan14"
+           style="stroke-width:0.529167;stroke-dasharray:none"
+           x="60.493301"
+           y="-42.02467">1301A</tspan></text></g><g class="room-group"
+       id="1303"
+       style="stroke-width:0.529167;stroke-dasharray:none"><path class="room" fill="#00704b"
+         style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-dasharray:none"
+         d="m 31.75,83.75 v 17.5 h 7.85 v -17.5 z"
+         id="path5" /><text class="label" fill="#ffffff"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-dasharray:none"
+         x="88.132835"
+         y="-35.299774"
+         id="text15"
+         transform="rotate(90.412045)"><tspan
+           sodipodi:role="line"
+           id="tspan15"
+           style="stroke-width:0.529167;stroke-dasharray:none"
+           x="88.132835"
+           y="-35.299774">1303</tspan></text></g><g class="room-group"
+       id="1302"
+       style="stroke-width:0.529167;stroke-dasharray:none"><path class="room" fill="#00704b"
+         style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-dasharray:none"
+         d="m 31.75,79.5 h -25 v 28.25 h 25 z"
+         id="path6" /><text class="label" fill="#ffffff"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-dasharray:none"
+         x="15.3092"
+         y="93.356293"
+         id="text16"><tspan
+           sodipodi:role="line"
+           id="tspan16"
+           style="stroke-width:0.529167;stroke-dasharray:none"
+           x="15.3092"
+           y="93.356293">1302</tspan></text></g><g class="room-group"
+       id="1322"
+       style="stroke-width:0.529167;stroke-dasharray:none"><path class="room" fill="#00704b"
+         style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-dasharray:none"
+         d="M 132.1,117.3 V 101.25 H 84.75 v 8.25 h -2.5 v 7.8 z"
+         id="path12" /><text class="label" fill="#ffffff"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-dasharray:none"
+         x="103.65568"
+         y="111.03395"
+         id="text17"><tspan
+           sodipodi:role="line"
+           id="tspan17"
+           style="stroke-width:0.529167;stroke-dasharray:none"
+           x="103.65568"
+           y="111.03395">1322</tspan></text></g><g class="room-group"
+       id="1313"
+       style="stroke-width:0.529167;stroke-dasharray:none"><path class="room" fill="#00704b"
+         style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-dasharray:none"
+         d="m 127,68.5 h 9 v 10.15 h -9 z"
+         id="path9" /><text class="label" fill="#ffffff"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-dasharray:none"
+         x="127.94997"
+         y="75.042389"
+         id="text18"><tspan
+           sodipodi:role="line"
+           id="tspan18"
+           style="stroke-width:0.529167;stroke-dasharray:none"
+           x="127.94997"
+           y="75.042389">1313</tspan></text></g><g class="room-group"
+       id="1314"
+       style="stroke-width:0.529167;stroke-dasharray:none"><path class="room" fill="#00704b"
+         style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-dasharray:none"
+         d="m 136,68.5 h 11.9 V 78.65 H 136 Z"
+         id="path10" /><text class="label" fill="#ffffff"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-dasharray:none"
+         x="138.57651"
+         y="74.746094"
+         id="text19"><tspan
+           sodipodi:role="line"
+           id="tspan19"
+           style="stroke-width:0.529167;stroke-dasharray:none"
+           x="138.57651"
+           y="74.746094">1314</tspan></text></g><path
+       style="opacity:1;fill:#00704b;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-dasharray:none"
+       d="m 118.31009,101.25892 v 6.5531 h 13.74519 l -0.0113,-6.52698 z"
+       id="path63"
+       sodipodi:nodetypes="ccccc" /></g><g pointer-events="none"
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Doors"
+     sodipodi:insensitive="true"><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352778;stroke-dasharray:none;stroke-opacity:1"
+       d="M 48,106.5 H 31.75"
+       id="path20" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.40535;stroke-dasharray:none;stroke-opacity:1"
+       d="m 46.75,80.5 v 26"
+       id="path21" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="M 185.6,113.75 H 132.1"
+       id="path22" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.355871;stroke-dasharray:none;stroke-opacity:1"
+       d="M 207.44431,106.5 H 132.1"
+       id="path23" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="M 205.5,117.3 H 185.6"
+       id="path24" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="m 185.6,113.75 v 3.55"
+       id="path25" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="m 84.75,101.25 h -2.5"
+       id="path26" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="m 82.25,109.5 v -8.25"
+       id="path27" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="M 82.25,106.5 H 48"
+       id="path28" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="M 48,113.75 V 106.5"
+       id="path29" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="M 82.25,113.75 H 30.2"
+       id="path30" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="m 30.2,122.1 v -8.35"
+       id="path31" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="m 20.3,122.1 h 9.9"
+       id="path32" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="m 20.3,128.1 v -6"
+       id="path33" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.395659;stroke-dasharray:none;stroke-opacity:1"
+       d="M 6.75,128.1 H 20.3"
+       id="path34" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.354145;stroke-dasharray:none;stroke-opacity:1"
+       d="M 46.547548,80.5 H 72.8"
+       id="path35" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="M 46.75,87.05 H 72.8"
+       id="path36" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.399898;stroke-dasharray:none;stroke-opacity:1"
+       d="M 72.8,88.417015 V 86.875032"
+       id="path37" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72.8,88.25 h 75.1"
+       id="path38" /><path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.352777;stroke-dasharray:none;stroke-opacity:1"
+       d="M 147.9,106.5 V 88.25"
+       id="path39" /><path
+       style="opacity:1;fill:#ffffff;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="m 31.71757,84.76011 -2.2e-5,3.914081"
+       id="path13" /><path
+       style="opacity:1;fill:#ffffff;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="m 82.218206,113.3284 v -1.82207"
+       id="path14" /><path
+       style="opacity:1;fill:#ffffff;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="M 31.717556,99.426666 V 95.647554"
+       id="path15" /><path
+       style="opacity:1;fill:#ffffff;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="m 31.762546,104.69043 v -2.15949"
+       id="path16" /><path
+       style="opacity:1;fill:#ffffff;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="M 30.547831,107.70472 H 27.938444"
+       id="path17" /><path
+       style="opacity:1;fill:#ffffff;stroke:#ffffff;stroke-width:0.79375;stroke-dasharray:none"
+       d="m 38.960856,106.535 h 2.47442"
+       id="path18" /><path
+       style="opacity:1;fill:#ffffff;stroke:#ffffff;stroke-width:0.79375;stroke-dasharray:none"
+       d="m 48.003735,112.9235 v -1.84457"
+       id="path19" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.264583;stroke-dasharray:none"
+       d="M 20.245249,122.05636 V 107.7947"
+       id="path43" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.265448;stroke-dasharray:none"
+       d="M 30.110379,113.6973 H 20.328085"
+       id="path44" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.264583;stroke-dasharray:none"
+       d="M 7.412275,114.14267 H 13.45662"
+       id="path45" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.264583;stroke-dasharray:none"
+       d="m 13.328123,114.14946 v 6.61018"
+       id="path46" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.264583;stroke-dasharray:none"
+       d="m 20.232648,109.11632 v 1.90875"
+       id="path47" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.79375;stroke-dasharray:none"
+       d="M 20.20026,113.19344 V 111.2139"
+       id="path48" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="m 132.06651,112.90101 v -3.77912"
+       id="path49" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.264583;stroke-dasharray:none"
+       d="m 185.64894,113.65458 v -7.00711"
+       id="path51" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.264583;stroke-dasharray:none"
+       d="m 194.23024,117.10122 v -5.48763"
+       id="path52" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.249963;stroke-dasharray:none"
+       d="m 194.23024,111.74084 h 9.34152"
+       id="path53" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.264583;stroke-dasharray:none"
+       d="m 169.90263,106.69246 v 7.04085"
+       id="path54" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.79375;stroke-dasharray:none"
+       d="m 169.90263,113.12595 v -1.75458"
+       id="path55" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.86129;stroke-dasharray:none"
+       d="m 185.62644,107.23233 v 1.64212"
+       id="path56" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.79375;stroke-dasharray:none"
+       d="m 177.86576,106.49001 h 1.7096"
+       id="path57" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="m 198.7635,73.00932 h 2.3223"
+       id="path58" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="m 145.44601,78.671916 h 1.65424"
+       id="path59" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="m 133.89814,78.640103 h 1.5588"
+       id="path60" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="m 124.29081,78.640103 h 1.55881"
+       id="path61" /><path
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="m 110.77057,78.640103 h 1.65424"
+       id="path62" /><path
+       style="opacity:1;fill:#00704b;fill-opacity:1;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="m 120.17111,107.81202 h 1.35203"
+       id="path64" /><path
+       style="opacity:1;fill:#00704b;fill-opacity:1;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="m 38.715616,72.977506 h 2.385928"
+       id="path65" /><path
+       style="opacity:1;fill:#00704b;fill-opacity:1;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="m 31.748714,78.544668 v -2.03599"
+       id="path66" /><path
+       style="opacity:1;fill:#00704b;fill-opacity:1;stroke:#ffffff;stroke-width:0.926042;stroke-dasharray:none"
+       d="M 31.716903,66.678664 V 62.670308"
+       id="path67" /></g><g pointer-events="none"
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Labels">
+<g xmlns="http://www.w3.org/2000/svg" id="cc-l3-stair-1" role="img" aria-label="Stair 1"><title>Stair 1</title><g transform="translate(58.2,81.5) scale(0.3071428571428571) translate(-85.417,-145)"><path d="M99.417,157.266c0,0.958-0.776,1.734-1.734,1.734H87.15c-0.958,0-1.734-0.776-1.734-1.734v-10.531      c0-0.958,0.776-1.735,1.734-1.735h10.532c0.958,0,1.734,0.777,1.734,1.735V157.266z" fill="#ffffff"/>
+<polyline points="87.417,155.5 90.854,155.5 90.822,152.5 93.853,152.547 93.833,149.5 97.417,149.5     " fill="none" stroke="#00704a" stroke-width="1"/></g></g>
+<g xmlns="http://www.w3.org/2000/svg" id="cc-l3-stair-2" role="img" aria-label="Stair 2"><title>Stair 2</title><g transform="translate(197.4,107) scale(0.3071428571428571) translate(-85.417,-145)"><path d="M99.417,157.266c0,0.958-0.776,1.734-1.734,1.734H87.15c-0.958,0-1.734-0.776-1.734-1.734v-10.531      c0-0.958,0.776-1.735,1.734-1.735h10.532c0.958,0,1.734,0.777,1.734,1.735V157.266z" fill="#ffffff"/>
+<polyline points="87.417,155.5 90.854,155.5 90.822,152.5 93.853,152.547 93.833,149.5 97.417,149.5     " fill="none" stroke="#00704a" stroke-width="1"/></g></g>
+<g xmlns="http://www.w3.org/2000/svg" id="cc-l3-stair-5" role="img" aria-label="Stair 5"><title>Stair 5</title><g transform="translate(8.5,117.8) scale(0.3071428571428571) translate(-85.417,-145)"><path d="M99.417,157.266c0,0.958-0.776,1.734-1.734,1.734H87.15c-0.958,0-1.734-0.776-1.734-1.734v-10.531      c0-0.958,0.776-1.735,1.734-1.735h10.532c0.958,0,1.734,0.777,1.734,1.735V157.266z" fill="#ffffff"/>
+<polyline points="87.417,155.5 90.854,155.5 90.822,152.5 93.853,152.547 93.833,149.5 97.417,149.5     " fill="none" stroke="#00704a" stroke-width="1"/></g></g>
+<g xmlns="http://www.w3.org/2000/svg" id="cc-l3-restroom-west-men" role="img" aria-label="Restroom"><title>Restroom</title><g transform="translate(111.35,71.9) scale(0.19999999999999998) translate(-109.333,-18.652)"><path d="M123.333,30.918c0,0.958-0.776,1.734-1.734,1.734h-10.532c-0.958,0-1.734-0.776-1.734-1.734V20.387      c0-0.958,0.776-1.735,1.734-1.735h10.532c0.958,0,1.734,0.777,1.734,1.735V30.918z" fill="#ffffff"/>
+<path d="M116.333,19.86c0.522,0,0.945,0.422,0.945,0.944c0,0.521-0.423,0.944-0.945,0.944      c-0.52,0-0.944-0.423-0.944-0.944C115.389,20.282,115.813,19.86,116.333,19.86" fill="#00704a"/>
+<path d="M115.332,22.011c-0.727,0-1.191,0.629-1.191,1.25v2.905c-0.007,0.568,0.811,0.568,0.813,0v-2.673h0.204      v7.382c-0.014,0.77,1.075,0.748,1.074,0v-4.303h0.175v4.303c0.014,0.748,1.108,0.77,1.104,0v-7.382h0.204v2.673      c-0.009,0.573,0.803,0.573,0.813,0v-2.905c-0.013-0.621-0.493-1.239-1.22-1.25H115.332z" fill="#00704a"/></g></g>
+<g xmlns="http://www.w3.org/2000/svg" id="cc-l3-restroom-west-women" role="img" aria-label="Restroom"><title>Restroom</title><g transform="translate(114.55,71.9) scale(0.19999999999999998) translate(-109.333,-82.4)"><path d="M109.333,84.15c0-0.967,0.783-1.75,1.75-1.75h10.5c0.967,0,1.75,0.783,1.75,1.75v10.5      c0,0.967-0.783,1.75-1.75,1.75h-10.5c-0.967,0-1.75-0.783-1.75-1.75V84.15z" fill="#ffffff"/>
+<path d="M116.333,83.45c0.535,0,0.968,0.434,0.968,0.969c0,0.534-0.434,0.968-0.968,0.968      c-0.534,0-0.968-0.434-0.968-0.968C115.365,83.884,115.799,83.45,116.333,83.45" fill="#00714a"/>
+<path d="M116.2,91.523v3.367c-0.005,0.612-0.916,0.612-0.923,0v-3.367h-1.192l1.282-4.498h-0.209l-0.745,2.563      c-0.189,0.566-0.955,0.337-0.775-0.27l0.834-2.77c0.096-0.318,0.497-0.88,1.192-0.895h0.625h0.715      c0.676,0.015,1.079,0.581,1.192,0.895l0.835,2.77c0.169,0.604-0.592,0.85-0.774,0.27l-0.746-2.563h-0.238l1.311,4.498h-1.221      v3.367c0.011,0.612-0.897,0.61-0.894,0v-3.367H116.2z" fill="#00714a"/></g></g>
+<g xmlns="http://www.w3.org/2000/svg" id="cc-l3-restroom-east-men" role="img" aria-label="Restroom"><title>Restroom</title><g transform="translate(119.875,71.9) scale(0.19999999999999998) translate(-109.333,-18.652)"><path d="M123.333,30.918c0,0.958-0.776,1.734-1.734,1.734h-10.532c-0.958,0-1.734-0.776-1.734-1.734V20.387      c0-0.958,0.776-1.735,1.734-1.735h10.532c0.958,0,1.734,0.777,1.734,1.735V30.918z" fill="#ffffff"/>
+<path d="M116.333,19.86c0.522,0,0.945,0.422,0.945,0.944c0,0.521-0.423,0.944-0.945,0.944      c-0.52,0-0.944-0.423-0.944-0.944C115.389,20.282,115.813,19.86,116.333,19.86" fill="#00704a"/>
+<path d="M115.332,22.011c-0.727,0-1.191,0.629-1.191,1.25v2.905c-0.007,0.568,0.811,0.568,0.813,0v-2.673h0.204      v7.382c-0.014,0.77,1.075,0.748,1.074,0v-4.303h0.175v4.303c0.014,0.748,1.108,0.77,1.104,0v-7.382h0.204v2.673      c-0.009,0.573,0.803,0.573,0.813,0v-2.905c-0.013-0.621-0.493-1.239-1.22-1.25H115.332z" fill="#00704a"/></g></g>
+<g xmlns="http://www.w3.org/2000/svg" id="cc-l3-restroom-east-women" role="img" aria-label="Restroom"><title>Restroom</title><g transform="translate(123.075,71.9) scale(0.19999999999999998) translate(-109.333,-82.4)"><path d="M109.333,84.15c0-0.967,0.783-1.75,1.75-1.75h10.5c0.967,0,1.75,0.783,1.75,1.75v10.5      c0,0.967-0.783,1.75-1.75,1.75h-10.5c-0.967,0-1.75-0.783-1.75-1.75V84.15z" fill="#ffffff"/>
+<path d="M116.333,83.45c0.535,0,0.968,0.434,0.968,0.969c0,0.534-0.434,0.968-0.968,0.968      c-0.534,0-0.968-0.434-0.968-0.968C115.365,83.884,115.799,83.45,116.333,83.45" fill="#00714a"/>
+<path d="M116.2,91.523v3.367c-0.005,0.612-0.916,0.612-0.923,0v-3.367h-1.192l1.282-4.498h-0.209l-0.745,2.563      c-0.189,0.566-0.955,0.337-0.775-0.27l0.834-2.77c0.096-0.318,0.497-0.88,1.192-0.895h0.625h0.715      c0.676,0.015,1.079,0.581,1.192,0.895l0.835,2.77c0.169,0.604-0.592,0.85-0.774,0.27l-0.746-2.563h-0.238l1.311,4.498h-1.221      v3.367c0.011,0.612-0.897,0.61-0.894,0v-3.367H116.2z" fill="#00714a"/></g></g>
+<g xmlns="http://www.w3.org/2000/svg" id="cc-l3-restroom-suite-men" role="img" aria-label="Restroom"><title>Restroom</title><g transform="translate(122.18,103.1) scale(0.19999999999999998) translate(-109.333,-18.652)"><path d="M123.333,30.918c0,0.958-0.776,1.734-1.734,1.734h-10.532c-0.958,0-1.734-0.776-1.734-1.734V20.387      c0-0.958,0.776-1.735,1.734-1.735h10.532c0.958,0,1.734,0.777,1.734,1.735V30.918z" fill="#ffffff"/>
+<path d="M116.333,19.86c0.522,0,0.945,0.422,0.945,0.944c0,0.521-0.423,0.944-0.945,0.944      c-0.52,0-0.944-0.423-0.944-0.944C115.389,20.282,115.813,19.86,116.333,19.86" fill="#00704a"/>
+<path d="M115.332,22.011c-0.727,0-1.191,0.629-1.191,1.25v2.905c-0.007,0.568,0.811,0.568,0.813,0v-2.673h0.204      v7.382c-0.014,0.77,1.075,0.748,1.074,0v-4.303h0.175v4.303c0.014,0.748,1.108,0.77,1.104,0v-7.382h0.204v2.673      c-0.009,0.573,0.803,0.573,0.813,0v-2.905c-0.013-0.621-0.493-1.239-1.22-1.25H115.332z" fill="#00704a"/></g></g>
+<g xmlns="http://www.w3.org/2000/svg" id="cc-l3-restroom-suite-women" role="img" aria-label="Restroom"><title>Restroom</title><g transform="translate(125.38000000000001,103.1) scale(0.19999999999999998) translate(-109.333,-82.4)"><path d="M109.333,84.15c0-0.967,0.783-1.75,1.75-1.75h10.5c0.967,0,1.75,0.783,1.75,1.75v10.5      c0,0.967-0.783,1.75-1.75,1.75h-10.5c-0.967,0-1.75-0.783-1.75-1.75V84.15z" fill="#ffffff"/>
+<path d="M116.333,83.45c0.535,0,0.968,0.434,0.968,0.969c0,0.534-0.434,0.968-0.968,0.968      c-0.534,0-0.968-0.434-0.968-0.968C115.365,83.884,115.799,83.45,116.333,83.45" fill="#00714a"/>
+<path d="M116.2,91.523v3.367c-0.005,0.612-0.916,0.612-0.923,0v-3.367h-1.192l1.282-4.498h-0.209l-0.745,2.563      c-0.189,0.566-0.955,0.337-0.775-0.27l0.834-2.77c0.096-0.318,0.497-0.88,1.192-0.895h0.625h0.715      c0.676,0.015,1.079,0.581,1.192,0.895l0.835,2.77c0.169,0.604-0.592,0.85-0.774,0.27l-0.746-2.563h-0.238l1.311,4.498h-1.221      v3.367c0.011,0.612-0.897,0.61-0.894,0v-3.367H116.2z" fill="#00714a"/></g></g>
+<g xmlns="http://www.w3.org/2000/svg" id="cc-l3-elevator" transform="translate(22.75,115.4) scale(0.20833333333333334)" role="img" aria-label="Elevator"><title>Elevator</title><svg x="0" y="0" width="24" height="24" viewBox="387 232.3 14 14" overflow="hidden"><path d="M401,244.6c0,1-0.8,1.7-1.7,1.7h-10.5c-1,0-1.7-0.8-1.7-1.7v-10.5c0-1,0.8-1.7,1.7-1.7h10.5      c1,0,1.7,0.8,1.7,1.7V244.6z" fill="#FFFFFF"/>
+				<line x1="391.5" y1="243.3" x2="391.5" y2="238.3" fill="none" stroke="#00704A" stroke-width="1" stroke-miterlimit="10"/>
+				<polygon points="393.2,238.3 391.5,235.3 389.7,238.3     " fill="#00704A"/>
+				<line x1="396.5" y1="235.3" x2="396.5" y2="240.3" fill="none" stroke="#00704A" stroke-width="1" stroke-miterlimit="10"/>
+				<polygon points="394.7,240.3 396.5,243.4 398.2,240.3     " fill="#00704A"/>
+			</svg></g>
+<g xmlns="http://www.w3.org/2000/svg" id="cc-l3-service-elevator" transform="translate(189.5,75.8) scale(0.20833333333333334)" role="img" aria-label="Service elevator"><title>Service elevator</title><svg x="0" y="0" width="24" height="24" viewBox="387 232.3 14 14" overflow="hidden"><path d="M401,244.6c0,1-0.8,1.7-1.7,1.7h-10.5c-1,0-1.7-0.8-1.7-1.7v-10.5c0-1,0.8-1.7,1.7-1.7h10.5      c1,0,1.7,0.8,1.7,1.7V244.6z" fill="#FFFFFF"/>
+				<line x1="391.5" y1="243.3" x2="391.5" y2="238.3" fill="none" stroke="#00704A" stroke-width="1" stroke-miterlimit="10"/>
+				<polygon points="393.2,238.3 391.5,235.3 389.7,238.3     " fill="#00704A"/>
+				<line x1="396.5" y1="235.3" x2="396.5" y2="240.3" fill="none" stroke="#00704A" stroke-width="1" stroke-miterlimit="10"/>
+				<polygon points="394.7,240.3 396.5,243.4 398.2,240.3     " fill="#00704A"/>
+			</svg></g>
+<text id="cc-l3-service-elevator-label" x="190.5" y="86.2" fill="#173d32" font-family="Arial, sans-serif" font-size="2.1" text-anchor="middle">Service elevator</text>
+</g><g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Safety" /><g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="FireRoute" /></svg>
