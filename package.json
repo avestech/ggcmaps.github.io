@@ -1,67 +1,41 @@
 {
   "name": "ggcmaps",
-  "version": "1.6.2",
+  "version": "0.1.0",
   "private": true,
-  "contributors": [
-    {
-      "name": "Aston Tsou",
-      "email": "astontsou@gmail.com"
-    },
-    {
-      "name": "Carlos Pacheco",
-      "email": "cpacheco4983@gmail.com"
-    },
-    {
-      "name": "David Rivera",
-      "email": "david@irl.solutions",
-      "url": "www.irl.solutions"
-    },
-    {
-      "name": "Josh Gerth",
-      "email": "jgerth@ggc.edu"
-    },
-    {
-      "name": "Maggie Muse"
-    },
-    {
-      "name": "Mike Deiters",
-      "email": "mike@deiters.me",
-      "url": "www.deiters.me"
-    },
-    {
-      "name": "Nareth Seang",
-      "email": "nseang2@gmail.com"
-    }
-  ],
-  "license": "GNU General Public License v3.0",
-  "config": {
-    "port": 3000,
-    "mount": "/mnt/dev/project",
-    "docker_image": "mdeiters/minimalistweb",
-    "image_version": "latest"
-  },
   "scripts": {
-    "start": "http-server -p 3000",
-    "dev": "grunt dev",
-    "server": "grunt server",
-    "docker": "node .scripts/docker.js",
-    "purge": "docker container prune"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "extract-rooms": "node scripts/extract-room-data.js",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watchAll",
+    "test:ci": "jest --runInBand",
+    "predev": "npm run extract-rooms"
   },
   "dependencies": {
-    "cryptiles": ">=4.1.2",
-    "grunt": "^1.5.3",
-    "grunt-contrib-jshint": "^3.2.0",
-    "grunt-contrib-uglify": "^2.0.0",
-    "grunt-contrib-uglify-es": "github:gruntjs/grunt-contrib-uglify#harmony",
-    "grunt-contrib-watch": "^1.1.0",
-    "grunt-http-server": "^1.4.0",
-    "hoek": ">=4.2.1",
-    "install-peerdeps": "^3.0.3",
-    "lodash": ">=4.17.21",
-    "phantomjs": "^1.9.20",
-    "susy": "^3.0.5"
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "next": "^14.2.32",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "grunt-contrib-compass": "^0.8.0"
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "babel-jest": "^30.2.0",
+    "cheerio": "^1.1.2",
+    "eslint": "8.57.1",
+    "eslint-config-next": "15.5.4",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
+    "jsdom": "^27.0.0",
+    "sharp": "^0.34.4"
   }
 }

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "CC",
+    "name": "Convocation Center",
+    "floors": [
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/CC/L1.svg" },
+      { "id": "L2", "label": "Level 2", "file": "/BuildingMaps/CC/L2.svg" },
+      { "id": "L3", "label": "Level 3", "file": "/BuildingMaps/CC/L3.svg" }
+    ]
+  },
+  {
+    "id": "A",
+    "name": "Building A",
+    "floors": [
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/A/L1.svg" }
+    ]
+  },
+  {
+    "id": "B",
+    "name": "Building B",
+    "floors": [
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/B/L1.svg" },
+      { "id": "L2", "label": "Level 2", "file": "/BuildingMaps/B/L2.svg" },
+      { "id": "L3", "label": "Level 3", "file": "/BuildingMaps/B/L3.svg" }
+    ]
+  },
+    {
+    "id": "C",
+    "name": "Building C",
+    "floors": [
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/C/L1.svg" },
+      { "id": "L2", "label": "Level 2", "file": "/BuildingMaps/C/L2.svg" }
+    ]
+  },
+  {
+    "id": "D",
+    "name": "Building D / Admissions",
+    "floors": [
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/D/L1.svg" },
+      { "id": "L2", "label": "Level 2", "file": "/BuildingMaps/D/L2.svg" }
+    ]
+  },
+  {
+    "id": "E",
+    "name": "Building E / Student Center",
+    "floors": [
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/E/L1.svg" },
+      { "id": "L2", "label": "Level 2", "file": "/BuildingMaps/E/L2.svg" },
+      { "id": "L3", "label": "Level 3", "file": "/BuildingMaps/E/L3.svg" }
+    ]
+  },
+  {
+    "id": "F",
+    "name": "Building F / Wellness & Rec Center",
+    "floors": [
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/F/L1.svg" },
+      { "id": "L2", "label": "Level 2", "file": "/BuildingMaps/F/L2.svg" }
+    ]
+  },
+  {
+    "id": "H",
+    "name": "Building H / Allied Health & Science",
+    "floors": [
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/H/L1.svg" },
+      { "id": "L2", "label": "Level 2", "file": "/BuildingMaps/H/L2.svg" },
+      { "id": "L3", "label": "Level 3", "file": "/BuildingMaps/H/L3.svg" }
+    ]
+  },
+  {
+    "id": "I",
+    "name": "Building I",
+    "floors": [
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/I/L1.svg" },
+      { "id": "L2", "label": "Level 2", "file": "/BuildingMaps/I/L2.svg" },
+      { "id": "L3", "label": "Level 3", "file": "/BuildingMaps/I/L3.svg" }
+    ]
+  },
+  {
+    "id": "L",
+    "name": "Building L / Library",
+    "floors": [
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/L/L1.svg" },
+      { "id": "L2", "label": "Level 2", "file": "/BuildingMaps/L/L2.svg" },
+      { "id": "L3", "label": "Level 3", "file": "/BuildingMaps/L/L3.svg" }
+    ]
+  },
+  {
+    "id": "W",
+    "name": "Building W",
+    "floors": [
+      { "id": "GL", "label": "Ground Level", "file": "/BuildingMaps/W/GL.svg" },
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/W/L1.svg" },
+      { "id": "L2", "label": "Level 2", "file": "/BuildingMaps/W/L2.svg" }
+    ]
+  },
+  {
+    "id": "1000",
+    "name": "Building 1000",
+    "floors": [
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/1000/L1.svg" }
+    ]
+  },
+  {
+    "id": "2000",
+    "name": "Building 2000",
+    "floors": [
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/2000/L1.svg" }
+    ]
+  },
+    {
+    "id": "3000",
+    "name": "Building 3000",
+    "floors": [
+      { "id": "L1", "label": "Level 1", "file": "/BuildingMaps/3000/L1.svg" },
+      { "id": "L2", "label": "Level 2", "file": "/BuildingMaps/3000/L2.svg" },
+      { "id": "L3", "label": "Level 3", "file": "/BuildingMaps/3000/L3.svg" },
+      { "id": "L4", "label": "Level 4", "file": "/BuildingMaps/3000/L4.svg" }
+    ]
+  }
+]

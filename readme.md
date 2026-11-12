@@ -1,46 +1,41 @@
-# GGCMaps - GM23 (02/07/2023)
+# GGCMaps
 
-#### Technology stack:
-* JavaScript
-* HTML
-* CSS
-* Docker
-* API
-* Vector drawing with Adobe Illustrator
+GGCMaps is a campus map for Georgia Gwinnett College. The application uses React and Next.js to render campus and indoor floor maps from SVG assets, support room search, and provide map navigation.
 
-#### Installation insructions:
-* Install Visual Studio Code
-* Enable HTML, JavaScript, CSS, inside Visual Studio Code 
-* Download Docker desktop
-* Setup Docker develop environment
+## Development
 
-#### Our Sponsors
-<a href="http://www.BrowserStack.com/"><img src="https://github.com/ggcmaps/ggcmaps.github.io/blob/master/images/tinylogoBrowserStack.png" atl="BrowserStack"></a>
+Requires Node.js and npm.
 
-##### [Read More](https://github.com/ggcmaps/ggcmaps.github.io#about-our-sponsors)
+```sh
+npm ci
+npm run dev
+```
 
-#### Table of Contents
-* [News](https://github.com/ggcmaps/ggcmaps.github.io#news)
-* [Description](https://github.com/ggcmaps/ggcmaps.github.io#description)
-* [Documentation](https://github.com/ggcmaps/ggcmaps.github.io#documentation)
-* [Our Sponsors](https://github.com/ggcmaps/ggcmaps.github.io#about-our-sponsors)
-* [Website](https://ggcmaps.github.io/) (External Link)
+The development server runs at `http://localhost:3000`. Run `npm run extract-rooms` after changing map SVGs; `npm run dev` runs extraction automatically.
 
-### News:
-* **3/6/2017** - [BrowserStack](http://browserstack.com/) approves sponsorship. Let an awesome testing phase begin (along with unit testing).
-* **3/2/2017** - A few members (past and current) met with GGC's magazine, [*Engage*](http://www.ggc.edu/about-ggc/news/publications/), to be featured in an upcoming edition.
+## Validation
 
-###### [Past News](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/news.md)
+```sh
+npm run lint
+npm test
+npm run build
+```
 
-### Description
-GGCMaps aims to better, as well as ease, the experience of students at GGC when trying to find various locations across campus. It allows users to search rooms and have them be highlighted on an interactive map for easier meetups, less time wasted finding that one classroom for the first time, and easier navigation across campus for guests.
+The production build is a static export in `out/`. GitHub Pages deployment settings are maintained in `.github/workflows/deploy.yml`. AvesTech uses the domain root and the repository's `CNAME`; do not add a project subpath to asset URLs.
 
-This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcmaps.github.io#fall-16---created-by), in Fall of 2016. It has since been picked up for continuation by [David Rivera et al](https://github.com/ggcmaps/ggcmaps.github.io#spring-17), to further develop its features, and fix bugs as our Software Development II project.
+## Maps and data
 
-### Documentation
-* Live Project: [Website](http://ggcmaps.com/) (External Link)
-* [License](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/License.md)
-* [Contributor Guide](https://github.com/ggcmaps/ggcmaps.github.io/blob/master/Contributing.md)
+- `public/BuildingMaps/` contains the campus and indoor SVG maps.
+- `data/buildings.json` defines route and floor metadata.
+- `scripts/extract-room-data.js` reads room IDs from map SVGs into `data/rooms.json`.
+- `components/legend.jsx` contains the rendered legend content.
 
-### About our Sponsors
-* [BrowserStack](http://browserstack.com/) partnered with us to allow us to use their services with the browser testing as well as their automated testing. You should probably check them out :D
+The Convocation Center SVGs are contributed in a separate map PR. Merge that PR before extracting CC room IDs or adding/running CC map tests; those assets are deliberately excluded from this refactor branch.
+
+## Feature parity
+
+Before replacing the legacy site, review whether parking and safety layers, fire escape routes, campus events, help/support pages, service-worker behavior, and analytics need to be retained or migrated. The React application should not be considered a complete legacy replacement until those choices are confirmed.
+
+## Licensing
+
+See `License.md`. Confirm the applicable license and map/code attribution with the project maintainers before publication.

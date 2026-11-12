@@ -1,0 +1,2440 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-536.091 -215.905 1276.038 850.187" style="enable-background:new -536.091 -215.905 1276.038 850.187;" xml:space="preserve" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" role="img" aria-label="Building W Ground Floor Map"><title>Ground-Floor.html #1</title><style>
+* { vector-effect: non-scaling-stroke; }
+
+
+.st0{clip-path:url(#SVGID_28_);fill:#FFFFFF;}
+.st1{clip-path:url(#SVGID_106_);fill:#FF0000;}
+.st2{clip-path:url(#SVGID_48_);fill:#00714A;}
+.st3{clip-path:url(#SVGID_106_);fill:#FFFFFF;}
+.st4{clip-path:url(#SVGID_170_);fill:#FF0000;}
+.st5{clip-path:url(#SVGID_170_);fill:#FFFFFF;}
+.st6{clip-path:url(#SVGID_118_);fill:#FF0000;}
+.st7{clip-path:url(#SVGID_118_);fill:#FFFFFF;}
+.st8{clip-path:url(#SVGID_80_);fill:none;stroke:#00704A;stroke-miterlimit:10;}
+.st9{clip-path:url(#SVGID_28_);fill:#00704A;}
+.st10{clip-path:url(#SVGID_182_);fill:#FF0000;}
+.st11{clip-path:url(#SVGID_182_);fill:#FFFFFF;}
+.st12{clip-path:url(#SVGID_94_);fill:#FF0000;}
+.st13{clip-path:url(#SVGID_94_);fill:#FFFFFF;}
+.st14{fill:none;stroke:#F5E100;stroke-width:2;stroke-linecap:square;stroke-miterlimit:10;}
+.st15{clip-path:url(#SVGID_150_);fill:#FF0000;}
+.st16{clip-path:url(#SVGID_150_);fill:#FFFFFF;}
+.st17{clip-path:url(#SVGID_194_);fill:#FF0000;}
+.st18{clip-path:url(#SVGID_194_);fill:#FFFFFF;}
+.st19{clip-path:url(#SVGID_40_);fill:#FFFFFF;}
+.st20{clip-path:url(#SVGID_62_);fill:#FFFFFF;}
+.st21{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+.st22{clip-path:url(#SVGID_162_);fill:#FF0000;}
+.st23{clip-path:url(#SVGID_162_);fill:#FFFFFF;}
+.label{font-family:'OpenSans-Light';}
+.st25{clip-path:url(#SVGID_74_);fill:#FFFFFF;}
+.st26{clip-path:url(#SVGID_130_);fill:#FF0000;}
+.st27{clip-path:url(#SVGID_130_);fill:#FFFFFF;}
+.st28{clip-path:url(#SVGID_40_);fill:none;stroke:#00704A;stroke-miterlimit:10;}
+.st29{clip-path:url(#SVGID_174_);fill:#FF0000;}
+.st30{clip-path:url(#SVGID_174_);fill:#FFFFFF;}
+.st31{clip-path:url(#SVGID_20_);fill:#FFFFFF;}
+.st32{clip-path:url(#SVGID_86_);fill:#FFFFFF;}
+.st33{font-size:9;}
+.st34{clip-path:url(#SVGID_2_);}
+.st35{clip-path:url(#SVGID_8_);}
+.st36{clip-path:url(#SVGID_9_);}
+.st37{clip-path:url(#SVGID_40_);fill:#00704A;}
+.st38{clip-path:url(#SVGID_142_);fill:#FF0000;}
+.st39{clip-path:url(#SVGID_142_);fill:#FFFFFF;}
+.st40{clip-path:url(#SVGID_186_);fill:#FF0000;}
+.st41{clip-path:url(#SVGID_186_);fill:#FFFFFF;}
+.st42{clip-path:url(#SVGID_98_);fill:#FF0000;}
+.st43{clip-path:url(#SVGID_98_);fill:#FFFFFF;}
+.st44{clip-path:url(#SVGID_110_);fill:#FF0000;}
+.st45{clip-path:url(#SVGID_110_);fill:#FFFFFF;}
+.st46{clip-path:url(#SVGID_154_);fill:#FF0000;}
+.st47{clip-path:url(#SVGID_86_);fill:none;stroke:#00704A;stroke-miterlimit:10;}
+.st48{clip-path:url(#SVGID_154_);fill:#FFFFFF;}
+.st49{clip-path:url(#SVGID_198_);fill:#FF0000;}
+.st50{clip-path:url(#SVGID_74_);fill:none;stroke:#00704A;stroke-miterlimit:10;}
+.st51{clip-path:url(#SVGID_198_);fill:#FFFFFF;}
+.st52{fill:#FFFFFF;}
+.st53{clip-path:url(#SVGID_62_);fill:none;stroke:#00704A;stroke-miterlimit:10;}
+.st54{clip-path:url(#SVGID_20_);fill:#00714A;}
+.st55{clip-path:url(#SVGID_122_);fill:#FF0000;}
+.st56{clip-path:url(#SVGID_122_);fill:#FFFFFF;}
+.st57{fill:#A5ACB0;stroke:#FFFFFF;stroke-miterlimit:10;}
+.st58{clip-path:url(#SVGID_166_);fill:#FF0000;}
+.st59{clip-path:url(#SVGID_166_);fill:#FFFFFF;}
+.st60{clip-path:url(#SVGID_12_);fill:#FFFFFF;}
+.st61{fill:#00704A;stroke:#FFFFFF;stroke-miterlimit:10;}
+.st62{clip-path:url(#SVGID_12_);fill:none;stroke:#00704A;stroke-miterlimit:10;}
+.st63{clip-path:url(#SVGID_56_);fill:#FFFFFF;}
+.st64{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:square;stroke-miterlimit:10;}
+.st65{clip-path:url(#SVGID_134_);fill:#FF0000;}
+.st66{clip-path:url(#SVGID_134_);fill:#FFFFFF;}
+.st67{clip-path:url(#SVGID_178_);fill:#FF0000;}
+.st68{clip-path:url(#SVGID_178_);fill:#FFFFFF;}
+.st69{clip-path:url(#SVGID_68_);fill:#FFFFFF;}
+.st70{clip-path:url(#SVGID_100_);}
+.st71{clip-path:url(#SVGID_104_);}
+.st72{clip-path:url(#SVGID_108_);}
+.st73{clip-path:url(#SVGID_112_);}
+.st74{clip-path:url(#SVGID_116_);}
+.st75{clip-path:url(#SVGID_120_);}
+.st76{clip-path:url(#SVGID_124_);}
+.st77{clip-path:url(#SVGID_128_);}
+.st78{clip-path:url(#SVGID_132_);}
+.st79{clip-path:url(#SVGID_136_);}
+.st80{clip-path:url(#SVGID_140_);}
+.st81{clip-path:url(#SVGID_144_);}
+.st82{clip-path:url(#SVGID_148_);}
+.st83{clip-path:url(#SVGID_152_);}
+.st84{clip-path:url(#SVGID_156_);}
+.st85{clip-path:url(#SVGID_160_);}
+.st86{clip-path:url(#SVGID_164_);}
+.st87{clip-path:url(#SVGID_168_);}
+.st88{clip-path:url(#SVGID_172_);}
+.st89{clip-path:url(#SVGID_176_);}
+.st90{clip-path:url(#SVGID_180_);}
+.st91{clip-path:url(#SVGID_184_);}
+.st92{clip-path:url(#SVGID_188_);}
+.st93{clip-path:url(#SVGID_192_);}
+.st94{clip-path:url(#SVGID_196_);}
+.st95{clip-path:url(#SVGID_102_);fill:#FF0000;}
+.st96{clip-path:url(#SVGID_102_);fill:#FFFFFF;}
+.st97{clip-path:url(#SVGID_146_);fill:#FF0000;}
+.st98{clip-path:url(#SVGID_146_);fill:#FFFFFF;}
+.st99{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
+.st100{font-size:10;}
+.st101{font-size:11;}
+.st102{font-size:12;}
+.st103{clip-path:url(#SVGID_12_);fill:#00704A;}
+.st104{clip-path:url(#SVGID_114_);fill:#FF0000;}
+.st105{clip-path:url(#SVGID_56_);fill:#00704A;}
+.st106{clip-path:url(#SVGID_114_);fill:#FFFFFF;}
+.st107{clip-path:url(#SVGID_158_);fill:#FF0000;}
+.st108{clip-path:url(#SVGID_158_);fill:#FFFFFF;}
+.st109{clip-path:url(#SVGID_48_);fill:#FFFFFF;}
+.st110{clip-path:url(#SVGID_10_);}
+.st111{clip-path:url(#SVGID_11_);}
+.st112{clip-path:url(#SVGID_14_);}
+.st113{clip-path:url(#SVGID_18_);}
+.st114{clip-path:url(#SVGID_19_);}
+.st115{clip-path:url(#SVGID_22_);}
+.st116{clip-path:url(#SVGID_26_);}
+.st117{clip-path:url(#SVGID_27_);}
+.st118{clip-path:url(#SVGID_30_);}
+.st119{clip-path:url(#SVGID_36_);}
+.st120{clip-path:url(#SVGID_37_);}
+.st121{clip-path:url(#SVGID_38_);}
+.st122{clip-path:url(#SVGID_39_);}
+.st123{clip-path:url(#SVGID_42_);}
+.st124{clip-path:url(#SVGID_46_);}
+.st125{clip-path:url(#SVGID_47_);}
+.st126{clip-path:url(#SVGID_50_);}
+.st127{clip-path:url(#SVGID_54_);}
+.st128{clip-path:url(#SVGID_55_);}
+.st129{clip-path:url(#SVGID_58_);}
+.st130{clip-path:url(#SVGID_61_);}
+.st131{clip-path:url(#SVGID_64_);}
+.st132{clip-path:url(#SVGID_67_);}
+.st133{clip-path:url(#SVGID_70_);}
+.st134{clip-path:url(#SVGID_73_);}
+.st135{clip-path:url(#SVGID_76_);}
+.st136{clip-path:url(#SVGID_79_);}
+.st137{clip-path:url(#SVGID_82_);}
+.st138{clip-path:url(#SVGID_85_);}
+.st139{clip-path:url(#SVGID_88_);}
+.st140{clip-path:url(#SVGID_92_);}
+.st141{clip-path:url(#SVGID_96_);}
+.st142{clip-path:url(#SVGID_126_);fill:#FF0000;}
+.st143{clip-path:url(#SVGID_126_);fill:#FFFFFF;}
+.st144{clip-path:url(#SVGID_90_);fill:#FF0000;}
+.st145{clip-path:url(#SVGID_90_);fill:#FFFFFF;}
+.st146{clip-path:url(#SVGID_190_);fill:#FF0000;}
+.st147{clip-path:url(#SVGID_68_);fill:none;stroke:#00704A;stroke-miterlimit:10;}
+.st148{clip-path:url(#SVGID_190_);fill:#FFFFFF;}
+.st149{clip-path:url(#SVGID_138_);fill:#FF0000;}
+.st150{clip-path:url(#SVGID_138_);fill:#FFFFFF;}
+.st151{clip-path:url(#SVGID_80_);fill:#FFFFFF;}
+
+.outline { fill: #a5acb0; stroke: #fff; stroke-miterlimit: 10; }
+    .dark-fill { fill: #636466; stroke: #fff; stroke-miterlimit: 10; }
+    .fill { fill: #fff; stroke: #fff; stroke-miterlimit: 10; }
+    .room { fill: #00704a; stroke: #fff; stroke-miterlimit: 10; }
+    .room-group:hover > .room { fill: #85c446; }
+    .door { fill: none; stroke: #fff; stroke-width: 2; stroke-linecap: square; }
+    .label { fill: #fff; font-family: "ArialMT", Arial, sans-serif; font-size: 10px; text-anchor: middle; dominant-baseline: middle; }
+
+
+</style>
+
+	<g id="outline_1_">
+	<polygon class="outline" points="-94.375,52.588 -94.375,-61.535 -135.546,-61.535 -135.546,-121.444 -278.922,-121.444
+		-278.922,-98.657 -392.363,-98.657 -392.363,474.524 -278.922,474.524 -278.922,542.659 -230.709,542.659 -230.709,587.636
+		-135.546,587.636 -135.546,542.659 -94.375,542.659 -94.375,316.297 0,316.245 0,334.713 18.75,334.713 18.75,384.463
+		125.25,384.463 125.25,373.963 515.5,373.963 515.5,384.463 622.75,384.463 622.75,334.713 635.5,334.713 635.5,238.463
+		709.75,238.463 709.75,8.963 0,8.963 0,52.585 	"/>
+		<polyline class="outline" points="521.337,332.723 521.337,328.963 557.25,328.963 	"/>
+		<polyline class="outline" points="86,328.963 119,328.963 119,332.723 	"/>
+		<line class="fill" x1="74.875" y1="151.838" x2="74.875" y2="141.713"/>
+		<line class="fill" x1="74.875" y1="198.379" x2="74.875" y2="189.213"/>
+		<line class="fill" x1="596.25" y1="269.463" x2="596.25" y2="238.463"/>
+		<line class="fill" x1="-278.922" y1="489.963" x2="-230.709" y2="489.963"/>
+		<line class="fill" x1="43.25" y1="59.047" x2="43.25" y2="83.88"/>
+		<line class="fill" x1="43.25" y1="284.213" x2="43.25" y2="311.213"/>
+		<g>
+		<line class="room" x1="-292.499" y1="33.039" x2="-316.735" y2="33.039"/>
+			<polyline class="room" points="-278.922,-28.966 -278.922,-4.08 -278.922,19.824 		"/>
+			<line class="room" x1="-316.735" y1="-41.198" x2="-292.499" y2="-41.198"/>
+	</g>
+</g>
+	<g id="rooms_2_">
+	<g id="1104" class="room-group" onclick="activateRoom('1104')">
+		<polygon class="room" points="709.75,128.882 596.25,128.882 596.25,17.463 602.25,17.463 602.25,8.963 700.875,8.963
+			700.875,17.463 709.75,17.463 709.75,95.006 700.875,95.006 700.875,105.923 709.75,105.923 		"/>
+		<text transform="matrix(1 0 0 1 639.3008 72.4497)" class="label st102">1104</text>
+	</g>
+		<g id="1103" class="room-group" onclick="activateRoom('1103')">
+		<rect x="596.25" y="128.882" class="room" width="113.5" height="109.582"/>
+			<text transform="matrix(1 0 0 1 639.3008 187.1997)" class="label st102">1103</text>
+	</g>
+		<g id="1106" class="room-group" onclick="activateRoom('1106')">
+		<polygon class="room" points="588.792,17.463 588.791,8.963 559,8.963 559,87.048 596.25,87.048 596.25,17.463 		"/>
+			<text transform="matrix(1 0 0 1 563.9258 51.5327)" class="label st102">1106</text>
+	</g>
+		<g id="1102" class="room-group" onclick="activateRoom('1102')">
+		<polygon class="room" points="557.25,163.026 557.25,196.714 596.25,196.714 596.25,156.382 563.811,156.382 		"/>
+			<text transform="matrix(1 0 0 1 563.0508 180.0747)" class="label st102">1102</text>
+	</g>
+		<g id="1101" class="room-group" onclick="activateRoom('1101')">
+		<polygon class="room" points="564.252,238.463 596.25,238.463 596.25,196.714 557.25,196.714 557.25,230.963 		"/>
+			<text transform="matrix(1 0 0 1 563.0508 221.1157)" class="label st102">1101</text>
+	</g>
+		<g id="1152" class="room-group" onclick="activateRoom('1152')">
+		<polygon class="room" points="557.25,298.545 557.25,334.713 596.25,334.713 596.25,292.713 562.917,292.713 		"/>
+			<text transform="matrix(1 0 0 1 563.0508 317.2407)" class="label st102">1152</text>
+	</g>
+		<g id="1151" class="room-group" onclick="activateRoom('1151')">
+		<rect x="482.839" y="332.723" class="room" width="38.498" height="41.24"/>
+			<text transform="matrix(1 0 0 1 488.3887 356.8706)" class="label st102">1151</text>
+	</g>
+		<g id="1150" class="room-group" onclick="activateRoom('1150')">
+		<rect x="444.339" y="332.723" class="room" width="38.5" height="41.24"/>
+			<text transform="matrix(1 0 0 1 449.8896 356.8706)" class="label st102">1150</text>
+	</g>
+		<g id="1149" class="room-group" onclick="activateRoom('1149')">
+		<rect x="404.505" y="332.723" class="room" width="39.834" height="41.24"/>
+			<text transform="matrix(1 0 0 1 410.7227 356.8706)" class="label st102">1149</text>
+	</g>
+		<g id="1147" class="room-group" onclick="activateRoom('1147')">
+		<rect x="365.838" y="332.723" class="room" width="38.667" height="41.24"/>
+			<text transform="matrix(1 0 0 1 371.4717 356.8706)" class="label st102">1147</text>
+	</g>
+		<g id="1145" class="room-group" onclick="activateRoom('1145')">
+		<rect x="325" y="332.723" class="room" width="40.837" height="41.24"/>
+			<text transform="matrix(1 0 0 1 331.7192 356.8706)" class="label st102">1145</text>
+	</g>
+		<g id="1144" class="room-group" onclick="activateRoom('1144')">
+		<rect x="286.667" y="332.723" class="room" width="38.333" height="41.24"/>
+			<text transform="matrix(1 0 0 1 292.1343 356.8706)" class="label st102">1144</text>
+	</g>
+		<g id="1143" class="room-group" onclick="activateRoom('1143')">
+		<rect x="237.669" y="332.723" class="room" width="48.998" height="41.24"/>
+			<text transform="matrix(1 0 0 1 248.4688 356.8706)" class="label st102">1143</text>
+	</g>
+		<g id="1141" class="room-group" onclick="activateRoom('1141')">
+		<rect x="192.835" y="332.723" class="room" width="44.834" height="41.24"/>
+			<text transform="matrix(1 0 0 1 201.5527 356.8706)" class="label st102">1141</text>
+	</g>
+		<g id="1142" class="room-group" onclick="activateRoom('1142')">
+		<rect x="119" y="332.723" class="room" width="73.835" height="41.24"/>
+			<text transform="matrix(1 0 0 1 142.2183 356.8706)" class="label st102">1142</text>
+	</g>
+		<g id="1153" class="room-group" onclick="activateRoom('1153')">
+		<rect x="596.25" y="269.463" class="room" width="39.25" height="65.25"/>
+			<g>
+			<text transform="matrix(1 0 0 1 602.1758 305.6157)" class="label st102">1153</text>
+		</g>
+	</g>
+		<g id="1107" class="room-group" onclick="activateRoom('1107')">
+		<polygon class="room" points="559,51.213 559,8.963 524.167,8.963 524.167,17.463 520.001,17.463 520.001,51.213 		"/>
+			<text transform="matrix(1 0 0 1 525.8008 33.6157)" class="label st102">1107</text>
+	</g>
+		<g id="1108" class="room-group" onclick="activateRoom('1108')">
+		<polygon class="room" points="520.001,51.213 520.001,17.463 515.5,17.463 515.5,8.963 481.001,8.963 481.001,51.213 		"/>
+			<text transform="matrix(1 0 0 1 486.8018 33.6157)" class="label st102">1108</text>
+	</g>
+		<g id="1112" class="room-group" onclick="activateRoom('1112')">
+		<rect x="442.501" y="8.963" class="room" width="38.5" height="42.25"/>
+			<text transform="matrix(1 0 0 1 448.0518 33.6157)" class="label st102">1112</text>
+	</g>
+		<g id="1114" class="room-group" onclick="activateRoom('1114')">
+		<polygon class="room" points="408.334,8.963 408.334,17.463 403.001,17.463 403.001,51.213 442.501,51.213 442.501,8.963 		"/>
+			<text transform="matrix(1 0 0 1 409.0518 33.6157)" class="label st102">1114</text>
+	</g>
+		<g id="1116" class="room-group" onclick="activateRoom('1116')">
+		<polygon class="room" points="398.001,8.963 398.001,17.463 403.001,17.463 403.001,51.213 364.501,51.213 364.501,8.963 		"/>
+			<text transform="matrix(1 0 0 1 369.1377 33.6157)" class="label st102">1116</text>
+	</g>
+		<g id="1118" class="room-group" onclick="activateRoom('1118')">
+		<rect x="325" y="8.963" class="room" width="39.5" height="42.25"/>
+			<text transform="matrix(1 0 0 1 331.0508 33.6157)" class="label st102">1118</text>
+	</g>
+		<g id="1120" class="room-group" onclick="activateRoom('1120')">
+		<rect x="286.667" y="8.963" class="room" width="38.333" height="42.25"/>
+			<text transform="matrix(1 0 0 1 292.1343 33.6157)" class="label st102">1120</text>
+	</g>
+		<g id="1122" class="room-group" onclick="activateRoom('1122')">
+		<rect x="247" y="8.963" class="room" width="39.667" height="42.25"/>
+			<text transform="matrix(1 0 0 1 253.1343 33.6157)" class="label st102">1122</text>
+	</g>
+		<g id="1124" class="room-group" onclick="activateRoom('1124')">
+		<rect x="208.167" y="8.963" class="room" width="38.833" height="42.25"/>
+			<text transform="matrix(1 0 0 1 213.8843 33.6157)" class="label st102">1124</text>
+	</g>
+		<g id="1126" class="room-group" onclick="activateRoom('1126')">
+		<rect x="169.167" y="8.963" class="room" width="39" height="42.25"/>
+			<text transform="matrix(1 0 0 1 174.9678 33.6157)" class="label st102">1126</text>
+	</g>
+		<g id="1113" class="room-group" onclick="activateRoom('1113')">
+		<rect x="403.001" y="76.838" class="room" width="39.5" height="40.25"/>
+			<text transform="matrix(1 0 0 1 409.0518 100.4907)" class="label st102">1113</text>
+	</g>
+		<g id="1115" class="room-group" onclick="activateRoom('1115')">
+		<rect x="364.501" y="76.838" class="room" width="38.5" height="40.25"/>
+			<text transform="matrix(1 0 0 1 370.0518 100.4907)" class="label st102">1115</text>
+	</g>
+		<g id="1117" class="room-group" onclick="activateRoom('1117')">
+		<rect x="325" y="76.838" class="room" width="39.5" height="40.25"/>
+			<text transform="matrix(1 0 0 1 331.0508 100.4907)" class="label st102">1117</text>
+	</g>
+		<g id="1119" class="room-group" onclick="activateRoom('1119')">
+		<rect x="286.667" y="76.838" class="room" width="38.333" height="40.25"/>
+			<text transform="matrix(1 0 0 1 292.1343 100.4907)" class="label st102">1119</text>
+	</g>
+		<g id="1121" class="room-group" onclick="activateRoom('1121')">
+		<rect x="247" y="76.838" class="room" width="39.667" height="40.25"/>
+			<text transform="matrix(1 0 0 1 253.1343 100.4907)" class="label st102">1121</text>
+	</g>
+		<g id="1123" class="room-group" onclick="activateRoom('1123')">
+		<rect x="208.167" y="76.838" class="room" width="38.833" height="40.25"/>
+			<text transform="matrix(1 0 0 1 213.8843 100.4907)" class="label st102">1123</text>
+	</g>
+		<g id="1125" class="room-group" onclick="activateRoom('1125')">
+		<polygon class="room" points="208.167,117.088 172.125,117.088 172.125,99.214 169.667,99.214 169.667,76.838 208.167,76.838
+			"/>
+			<text transform="matrix(1 0 0 1 175.2178 100.4907)" class="label st102">1125</text>
+	</g>
+		<g id="1127" class="room-group" onclick="activateRoom('1127')">
+		<polygon class="room" points="169.667,76.838 169.667,99.214 167.5,99.214 167.5,120.88 119.917,120.88 119.917,76.838 		"/>
+			<text transform="matrix(1 0 0 1 131.0928 102.3862)" class="label st102">1127</text>
+	</g>
+		<g id="1130" class="room-group" onclick="activateRoom('1130')">
+		<polygon class="room" points="74.875,120.88 74.875,83.715 81.417,76.838 94.333,76.838 94.333,85.213 119.917,85.213
+			119.917,120.88 		"/>
+			<text transform="matrix(1 0 0 1 83.6968 106.3862)" class="label st102">1130</text>
+	</g>
+		<g id="1177" class="room-group" onclick="activateRoom('1177')">
+		<rect y="8.963" class="room" width="75.5" height="43.75"/>
+			<text transform="matrix(1 0 0 1 24.0508 34.3657)" class="label st102">1177</text>
+	</g>
+		<g id="1176" class="room-group" onclick="activateRoom('1176')">
+		<rect x="105.667" y="8.963" class="room" width="63.5" height="42.25"/>
+			<text transform="matrix(1 0 0 1 123.7178 33.6157)" class="label st102">1176</text>
+	</g>
+		<g id="1129" class="room-group" onclick="activateRoom('1129')">
+		<rect y="90.963" class="room" width="43.25" height="37.918"/>
+			<text transform="matrix(1 0 0 1 7.9258 113.4497)" class="label st102">1129</text>
+	</g>
+		<g id="1131" class="room-group" onclick="activateRoom('1131')">
+		<rect y="128.882" class="room" width="43.25" height="39.832"/>
+			<text transform="matrix(1 0 0 1 7.9258 152.3247)" class="label st102">1131</text>
+	</g>
+		<g id="1134" class="room-group" onclick="activateRoom('1134')">
+		<rect y="168.713" class="room" width="43.25" height="37.75"/>
+			<text transform="matrix(1 0 0 1 7.9258 191.1157)" class="label st102">1134</text>
+	</g>
+		<g id="1135" class="room-group" onclick="activateRoom('1135')">
+		<rect y="206.463" class="room" width="43.25" height="39.25"/>
+			<text transform="matrix(1 0 0 1 7.9258 229.6157)" class="label st102">1135</text>
+	</g>
+		<g id="1136" class="room-group" onclick="activateRoom('1136')">
+		<rect x="74.875" y="219.213" class="room" width="53.75" height="23.75"/>
+			<text transform="matrix(1 0 0 1 88.0508 234.6157)" class="label st102">1136</text>
+	</g>
+		<g id="1137" class="room-group" onclick="activateRoom('1137')">
+		<rect x="128.625" y="219.213" class="room" width="43.5" height="23.75"/>
+			<text transform="matrix(1 0 0 1 136.6758 234.6157)" class="label st102">1137</text>
+	</g>
+		<g id="1170" class="room-group" onclick="activateRoom('1170')">
+		<rect x="172.125" y="177.463" class="room" width="36.042" height="41"/>
+			<text transform="matrix(1 0 0 1 176.4468 201.4907)" class="label st102">1170</text>
+	</g>
+		<g id="1171" class="room-group" onclick="activateRoom('1171')">
+		<rect x="172.125" y="218.463" class="room" width="36.042" height="40.75"/>
+			<g>
+			<text transform="matrix(1 0 0 1 176.4468 242.3657)" class="label st102">1171</text>
+		</g>
+	</g>
+		<g id="1172" class="room-group" onclick="activateRoom('1172')">
+		<polygon class="room" points="208.167,299.213 208.167,259.213 172.125,259.213 172.125,294.547 176.833,299.213 		"/>
+			<text transform="matrix(1 0 0 1 176.4468 282.7407)" class="label st102">1172</text>
+	</g>
+		<g id="1173" class="room-group" onclick="activateRoom('1173')">
+		<rect x="239.625" y="259.213" class="room" width="37.125" height="40"/>
+			<text transform="matrix(1 0 0 1 244.4883 282.7407)" class="label st102">1173</text>
+	</g>
+		<g id="1174" class="room-group" onclick="activateRoom('1174')">
+		<rect x="276.75" y="259.213" class="room" width="48.25" height="40"/>
+			<text transform="matrix(1 0 0 1 287.1758 282.7407)" class="label st102">1174</text>
+	</g>
+		<g id="1175" class="room-group" onclick="activateRoom('1175')">
+		<rect x="325" y="259.213" class="room" width="39.5" height="40"/>
+			<text transform="matrix(1 0 0 1 331.0508 282.7407)" class="label st102">1175</text>
+	</g>
+		<g id="1146" class="room-group" onclick="activateRoom('1146')">
+		<rect x="364.501" y="259.213" class="room" width="38.5" height="40"/>
+			<text transform="matrix(1 0 0 1 370.0518 282.7407)" class="label st102">1146</text>
+	</g>
+		<g id="1148" class="room-group" onclick="activateRoom('1148')">
+		<rect x="403.001" y="259.213" class="room" width="39.5" height="40"/>
+			<text transform="matrix(1 0 0 1 409.0518 282.7407)" class="label st102">1148</text>
+	</g>
+		<g id="1161" class="room-group" onclick="activateRoom('1161')">
+		<polygon class="room" points="515.5,299.213 520.001,294.713 520.001,284.963 516.865,284.963 516.865,240.213 442.501,240.213
+			442.501,299.213 		"/>
+			<text transform="matrix(1 0 0 1 467.5518 273.2407)" class="label st102">1161</text>
+	</g>
+		<g id="1160" class="room-group" onclick="activateRoom('1160')">
+		<polygon class="room" points="520.001,187.838 516.865,187.838 516.865,240.213 442.501,240.213 442.501,259.213 239.625,259.213
+			239.625,299.213 208.167,299.213 208.167,177.463 198.375,177.463 198.375,154.713 442.501,154.713 442.501,177.463
+			481.625,177.463 481.625,154.713 520.001,154.713 		"/>
+			<text transform="matrix(1 0 0 1 345.4888 210.4907)" class="label st102">1160</text>
+	</g>
+		<g id="1110" class="room-group" onclick="activateRoom('1110')">
+		<rect x="442.501" y="140.213" class="room" width="39.124" height="37.25"/>
+			<text transform="matrix(1 0 0 1 447.4492 162.3657)" class="label st102">1110</text>
+	</g>
+		<g id="1109" class="room-group" onclick="activateRoom('1109')">
+		<polygon class="room" points="520.001,154.713 481.625,154.713 481.625,140.213 442.501,140.213 442.501,76.838 515.5,76.838
+			520.001,81.38 		"/>
+			<text transform="matrix(1 0 0 1 467.5518 119.3022)" class="label st102">1109</text>
+	</g>
+		<g id="1111" class="room-group" onclick="activateRoom('1111')">
+		<rect x="403.001" y="117.088" class="room" width="39.5" height="37.625"/>
+			<text transform="matrix(1 0 0 1 409.0518 139.4272)" class="label st102">1111</text>
+	</g>
+		<g id="1162" class="room-group" onclick="activateRoom('1162')">
+		<rect x="374.125" y="117.088" class="room" width="28.876" height="37.625"/>
+			<text transform="matrix(1 0 0 1 378.2891 138.5464)" class="label st33">1162</text>
+	</g>
+		<g id="1163" class="room-group" onclick="activateRoom('1163')">
+		<rect x="344.75" y="117.088" class="room" width="29.375" height="37.625"/>
+			<text transform="matrix(1 0 0 1 349.1631 138.5464)" class="label st33">1163</text>
+	</g>
+		<g id="1164" class="room-group" onclick="activateRoom('1164')">
+		<rect x="315.625" y="117.088" class="room" width="29.125" height="37.625"/>
+			<text transform="matrix(1 0 0 1 319.9131 138.5464)" class="label st33">1164</text>
+	</g>
+		<g id="1165" class="room-group" onclick="activateRoom('1165')">
+		<rect x="286.667" y="117.088" class="room" width="28.958" height="37.625"/>
+			<text transform="matrix(1 0 0 1 290.8716 138.5464)" class="label st33">1165</text>
+	</g>
+		<g id="1166" class="room-group" onclick="activateRoom('1166')">
+		<rect x="256.875" y="117.088" class="room" width="29.792" height="37.625"/>
+			<text transform="matrix(1 0 0 1 261.4966 138.5464)" class="label st33">1166</text>
+	</g>
+		<g id="1167" class="room-group" onclick="activateRoom('1167')">
+		<rect x="228" y="117.088" class="room" width="28.875" height="37.625"/>
+			<text transform="matrix(1 0 0 1 232.1631 138.5464)" class="label st33">1167</text>
+	</g>
+		<g id="1168" class="room-group" onclick="activateRoom('1168')">
+		<rect x="198.375" y="117.088" class="room" width="29.625" height="37.625"/>
+			<text transform="matrix(1 0 0 1 202.9131 138.5464)" class="label st33">1168</text>
+	</g>
+		<g id="1169" class="room-group" onclick="activateRoom('1169')">
+		<rect x="172.125" y="117.088" class="room" width="26.25" height="60.375"/>
+			<text transform="matrix(0 -1 1 0 189.7773 160.9751)" class="label st102">1169</text>
+	</g>
+		<g id="1139" class="room-group" onclick="activateRoom('1139')">
+		<rect y="245.713" class="room" width="43.25" height="38.5"/>
+			<text transform="matrix(1 0 0 1 7.9258 268.4907)" class="label st102">1139</text>
+	</g>
+		<g id="1138" class="room-group" onclick="activateRoom('1138')">
+		<polygon class="room" points="106.5,242.963 74.875,242.963 74.875,280.545 81.088,287.338 106.5,287.338 		"/>
+			<text transform="matrix(1 0 0 1 79.2715 268.0903)" class="label st100">1138</text>
+	</g>
+		<g id="1105" class="room-group" onclick="activateRoom('1105')">
+		<polygon class="room" points="566.167,102.548 596.25,102.548 596.25,87.048 559,87.048 559,95.172 		"/>
+			<text transform="matrix(1 0 0 1 565.0674 98.0317)" class="label st101">1105</text>
+	</g>
+		<g id="ELEVATOR1">
+		<rect x="106.5" y="242.963" class="room" width="29.25" height="38.625"/>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_1_" x="114.125" y="255.276" width="14" height="14" data-svg-id="SVGID_1_"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st34">
+					<g>
+						<defs>
+							<rect id="SVGID_3_" x="114.125" y="255.276" width="14" height="14" data-svg-id="SVGID_3_"/>
+						</defs>
+						<defs>
+							<rect id="SVGID_4_" x="114.125" y="255.276" width="14" height="14" data-svg-id="SVGID_4_"/>
+						</defs>
+						<defs>
+							<rect id="SVGID_5_" x="114.125" y="255.276" width="14" height="14" data-svg-id="SVGID_5_"/>
+						</defs>
+						<defs>
+							<rect id="SVGID_6_" x="114.125" y="255.276" width="14" height="14" data-svg-id="SVGID_6_"/>
+						</defs>
+						<defs>
+							<rect id="SVGID_7_" x="114.125" y="255.276" width="14" height="14" data-svg-id="SVGID_7_"/>
+						</defs>
+						<clipPath id="SVGID_8_">
+							<use xlink:href="#SVGID_3_" style="overflow:visible;"/>
+						</clipPath>
+						<clipPath id="SVGID_9_" class="st35">
+							<use xlink:href="#SVGID_4_" style="overflow:visible;"/>
+						</clipPath>
+						<clipPath id="SVGID_10_" class="st36">
+							<use xlink:href="#SVGID_5_" style="overflow:visible;"/>
+						</clipPath>
+						<clipPath id="SVGID_11_" class="st110">
+							<use xlink:href="#SVGID_6_" style="overflow:visible;"/>
+						</clipPath>
+						<clipPath id="SVGID_12_" class="st111">
+							<use xlink:href="#SVGID_7_" style="overflow:visible;"/>
+						</clipPath>
+						<path class="st60" d="M128.125,267.542c0,0.959-0.776,1.734-1.734,1.734h-10.532c-0.958,0-1.734-0.775-1.734-1.734V257.01
+							c0-0.959,0.776-1.734,1.734-1.734h10.532c0.958,0,1.734,0.775,1.734,1.734V267.542z"/>
+						<line class="st62" x1="118.625" y1="266.276" x2="118.625" y2="261.276"/>
+						<polygon class="st103" points="120.37,261.276 118.625,258.254 116.88,261.276 						"/>
+						<line class="st62" x1="123.625" y1="258.276" x2="123.625" y2="263.276"/>
+						<polygon class="st103" points="121.88,263.276 123.625,266.297 125.37,263.276 						"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+		<g id="WOMENS1">
+		<polygon class="room" points="74.875,219.213 74.875,198.379 98,198.379 98,170.546 167.5,170.546 167.5,219.213 		"/>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_13_" x="114.188" y="187.879" width="14" height="14" data-svg-id="SVGID_13_"/>
+				</defs>
+				<clipPath id="SVGID_14_">
+					<use xlink:href="#SVGID_13_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st112">
+					<g>
+						<defs>
+							<rect id="SVGID_15_" x="114.188" y="187.879" width="14" height="14" data-svg-id="SVGID_15_"/>
+						</defs>
+						<defs>
+							<rect id="SVGID_16_" x="114.188" y="187.879" width="14" height="14" data-svg-id="SVGID_16_"/>
+						</defs>
+						<defs>
+							<rect id="SVGID_17_" x="114.188" y="187.879" width="14" height="14" data-svg-id="SVGID_17_"/>
+						</defs>
+						<clipPath id="SVGID_18_">
+							<use xlink:href="#SVGID_15_" style="overflow:visible;"/>
+						</clipPath>
+						<clipPath id="SVGID_19_" class="st113">
+							<use xlink:href="#SVGID_16_" style="overflow:visible;"/>
+						</clipPath>
+						<clipPath id="SVGID_20_" class="st114">
+							<use xlink:href="#SVGID_17_" style="overflow:visible;"/>
+						</clipPath>
+						<path class="st31" d="M114.188,189.629c0-0.967,0.783-1.75,1.75-1.75h10.5c0.967,0,1.75,0.783,1.75,1.75v10.5
+							c0,0.967-0.783,1.75-1.75,1.75h-10.5c-0.967,0-1.75-0.783-1.75-1.75V189.629z"/>
+						<path class="st54" d="M121.187,188.929c0.535,0,0.968,0.436,0.968,0.97c0,0.533-0.434,0.967-0.968,0.967
+							s-0.968-0.434-0.968-0.967C120.218,189.365,120.652,188.929,121.187,188.929"/>
+						<path class="st54" d="M121.054,197.002v3.367c-0.005,0.611-0.916,0.611-0.923,0v-3.367h-1.192l1.282-4.498h-0.209
+							l-0.745,2.563c-0.189,0.566-0.955,0.337-0.775-0.27l0.834-2.771c0.096-0.317,0.497-0.879,1.192-0.895h0.625h0.715
+							c0.676,0.016,1.079,0.581,1.192,0.895l0.835,2.771c0.169,0.604-0.592,0.85-0.774,0.27l-0.746-2.563h-0.238l1.311,4.498h-1.221
+							v3.367c0.011,0.611-0.897,0.609-0.894,0v-3.367H121.054z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+		<g id="MENS1">
+		<polygon class="room" points="74.875,141.713 98,141.713 98,170.546 167.5,170.546 167.5,120.88 74.875,120.88 		"/>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_21_" x="114.188" y="138.713" width="14" height="14" data-svg-id="SVGID_21_"/>
+				</defs>
+				<clipPath id="SVGID_22_">
+					<use xlink:href="#SVGID_21_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st115">
+					<g>
+						<defs>
+							<rect id="SVGID_23_" x="114.188" y="138.713" width="14" height="14" data-svg-id="SVGID_23_"/>
+						</defs>
+						<defs>
+							<rect id="SVGID_24_" x="114.188" y="138.713" width="14" height="14" data-svg-id="SVGID_24_"/>
+						</defs>
+						<defs>
+							<rect id="SVGID_25_" x="114.188" y="138.713" width="14" height="14" data-svg-id="SVGID_25_"/>
+						</defs>
+						<clipPath id="SVGID_26_">
+							<use xlink:href="#SVGID_23_" style="overflow:visible;"/>
+						</clipPath>
+						<clipPath id="SVGID_27_" class="st116">
+							<use xlink:href="#SVGID_24_" style="overflow:visible;"/>
+						</clipPath>
+						<clipPath id="SVGID_28_" class="st117">
+							<use xlink:href="#SVGID_25_" style="overflow:visible;"/>
+						</clipPath>
+						<path class="st0" d="M128.188,150.979c0,0.958-0.776,1.734-1.734,1.734h-10.532c-0.958,0-1.734-0.776-1.734-1.734v-10.531
+							c0-0.958,0.776-1.735,1.734-1.735h10.532c0.958,0,1.734,0.777,1.734,1.735V150.979z"/>
+						<path class="st9" d="M121.187,139.921c0.522,0,0.945,0.422,0.945,0.944c0,0.521-0.423,0.944-0.945,0.944
+							c-0.52,0-0.944-0.423-0.944-0.944C120.243,140.343,120.667,139.921,121.187,139.921"/>
+						<path class="st9" d="M120.186,142.072c-0.727,0-1.191,0.629-1.191,1.25v2.905c-0.007,0.568,0.811,0.568,0.813,0v-2.673h0.204
+							v7.382c-0.014,0.77,1.075,0.748,1.074,0v-4.303h0.175v4.303c0.014,0.748,1.108,0.77,1.104,0v-7.382h0.204v2.673
+							c-0.009,0.573,0.803,0.573,0.813,0v-2.905c-0.013-0.621-0.493-1.239-1.22-1.25H120.186z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+		<g id="ELEVATOR2">
+		<rect x="135.75" y="242.963" class="room" width="30.75" height="38.625"/>
+			<g id="rooms">
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_29_" x="144.125" y="255.276" width="14" height="14" data-svg-id="SVGID_29_"/>
+					</defs>
+					<clipPath id="SVGID_30_">
+						<use xlink:href="#SVGID_29_" style="overflow:visible;"/>
+					</clipPath>
+					<g class="st118">
+						<g>
+							<defs>
+								<rect id="SVGID_31_" x="144.125" y="255.276" width="14" height="14" data-svg-id="SVGID_31_"/>
+							</defs>
+							<defs>
+								<rect id="SVGID_32_" x="144.125" y="255.276" width="14" height="14" data-svg-id="SVGID_32_"/>
+							</defs>
+							<defs>
+								<rect id="SVGID_33_" x="144.125" y="255.276" width="14" height="14" data-svg-id="SVGID_33_"/>
+							</defs>
+							<defs>
+								<rect id="SVGID_34_" x="144.125" y="255.276" width="14" height="14" data-svg-id="SVGID_34_"/>
+							</defs>
+							<defs>
+								<rect id="SVGID_35_" x="144.125" y="255.276" width="14" height="14" data-svg-id="SVGID_35_"/>
+							</defs>
+							<clipPath id="SVGID_36_">
+								<use xlink:href="#SVGID_31_" style="overflow:visible;"/>
+							</clipPath>
+							<clipPath id="SVGID_37_" class="st119">
+								<use xlink:href="#SVGID_32_" style="overflow:visible;"/>
+							</clipPath>
+							<clipPath id="SVGID_38_" class="st120">
+								<use xlink:href="#SVGID_33_" style="overflow:visible;"/>
+							</clipPath>
+							<clipPath id="SVGID_39_" class="st121">
+								<use xlink:href="#SVGID_34_" style="overflow:visible;"/>
+							</clipPath>
+							<clipPath id="SVGID_40_" class="st122">
+								<use xlink:href="#SVGID_35_" style="overflow:visible;"/>
+							</clipPath>
+							<path class="st19" d="M158.125,267.542c0,0.959-0.776,1.734-1.734,1.734h-10.532c-0.958,0-1.734-0.775-1.734-1.734V257.01
+								c0-0.959,0.776-1.734,1.734-1.734h10.532c0.958,0,1.734,0.775,1.734,1.734V267.542z"/>
+							<line class="st28" x1="148.625" y1="266.276" x2="148.625" y2="261.276"/>
+							<polygon class="st37" points="150.37,261.276 148.625,258.254 146.88,261.276 							"/>
+							<line class="st28" x1="153.625" y1="258.276" x2="153.625" y2="263.276"/>
+							<polygon class="st37" points="151.88,263.276 153.625,266.297 155.37,263.276 							"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+		<rect x="-187.836" y="-61.535" class="room" width="93.462" height="40.673"/>
+		<g id="1230" class="room-group" onclick="activateRoom('1230')">
+		<rect x="-94.375" y="90.963" class="room" width="94.375" height="95.76"/>
+			<text transform="matrix(1 0 0 1 -60.8862 142.3701)" class="label st102">1230</text>
+	</g>
+		<g id="1211" class="room-group" onclick="activateRoom('1211')">
+		<rect x="-94.375" y="186.723" class="room" width="94.375" height="97.311"/>
+			<text transform="matrix(1 0 0 1 -60.8862 238.9058)" class="label st102">1211</text>
+	</g>
+		<g id="1202" class="room-group" onclick="activateRoom('1202')">
+		<rect x="-230.709" y="450.713" class="room" width="136.335" height="91.945"/>
+			<text transform="matrix(1 0 0 1 -176.2412 500.2134)" class="label st102">1202</text>
+	</g>
+		<g id="1207" class="room-group" onclick="activateRoom('1207')">
+		<rect x="-244.638" y="403.102" class="room" width="67.263" height="47.611"/>
+			<text transform="matrix(1 0 0 1 -224.7061 430.4351)" class="label st102">1207</text>
+	</g>
+		<g id="1210" class="room-group" onclick="activateRoom('1210')">
+		<polygon class="room" points="-94.375,90.963 -94.375,128.547 -135.546,90.963 -206.292,90.963 -206.292,104.88 -218.731,104.88
+			-218.731,90.839 -218.731,131.262 -244.638,146.616 -244.638,228.213 -218.731,243.63 -218.731,284.213 -218.731,273.241
+			-206.208,273.241 -206.291,284.213 -135.546,284.213 -94.375,240.299 -94.375,284.034 		"/>
+			<text transform="matrix(1 0 0 1 -183.2734 191.0537)" class="label st102">1210</text>
+	</g>
+		<g id="1203" class="room-group" onclick="activateRoom('1203')">
+		<polygon class="room" points="-94.375,450.713 -177.375,450.713 -177.375,403.102 -244.638,403.102 -244.638,316.297
+			-94.375,316.297 		"/>
+			<text transform="matrix(1 0 0 1 -183.2056 367.0327)" class="label st102">1203</text>
+	</g>
+		<g id="1229" class="room-group" onclick="activateRoom('1229')">
+		<rect x="-244.638" y="17.217" class="room" width="39.984" height="35.496"/>
+			<text transform="matrix(1 0 0 1 -238.3452 38.4927)" class="label st102">1229</text>
+	</g>
+		<g id="1240" class="room-group" onclick="activateRoom('1240')">
+		<rect x="-244.638" y="-20.862" class="room" width="39.984" height="38.079"/>
+			<text transform="matrix(1 0 0 1 -238.3452 1.7046)" class="label st102">1240</text>
+	</g>
+		<g id="1239" class="room-group" onclick="activateRoom('1239')">
+		<rect x="-222.12" y="-61.535" class="room" width="34.284" height="40.673"/>
+			<text transform="matrix(1 0 0 1 -218.6772 -37.6714)" class="label st102">1239</text>
+	</g>
+		<polygon class="room" points="-244.638,228.213 -218.731,243.63 -218.731,276.546 -244.638,276.546 -244.638,284.213 	"/>
+		<polygon class="room" points="-244.638,146.616 -218.731,131.262 -218.731,98.213 -244.638,98.213 -244.638,90.839 	"/>
+		<g id="1235" class="room-group" onclick="activateRoom('1235')">
+		<rect x="-392.363" y="-98.657" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -387.1558 -76.5679)" class="label st102">1235</text>
+	</g>
+		<g id="1236" class="room-group" onclick="activateRoom('1236')">
+		<rect x="-354.549" y="-98.657" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -349.3418 -76.5679)" class="label st102">1236</text>
+	</g>
+		<g id="1237" class="room-group" onclick="activateRoom('1237')">
+		<rect x="-316.735" y="-98.657" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -311.5278 -76.5679)" class="label st102">1237</text>
+	</g>
+		<g id="1233" class="room-group" onclick="activateRoom('1233')">
+		<rect x="-354.549" y="-41.198" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -349.3418 -19.1099)" class="label st102">1233</text>
+	</g>
+		<g id="1234" class="room-group" onclick="activateRoom('1234')">
+		<rect x="-392.363" y="-41.198" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -387.1558 -19.1099)" class="label st102">1234</text>
+	</g>
+		<g id="1226" class="room-group" onclick="activateRoom('1226')">
+		<rect x="-392.363" y="-4.083" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -387.1558 18.0044)" class="label st102">1226</text>
+	</g>
+		<g id="1227" class="room-group" onclick="activateRoom('1227')">
+		<rect x="-354.549" y="-4.083" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -349.3418 18.0044)" class="label st102">1227</text>
+	</g>
+		<g id="1225" class="room-group" onclick="activateRoom('1225')">
+		<rect x="-392.363" y="53.889" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -387.1558 75.9771)" class="label st102">1225</text>
+	</g>
+		<g id="1224" class="room-group" onclick="activateRoom('1224')">
+		<rect x="-354.549" y="53.889" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -349.3418 75.9771)" class="label st102">1224</text>
+	</g>
+		<g id="1223" class="room-group" onclick="activateRoom('1223')">
+		<rect x="-316.735" y="53.889" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -311.5278 75.9771)" class="label st102">1223</text>
+	</g>
+		<g id="1222" class="room-group" onclick="activateRoom('1222')">
+		<rect x="-316.735" y="91.194" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -311.5278 113.2817)" class="label st102">1222</text>
+	</g>
+		<g id="1221" class="room-group" onclick="activateRoom('1221')">
+		<rect x="-354.549" y="91.194" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -349.3418 113.2817)" class="label st102">1221</text>
+	</g>
+		<g id="1220" class="room-group" onclick="activateRoom('1220')">
+		<rect x="-392.363" y="91.194" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -387.1558 113.2817)" class="label st102">1220</text>
+	</g>
+		<g id="1219" class="room-group" onclick="activateRoom('1219')">
+		<rect x="-392.363" y="151.325" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -387.1558 173.4136)" class="label st102">1219</text>
+	</g>
+		<g id="1218" class="room-group" onclick="activateRoom('1218')">
+		<rect x="-354.549" y="151.325" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -349.3418 173.4126)" class="label st102">1218</text>
+	</g>
+		<g id="1217" class="room-group" onclick="activateRoom('1217')">
+		<rect x="-316.736" y="151.325" class="room" width="37.814" height="74.428"/>
+			<text transform="matrix(1 0 0 1 -311.5283 192.0649)" class="label st102">1217</text>
+	</g>
+		<g id="1216" class="room-group" onclick="activateRoom('1216')">
+		<rect x="-354.549" y="188.63" class="room" width="37.813" height="37.123"/>
+			<text transform="matrix(1 0 0 1 -349.3418 210.7192)" class="label st102">1216</text>
+	</g>
+		<g id="1215" class="room-group" onclick="activateRoom('1215')">
+		<rect x="-392.363" y="188.63" class="room" width="37.813" height="37.123"/>
+			<text transform="matrix(1 0 0 1 -387.1558 210.7192)" class="label st102">1215</text>
+	</g>
+		<g id="1214" class="room-group" onclick="activateRoom('1214')">
+		<rect x="-392.363" y="246.912" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -387.1558 269.0005)" class="label st102">1214</text>
+	</g>
+		<g id="1213" class="room-group" onclick="activateRoom('1213')">
+		<rect x="-354.549" y="246.912" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -349.3418 269.0005)" class="label st102">1213</text>
+	</g>
+		<g id="1212" class="room-group" onclick="activateRoom('1212')">
+		<rect x="-316.735" y="246.912" class="room" width="37.813" height="37.122"/>
+			<text transform="matrix(1 0 0 1 -311.5278 269.0005)" class="label st102">1212</text>
+	</g>
+		<g id="WOMENS2">
+		<polygon class="room" points="-149.514,-20.862 -94.375,-20.862 -94.375,52.588 -128.746,52.588 -128.746,36.713 -149.514,36.713
+					"/>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_41_" x="-128.944" y="8.863" width="14" height="14" data-svg-id="SVGID_41_"/>
+				</defs>
+				<clipPath id="SVGID_42_">
+					<use xlink:href="#SVGID_41_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st123">
+					<g>
+						<defs>
+							<rect id="SVGID_43_" x="-128.944" y="8.863" width="14" height="14" data-svg-id="SVGID_43_"/>
+						</defs>
+						<defs>
+							<rect id="SVGID_44_" x="-128.944" y="8.863" width="14" height="14" data-svg-id="SVGID_44_"/>
+						</defs>
+						<defs>
+							<rect id="SVGID_45_" x="-128.944" y="8.863" width="14" height="14" data-svg-id="SVGID_45_"/>
+						</defs>
+						<clipPath id="SVGID_46_">
+							<use xlink:href="#SVGID_43_" style="overflow:visible;"/>
+						</clipPath>
+						<clipPath id="SVGID_47_" class="st124">
+							<use xlink:href="#SVGID_44_" style="overflow:visible;"/>
+						</clipPath>
+						<clipPath id="SVGID_48_" class="st125">
+							<use xlink:href="#SVGID_45_" style="overflow:visible;"/>
+						</clipPath>
+						<path class="st109" d="M-128.944,10.613c0-0.967,0.783-1.75,1.75-1.75h10.5c0.967,0,1.75,0.783,1.75,1.75v10.5
+							c0,0.967-0.783,1.75-1.75,1.75h-10.5c-0.967,0-1.75-0.783-1.75-1.75V10.613z"/>
+						<path class="st2" d="M-121.945,9.913c0.535,0,0.968,0.436,0.968,0.97c0,0.533-0.434,0.967-0.968,0.967
+							s-0.968-0.434-0.968-0.967C-122.914,10.349-122.479,9.913-121.945,9.913"/>
+						<path class="st2" d="M-122.078,17.986v3.367c-0.005,0.611-0.916,0.611-0.923,0v-3.367h-1.192l1.282-4.498h-0.209l-0.745,2.563
+							c-0.189,0.566-0.955,0.337-0.775-0.27l0.834-2.771c0.096-0.317,0.497-0.879,1.192-0.895h0.625h0.715
+							c0.676,0.016,1.079,0.581,1.192,0.895l0.835,2.771c0.169,0.604-0.592,0.85-0.774,0.27l-0.746-2.563h-0.238l1.311,4.498h-1.221
+							v3.367c0.011,0.611-0.897,0.609-0.894,0v-3.367H-122.078z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+		<g id="MENS2">
+		<polygon class="room" points="-149.514,36.713 -171.299,36.713 -171.299,52.588 -204.654,52.588 -204.654,-20.862
+			-149.514,-20.862 		"/>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_49_" x="-184.084" y="8.863" width="14" height="14" data-svg-id="SVGID_49_"/>
+				</defs>
+				<clipPath id="SVGID_50_">
+					<use xlink:href="#SVGID_49_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st126">
+					<g>
+						<defs>
+							<rect id="SVGID_51_" x="-184.084" y="8.863" width="14" height="14" data-svg-id="SVGID_51_"/>
+						</defs>
+						<defs>
+							<rect id="SVGID_52_" x="-184.084" y="8.863" width="14" height="14" data-svg-id="SVGID_52_"/>
+						</defs>
+						<defs>
+							<rect id="SVGID_53_" x="-184.084" y="8.863" width="14" height="14" data-svg-id="SVGID_53_"/>
+						</defs>
+						<clipPath id="SVGID_54_">
+							<use xlink:href="#SVGID_51_" style="overflow:visible;"/>
+						</clipPath>
+						<clipPath id="SVGID_55_" class="st127">
+							<use xlink:href="#SVGID_52_" style="overflow:visible;"/>
+						</clipPath>
+						<clipPath id="SVGID_56_" class="st128">
+							<use xlink:href="#SVGID_53_" style="overflow:visible;"/>
+						</clipPath>
+						<path class="st63" d="M-170.084,21.129c0,0.958-0.776,1.734-1.734,1.734h-10.532c-0.958,0-1.734-0.776-1.734-1.734V10.599
+							c0-0.958,0.776-1.735,1.734-1.735h10.532c0.958,0,1.734,0.777,1.734,1.735V21.129z"/>
+						<path class="st105" d="M-177.085,10.071c0.522,0,0.945,0.422,0.945,0.944c0,0.521-0.423,0.944-0.945,0.944
+							c-0.52,0-0.944-0.423-0.944-0.944C-178.029,10.493-177.605,10.071-177.085,10.071"/>
+						<path class="st105" d="M-178.086,12.223c-0.727,0-1.191,0.629-1.191,1.25v2.905c-0.007,0.568,0.811,0.568,0.813,0v-2.673
+							h0.204v7.382c-0.014,0.77,1.075,0.748,1.074,0v-4.303h0.175v4.303c0.014,0.748,1.108,0.77,1.104,0v-7.382h0.204v2.673
+							c-0.009,0.573,0.803,0.573,0.813,0v-2.905c-0.013-0.621-0.493-1.239-1.22-1.25H-178.086z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+		<g id="STAIRS2">
+		<rect x="-244.638" y="-121.444" class="room" width="109.092" height="59.91"/>
+			<g>
+			<g id="labels_1_">
+				<g>
+					<defs>
+						<rect id="SVGID_57_" x="-197.092" y="-98.49" width="14" height="14" data-svg-id="SVGID_57_"/>
+					</defs>
+					<clipPath id="SVGID_58_">
+						<use xlink:href="#SVGID_57_" style="overflow:visible;"/>
+					</clipPath>
+					<g class="st129">
+						<g>
+							<defs>
+								<rect id="SVGID_59_" x="-197.092" y="-98.49" width="14" height="14" data-svg-id="SVGID_59_"/>
+							</defs>
+							<defs>
+								<rect id="SVGID_60_" x="-197.092" y="-98.49" width="14" height="14" data-svg-id="SVGID_60_"/>
+							</defs>
+							<clipPath id="SVGID_61_">
+								<use xlink:href="#SVGID_59_" style="overflow:visible;"/>
+							</clipPath>
+							<clipPath id="SVGID_62_" class="st130">
+								<use xlink:href="#SVGID_60_" style="overflow:visible;"/>
+							</clipPath>
+							<path class="st20" d="M-183.092-86.224c0,0.958-0.776,1.734-1.734,1.734h-10.532c-0.958,0-1.733-0.776-1.733-1.734v-10.531
+								c0-0.957,0.775-1.734,1.733-1.734h10.532c0.958,0,1.734,0.777,1.734,1.734V-86.224z"/>
+							<polyline class="st53" points="-195.092,-87.99 -191.654,-87.99 -191.688,-90.99 -188.656,-90.943 -188.675,-93.99
+								-185.092,-93.99 							"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g id="labels_2_">
+				<g>
+					<defs>
+						<rect id="SVGID_63_" x="-197.092" y="-98.49" width="14" height="14" data-svg-id="SVGID_63_"/>
+					</defs>
+					<clipPath id="SVGID_64_">
+						<use xlink:href="#SVGID_63_" style="overflow:visible;"/>
+					</clipPath>
+					<g class="st131">
+						<g>
+							<defs>
+								<rect id="SVGID_65_" x="-197.092" y="-98.49" width="14" height="14" data-svg-id="SVGID_65_"/>
+							</defs>
+							<defs>
+								<rect id="SVGID_66_" x="-197.092" y="-98.49" width="14" height="14" data-svg-id="SVGID_66_"/>
+							</defs>
+							<clipPath id="SVGID_67_">
+								<use xlink:href="#SVGID_65_" style="overflow:visible;"/>
+							</clipPath>
+							<clipPath id="SVGID_68_" class="st132">
+								<use xlink:href="#SVGID_66_" style="overflow:visible;"/>
+							</clipPath>
+							<path class="st69" d="M-183.092-86.224c0,0.958-0.776,1.734-1.734,1.734h-10.532c-0.958,0-1.733-0.776-1.733-1.734v-10.531
+								c0-0.957,0.775-1.734,1.733-1.734h10.532c0.958,0,1.734,0.777,1.734,1.734V-86.224z"/>
+							<polyline class="st147" points="-195.092,-87.99 -191.654,-87.99 -191.688,-90.99 -188.656,-90.943 -188.675,-93.99
+								-185.092,-93.99 							"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+		<g id="STAIRS1">
+		<rect x="-230.709" y="542.659" class="room" width="95.164" height="44.978"/>
+			<g>
+			<g id="labels_3_">
+				<g>
+					<defs>
+						<rect id="SVGID_69_" x="-190.128" y="558.147" width="14" height="14" data-svg-id="SVGID_69_"/>
+					</defs>
+					<clipPath id="SVGID_70_">
+						<use xlink:href="#SVGID_69_" style="overflow:visible;"/>
+					</clipPath>
+					<g class="st133">
+						<g>
+							<defs>
+								<rect id="SVGID_71_" x="-190.128" y="558.147" width="14" height="14" data-svg-id="SVGID_71_"/>
+							</defs>
+							<defs>
+								<rect id="SVGID_72_" x="-190.128" y="558.147" width="14" height="14" data-svg-id="SVGID_72_"/>
+							</defs>
+							<clipPath id="SVGID_73_">
+								<use xlink:href="#SVGID_71_" style="overflow:visible;"/>
+							</clipPath>
+							<clipPath id="SVGID_74_" class="st134">
+								<use xlink:href="#SVGID_72_" style="overflow:visible;"/>
+							</clipPath>
+							<path class="st25" d="M-176.128,570.413c0,0.959-0.775,1.734-1.733,1.734h-10.532c-0.958,0-1.734-0.775-1.734-1.734v-10.531
+								c0-0.957,0.776-1.734,1.734-1.734h10.532c0.958,0,1.733,0.777,1.733,1.734V570.413z"/>
+							<polyline class="st50" points="-188.128,568.647 -184.689,568.647 -184.723,565.647 -181.691,565.694 -181.711,562.647
+								-178.128,562.647 							"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+	<g id="fill_1_">
+	<rect x="32.75" y="311.213" class="fill" width="10.5" height="17.75"/>
+		<rect y="328.963" class="fill" width="86" height="5.75"/>
+		<rect x="119" y="373.963" class="fill" width="6.25" height="10.5"/>
+		<rect x="515.5" y="373.963" class="fill" width="5.837" height="10.5"/>
+		<rect x="166.5" y="242.963" class="fill" width="5.625" height="38.625"/>
+		<rect x="167.5" y="99.214" class="fill" width="4.625" height="119.25"/>
+		<rect x="516.865" y="187.838" class="fill" width="5.468" height="97.125"/>
+		<rect x="700.875" y="95.006" class="fill" width="8.875" height="10.917"/>
+		<rect x="700.875" y="8.963" class="fill" width="8.875" height="8.5"/>
+		<rect x="588.792" y="8.963" class="fill" width="13.458" height="8.5"/>
+		<rect x="515.5" y="8.963" class="fill" width="8.667" height="8.5"/>
+		<rect x="398.001" y="8.963" class="fill" width="10.333" height="8.5"/>
+		<polygon class="fill" points="94.333,76.838 94.333,89.547 74.875,89.547 74.875,83.715 81.417,76.838 	"/>
+		<rect x="32.75" y="83.88" class="fill" width="10.5" height="7.083"/>
+		<rect x="32.75" y="52.713" class="fill" width="10.5" height="6.334"/>
+		<polygon class="fill" points="-94.375,111.547 -94.375,128.547 -112.997,111.547 	"/>
+		<polygon class="fill" points="-94.375,240.299 -112.437,259.565 -94.375,259.565 	"/>
+		<rect x="-284.625" y="329.973" class="fill" width="5.703" height="25.99"/>
+		<rect x="-284.625" y="403.102" class="fill" width="5.703" height="25.99"/>
+</g>
+	<g id="doors_1_">
+	<path class="door" d="M559,64.881v-8.918"/>
+		<path class="door" d="M208.167,230.381v-8.918"/>
+		<path class="door" d="M208.167,271.194v-8.918"/>
+		<path class="door" d="M237.669,344.881v-8.918"/>
+		<path class="door" d="M596.25,281.631v-8.918"/>
+		<path class="door" d="M520.001,181.881v-8.918"/>
+		<path class="door" d="M557.25,209.131v-8.918"/>
+		<path class="door" d="M596.25,141.923v-8.918"/>
+		<path class="door" d="M442.501,129.381v-8.918"/>
+		<path class="door" d="M-94.375,104.95v-8.918"/>
+		<path class="door" d="M-94.375,275.653v-8.918"/>
+		<path class="door" d="M43.25,306.464v-17.502"/>
+		<path class="door" d="M43.25,80.214V62.712"/>
+		<path class="door" d="M-216.542,273.241h7.954"/>
+		<path class="door" d="M-144.292,316.297h7.954"/>
+		<path class="door" d="M-216.542,104.95h7.954"/>
+		<path class="door" d="M-244.638,254.391v-8.918"/>
+		<path class="door" d="M-244.774,134.506v-8.918"/>
+		<path class="door" d="M-222.12-29.577v-8.918"/>
+		<path class="door" d="M-312.338-61.535h8.918"/>
+		<path class="door" d="M-330.338-61.535h8.918"/>
+		<path class="door" d="M-367.963-61.535h8.918"/>
+		<path class="door" d="M-312.338,128.316h8.918"/>
+		<path class="door" d="M-330.338,128.316h8.918"/>
+		<path class="door" d="M-367.963,128.316h8.918"/>
+		<path class="door" d="M-330.338,225.752h8.918"/>
+		<path class="door" d="M-367.963,225.752h8.918"/>
+		<path class="door" d="M-388.963-41.198h8.918"/>
+		<path class="door" d="M-350.588-41.198h8.918"/>
+		<path class="door" d="M-367.713,33.039h8.918"/>
+		<path class="door" d="M-329.338,33.039h8.918"/>
+		<path class="door" d="M-388.338,53.889h8.918"/>
+		<path class="door" d="M-349.963,53.889h8.918"/>
+		<path class="door" d="M-388.338,151.325h8.918"/>
+		<path class="door" d="M-349.963,151.325h8.918"/>
+		<path class="door" d="M-292.499,151.325h8.918"/>
+		<path class="door" d="M-312.535,53.889h8.918"/>
+		<path class="door" d="M-388.338,246.912h8.918"/>
+		<path class="door" d="M-349.963,246.912h8.918"/>
+		<path class="door" d="M-312.535,246.912h8.918"/>
+		<path class="door" d="M-238.023-61.535h8.918"/>
+		<path class="door" d="M-238.024-121.444h15.398"/>
+		<path class="door" d="M-238.023-20.862h8.918"/>
+		<path class="door" d="M-111.584-61.535h8.918"/>
+		<path class="door" d="M-244.638,29.215v-8.918"/>
+		<path class="door" d="M-171.299,49.295v-8.918"/>
+		<path class="door" d="M-128.746,49.295v-8.918"/>
+		<path class="door" d="M-244.638,416.097v-8.918"/>
+		<path class="door" d="M-230.709,463.847v-8.918"/>
+		<path class="door" d="M-278.922,527.813v-17.35"/>
+		<path class="door" d="M-230.709,573.813v-17.35"/>
+		<path class="door" d="M-263.49,489.963h17.35"/>
+		<path class="door" d="M-263.49,542.659h17.35"/>
+		<path class="door" d="M43.25,181.131v-8.918"/>
+		<path class="door" d="M43.25,140.881v-8.918"/>
+		<path class="door" d="M43.25,125.381v-8.918"/>
+		<path class="door" d="M43.25,243.364v-8.918"/>
+		<path class="door" d="M43.25,282.159v-8.918"/>
+		<path class="door" d="M192.835,344.881v-8.918"/>
+		<path class="door" d="M198.375,165.297v8.916"/>
+		<path class="door" d="M74.875,109.547v8.916"/>
+		<path class="door" d="M74.875,231.301v8.916"/>
+		<path class="door" d="M208.167,206.547v8.916"/>
+		<path class="door" d="M557.25,315.797v8.916"/>
+		<path class="door" d="M596.25,253.381v-8.918"/>
+		<path class="door" d="M596.25,253.381v8.916"/>
+		<path class="door" d="M635.5,262.297v-8.916v-8.918"/>
+		<path class="door" d="M557.25,184.047v8.916"/>
+		<path class="door" d="M596.25,117.547v8.916"/>
+		<path class="door" d="M520.001,128.547v8.916"/>
+		<path class="door" d="M128.625,229.922v8.916"/>
+		<path class="door" d="M532.525,51.213h-8.316v-0.001"/>
+		<path class="door" d="M483.566,76.839h-8.316v-0.001"/>
+		<path class="door" d="M415.317,51.216H407v-0.001"/>
+		<path class="door" d="M298.268,51.214h-8.317v-0.001"/>
+		<path class="door" d="M414.817,299.213H406.5l0,0"/>
+		<path class="door" d="M575.932,102.548h8.318"/>
+		<path class="door" d="M469.932,140.213h8.318"/>
+		<path class="door" d="M392.183,76.838h8.317"/>
+		<path class="door" d="M333.683,154.713H342"/>
+		<path class="door" d="M362.683,154.713H371"/>
+		<path class="door" d="M352.656,76.838h8.316"/>
+		<path class="door" d="M392.183,154.713h8.317"/>
+		<path class="door" d="M275.258,76.838h8.317"/>
+		<path class="door" d="M215.933,154.713h8.317"/>
+		<path class="door" d="M245.933,154.713h8.317"/>
+		<path class="door" d="M275.258,154.713h8.317"/>
+		<path class="door" d="M303.683,154.713H312"/>
+		<path class="door" d="M235.933,76.838h8.317"/>
+		<path class="door" d="M86.683,141.713H95"/>
+		<path class="door" d="M94.183,384.463h8.317"/>
+		<path class="door" d="M220.433,299.213h8.317"/>
+		<path class="door" d="M265.183,259.213h8.317"/>
+		<path class="door" d="M353.683,332.723H362"/>
+		<path class="door" d="M392.683,332.723H401"/>
+		<path class="door" d="M470.933,332.723h8.317"/>
+		<path class="door" d="M510.101,332.723h8.317"/>
+		<path class="door" d="M508.547,51.213h8.318v-0.001"/>
+		<path class="door" d="M469.932,51.213h8.318v-0.001"/>
+		<path class="door" d="M392.182,51.215h8.318v-0.001"/>
+		<path class="door" d="M352.658,51.214h8.317v-0.001"/>
+		<path class="door" d="M274.257,51.214h8.318v-0.001"/>
+		<path class="door" d="M220.067,51.214h-8.317v-0.001"/>
+		<path class="door" d="M196.932,51.214h8.318v-0.001"/>
+		<path class="door" d="M157.682,76.838H166v-0.001"/>
+		<path class="door" d="M99.721,8.963L99.721,8.963l-8.318,0.001h-8.317V8.963"/>
+		<path class="door" d="M29.25,8.963L29.25,8.963l-8.318,0.001h-8.317V8.963"/>
+		<path class="door" d="M142.591,8.962L142.591,8.962l-8.318,0.001h-8.317V8.962"/>
+		<path class="door" d="M86.682,198.379H95v-0.002"/>
+		<path class="door" d="M390.682,299.213H399l0,0"/>
+		<path class="door" d="M415.317,76.838H407"/>
+		<path class="door" d="M298.268,76.838h-8.317"/>
+		<path class="door" d="M180.442,76.838h-8.317"/>
+		<path class="door" d="M86.817,242.963H78.5"/>
+		<path class="door" d="M544.651,384.463h-8.317"/>
+		<path class="door" d="M106.75,328.963h8.317"/>
+		<path class="door" d="M106.75,328.963h-8.317"/>
+		<path class="door" d="M217.817,332.723H209.5"/>
+		<path class="door" d="M288.317,259.213H280"/>
+		<path class="door" d="M336.817,259.213H328.5"/>
+		<path class="door" d="M297.567,332.723h-8.317"/>
+		<path class="door" d="M416.067,332.723h-8.317"/>
+		<path class="door" d="M454.317,240.213H446"/>
+		<path class="door" d="M525.271,328.963h8.316h8.317"/>
+</g>
+	<g id="icons">
+	<g>
+		<defs>
+			<rect id="SVGID_75_" x="569.75" y="351.963" width="14" height="14" data-svg-id="SVGID_75_"/>
+		</defs>
+		<clipPath id="SVGID_76_">
+			<use xlink:href="#SVGID_75_" style="overflow:visible;"/>
+		</clipPath>
+		<g class="st135">
+			<g>
+				<defs>
+					<rect id="SVGID_77_" x="569.75" y="351.963" width="14" height="14" data-svg-id="SVGID_77_"/>
+				</defs>
+				<defs>
+					<rect id="SVGID_78_" x="569.75" y="351.963" width="14" height="14" data-svg-id="SVGID_78_"/>
+				</defs>
+				<clipPath id="SVGID_79_">
+					<use xlink:href="#SVGID_77_" style="overflow:visible;"/>
+				</clipPath>
+				<clipPath id="SVGID_80_" class="st136">
+					<use xlink:href="#SVGID_78_" style="overflow:visible;"/>
+				</clipPath>
+				<path class="st151" d="M583.75,364.229c0,0.958-0.776,1.734-1.734,1.734h-10.53c-0.959,0-1.734-0.776-1.734-1.734v-10.531
+					c0-0.957,0.775-1.734,1.734-1.734h10.53c0.958,0,1.734,0.777,1.734,1.734V364.229z"/>
+				<polyline class="st8" points="571.75,362.463 575.188,362.463 575.156,359.463 578.188,359.51 578.167,356.463 581.75,356.463
+									"/>
+			</g>
+		</g>
+	</g>
+		<g>
+		<g id="labels">
+			<g>
+				<defs>
+					<rect id="SVGID_81_" x="57.683" y="351.963" width="14" height="14" data-svg-id="SVGID_81_"/>
+				</defs>
+				<clipPath id="SVGID_82_">
+					<use xlink:href="#SVGID_81_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st137">
+					<g>
+						<defs>
+							<rect id="SVGID_83_" x="57.683" y="351.963" width="14" height="14" data-svg-id="SVGID_83_"/>
+						</defs>
+						<defs>
+							<rect id="SVGID_84_" x="57.683" y="351.963" width="14" height="14" data-svg-id="SVGID_84_"/>
+						</defs>
+						<clipPath id="SVGID_85_">
+							<use xlink:href="#SVGID_83_" style="overflow:visible;"/>
+						</clipPath>
+						<clipPath id="SVGID_86_" class="st138">
+							<use xlink:href="#SVGID_84_" style="overflow:visible;"/>
+						</clipPath>
+						<path class="st32" d="M71.683,364.229c0,0.958-0.776,1.734-1.734,1.734H59.417c-0.958,0-1.734-0.776-1.734-1.734v-10.531
+							c0-0.957,0.776-1.734,1.734-1.734h10.532c0.958,0,1.734,0.777,1.734,1.734V364.229z"/>
+						<polyline class="st47" points="59.683,362.463 63.121,362.463 63.088,359.463 66.119,359.51 66.1,356.463 69.683,356.463
+													"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+	<g id="Safety" style="display:none">
+	<g id="severe-weather">
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_87_" x="144.123" y="140.71" width="8.464" height="10" data-svg-id="SVGID_87_"/>
+				</defs>
+				<clipPath id="SVGID_88_">
+					<use xlink:href="#SVGID_87_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st139">
+					<defs>
+						<rect id="SVGID_89_" x="144.123" y="140.71" width="8.464" height="10" data-svg-id="SVGID_89_"/>
+					</defs>
+					<clipPath id="SVGID_90_">
+						<use xlink:href="#SVGID_89_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st144" d="M144.224,142.389c0.09,0.164,0.239,0.343,0.396,0.515c0.157,0.171,0.351,0.366,0.493,0.507
+						c0.142,0.142,0.246,0.247,0.298,0.358c0.052,0.112,0.052,0.231,0.021,0.335s-0.118,0.225-0.274,0.389
+						c-0.157,0.165-0.396,0.388-0.567,0.627c-0.172,0.239-0.276,0.492-0.344,0.798c-0.067,0.306-0.097,0.665-0.077,0.964
+						c0.021,0.299,0.099,0.567,0.316,0.843c0.216,0.276,0.575,0.575,0.922,0.805c0.348,0.23,0.697,0.397,1.078,0.539
+						c0.381,0.142,0.799,0.261,1.12,0.388c0.321,0.127,0.545,0.262,0.702,0.44c0.157,0.18,0.246,0.403,0.306,0.56
+						c0.06,0.157,0.09,0.247,0.157,0.194c0.067-0.052,0.172-0.247,0.239-0.448c0.067-0.201,0.097-0.411,0.037-0.642
+						c-0.06-0.231-0.209-0.485-0.443-0.696c-0.234-0.21-0.542-0.372-0.803-0.506s-0.47-0.239-0.605-0.366
+						c-0.134-0.127-0.194-0.276-0.157-0.456c0.038-0.179,0.172-0.388,0.366-0.597c0.194-0.209,0.448-0.418,0.776-0.649
+						c0.328-0.231,0.731-0.485,1.202-0.799s1.008-0.687,1.381-0.948c0.373-0.261,0.582-0.411,0.833-0.646
+						c0.25-0.235,0.556-0.571,0.741-0.878c0.185-0.307,0.263-0.619,0.248-0.858c-0.015-0.239-0.119-0.418-0.336-0.59
+						c-0.216-0.171-0.545-0.336-0.888-0.456c-0.343-0.119-0.702-0.194-1.098-0.253c-0.396-0.06-0.829-0.104-1.276-0.112
+						c-0.448-0.007-0.911,0.022-1.381,0.06c-0.47,0.037-0.948,0.082-1.352,0.147c-0.403,0.065-0.761,0.158-1.067,0.271
+						c-0.306,0.112-0.575,0.246-0.754,0.366c-0.179,0.12-0.269,0.224-0.298,0.351S144.134,142.225,144.224,142.389"/>
+					<path class="st145" d="M144.985,141.993c-0.045-0.171,0.06-0.276,0.318-0.402c0.259-0.126,0.682-0.277,1.287-0.367
+						s1.366-0.119,2.008-0.126c0.642-0.008,1.149,0.007,1.634,0.092c0.484,0.084,0.919,0.229,1.206,0.367
+						c0.288,0.138,0.429,0.28,0.407,0.429c-0.022,0.149-0.202,0.313-0.65,0.485c-0.448,0.172-1.165,0.351-1.866,0.433
+						c-0.702,0.082-1.389,0.067-2.038,0.007s-1.262-0.164-1.665-0.336C145.224,142.404,145.03,142.165,144.985,141.993"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_91_" x="145.605" y="190.876" width="8.464" height="10" data-svg-id="SVGID_91_"/>
+				</defs>
+				<clipPath id="SVGID_92_">
+					<use xlink:href="#SVGID_91_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st140">
+					<defs>
+						<rect id="SVGID_93_" x="145.605" y="190.876" width="8.464" height="10" data-svg-id="SVGID_93_"/>
+					</defs>
+					<clipPath id="SVGID_94_">
+						<use xlink:href="#SVGID_93_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st12" d="M145.706,192.555c0.09,0.164,0.239,0.343,0.396,0.515c0.157,0.171,0.351,0.366,0.493,0.507
+						c0.142,0.142,0.246,0.247,0.298,0.358c0.052,0.112,0.052,0.231,0.021,0.335s-0.118,0.225-0.275,0.389
+						c-0.157,0.165-0.396,0.388-0.567,0.627c-0.172,0.239-0.276,0.492-0.344,0.798c-0.067,0.306-0.097,0.665-0.077,0.964
+						s0.099,0.567,0.315,0.843c0.217,0.276,0.575,0.574,0.923,0.805c0.348,0.229,0.697,0.396,1.078,0.539
+						c0.381,0.142,0.799,0.261,1.12,0.388c0.321,0.127,0.545,0.262,0.702,0.44c0.157,0.18,0.246,0.403,0.306,0.561
+						c0.06,0.156,0.09,0.246,0.157,0.193c0.067-0.052,0.172-0.246,0.239-0.447c0.067-0.202,0.097-0.411,0.037-0.643
+						s-0.209-0.485-0.443-0.695c-0.234-0.211-0.542-0.372-0.803-0.506c-0.261-0.135-0.47-0.239-0.605-0.366
+						c-0.134-0.127-0.194-0.276-0.157-0.455c0.038-0.18,0.172-0.389,0.366-0.598c0.194-0.209,0.448-0.418,0.776-0.649
+						c0.328-0.231,0.731-0.485,1.202-0.799s1.008-0.687,1.381-0.948c0.373-0.261,0.582-0.411,0.833-0.646
+						c0.25-0.235,0.556-0.571,0.741-0.878c0.185-0.307,0.263-0.619,0.248-0.858c-0.015-0.239-0.119-0.418-0.336-0.59
+						c-0.216-0.171-0.545-0.336-0.888-0.456c-0.343-0.119-0.702-0.194-1.098-0.253c-0.396-0.06-0.829-0.104-1.276-0.112
+						c-0.448-0.007-0.911,0.022-1.381,0.06c-0.47,0.037-0.948,0.082-1.352,0.147s-0.761,0.158-1.067,0.271
+						c-0.306,0.112-0.575,0.246-0.754,0.366c-0.179,0.12-0.269,0.224-0.299,0.351S145.616,192.391,145.706,192.555"/>
+					<path class="st13" d="M146.467,192.159c-0.045-0.171,0.06-0.276,0.318-0.402c0.259-0.126,0.682-0.277,1.287-0.367
+						s1.366-0.119,2.008-0.126c0.642-0.008,1.149,0.007,1.634,0.092c0.484,0.084,0.919,0.229,1.206,0.367
+						c0.288,0.138,0.43,0.28,0.407,0.429s-0.202,0.313-0.65,0.485c-0.448,0.172-1.165,0.351-1.866,0.433
+						c-0.702,0.082-1.389,0.067-2.038,0.007s-1.262-0.164-1.665-0.336C146.706,192.57,146.512,192.331,146.467,192.159"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_95_" x="537.671" y="173.46" width="8.464" height="10" data-svg-id="SVGID_95_"/>
+				</defs>
+				<clipPath id="SVGID_96_">
+					<use xlink:href="#SVGID_95_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st141">
+					<defs>
+						<rect id="SVGID_97_" x="537.671" y="173.46" width="8.464" height="10" data-svg-id="SVGID_97_"/>
+					</defs>
+					<clipPath id="SVGID_98_">
+						<use xlink:href="#SVGID_97_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st42" d="M537.771,175.139c0.09,0.164,0.239,0.343,0.396,0.515c0.157,0.171,0.352,0.366,0.493,0.507
+						c0.142,0.142,0.246,0.247,0.299,0.358c0.052,0.112,0.052,0.231,0.021,0.335s-0.118,0.225-0.274,0.389
+						c-0.157,0.165-0.396,0.388-0.567,0.627c-0.172,0.239-0.276,0.492-0.344,0.798s-0.097,0.665-0.076,0.964
+						s0.099,0.567,0.315,0.843c0.216,0.276,0.574,0.575,0.923,0.805c0.348,0.23,0.697,0.397,1.077,0.539
+						c0.381,0.142,0.799,0.261,1.12,0.388s0.545,0.262,0.702,0.44c0.156,0.18,0.246,0.403,0.306,0.56s0.09,0.247,0.157,0.194
+						s0.172-0.247,0.238-0.448c0.067-0.201,0.098-0.411,0.038-0.642c-0.061-0.231-0.209-0.485-0.444-0.696
+						c-0.234-0.21-0.541-0.372-0.803-0.506s-0.471-0.239-0.604-0.366c-0.135-0.127-0.194-0.276-0.157-0.456s0.172-0.388,0.366-0.597
+						s0.448-0.418,0.776-0.649s0.731-0.485,1.202-0.799c0.47-0.313,1.008-0.687,1.381-0.948s0.582-0.411,0.833-0.646
+						c0.25-0.235,0.556-0.571,0.74-0.878s0.263-0.619,0.248-0.858s-0.119-0.418-0.336-0.59c-0.217-0.171-0.545-0.336-0.889-0.456
+						c-0.343-0.119-0.701-0.194-1.097-0.253c-0.396-0.06-0.829-0.104-1.277-0.112c-0.447-0.007-0.91,0.022-1.381,0.06
+						c-0.47,0.037-0.948,0.082-1.352,0.147s-0.761,0.158-1.067,0.271c-0.306,0.112-0.574,0.246-0.754,0.366
+						c-0.179,0.12-0.269,0.224-0.299,0.351C537.652,174.826,537.682,174.975,537.771,175.139"/>
+					<path class="st43" d="M538.533,174.743c-0.045-0.171,0.06-0.276,0.318-0.402c0.259-0.126,0.682-0.277,1.287-0.367
+						c0.604-0.09,1.365-0.119,2.008-0.126c0.642-0.008,1.149,0.007,1.634,0.092s0.919,0.229,1.207,0.367
+						c0.287,0.138,0.429,0.28,0.406,0.429s-0.201,0.313-0.649,0.485c-0.447,0.172-1.164,0.351-1.866,0.433
+						c-0.702,0.082-1.389,0.067-2.038,0.007s-1.262-0.164-1.665-0.336C538.772,175.154,538.578,174.915,538.533,174.743"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_99_" x="298.449" y="201.544" width="8.464" height="10" data-svg-id="SVGID_99_"/>
+				</defs>
+				<clipPath id="SVGID_100_">
+					<use xlink:href="#SVGID_99_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st70">
+					<defs>
+						<rect id="SVGID_101_" x="298.449" y="201.544" width="8.464" height="10" data-svg-id="SVGID_101_"/>
+					</defs>
+					<clipPath id="SVGID_102_">
+						<use xlink:href="#SVGID_101_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st95" d="M298.549,203.223c0.09,0.164,0.239,0.344,0.396,0.515c0.157,0.172,0.351,0.366,0.493,0.508
+						c0.142,0.142,0.246,0.246,0.298,0.358s0.052,0.231,0.021,0.335s-0.118,0.225-0.275,0.39c-0.157,0.164-0.396,0.388-0.567,0.627
+						c-0.172,0.238-0.276,0.492-0.344,0.799c-0.067,0.306-0.097,0.664-0.077,0.963c0.021,0.3,0.099,0.567,0.315,0.844
+						c0.217,0.276,0.575,0.574,0.923,0.805c0.348,0.229,0.697,0.396,1.078,0.539c0.381,0.142,0.799,0.261,1.12,0.388
+						c0.321,0.127,0.545,0.262,0.702,0.44c0.157,0.18,0.246,0.403,0.306,0.561c0.06,0.156,0.09,0.246,0.157,0.193
+						c0.067-0.052,0.172-0.246,0.239-0.447c0.067-0.202,0.097-0.411,0.037-0.643s-0.209-0.485-0.443-0.695
+						c-0.234-0.211-0.542-0.372-0.803-0.506c-0.261-0.135-0.47-0.239-0.605-0.366c-0.134-0.127-0.194-0.276-0.157-0.455
+						c0.038-0.18,0.172-0.389,0.366-0.598c0.194-0.209,0.448-0.418,0.776-0.649c0.328-0.231,0.731-0.485,1.202-0.799
+						s1.008-0.687,1.381-0.948c0.373-0.261,0.582-0.41,0.833-0.646s0.556-0.571,0.741-0.878c0.185-0.307,0.263-0.619,0.248-0.858
+						c-0.015-0.238-0.119-0.418-0.336-0.589c-0.216-0.172-0.545-0.336-0.888-0.456c-0.343-0.119-0.702-0.193-1.098-0.254
+						c-0.396-0.06-0.829-0.104-1.276-0.111c-0.448-0.008-0.911,0.022-1.381,0.06c-0.47,0.037-0.948,0.082-1.352,0.147
+						s-0.761,0.158-1.067,0.271s-0.575,0.246-0.754,0.366c-0.179,0.119-0.269,0.224-0.299,0.351S298.46,203.059,298.549,203.223"/>
+					<path class="st96" d="M299.311,202.828c-0.045-0.172,0.06-0.276,0.318-0.402c0.259-0.126,0.682-0.277,1.287-0.367
+						s1.366-0.119,2.008-0.127c0.642-0.007,1.149,0.008,1.634,0.092c0.484,0.085,0.919,0.229,1.206,0.367
+						c0.288,0.139,0.43,0.28,0.407,0.43s-0.202,0.313-0.65,0.485c-0.448,0.172-1.165,0.351-1.866,0.433
+						c-0.702,0.082-1.389,0.067-2.038,0.008s-1.262-0.164-1.665-0.336C299.55,203.238,299.356,202.999,299.311,202.828"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_103_" x="320.766" y="57.653" width="8.464" height="10" data-svg-id="SVGID_103_"/>
+				</defs>
+				<clipPath id="SVGID_104_">
+					<use xlink:href="#SVGID_103_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st71">
+					<defs>
+						<rect id="SVGID_105_" x="320.766" y="57.653" width="8.464" height="10" data-svg-id="SVGID_105_"/>
+					</defs>
+					<clipPath id="SVGID_106_">
+						<use xlink:href="#SVGID_105_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st1" d="M320.867,59.332c0.09,0.164,0.239,0.343,0.396,0.515c0.157,0.172,0.351,0.366,0.493,0.508
+						c0.142,0.142,0.246,0.247,0.298,0.358c0.052,0.112,0.052,0.231,0.021,0.335s-0.118,0.225-0.275,0.389
+						c-0.157,0.165-0.396,0.388-0.567,0.627c-0.172,0.239-0.276,0.492-0.344,0.799c-0.067,0.306-0.097,0.664-0.077,0.963
+						s0.099,0.567,0.315,0.843c0.217,0.276,0.575,0.575,0.923,0.805c0.348,0.23,0.697,0.397,1.078,0.539
+						c0.381,0.142,0.799,0.261,1.12,0.388c0.321,0.127,0.545,0.262,0.702,0.44c0.157,0.18,0.246,0.403,0.306,0.56
+						c0.06,0.157,0.09,0.247,0.157,0.194c0.067-0.052,0.172-0.247,0.239-0.448c0.067-0.202,0.097-0.411,0.037-0.643
+						s-0.209-0.485-0.443-0.696c-0.234-0.21-0.542-0.372-0.803-0.506s-0.47-0.239-0.605-0.366c-0.134-0.127-0.194-0.276-0.157-0.456
+						c0.038-0.179,0.172-0.388,0.366-0.597c0.194-0.209,0.448-0.418,0.776-0.649c0.328-0.231,0.731-0.485,1.202-0.799
+						s1.008-0.687,1.381-0.948c0.373-0.261,0.582-0.411,0.833-0.646c0.25-0.235,0.556-0.571,0.741-0.878s0.263-0.619,0.248-0.858
+						c-0.015-0.239-0.119-0.418-0.336-0.59c-0.216-0.171-0.545-0.336-0.888-0.456c-0.344-0.119-0.702-0.194-1.098-0.253
+						c-0.396-0.06-0.829-0.105-1.276-0.112c-0.448-0.007-0.911,0.022-1.381,0.06c-0.47,0.037-0.948,0.082-1.352,0.147
+						s-0.761,0.158-1.067,0.271c-0.306,0.112-0.575,0.246-0.754,0.366c-0.179,0.12-0.269,0.224-0.299,0.351
+						S320.777,59.167,320.867,59.332"/>
+					<path class="st3" d="M321.628,58.936c-0.045-0.171,0.06-0.276,0.318-0.402c0.259-0.126,0.682-0.277,1.287-0.367
+						s1.366-0.119,2.008-0.127c0.642-0.007,1.149,0.008,1.634,0.092c0.484,0.084,0.919,0.229,1.206,0.367
+						c0.288,0.138,0.43,0.28,0.407,0.429s-0.202,0.313-0.649,0.485c-0.448,0.172-1.165,0.351-1.867,0.433
+						c-0.702,0.083-1.389,0.067-2.038,0.008s-1.262-0.164-1.665-0.336C321.867,59.346,321.673,59.107,321.628,58.936"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_107_" x="320.766" y="311.353" width="8.464" height="10" data-svg-id="SVGID_107_"/>
+				</defs>
+				<clipPath id="SVGID_108_">
+					<use xlink:href="#SVGID_107_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st72">
+					<defs>
+						<rect id="SVGID_109_" x="320.766" y="311.353" width="8.464" height="10" data-svg-id="SVGID_109_"/>
+					</defs>
+					<clipPath id="SVGID_110_">
+						<use xlink:href="#SVGID_109_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st44" d="M320.867,313.032c0.09,0.164,0.239,0.344,0.396,0.515c0.157,0.172,0.351,0.366,0.493,0.508
+						c0.142,0.142,0.246,0.246,0.298,0.358s0.052,0.231,0.021,0.335s-0.118,0.225-0.275,0.39c-0.157,0.164-0.396,0.388-0.567,0.627
+						c-0.172,0.238-0.276,0.492-0.344,0.799c-0.067,0.306-0.097,0.664-0.077,0.963c0.021,0.3,0.099,0.567,0.315,0.844
+						c0.217,0.276,0.575,0.574,0.923,0.805c0.348,0.229,0.697,0.396,1.078,0.539c0.381,0.142,0.799,0.261,1.12,0.388
+						c0.321,0.127,0.545,0.262,0.702,0.44c0.157,0.18,0.246,0.403,0.306,0.561c0.06,0.156,0.09,0.246,0.157,0.193
+						c0.067-0.052,0.172-0.246,0.239-0.447c0.067-0.202,0.097-0.411,0.037-0.643s-0.209-0.485-0.443-0.695
+						c-0.234-0.211-0.542-0.372-0.803-0.506c-0.261-0.135-0.47-0.239-0.605-0.366c-0.134-0.127-0.194-0.276-0.157-0.455
+						c0.038-0.18,0.172-0.389,0.366-0.598c0.194-0.209,0.448-0.418,0.776-0.649c0.328-0.231,0.731-0.485,1.202-0.799
+						s1.008-0.687,1.381-0.948c0.373-0.261,0.582-0.41,0.833-0.646s0.556-0.571,0.741-0.878s0.263-0.619,0.248-0.858
+						c-0.015-0.238-0.119-0.418-0.336-0.589c-0.216-0.172-0.545-0.336-0.888-0.456c-0.344-0.119-0.702-0.193-1.098-0.254
+						c-0.396-0.06-0.829-0.104-1.276-0.111c-0.448-0.008-0.911,0.022-1.381,0.06c-0.47,0.037-0.948,0.082-1.352,0.147
+						s-0.761,0.158-1.067,0.271s-0.575,0.246-0.754,0.366c-0.179,0.119-0.269,0.224-0.299,0.351S320.777,312.868,320.867,313.032"/>
+					<path class="st45" d="M321.628,312.636c-0.045-0.172,0.06-0.276,0.318-0.402c0.259-0.126,0.682-0.277,1.287-0.367
+						s1.366-0.119,2.008-0.127c0.642-0.007,1.149,0.008,1.634,0.092c0.484,0.085,0.919,0.229,1.206,0.367
+						c0.288,0.139,0.43,0.28,0.407,0.43s-0.202,0.313-0.649,0.485c-0.448,0.172-1.165,0.351-1.867,0.433
+						c-0.702,0.082-1.389,0.067-2.038,0.008s-1.262-0.164-1.665-0.336C321.867,313.046,321.673,312.807,321.628,312.636"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_111_" x="53.449" y="173.326" width="8.464" height="10" data-svg-id="SVGID_111_"/>
+				</defs>
+				<clipPath id="SVGID_112_">
+					<use xlink:href="#SVGID_111_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st73">
+					<defs>
+						<rect id="SVGID_113_" x="53.449" y="173.326" width="8.464" height="10" data-svg-id="SVGID_113_"/>
+					</defs>
+					<clipPath id="SVGID_114_">
+						<use xlink:href="#SVGID_113_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st104" d="M53.55,175.004c0.09,0.164,0.239,0.343,0.396,0.515c0.157,0.171,0.351,0.366,0.493,0.507
+						c0.142,0.142,0.246,0.247,0.298,0.358c0.052,0.112,0.052,0.231,0.021,0.335s-0.118,0.225-0.274,0.389
+						c-0.157,0.165-0.396,0.388-0.567,0.627c-0.172,0.239-0.276,0.492-0.344,0.798c-0.067,0.306-0.097,0.665-0.077,0.964
+						c0.021,0.299,0.099,0.567,0.316,0.843c0.216,0.276,0.575,0.575,0.922,0.805c0.348,0.23,0.697,0.397,1.078,0.539
+						c0.381,0.142,0.799,0.261,1.12,0.388c0.321,0.127,0.545,0.262,0.702,0.44c0.157,0.18,0.246,0.403,0.306,0.56
+						c0.06,0.157,0.09,0.247,0.157,0.194c0.067-0.052,0.172-0.247,0.239-0.448c0.067-0.201,0.097-0.411,0.037-0.642
+						c-0.06-0.231-0.209-0.485-0.443-0.696c-0.234-0.21-0.542-0.372-0.803-0.506s-0.47-0.239-0.605-0.366
+						c-0.134-0.127-0.194-0.276-0.157-0.456c0.038-0.179,0.172-0.388,0.366-0.597c0.194-0.209,0.448-0.418,0.776-0.649
+						c0.328-0.231,0.731-0.485,1.202-0.799s1.008-0.687,1.381-0.948c0.373-0.261,0.582-0.411,0.833-0.646
+						c0.25-0.235,0.556-0.571,0.741-0.878c0.185-0.307,0.263-0.619,0.248-0.858c-0.015-0.239-0.119-0.418-0.336-0.59
+						c-0.216-0.171-0.545-0.336-0.888-0.456c-0.343-0.119-0.702-0.194-1.098-0.253c-0.396-0.06-0.829-0.104-1.276-0.112
+						c-0.448-0.007-0.911,0.022-1.381,0.06c-0.47,0.037-0.948,0.082-1.352,0.147c-0.403,0.065-0.761,0.158-1.067,0.271
+						c-0.306,0.112-0.575,0.246-0.754,0.366c-0.179,0.12-0.269,0.224-0.298,0.351S53.46,174.84,53.55,175.004"/>
+					<path class="st106" d="M54.312,174.608c-0.045-0.171,0.06-0.276,0.318-0.402c0.259-0.126,0.682-0.277,1.287-0.367
+						s1.366-0.119,2.008-0.126c0.642-0.008,1.149,0.007,1.634,0.092c0.484,0.084,0.919,0.229,1.206,0.367
+						c0.288,0.138,0.429,0.28,0.407,0.429c-0.022,0.149-0.202,0.313-0.65,0.485c-0.448,0.172-1.165,0.351-1.866,0.433
+						c-0.702,0.082-1.389,0.067-2.038,0.007s-1.262-0.164-1.665-0.336C54.55,175.019,54.356,174.78,54.312,174.608"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_115_" x="-153.746" y="47.713" width="8.464" height="10" data-svg-id="SVGID_115_"/>
+				</defs>
+				<clipPath id="SVGID_116_">
+					<use xlink:href="#SVGID_115_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st74">
+					<defs>
+						<rect id="SVGID_117_" x="-153.746" y="47.713" width="8.464" height="10" data-svg-id="SVGID_117_"/>
+					</defs>
+					<clipPath id="SVGID_118_">
+						<use xlink:href="#SVGID_117_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st6" d="M-153.646,49.392c0.09,0.164,0.239,0.343,0.396,0.515c0.157,0.172,0.351,0.366,0.493,0.508
+						c0.142,0.142,0.246,0.247,0.298,0.358c0.052,0.112,0.052,0.231,0.021,0.335s-0.118,0.225-0.274,0.389
+						c-0.157,0.165-0.396,0.388-0.567,0.627c-0.172,0.239-0.276,0.492-0.344,0.799c-0.067,0.306-0.097,0.664-0.077,0.963
+						c0.021,0.299,0.099,0.567,0.315,0.843c0.217,0.276,0.575,0.575,0.923,0.805c0.348,0.23,0.697,0.397,1.078,0.539
+						c0.381,0.142,0.799,0.261,1.12,0.388c0.321,0.127,0.545,0.262,0.702,0.44c0.157,0.18,0.246,0.403,0.306,0.56
+						c0.06,0.157,0.09,0.247,0.157,0.194c0.067-0.052,0.172-0.247,0.239-0.448c0.067-0.202,0.097-0.411,0.037-0.643
+						s-0.209-0.485-0.443-0.696c-0.234-0.21-0.542-0.372-0.803-0.506s-0.47-0.239-0.605-0.366c-0.134-0.127-0.194-0.276-0.157-0.456
+						c0.038-0.179,0.172-0.388,0.366-0.597c0.194-0.209,0.448-0.418,0.776-0.649c0.328-0.231,0.731-0.485,1.202-0.799
+						s1.008-0.687,1.381-0.948c0.373-0.261,0.582-0.411,0.833-0.646c0.25-0.235,0.556-0.571,0.741-0.878
+						c0.185-0.307,0.263-0.619,0.248-0.858c-0.015-0.239-0.119-0.418-0.336-0.59c-0.216-0.171-0.545-0.336-0.888-0.456
+						c-0.343-0.119-0.702-0.194-1.098-0.253c-0.396-0.06-0.829-0.105-1.276-0.112s-0.911,0.022-1.381,0.06
+						c-0.47,0.037-0.948,0.082-1.352,0.147s-0.761,0.158-1.067,0.271c-0.306,0.112-0.575,0.246-0.754,0.366
+						c-0.179,0.12-0.269,0.224-0.299,0.351S-153.735,49.228-153.646,49.392"/>
+					<path class="st7" d="M-152.884,48.996c-0.045-0.171,0.06-0.276,0.318-0.402c0.259-0.126,0.682-0.277,1.287-0.367
+						s1.366-0.119,2.008-0.127c0.642-0.007,1.149,0.008,1.634,0.092c0.484,0.084,0.919,0.229,1.206,0.367
+						c0.288,0.138,0.429,0.28,0.407,0.429c-0.022,0.149-0.202,0.313-0.65,0.485c-0.448,0.172-1.165,0.351-1.866,0.433
+						c-0.702,0.083-1.389,0.067-2.038,0.008s-1.262-0.164-1.665-0.336C-152.645,49.407-152.839,49.168-152.884,48.996"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_119_" x="-124.746" y="-9.571" width="8.464" height="10" data-svg-id="SVGID_119_"/>
+				</defs>
+				<clipPath id="SVGID_120_">
+					<use xlink:href="#SVGID_119_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st75">
+					<defs>
+						<rect id="SVGID_121_" x="-124.746" y="-9.571" width="8.464" height="10" data-svg-id="SVGID_121_"/>
+					</defs>
+					<clipPath id="SVGID_122_">
+						<use xlink:href="#SVGID_121_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st55" d="M-124.646-7.892c0.09,0.164,0.239,0.343,0.396,0.515c0.157,0.172,0.351,0.366,0.493,0.508
+						c0.142,0.142,0.246,0.247,0.298,0.358c0.052,0.112,0.052,0.231,0.021,0.335s-0.118,0.225-0.274,0.389
+						c-0.157,0.165-0.396,0.388-0.567,0.627c-0.172,0.239-0.276,0.492-0.344,0.799c-0.067,0.306-0.097,0.664-0.077,0.963
+						c0.021,0.299,0.099,0.567,0.315,0.843c0.217,0.276,0.575,0.575,0.923,0.805c0.348,0.23,0.697,0.397,1.078,0.539
+						c0.381,0.142,0.799,0.261,1.12,0.388c0.321,0.127,0.545,0.262,0.702,0.44c0.157,0.18,0.246,0.403,0.306,0.56
+						c0.06,0.157,0.09,0.247,0.157,0.194c0.067-0.052,0.172-0.247,0.239-0.448c0.067-0.202,0.097-0.411,0.037-0.643
+						s-0.209-0.485-0.443-0.696c-0.234-0.21-0.542-0.372-0.803-0.506s-0.47-0.239-0.605-0.366c-0.134-0.127-0.194-0.276-0.157-0.456
+						c0.038-0.179,0.172-0.388,0.366-0.597c0.194-0.209,0.448-0.418,0.776-0.649c0.328-0.231,0.731-0.485,1.202-0.799
+						s1.008-0.687,1.381-0.948c0.373-0.261,0.582-0.411,0.833-0.646c0.25-0.235,0.556-0.571,0.741-0.878
+						c0.185-0.307,0.263-0.619,0.248-0.858c-0.015-0.239-0.119-0.418-0.336-0.59c-0.216-0.171-0.545-0.336-0.888-0.456
+						c-0.343-0.119-0.702-0.194-1.098-0.253c-0.396-0.06-0.829-0.105-1.276-0.112s-0.911,0.022-1.381,0.06
+						c-0.47,0.037-0.948,0.082-1.352,0.147s-0.761,0.158-1.067,0.271c-0.306,0.112-0.575,0.246-0.754,0.366
+						c-0.179,0.12-0.269,0.224-0.298,0.351S-124.735-8.057-124.646-7.892"/>
+					<path class="st56" d="M-123.884-8.288c-0.045-0.171,0.06-0.276,0.318-0.402c0.259-0.126,0.682-0.277,1.287-0.367
+						s1.366-0.119,2.008-0.127c0.642-0.007,1.149,0.008,1.634,0.092c0.484,0.084,0.919,0.229,1.206,0.367
+						c0.288,0.138,0.429,0.28,0.407,0.429c-0.022,0.149-0.202,0.313-0.65,0.485c-0.448,0.172-1.165,0.351-1.866,0.433
+						c-0.702,0.083-1.389,0.067-2.038,0.008s-1.262-0.164-1.665-0.336C-123.645-7.877-123.839-8.116-123.884-8.288"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_123_" x="-181.316" y="-9.571" width="8.464" height="10" data-svg-id="SVGID_123_"/>
+				</defs>
+				<clipPath id="SVGID_124_">
+					<use xlink:href="#SVGID_123_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st76">
+					<defs>
+						<rect id="SVGID_125_" x="-181.316" y="-9.571" width="8.464" height="10" data-svg-id="SVGID_125_"/>
+					</defs>
+					<clipPath id="SVGID_126_">
+						<use xlink:href="#SVGID_125_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st142" d="M-181.215-7.892c0.09,0.164,0.239,0.343,0.396,0.515c0.157,0.172,0.351,0.366,0.493,0.508
+						c0.142,0.142,0.246,0.247,0.298,0.358c0.052,0.112,0.052,0.231,0.021,0.335s-0.118,0.225-0.274,0.389
+						c-0.157,0.165-0.396,0.388-0.567,0.627c-0.172,0.239-0.276,0.492-0.344,0.799c-0.067,0.306-0.097,0.664-0.077,0.963
+						c0.021,0.299,0.099,0.567,0.315,0.843c0.217,0.276,0.575,0.575,0.923,0.805c0.348,0.23,0.697,0.397,1.078,0.539
+						c0.381,0.142,0.799,0.261,1.12,0.388c0.321,0.127,0.545,0.262,0.702,0.44c0.157,0.18,0.246,0.403,0.306,0.56
+						c0.06,0.157,0.09,0.247,0.157,0.194c0.067-0.052,0.172-0.247,0.239-0.448c0.067-0.202,0.097-0.411,0.037-0.643
+						s-0.209-0.485-0.443-0.696c-0.234-0.21-0.542-0.372-0.803-0.506s-0.47-0.239-0.605-0.366c-0.134-0.127-0.194-0.276-0.157-0.456
+						c0.038-0.179,0.172-0.388,0.366-0.597c0.194-0.209,0.448-0.418,0.776-0.649c0.328-0.231,0.731-0.485,1.202-0.799
+						s1.008-0.687,1.381-0.948c0.373-0.261,0.582-0.411,0.833-0.646c0.25-0.235,0.556-0.571,0.741-0.878
+						c0.185-0.307,0.263-0.619,0.248-0.858c-0.015-0.239-0.119-0.418-0.336-0.59c-0.216-0.171-0.545-0.336-0.888-0.456
+						c-0.343-0.119-0.702-0.194-1.098-0.253c-0.396-0.06-0.829-0.105-1.276-0.112s-0.911,0.022-1.381,0.06
+						c-0.47,0.037-0.948,0.082-1.352,0.147s-0.761,0.158-1.067,0.271c-0.306,0.112-0.575,0.246-0.754,0.366
+						c-0.179,0.12-0.269,0.224-0.299,0.351S-181.305-8.057-181.215-7.892"/>
+					<path class="st143" d="M-180.454-8.288c-0.045-0.171,0.06-0.276,0.318-0.402c0.259-0.126,0.682-0.277,1.287-0.367
+						s1.366-0.119,2.008-0.127c0.642-0.007,1.149,0.008,1.634,0.092c0.484,0.084,0.919,0.229,1.206,0.367
+						c0.288,0.138,0.43,0.28,0.407,0.429s-0.202,0.313-0.65,0.485c-0.448,0.172-1.165,0.351-1.866,0.433
+						c-0.702,0.083-1.389,0.067-2.038,0.008s-1.262-0.164-1.665-0.336C-180.215-7.877-180.409-8.116-180.454-8.288"/>
+				</g>
+			</g>
+		</g>
+	</g>
+		<g id="fire-alarm">
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_127_" x="523.365" y="372.211" width="10" height="10" data-svg-id="SVGID_127_"/>
+				</defs>
+				<clipPath id="SVGID_128_">
+					<use xlink:href="#SVGID_127_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st77">
+					<defs>
+						<rect id="SVGID_129_" x="523.365" y="372.211" width="10" height="10" data-svg-id="SVGID_129_"/>
+					</defs>
+					<clipPath id="SVGID_130_">
+						<use xlink:href="#SVGID_129_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st26" d="M531.383,377.211c0,1.667-1.352,3.018-3.018,3.018c-1.667,0-3.018-1.351-3.018-3.018
+						c0-1.666,1.351-3.018,3.018-3.018C530.031,374.194,531.383,375.545,531.383,377.211"/>
+					<path class="st27" d="M527.955,379.584c-0.016,0.027-0.124,0.016-0.261-0.024c-0.137-0.039-0.3-0.105-0.437-0.188
+						c-0.136-0.081-0.245-0.179-0.339-0.297s-0.173-0.257-0.215-0.411c-0.042-0.155-0.049-0.324-0.027-0.473
+						s0.069-0.275,0.146-0.409c0.075-0.133,0.179-0.272,0.239-0.405c0.061-0.134,0.078-0.261,0.088-0.373
+						c0.009-0.112,0.009-0.209,0.003-0.284c-0.006-0.076-0.019-0.131-0.024-0.167s-0.006-0.055,0.039-0.024
+						c0.046,0.03,0.137,0.109,0.209,0.191c0.073,0.081,0.128,0.166,0.173,0.278c0.046,0.112,0.082,0.251,0.097,0.36
+						c0.016,0.109,0.01,0.188,0.013,0.215s0.015,0.003,0.045-0.069s0.079-0.194,0.091-0.315c0.013-0.121-0.012-0.242-0.042-0.388
+						c-0.03-0.145-0.066-0.314-0.088-0.479c-0.021-0.163-0.027-0.32,0.018-0.496c0.046-0.176,0.143-0.369,0.246-0.524
+						c0.103-0.154,0.212-0.27,0.303-0.345c0.091-0.076,0.163-0.112,0.206-0.127c0.042-0.016,0.054-0.01,0.039,0.063
+						c-0.015,0.072-0.058,0.212-0.085,0.345c-0.027,0.134-0.039,0.261-0.033,0.4c0.006,0.139,0.03,0.29,0.072,0.433
+						c0.043,0.143,0.104,0.275,0.188,0.415s0.193,0.284,0.267,0.375c0.072,0.092,0.108,0.128,0.136,0.106s0.046-0.1,0.072-0.189
+						c0.027-0.09,0.064-0.195,0.13-0.287c0.064-0.093,0.152-0.169,0.231-0.225c0.08-0.057,0.157-0.096,0.209-0.122
+						c0.051-0.027,0.081-0.046,0.078-0.019s-0.039,0.1-0.061,0.19c-0.021,0.091-0.027,0.212-0.015,0.354
+						c0.012,0.143,0.042,0.312,0.088,0.476c0.045,0.163,0.105,0.321,0.16,0.457c0.055,0.137,0.103,0.252,0.127,0.379
+						s0.024,0.267,0.024,0.382c0,0.114,0,0.205-0.021,0.29c-0.021,0.085-0.063,0.164-0.124,0.255s-0.139,0.193-0.224,0.275
+						s-0.176,0.143-0.275,0.193c-0.101,0.052-0.209,0.095-0.282,0.121c-0.072,0.027-0.108,0.04-0.121,0.03
+						c-0.012-0.009,0-0.039,0.036-0.097s0.098-0.143,0.131-0.245s0.039-0.225,0.03-0.306c-0.01-0.082-0.033-0.124-0.07-0.182
+						c-0.036-0.058-0.084-0.131-0.111-0.206c-0.027-0.076-0.033-0.154-0.049-0.203c-0.016-0.048-0.039-0.066-0.072-0.03
+						c-0.034,0.036-0.076,0.127-0.091,0.203c-0.016,0.075-0.004,0.136,0.009,0.203c0.012,0.066,0.024,0.139,0.009,0.17
+						s-0.069,0.018-0.112-0.049c-0.042-0.067-0.078-0.188-0.078-0.31s0.036-0.242,0.055-0.336c0.018-0.094,0.018-0.16,0.003-0.242
+						c-0.016-0.082-0.046-0.179-0.079-0.248c-0.033-0.07-0.069-0.112-0.094-0.134c-0.024-0.021-0.036-0.021-0.046,0.019
+						c-0.009,0.04-0.015,0.118-0.026,0.209c-0.013,0.091-0.031,0.193-0.064,0.278s-0.081,0.151-0.124,0.212
+						c-0.042,0.061-0.078,0.115-0.115,0.154c-0.036,0.04-0.072,0.064-0.097,0.058c-0.024-0.006-0.036-0.042-0.061-0.103
+						s-0.061-0.146-0.091-0.197c-0.03-0.051-0.055-0.069-0.069-0.039c-0.016,0.03-0.021,0.109-0.027,0.203s-0.013,0.203-0.03,0.287
+						c-0.019,0.085-0.049,0.146-0.076,0.191c-0.027,0.045-0.051,0.075-0.054,0.143c-0.004,0.066,0.015,0.169,0.045,0.257
+						s0.072,0.161,0.133,0.23S527.97,379.557,527.955,379.584"/>
+					<polygon class="st26" points="523.365,372.211 533.365,372.211 533.365,382.211 530.792,382.211 530.307,381.251
+						532.395,381.251 532.395,373.171 524.336,373.171 524.336,381.251 526.424,381.251 525.938,382.211 523.365,382.211 					"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_131_" x="86.431" y="317.353" width="10" height="10" data-svg-id="SVGID_131_"/>
+				</defs>
+				<clipPath id="SVGID_132_">
+					<use xlink:href="#SVGID_131_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st78">
+					<defs>
+						<rect id="SVGID_133_" x="86.431" y="317.353" width="10" height="10" data-svg-id="SVGID_133_"/>
+					</defs>
+					<clipPath id="SVGID_134_">
+						<use xlink:href="#SVGID_133_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st65" d="M94.449,322.353c0,1.667-1.351,3.018-3.018,3.018s-3.018-1.351-3.018-3.018s1.351-3.018,3.018-3.018
+						S94.449,320.686,94.449,322.353"/>
+					<path class="st66" d="M91.021,324.726c-0.015,0.027-0.124,0.016-0.26-0.024c-0.136-0.039-0.3-0.105-0.436-0.188
+						s-0.246-0.179-0.339-0.297s-0.172-0.257-0.215-0.411c-0.042-0.155-0.048-0.324-0.027-0.473s0.07-0.275,0.146-0.409
+						c0.076-0.133,0.179-0.272,0.239-0.405c0.061-0.134,0.079-0.261,0.087-0.373c0.009-0.112,0.009-0.209,0.003-0.284
+						c-0.006-0.076-0.018-0.131-0.024-0.167c-0.006-0.036-0.006-0.055,0.039-0.024c0.045,0.03,0.137,0.109,0.209,0.191
+						c0.072,0.081,0.127,0.166,0.172,0.278s0.082,0.251,0.097,0.36s0.009,0.188,0.012,0.215c0.003,0.027,0.016,0.003,0.045-0.069
+						c0.03-0.072,0.079-0.194,0.091-0.315c0.012-0.121-0.012-0.242-0.042-0.388c-0.03-0.145-0.067-0.314-0.088-0.479
+						c-0.021-0.163-0.027-0.32,0.018-0.496s0.143-0.37,0.245-0.524c0.103-0.154,0.212-0.27,0.303-0.345
+						c0.091-0.076,0.164-0.112,0.206-0.127c0.042-0.016,0.055-0.01,0.04,0.063c-0.015,0.072-0.058,0.212-0.085,0.345
+						c-0.027,0.134-0.039,0.261-0.033,0.4c0.006,0.139,0.03,0.29,0.073,0.433s0.103,0.275,0.188,0.415
+						c0.085,0.14,0.194,0.284,0.267,0.376c0.073,0.09,0.109,0.127,0.136,0.105c0.027-0.021,0.045-0.1,0.073-0.189
+						c0.027-0.09,0.064-0.195,0.129-0.287c0.065-0.093,0.153-0.169,0.232-0.225c0.079-0.057,0.157-0.096,0.208-0.123
+						c0.052-0.026,0.082-0.045,0.079-0.018s-0.04,0.1-0.061,0.19s-0.027,0.212-0.016,0.354c0.012,0.143,0.042,0.313,0.088,0.476
+						s0.106,0.321,0.161,0.457c0.055,0.137,0.103,0.252,0.127,0.379c0.024,0.127,0.024,0.267,0.024,0.382
+						c0,0.114,0,0.205-0.021,0.29c-0.021,0.085-0.063,0.164-0.125,0.255c-0.061,0.091-0.139,0.193-0.224,0.275
+						c-0.084,0.082-0.175,0.143-0.275,0.193c-0.1,0.052-0.209,0.094-0.282,0.121s-0.109,0.04-0.121,0.03
+						c-0.012-0.009,0-0.039,0.037-0.097c0.036-0.058,0.097-0.143,0.13-0.245s0.04-0.224,0.03-0.306
+						c-0.009-0.082-0.033-0.124-0.069-0.182c-0.037-0.058-0.085-0.131-0.112-0.206c-0.027-0.076-0.033-0.154-0.048-0.203
+						c-0.015-0.048-0.04-0.066-0.073-0.03s-0.076,0.127-0.091,0.203c-0.015,0.075-0.003,0.136,0.009,0.203
+						c0.012,0.066,0.024,0.139,0.009,0.17s-0.069,0.018-0.112-0.049c-0.042-0.067-0.079-0.188-0.079-0.31
+						c0-0.121,0.037-0.242,0.055-0.336s0.018-0.16,0.003-0.242s-0.045-0.179-0.079-0.248s-0.07-0.112-0.094-0.134
+						c-0.024-0.021-0.036-0.021-0.045,0.019c-0.009,0.04-0.015,0.118-0.027,0.209s-0.03,0.193-0.063,0.278s-0.082,0.151-0.124,0.212
+						c-0.042,0.061-0.079,0.115-0.115,0.154c-0.037,0.04-0.073,0.064-0.097,0.058c-0.024-0.006-0.036-0.042-0.061-0.103
+						c-0.024-0.061-0.061-0.146-0.091-0.197c-0.03-0.051-0.054-0.069-0.069-0.039s-0.021,0.109-0.027,0.203
+						c-0.006,0.094-0.012,0.203-0.03,0.287c-0.018,0.085-0.048,0.146-0.076,0.191c-0.027,0.045-0.052,0.075-0.055,0.143
+						c-0.003,0.066,0.015,0.169,0.045,0.257s0.073,0.16,0.133,0.23C90.957,324.632,91.036,324.699,91.021,324.726"/>
+					<polygon class="st65" points="86.431,317.353 96.431,317.353 96.431,327.353 93.858,327.353 93.373,326.393 95.46,326.393
+						95.46,318.313 87.402,318.313 87.402,326.393 89.489,326.393 89.004,327.353 86.431,327.353 					"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_135_" x="107.631" y="373.211" width="10" height="10" data-svg-id="SVGID_135_"/>
+				</defs>
+				<clipPath id="SVGID_136_">
+					<use xlink:href="#SVGID_135_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st79">
+					<defs>
+						<rect id="SVGID_137_" x="107.631" y="373.211" width="10" height="10" data-svg-id="SVGID_137_"/>
+					</defs>
+					<clipPath id="SVGID_138_">
+						<use xlink:href="#SVGID_137_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st149" d="M115.648,378.211c0,1.667-1.351,3.018-3.018,3.018s-3.018-1.351-3.018-3.018
+						c0-1.666,1.351-3.018,3.018-3.018S115.648,376.545,115.648,378.211"/>
+					<path class="st150" d="M112.22,380.584c-0.015,0.027-0.124,0.016-0.26-0.024c-0.136-0.039-0.3-0.105-0.436-0.188
+						c-0.136-0.081-0.246-0.179-0.339-0.297s-0.172-0.257-0.215-0.411c-0.042-0.155-0.049-0.324-0.027-0.473
+						c0.021-0.148,0.07-0.275,0.146-0.409c0.076-0.133,0.179-0.272,0.239-0.405c0.061-0.134,0.079-0.261,0.088-0.373
+						c0.009-0.112,0.009-0.209,0.003-0.284c-0.006-0.076-0.019-0.131-0.024-0.167s-0.006-0.055,0.039-0.024
+						c0.045,0.03,0.137,0.109,0.209,0.191c0.072,0.081,0.127,0.166,0.172,0.278s0.082,0.251,0.097,0.36s0.009,0.188,0.012,0.215
+						c0.003,0.027,0.015,0.003,0.045-0.069s0.079-0.194,0.091-0.315c0.012-0.121-0.012-0.242-0.042-0.388
+						c-0.03-0.145-0.067-0.314-0.088-0.479c-0.021-0.163-0.027-0.32,0.018-0.496s0.143-0.369,0.246-0.524
+						c0.103-0.154,0.212-0.27,0.303-0.345c0.091-0.076,0.164-0.112,0.206-0.127c0.042-0.016,0.054-0.01,0.039,0.063
+						c-0.015,0.072-0.058,0.212-0.085,0.345c-0.027,0.134-0.039,0.261-0.033,0.4c0.006,0.139,0.03,0.29,0.073,0.433
+						s0.103,0.275,0.188,0.415c0.084,0.14,0.193,0.284,0.266,0.375c0.073,0.092,0.109,0.128,0.136,0.106
+						c0.027-0.021,0.046-0.1,0.073-0.189s0.064-0.195,0.129-0.287c0.065-0.093,0.153-0.169,0.232-0.225
+						c0.079-0.057,0.157-0.096,0.208-0.122c0.052-0.027,0.082-0.046,0.079-0.019c-0.003,0.027-0.04,0.1-0.061,0.19
+						s-0.027,0.212-0.016,0.354c0.012,0.143,0.042,0.312,0.088,0.476c0.045,0.163,0.106,0.321,0.161,0.457
+						c0.055,0.137,0.103,0.252,0.127,0.379c0.024,0.127,0.024,0.267,0.024,0.382c0,0.114,0,0.205-0.021,0.29
+						c-0.021,0.085-0.064,0.164-0.125,0.255s-0.139,0.193-0.224,0.275c-0.084,0.082-0.175,0.143-0.275,0.193
+						c-0.1,0.052-0.209,0.095-0.282,0.121c-0.072,0.027-0.109,0.04-0.121,0.03c-0.012-0.009,0-0.039,0.037-0.097
+						c0.036-0.058,0.097-0.143,0.13-0.245c0.034-0.103,0.04-0.225,0.03-0.306c-0.009-0.082-0.033-0.124-0.069-0.182
+						c-0.037-0.058-0.085-0.131-0.112-0.206c-0.027-0.076-0.033-0.154-0.048-0.203c-0.015-0.048-0.04-0.066-0.073-0.03
+						s-0.076,0.127-0.091,0.203c-0.015,0.075-0.003,0.136,0.009,0.203c0.012,0.066,0.024,0.139,0.009,0.17s-0.069,0.018-0.112-0.049
+						c-0.042-0.067-0.079-0.188-0.079-0.31s0.036-0.242,0.054-0.336s0.018-0.16,0.003-0.242s-0.045-0.179-0.079-0.248
+						c-0.033-0.07-0.07-0.112-0.094-0.134c-0.024-0.021-0.036-0.021-0.045,0.019c-0.009,0.04-0.015,0.118-0.027,0.209
+						s-0.03,0.193-0.063,0.278c-0.034,0.085-0.082,0.151-0.124,0.212c-0.042,0.061-0.079,0.115-0.115,0.154
+						c-0.037,0.04-0.073,0.064-0.097,0.058c-0.024-0.006-0.036-0.042-0.061-0.103c-0.024-0.061-0.061-0.146-0.091-0.197
+						c-0.03-0.051-0.054-0.069-0.069-0.039s-0.021,0.109-0.027,0.203c-0.006,0.094-0.012,0.203-0.03,0.287
+						c-0.018,0.085-0.048,0.146-0.076,0.191c-0.027,0.045-0.052,0.075-0.055,0.143c-0.003,0.066,0.015,0.169,0.045,0.257
+						s0.073,0.161,0.133,0.23S112.235,380.557,112.22,380.584"/>
+					<polygon class="st149" points="107.631,373.211 117.631,373.211 117.631,383.211 115.058,383.211 114.573,382.251
+						116.66,382.251 116.66,374.171 108.602,374.171 108.602,382.251 110.689,382.251 110.204,383.211 107.631,383.211 					"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_139_" x="544.649" y="316.353" width="10" height="10" data-svg-id="SVGID_139_"/>
+				</defs>
+				<clipPath id="SVGID_140_">
+					<use xlink:href="#SVGID_139_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st80">
+					<defs>
+						<rect id="SVGID_141_" x="544.649" y="316.353" width="10" height="10" data-svg-id="SVGID_141_"/>
+					</defs>
+					<clipPath id="SVGID_142_">
+						<use xlink:href="#SVGID_141_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st38" d="M552.667,321.353c0,1.667-1.351,3.018-3.018,3.018s-3.018-1.351-3.018-3.018s1.351-3.018,3.018-3.018
+						S552.667,319.686,552.667,321.353"/>
+					<path class="st39" d="M549.239,323.726c-0.016,0.027-0.124,0.016-0.261-0.024c-0.137-0.039-0.3-0.105-0.437-0.188
+						c-0.136-0.082-0.245-0.179-0.339-0.297s-0.173-0.257-0.215-0.411c-0.043-0.155-0.049-0.324-0.027-0.473
+						s0.069-0.275,0.146-0.409c0.075-0.133,0.179-0.272,0.239-0.405c0.061-0.134,0.078-0.261,0.088-0.373
+						c0.009-0.112,0.009-0.209,0.003-0.284c-0.006-0.076-0.019-0.131-0.024-0.167s-0.006-0.055,0.039-0.024
+						c0.046,0.03,0.137,0.109,0.209,0.191c0.073,0.081,0.128,0.166,0.173,0.278c0.046,0.112,0.082,0.251,0.097,0.36
+						c0.016,0.109,0.01,0.188,0.013,0.215s0.015,0.003,0.045-0.069s0.079-0.194,0.091-0.315c0.013-0.121-0.012-0.242-0.042-0.388
+						c-0.03-0.145-0.066-0.314-0.088-0.479c-0.021-0.163-0.027-0.32,0.019-0.496c0.045-0.176,0.142-0.37,0.245-0.524
+						c0.103-0.154,0.212-0.27,0.303-0.345c0.091-0.076,0.163-0.112,0.206-0.127c0.042-0.016,0.055-0.01,0.039,0.063
+						c-0.015,0.072-0.058,0.212-0.085,0.345c-0.027,0.134-0.039,0.261-0.033,0.4c0.006,0.139,0.03,0.29,0.073,0.433
+						c0.042,0.143,0.103,0.275,0.188,0.415s0.193,0.284,0.267,0.376c0.072,0.09,0.108,0.127,0.136,0.105s0.046-0.1,0.072-0.189
+						c0.027-0.09,0.064-0.195,0.13-0.287c0.065-0.093,0.152-0.169,0.231-0.225c0.08-0.057,0.157-0.096,0.209-0.123
+						c0.051-0.026,0.081-0.045,0.078-0.018s-0.039,0.1-0.061,0.19c-0.021,0.091-0.027,0.212-0.015,0.354
+						c0.012,0.143,0.042,0.313,0.088,0.476c0.045,0.163,0.105,0.321,0.16,0.457c0.055,0.137,0.103,0.252,0.127,0.379
+						s0.024,0.267,0.024,0.382c0,0.114,0,0.205-0.021,0.29c-0.021,0.085-0.063,0.164-0.124,0.255s-0.139,0.193-0.224,0.275
+						s-0.176,0.143-0.275,0.193c-0.101,0.052-0.209,0.094-0.282,0.121c-0.072,0.027-0.108,0.04-0.121,0.03
+						c-0.012-0.009,0-0.039,0.036-0.097s0.098-0.143,0.131-0.245s0.039-0.224,0.03-0.306c-0.01-0.082-0.033-0.124-0.07-0.182
+						c-0.036-0.058-0.085-0.131-0.111-0.206c-0.027-0.076-0.034-0.154-0.049-0.203c-0.015-0.048-0.039-0.066-0.072-0.03
+						c-0.034,0.036-0.076,0.127-0.091,0.203c-0.016,0.075-0.004,0.136,0.009,0.203c0.012,0.066,0.024,0.139,0.009,0.17
+						s-0.069,0.018-0.112-0.049c-0.042-0.067-0.078-0.188-0.078-0.31s0.036-0.242,0.055-0.336c0.018-0.094,0.018-0.16,0.003-0.242
+						c-0.016-0.082-0.046-0.179-0.079-0.248s-0.069-0.112-0.094-0.134c-0.024-0.021-0.036-0.021-0.046,0.019
+						c-0.009,0.04-0.015,0.118-0.027,0.209c-0.012,0.091-0.029,0.193-0.063,0.278c-0.033,0.085-0.081,0.151-0.124,0.212
+						c-0.042,0.061-0.078,0.115-0.115,0.154c-0.036,0.04-0.072,0.064-0.097,0.058c-0.024-0.006-0.036-0.042-0.061-0.103
+						s-0.061-0.146-0.091-0.197c-0.03-0.051-0.055-0.069-0.069-0.039c-0.016,0.03-0.021,0.109-0.027,0.203s-0.013,0.203-0.03,0.287
+						c-0.019,0.085-0.049,0.146-0.076,0.191c-0.027,0.045-0.051,0.075-0.054,0.143c-0.004,0.066,0.015,0.169,0.045,0.257
+						s0.073,0.16,0.134,0.23C549.176,323.632,549.254,323.699,549.239,323.726"/>
+					<polygon class="st38" points="544.649,316.353 554.649,316.353 554.649,326.353 552.076,326.353 551.591,325.393
+						553.679,325.393 553.679,317.313 545.62,317.313 545.62,325.393 547.708,325.393 547.223,326.353 544.649,326.353 					"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_143_" x="93.431" y="11.46" width="10" height="10" data-svg-id="SVGID_143_"/>
+				</defs>
+				<clipPath id="SVGID_144_">
+					<use xlink:href="#SVGID_143_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st81">
+					<defs>
+						<rect id="SVGID_145_" x="93.431" y="11.46" width="10" height="10" data-svg-id="SVGID_145_"/>
+					</defs>
+					<clipPath id="SVGID_146_">
+						<use xlink:href="#SVGID_145_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st97" d="M101.449,16.46c0,1.667-1.351,3.018-3.018,3.018s-3.018-1.351-3.018-3.018s1.351-3.018,3.018-3.018
+						S101.449,14.794,101.449,16.46"/>
+					<path class="st98" d="M98.021,18.833c-0.015,0.027-0.124,0.016-0.26-0.024s-0.3-0.106-0.436-0.188
+						c-0.136-0.082-0.246-0.179-0.339-0.296c-0.094-0.118-0.172-0.257-0.215-0.412c-0.042-0.154-0.048-0.324-0.027-0.472
+						s0.07-0.276,0.146-0.409c0.076-0.133,0.179-0.272,0.239-0.406s0.079-0.26,0.087-0.373c0.009-0.112,0.009-0.209,0.003-0.284
+						c-0.006-0.076-0.018-0.13-0.024-0.167c-0.006-0.036-0.006-0.055,0.039-0.024c0.045,0.03,0.137,0.109,0.209,0.191
+						c0.072,0.082,0.127,0.166,0.172,0.278s0.082,0.251,0.097,0.36s0.009,0.188,0.012,0.215c0.003,0.027,0.016,0.003,0.045-0.069
+						c0.03-0.072,0.079-0.194,0.091-0.315c0.012-0.121-0.012-0.243-0.042-0.388c-0.03-0.146-0.067-0.315-0.088-0.479
+						c-0.021-0.164-0.027-0.321,0.018-0.497s0.143-0.37,0.245-0.524c0.103-0.155,0.212-0.27,0.303-0.345s0.164-0.112,0.206-0.127
+						c0.042-0.015,0.055-0.009,0.04,0.063c-0.015,0.073-0.058,0.212-0.085,0.345c-0.027,0.134-0.039,0.261-0.033,0.4
+						c0.006,0.14,0.03,0.291,0.073,0.433s0.103,0.275,0.188,0.415c0.085,0.139,0.194,0.285,0.267,0.375s0.109,0.127,0.136,0.106
+						c0.027-0.021,0.045-0.1,0.073-0.19c0.027-0.09,0.064-0.195,0.129-0.287c0.065-0.092,0.153-0.168,0.232-0.224
+						c0.079-0.057,0.157-0.095,0.208-0.123c0.052-0.027,0.082-0.045,0.079-0.018c-0.003,0.027-0.04,0.1-0.061,0.19
+						c-0.021,0.091-0.027,0.212-0.016,0.354c0.012,0.143,0.042,0.312,0.088,0.476s0.106,0.321,0.161,0.457
+						c0.055,0.137,0.103,0.251,0.127,0.379c0.024,0.127,0.024,0.267,0.024,0.381c0,0.115,0,0.206-0.021,0.291
+						c-0.021,0.085-0.063,0.164-0.125,0.255c-0.061,0.091-0.139,0.193-0.224,0.275c-0.084,0.082-0.175,0.142-0.275,0.194
+						c-0.1,0.051-0.209,0.094-0.282,0.121s-0.109,0.04-0.121,0.03s0-0.04,0.037-0.097c0.036-0.057,0.097-0.142,0.13-0.245
+						s0.04-0.224,0.03-0.306c-0.009-0.082-0.033-0.125-0.069-0.182c-0.037-0.058-0.085-0.13-0.112-0.206s-0.033-0.154-0.048-0.203
+						c-0.015-0.048-0.04-0.066-0.073-0.03c-0.033,0.037-0.076,0.127-0.091,0.203s-0.003,0.136,0.009,0.203
+						c0.012,0.067,0.024,0.139,0.009,0.17s-0.069,0.018-0.112-0.049c-0.042-0.066-0.079-0.188-0.079-0.309
+						c0-0.121,0.037-0.243,0.055-0.336s0.018-0.16,0.003-0.242c-0.015-0.082-0.045-0.179-0.079-0.248
+						c-0.033-0.07-0.07-0.112-0.094-0.133c-0.024-0.021-0.036-0.021-0.045,0.018c-0.009,0.04-0.015,0.118-0.027,0.209
+						s-0.03,0.194-0.063,0.278c-0.033,0.085-0.082,0.151-0.124,0.212c-0.042,0.061-0.079,0.115-0.115,0.155
+						c-0.037,0.04-0.073,0.063-0.097,0.058c-0.024-0.006-0.036-0.042-0.061-0.103c-0.024-0.061-0.061-0.146-0.091-0.197
+						s-0.054-0.07-0.069-0.04s-0.021,0.109-0.027,0.203c-0.006,0.094-0.012,0.203-0.03,0.288c-0.018,0.084-0.048,0.145-0.076,0.191
+						c-0.027,0.045-0.052,0.075-0.055,0.142s0.015,0.169,0.045,0.257s0.073,0.161,0.133,0.23
+						C97.957,18.74,98.036,18.807,98.021,18.833"/>
+					<polygon class="st97" points="93.431,11.46 103.431,11.46 103.431,21.46 100.858,21.46 100.373,20.5 102.46,20.5 102.46,12.42
+						94.402,12.42 94.402,20.5 96.489,20.5 96.004,21.46 93.431,21.46 					"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_147_" x="-234.105" y="-57.198" width="10" height="10" data-svg-id="SVGID_147_"/>
+				</defs>
+				<clipPath id="SVGID_148_">
+					<use xlink:href="#SVGID_147_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st82">
+					<defs>
+						<rect id="SVGID_149_" x="-234.105" y="-57.198" width="10" height="10" data-svg-id="SVGID_149_"/>
+					</defs>
+					<clipPath id="SVGID_150_">
+						<use xlink:href="#SVGID_149_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st15" d="M-226.087-52.198c0,1.667-1.351,3.018-3.018,3.018s-3.018-1.351-3.018-3.018s1.351-3.018,3.018-3.018
+						S-226.087-53.865-226.087-52.198"/>
+					<path class="st16" d="M-229.516-49.825c-0.015,0.027-0.124,0.015-0.26-0.024s-0.3-0.106-0.436-0.188
+						c-0.136-0.082-0.246-0.179-0.339-0.297s-0.172-0.258-0.215-0.412s-0.048-0.324-0.027-0.473c0.021-0.148,0.07-0.275,0.146-0.409
+						s0.179-0.272,0.239-0.406c0.061-0.133,0.079-0.26,0.088-0.373c0.009-0.112,0.009-0.208,0.003-0.285
+						c-0.006-0.076-0.019-0.13-0.024-0.167c-0.006-0.036-0.006-0.054,0.039-0.024c0.045,0.03,0.137,0.109,0.209,0.19
+						c0.072,0.082,0.127,0.167,0.172,0.279s0.082,0.251,0.097,0.36s0.009,0.188,0.012,0.215c0.003,0.027,0.015,0.003,0.045-0.069
+						c0.03-0.073,0.079-0.194,0.091-0.315c0.012-0.121-0.012-0.242-0.042-0.388s-0.067-0.315-0.088-0.479
+						c-0.021-0.164-0.027-0.321,0.018-0.497c0.045-0.176,0.143-0.37,0.245-0.524c0.103-0.154,0.212-0.27,0.303-0.345
+						s0.164-0.112,0.206-0.127c0.042-0.015,0.055-0.009,0.04,0.063c-0.015,0.073-0.058,0.212-0.085,0.346
+						c-0.027,0.133-0.039,0.26-0.033,0.399c0.006,0.14,0.03,0.291,0.073,0.433c0.042,0.143,0.103,0.276,0.188,0.415
+						c0.084,0.139,0.193,0.285,0.266,0.375s0.109,0.127,0.136,0.106c0.027-0.021,0.045-0.1,0.073-0.19
+						c0.027-0.09,0.064-0.195,0.129-0.287c0.065-0.092,0.153-0.168,0.232-0.225c0.079-0.056,0.157-0.095,0.208-0.122
+						c0.052-0.027,0.082-0.045,0.079-0.019c-0.003,0.027-0.04,0.101-0.061,0.191s-0.027,0.212-0.016,0.354
+						c0.012,0.143,0.042,0.312,0.088,0.476s0.106,0.321,0.161,0.458c0.055,0.136,0.103,0.251,0.127,0.378
+						c0.024,0.127,0.024,0.266,0.024,0.381s0,0.206-0.021,0.291c-0.021,0.084-0.064,0.163-0.125,0.254
+						c-0.061,0.091-0.139,0.194-0.224,0.276c-0.084,0.082-0.175,0.142-0.275,0.194c-0.1,0.051-0.209,0.094-0.282,0.121
+						c-0.072,0.027-0.109,0.039-0.121,0.03c-0.012-0.009,0-0.04,0.037-0.097c0.036-0.058,0.097-0.143,0.13-0.246
+						c0.034-0.103,0.04-0.224,0.03-0.306c-0.009-0.082-0.033-0.125-0.069-0.182c-0.037-0.057-0.085-0.13-0.112-0.206
+						s-0.033-0.155-0.048-0.203s-0.04-0.066-0.073-0.03c-0.033,0.037-0.076,0.127-0.091,0.203s-0.003,0.136,0.009,0.203
+						c0.012,0.067,0.024,0.14,0.009,0.17s-0.069,0.018-0.112-0.049c-0.042-0.066-0.079-0.188-0.079-0.309s0.036-0.242,0.054-0.336
+						c0.018-0.094,0.018-0.161,0.003-0.242s-0.045-0.179-0.079-0.248c-0.033-0.07-0.07-0.112-0.094-0.133
+						c-0.024-0.021-0.036-0.021-0.045,0.018s-0.015,0.118-0.027,0.209s-0.03,0.194-0.063,0.279
+						c-0.033,0.084-0.082,0.151-0.124,0.212c-0.042,0.061-0.079,0.115-0.115,0.154c-0.037,0.039-0.073,0.063-0.097,0.058
+						c-0.024-0.006-0.036-0.042-0.061-0.103c-0.024-0.061-0.061-0.146-0.091-0.197c-0.03-0.052-0.054-0.07-0.069-0.04
+						s-0.021,0.109-0.027,0.203c-0.006,0.094-0.012,0.203-0.03,0.288s-0.048,0.146-0.076,0.19c-0.027,0.046-0.052,0.076-0.055,0.143
+						c-0.003,0.067,0.015,0.169,0.045,0.257s0.073,0.161,0.133,0.23S-229.5-49.852-229.516-49.825"/>
+					<polygon class="st15" points="-234.105,-57.198 -224.105,-57.198 -224.105,-47.198 -226.678,-47.198 -227.163,-48.158
+						-225.076,-48.158 -225.076,-56.238 -233.134,-56.238 -233.134,-48.158 -231.047,-48.158 -231.532,-47.198 -234.105,-47.198
+											"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_151_" x="-219.646" y="-120.198" width="10" height="10" data-svg-id="SVGID_151_"/>
+				</defs>
+				<clipPath id="SVGID_152_">
+					<use xlink:href="#SVGID_151_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st83">
+					<defs>
+						<rect id="SVGID_153_" x="-219.646" y="-120.198" width="10" height="10" data-svg-id="SVGID_153_"/>
+					</defs>
+					<clipPath id="SVGID_154_">
+						<use xlink:href="#SVGID_153_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st46" d="M-211.628-115.198c0,1.667-1.351,3.018-3.018,3.018s-3.018-1.351-3.018-3.018s1.351-3.018,3.018-3.018
+						S-211.628-116.865-211.628-115.198"/>
+					<path class="st48" d="M-215.057-112.825c-0.015,0.027-0.124,0.015-0.26-0.024s-0.3-0.106-0.436-0.188
+						c-0.136-0.082-0.246-0.179-0.339-0.297s-0.172-0.258-0.215-0.412s-0.048-0.324-0.027-0.473c0.021-0.148,0.07-0.275,0.146-0.409
+						s0.179-0.272,0.239-0.406c0.061-0.133,0.079-0.26,0.088-0.373c0.009-0.112,0.009-0.208,0.003-0.285
+						c-0.006-0.076-0.019-0.13-0.024-0.167c-0.006-0.036-0.006-0.054,0.039-0.024c0.045,0.03,0.137,0.109,0.209,0.19
+						c0.072,0.082,0.127,0.167,0.172,0.279s0.082,0.251,0.097,0.36s0.009,0.188,0.012,0.215c0.003,0.027,0.015,0.003,0.045-0.069
+						c0.03-0.073,0.079-0.194,0.091-0.315c0.012-0.121-0.012-0.242-0.042-0.388s-0.067-0.315-0.088-0.479
+						c-0.021-0.164-0.027-0.321,0.018-0.497c0.045-0.176,0.143-0.37,0.245-0.524c0.103-0.154,0.212-0.27,0.303-0.345
+						s0.164-0.112,0.206-0.127c0.042-0.015,0.055-0.009,0.04,0.063c-0.015,0.073-0.058,0.212-0.085,0.346
+						c-0.027,0.133-0.039,0.26-0.033,0.399c0.006,0.14,0.03,0.291,0.073,0.433c0.042,0.143,0.103,0.276,0.188,0.415
+						c0.084,0.139,0.193,0.285,0.266,0.375s0.109,0.127,0.136,0.106c0.027-0.021,0.045-0.1,0.073-0.19
+						c0.027-0.09,0.064-0.195,0.129-0.287c0.065-0.092,0.153-0.168,0.232-0.225c0.079-0.056,0.157-0.095,0.208-0.122
+						c0.052-0.027,0.082-0.045,0.079-0.019c-0.003,0.027-0.04,0.101-0.061,0.191s-0.027,0.212-0.016,0.354
+						c0.012,0.143,0.042,0.312,0.088,0.476s0.106,0.321,0.161,0.458c0.055,0.136,0.103,0.251,0.127,0.378
+						c0.024,0.127,0.024,0.266,0.024,0.381s0,0.206-0.021,0.291c-0.021,0.084-0.064,0.163-0.125,0.254
+						c-0.061,0.091-0.139,0.194-0.224,0.276c-0.084,0.082-0.175,0.142-0.275,0.194c-0.1,0.051-0.209,0.094-0.282,0.121
+						c-0.072,0.027-0.109,0.039-0.121,0.03c-0.012-0.009,0-0.04,0.037-0.097c0.036-0.058,0.097-0.143,0.13-0.246
+						c0.034-0.103,0.04-0.224,0.03-0.306c-0.009-0.082-0.033-0.125-0.069-0.182c-0.037-0.057-0.085-0.13-0.112-0.206
+						s-0.033-0.155-0.048-0.203s-0.04-0.066-0.073-0.03c-0.033,0.037-0.076,0.127-0.091,0.203s-0.003,0.136,0.009,0.203
+						c0.012,0.067,0.024,0.14,0.009,0.17s-0.069,0.018-0.112-0.049c-0.042-0.066-0.079-0.188-0.079-0.309s0.036-0.242,0.054-0.336
+						c0.018-0.094,0.018-0.161,0.003-0.242s-0.045-0.179-0.079-0.248c-0.033-0.07-0.07-0.112-0.094-0.133
+						c-0.024-0.021-0.036-0.021-0.045,0.018s-0.015,0.118-0.027,0.209s-0.03,0.194-0.063,0.279
+						c-0.033,0.084-0.082,0.151-0.124,0.212c-0.042,0.061-0.079,0.115-0.115,0.154c-0.037,0.039-0.073,0.063-0.097,0.058
+						c-0.024-0.006-0.036-0.042-0.061-0.103c-0.024-0.061-0.061-0.146-0.091-0.197c-0.03-0.052-0.054-0.07-0.069-0.04
+						s-0.021,0.109-0.027,0.203c-0.006,0.094-0.012,0.203-0.03,0.288s-0.048,0.146-0.076,0.19c-0.027,0.046-0.052,0.076-0.055,0.143
+						c-0.003,0.067,0.015,0.169,0.045,0.257s0.073,0.161,0.133,0.23S-215.042-112.852-215.057-112.825"/>
+					<polygon class="st46" points="-219.646,-120.198 -209.646,-120.198 -209.646,-110.198 -212.219,-110.198 -212.704,-111.158
+						-210.617,-111.158 -210.617,-119.238 -218.675,-119.238 -218.675,-111.158 -216.588,-111.158 -217.073,-110.198
+						-219.646,-110.198 					"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_155_" x="-277.922" y="495.213" width="10" height="10" data-svg-id="SVGID_155_"/>
+				</defs>
+				<clipPath id="SVGID_156_">
+					<use xlink:href="#SVGID_155_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st84">
+					<defs>
+						<rect id="SVGID_157_" x="-277.922" y="495.213" width="10" height="10" data-svg-id="SVGID_157_"/>
+					</defs>
+					<clipPath id="SVGID_158_">
+						<use xlink:href="#SVGID_157_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st107" d="M-269.904,500.213c0,1.667-1.351,3.018-3.018,3.018s-3.018-1.351-3.018-3.018
+						c0-1.666,1.351-3.018,3.018-3.018S-269.904,498.547-269.904,500.213"/>
+					<path class="st108" d="M-273.333,502.586c-0.015,0.027-0.124,0.016-0.26-0.024c-0.136-0.039-0.3-0.105-0.436-0.188
+						c-0.136-0.081-0.246-0.179-0.339-0.297s-0.172-0.257-0.215-0.411c-0.042-0.155-0.048-0.324-0.027-0.473s0.07-0.275,0.146-0.409
+						c0.076-0.133,0.179-0.272,0.239-0.405c0.061-0.134,0.079-0.261,0.088-0.373c0.009-0.112,0.009-0.209,0.003-0.284
+						c-0.006-0.076-0.019-0.131-0.024-0.167s-0.006-0.055,0.039-0.024c0.045,0.03,0.137,0.109,0.209,0.191
+						c0.072,0.081,0.127,0.166,0.172,0.278s0.082,0.251,0.097,0.36s0.009,0.188,0.012,0.215c0.003,0.027,0.015,0.003,0.045-0.069
+						s0.079-0.194,0.091-0.315c0.012-0.121-0.012-0.242-0.042-0.388c-0.03-0.145-0.067-0.314-0.088-0.479
+						c-0.021-0.163-0.027-0.32,0.018-0.496s0.143-0.369,0.246-0.524c0.103-0.154,0.212-0.27,0.303-0.345
+						c0.091-0.076,0.164-0.112,0.206-0.127c0.042-0.016,0.054-0.01,0.039,0.063c-0.015,0.072-0.058,0.212-0.085,0.345
+						c-0.027,0.134-0.039,0.261-0.033,0.4c0.006,0.139,0.03,0.29,0.073,0.433s0.103,0.275,0.188,0.415
+						c0.084,0.14,0.193,0.284,0.266,0.375c0.073,0.092,0.109,0.128,0.136,0.106c0.027-0.021,0.045-0.1,0.073-0.189
+						c0.027-0.09,0.064-0.195,0.129-0.287c0.065-0.093,0.153-0.169,0.232-0.225c0.079-0.057,0.157-0.096,0.208-0.122
+						c0.052-0.027,0.082-0.046,0.079-0.019s-0.04,0.1-0.061,0.19s-0.027,0.212-0.016,0.354c0.012,0.143,0.042,0.312,0.088,0.476
+						c0.045,0.163,0.106,0.321,0.161,0.457c0.055,0.137,0.103,0.252,0.127,0.379c0.024,0.127,0.024,0.267,0.024,0.382
+						c0,0.114,0,0.205-0.021,0.29c-0.021,0.085-0.064,0.164-0.125,0.255s-0.139,0.193-0.224,0.275
+						c-0.084,0.082-0.175,0.143-0.275,0.193c-0.1,0.052-0.209,0.095-0.282,0.121c-0.072,0.027-0.109,0.04-0.121,0.03
+						c-0.012-0.009,0-0.039,0.037-0.097c0.036-0.058,0.097-0.143,0.13-0.245c0.034-0.103,0.04-0.225,0.03-0.306
+						c-0.009-0.082-0.033-0.124-0.069-0.182c-0.037-0.058-0.085-0.131-0.112-0.206c-0.027-0.076-0.033-0.154-0.048-0.203
+						c-0.015-0.048-0.04-0.066-0.073-0.03s-0.076,0.127-0.091,0.203c-0.015,0.075-0.003,0.136,0.009,0.203
+						c0.012,0.066,0.024,0.139,0.009,0.17s-0.069,0.018-0.112-0.049c-0.042-0.067-0.079-0.188-0.079-0.31s0.036-0.242,0.054-0.336
+						s0.018-0.16,0.003-0.242s-0.045-0.179-0.079-0.248c-0.033-0.07-0.07-0.112-0.094-0.134c-0.024-0.021-0.036-0.021-0.045,0.019
+						c-0.009,0.04-0.015,0.118-0.027,0.209s-0.03,0.193-0.063,0.278s-0.082,0.151-0.124,0.212c-0.042,0.061-0.079,0.115-0.115,0.154
+						c-0.037,0.04-0.073,0.064-0.097,0.058c-0.024-0.006-0.036-0.042-0.061-0.103c-0.024-0.061-0.061-0.146-0.091-0.197
+						c-0.03-0.051-0.054-0.069-0.069-0.039s-0.021,0.109-0.027,0.203c-0.006,0.094-0.012,0.203-0.03,0.287
+						c-0.018,0.085-0.048,0.146-0.076,0.191c-0.027,0.045-0.052,0.075-0.055,0.143c-0.003,0.066,0.015,0.169,0.045,0.257
+						s0.073,0.161,0.133,0.23S-273.317,502.559-273.333,502.586"/>
+					<polygon class="st107" points="-277.922,495.213 -267.922,495.213 -267.922,505.213 -270.495,505.213 -270.98,504.253
+						-268.893,504.253 -268.893,496.173 -276.951,496.173 -276.951,504.253 -274.864,504.253 -275.349,505.213 -277.922,505.213
+											"/>
+				</g>
+			</g>
+		</g>
+	</g>
+		<g id="fire-extinguisher">
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_159_" x="497.064" y="323.961" width="6.869" height="10" data-svg-id="SVGID_159_"/>
+				</defs>
+				<clipPath id="SVGID_160_">
+					<use xlink:href="#SVGID_159_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st85">
+					<defs>
+						<rect id="SVGID_161_" x="497.064" y="323.961" width="6.869" height="10" data-svg-id="SVGID_161_"/>
+					</defs>
+					<clipPath id="SVGID_162_">
+						<use xlink:href="#SVGID_161_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st22" d="M498.905,326.053c-0.322,0.062-1.21,0.585-1.21,1.601v5.903c0,0.146,0.068,0.391,0.361,0.391h2.601
+						c0.293,0,0.361-0.244,0.361-0.391v-5.903c0-1.016-0.856-1.539-1.183-1.601l0.002-0.41h1.188v0.254l2.908,0.439v-1.995
+						l-2.908,0.423v0.273h-1.182v-0.43h-0.342c0-0.267-0.291-0.609-0.703-0.609c-0.401,0-0.765,0.313-0.765,0.786
+						c0,0.226,0.129,0.426,0.243,0.494c-0.452,0.167-1.058,0.739-1.178,1.088c-0.166,0.332,0.29,0.61,0.525,0.278
+						c0.234-0.332,0.497-0.74,1.278-0.936L498.905,326.053z"/>
+					<path class="st23" d="M498.788,325.08c0.186,0,0.337-0.151,0.337-0.337s-0.151-0.337-0.337-0.337s-0.337,0.151-0.337,0.337
+						S498.603,325.08,498.788,325.08"/>
+					<path class="st23" d="M499.095,331.271c-0.017,0.011-0.089-0.001-0.183-0.032c-0.095-0.031-0.211-0.082-0.316-0.147
+						c-0.106-0.064-0.206-0.145-0.267-0.254s-0.083-0.249-0.082-0.361c0.001-0.113,0.026-0.199,0.062-0.281
+						c0.035-0.083,0.079-0.162,0.12-0.233c0.04-0.072,0.077-0.138,0.102-0.198s0.036-0.116,0.04-0.18
+						c0.003-0.064-0.001-0.137-0.011-0.201c-0.009-0.065-0.023-0.124-0.035-0.162c-0.011-0.038-0.021-0.057-0.013-0.056
+						c0.007,0.002,0.034,0.026,0.08,0.061c0.047,0.033,0.114,0.078,0.162,0.145c0.048,0.065,0.075,0.154,0.093,0.248
+						c0.018,0.095,0.024,0.194,0.025,0.262c0.002,0.067-0.003,0.103,0.014,0.102c0.016-0.002,0.053-0.039,0.08-0.098
+						c0.027-0.06,0.048-0.15,0.048-0.229c0-0.077-0.02-0.147-0.041-0.231c-0.022-0.083-0.048-0.181-0.06-0.287
+						c-0.012-0.105-0.009-0.22,0.011-0.321c0.02-0.103,0.057-0.193,0.104-0.272s0.105-0.146,0.157-0.199
+						c0.051-0.052,0.095-0.089,0.136-0.119s0.078-0.054,0.101-0.066c0.021-0.013,0.033-0.016,0.023,0.022
+						c-0.009,0.039-0.037,0.118-0.056,0.172c-0.019,0.053-0.027,0.081-0.033,0.147s-0.009,0.171,0.001,0.264
+						c0.009,0.093,0.03,0.175,0.068,0.27c0.038,0.096,0.095,0.205,0.152,0.296c0.059,0.091,0.119,0.162,0.164,0.21
+						s0.075,0.071,0.093,0.079c0.017,0.009,0.018,0.006,0.021-0.027c0.002-0.033,0.004-0.097,0.016-0.155
+						c0.011-0.058,0.033-0.116,0.068-0.171c0.036-0.055,0.088-0.107,0.134-0.149c0.047-0.042,0.089-0.072,0.125-0.097
+						s0.066-0.043,0.079-0.047c0.013-0.003,0.008,0.009-0.006,0.053c-0.015,0.044-0.037,0.121-0.047,0.198
+						c-0.009,0.078-0.005,0.157,0.011,0.245c0.015,0.087,0.04,0.182,0.07,0.283s0.065,0.208,0.101,0.304
+						c0.035,0.095,0.069,0.179,0.086,0.266c0.017,0.088,0.014,0.179-0.005,0.271s-0.054,0.185-0.099,0.253s-0.102,0.113-0.129,0.135
+						c-0.028,0.022-0.126,0.12-0.155,0.135s-0.092,0.046-0.143,0.067c-0.051,0.022-0.093,0.036-0.121,0.045
+						c-0.027,0.008-0.042,0.01-0.032-0.01s0.042-0.062,0.07-0.106c0.029-0.046,0.055-0.095,0.061-0.151s-0.008-0.122-0.027-0.174
+						c-0.02-0.051-0.046-0.088-0.066-0.124c-0.021-0.036-0.037-0.071-0.044-0.111c-0.007-0.041-0.005-0.088-0.001-0.123
+						c0.003-0.036,0.008-0.063-0.009-0.06c-0.016,0.002-0.054,0.032-0.078,0.078c-0.024,0.045-0.036,0.105-0.037,0.161
+						s0.009,0.107,0.017,0.141c0.008,0.034,0.015,0.05,0.006,0.047c-0.01-0.004-0.035-0.027-0.054-0.06s-0.03-0.074-0.038-0.114
+						c-0.008-0.039-0.013-0.076-0.008-0.135c0.006-0.058,0.022-0.142,0.031-0.204c0.008-0.063,0.008-0.112-0.005-0.163
+						s-0.038-0.106-0.066-0.153s-0.058-0.084-0.086-0.107c-0.028-0.022-0.054-0.032-0.062-0.022
+						c-0.008,0.009,0.001,0.037,0.011,0.088c0.009,0.051,0.019,0.126,0.011,0.188c-0.007,0.063-0.029,0.114-0.051,0.161
+						c-0.021,0.048-0.039,0.092-0.072,0.133c-0.032,0.041-0.079,0.078-0.104,0.102c-0.025,0.022-0.03,0.032-0.034,0.011
+						c-0.005-0.021-0.01-0.076-0.022-0.117c-0.013-0.04-0.034-0.068-0.055-0.09c-0.021-0.022-0.042-0.039-0.059-0.051
+						c-0.016-0.012-0.027-0.019-0.027-0.008s0.012,0.038,0.015,0.092c0.004,0.054-0.001,0.133-0.015,0.195
+						c-0.013,0.063-0.037,0.114-0.059,0.162c-0.021,0.047-0.039,0.094-0.05,0.136s-0.013,0.079-0.01,0.117
+						c0.004,0.038,0.014,0.078,0.038,0.119c0.024,0.04,0.063,0.082,0.103,0.119C499.071,331.228,499.111,331.261,499.095,331.271"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_163_" x="87.967" y="283.962" width="6.869" height="10" data-svg-id="SVGID_163_"/>
+				</defs>
+				<clipPath id="SVGID_164_">
+					<use xlink:href="#SVGID_163_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st86">
+					<defs>
+						<rect id="SVGID_165_" x="87.967" y="283.962" width="6.869" height="10" data-svg-id="SVGID_165_"/>
+					</defs>
+					<clipPath id="SVGID_166_">
+						<use xlink:href="#SVGID_165_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st58" d="M89.808,286.054c-0.322,0.062-1.209,0.585-1.209,1.601v5.903c0,0.146,0.068,0.391,0.361,0.391h2.6
+						c0.293,0,0.362-0.244,0.362-0.391v-5.903c0-1.016-0.856-1.539-1.182-1.601l0.001-0.41h1.188v0.254l2.907,0.439v-1.995
+						l-2.907,0.423v0.273h-1.183v-0.43h-0.342c0-0.267-0.29-0.609-0.703-0.609c-0.401,0-0.765,0.313-0.765,0.786
+						c0,0.226,0.129,0.426,0.243,0.494c-0.452,0.167-1.057,0.739-1.177,1.088c-0.166,0.332,0.29,0.61,0.524,0.278
+						s0.498-0.74,1.279-0.936L89.808,286.054z"/>
+					<path class="st59" d="M89.691,285.081c0.186,0,0.337-0.151,0.337-0.337c0-0.187-0.151-0.337-0.337-0.337
+						s-0.337,0.15-0.337,0.337C89.354,284.929,89.505,285.081,89.691,285.081"/>
+					<path class="st59" d="M89.998,291.272c-0.017,0.011-0.088-0.001-0.183-0.032s-0.21-0.083-0.317-0.147s-0.205-0.145-0.266-0.254
+						s-0.084-0.249-0.083-0.361c0.001-0.113,0.027-0.199,0.062-0.281c0.035-0.083,0.079-0.162,0.12-0.234
+						c0.041-0.071,0.078-0.137,0.103-0.197s0.036-0.116,0.04-0.18c0.003-0.064-0.001-0.137-0.011-0.201
+						c-0.009-0.065-0.023-0.124-0.035-0.162s-0.021-0.057-0.014-0.055c0.008,0.001,0.035,0.025,0.081,0.06
+						c0.046,0.033,0.114,0.078,0.162,0.144c0.048,0.066,0.076,0.155,0.093,0.249c0.018,0.095,0.024,0.194,0.026,0.262
+						c0.001,0.067-0.003,0.103,0.013,0.102c0.017-0.001,0.054-0.039,0.081-0.098c0.027-0.06,0.047-0.15,0.047-0.229
+						c0-0.077-0.019-0.147-0.041-0.231c-0.022-0.083-0.048-0.181-0.06-0.287c-0.012-0.105-0.009-0.22,0.011-0.321
+						c0.02-0.103,0.057-0.193,0.104-0.272c0.047-0.079,0.106-0.146,0.157-0.199c0.051-0.052,0.096-0.089,0.136-0.119
+						s0.078-0.054,0.1-0.066s0.034-0.016,0.024,0.022c-0.009,0.039-0.037,0.118-0.056,0.172c-0.019,0.053-0.028,0.081-0.034,0.147
+						s-0.008,0.171,0.001,0.264s0.03,0.175,0.068,0.27c0.039,0.096,0.094,0.205,0.152,0.296s0.119,0.163,0.164,0.21
+						c0.045,0.048,0.076,0.071,0.092,0.08c0.017,0.008,0.018,0.005,0.021-0.028s0.005-0.097,0.016-0.155s0.033-0.116,0.069-0.171
+						s0.087-0.107,0.134-0.149c0.046-0.042,0.088-0.072,0.124-0.097c0.036-0.024,0.066-0.043,0.079-0.047
+						c0.013-0.003,0.008,0.009-0.006,0.053c-0.014,0.044-0.037,0.121-0.046,0.198c-0.009,0.078-0.004,0.157,0.011,0.244
+						c0.015,0.088,0.041,0.183,0.071,0.284s0.065,0.208,0.1,0.304c0.035,0.095,0.07,0.179,0.086,0.266
+						c0.016,0.088,0.014,0.179-0.005,0.271s-0.053,0.185-0.099,0.253s-0.101,0.113-0.129,0.135c-0.028,0.022-0.126,0.12-0.155,0.135
+						s-0.091,0.046-0.143,0.067c-0.051,0.022-0.093,0.036-0.121,0.045c-0.028,0.008-0.042,0.01-0.033-0.01s0.042-0.062,0.071-0.106
+						c0.029-0.046,0.055-0.095,0.061-0.151s-0.008-0.122-0.028-0.174c-0.02-0.051-0.045-0.088-0.066-0.124s-0.037-0.071-0.044-0.111
+						c-0.007-0.041-0.004-0.088-0.001-0.123c0.003-0.036,0.008-0.063-0.008-0.06c-0.017,0.002-0.054,0.032-0.078,0.078
+						c-0.024,0.045-0.036,0.105-0.037,0.161c-0.001,0.056,0.008,0.107,0.016,0.141c0.008,0.034,0.015,0.05,0.006,0.047
+						c-0.009-0.004-0.035-0.027-0.054-0.06s-0.03-0.074-0.038-0.114c-0.008-0.039-0.013-0.076-0.007-0.135
+						c0.005-0.058,0.022-0.142,0.03-0.204c0.008-0.063,0.008-0.112-0.004-0.163s-0.039-0.107-0.066-0.153
+						c-0.028-0.047-0.058-0.084-0.086-0.107c-0.028-0.022-0.054-0.032-0.062-0.022c-0.008,0.009,0.001,0.037,0.01,0.088
+						s0.019,0.126,0.012,0.188s-0.03,0.114-0.051,0.161c-0.021,0.048-0.04,0.092-0.072,0.133c-0.033,0.041-0.079,0.078-0.105,0.102
+						c-0.025,0.023-0.03,0.032-0.035,0.011c-0.004-0.021-0.009-0.076-0.022-0.117c-0.013-0.04-0.034-0.068-0.055-0.091
+						c-0.021-0.021-0.042-0.038-0.058-0.05c-0.017-0.012-0.028-0.019-0.028-0.008s0.012,0.038,0.015,0.092s-0.001,0.133-0.014,0.195
+						s-0.038,0.114-0.059,0.162c-0.021,0.047-0.04,0.094-0.05,0.136s-0.013,0.079-0.009,0.117s0.013,0.078,0.037,0.119
+						c0.024,0.04,0.064,0.082,0.104,0.119S90.014,291.262,89.998,291.272"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_167_" x="-148.949" y="279.962" width="6.869" height="10" data-svg-id="SVGID_167_"/>
+				</defs>
+				<clipPath id="SVGID_168_">
+					<use xlink:href="#SVGID_167_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st87">
+					<defs>
+						<rect id="SVGID_169_" x="-148.949" y="279.962" width="6.869" height="10" data-svg-id="SVGID_169_"/>
+					</defs>
+					<clipPath id="SVGID_170_">
+						<use xlink:href="#SVGID_169_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st4" d="M-147.108,282.054c-0.322,0.062-1.209,0.585-1.209,1.601v5.903c0,0.146,0.068,0.391,0.361,0.391h2.601
+						c0.293,0,0.361-0.244,0.361-0.391v-5.903c0-1.016-0.856-1.539-1.183-1.601l0.002-0.41h1.188v0.254l2.907,0.439v-1.995
+						l-2.907,0.423v0.273h-1.183v-0.43h-0.342c0-0.267-0.29-0.609-0.703-0.609c-0.401,0-0.765,0.313-0.765,0.786
+						c0,0.226,0.129,0.426,0.243,0.494c-0.452,0.167-1.057,0.739-1.177,1.088c-0.166,0.332,0.29,0.61,0.524,0.278
+						s0.498-0.74,1.279-0.936L-147.108,282.054z"/>
+					<path class="st5" d="M-147.225,281.081c0.186,0,0.337-0.151,0.337-0.337c0-0.187-0.151-0.337-0.337-0.337
+						s-0.337,0.15-0.337,0.337C-147.562,280.929-147.411,281.081-147.225,281.081"/>
+					<path class="st5" d="M-146.918,287.272c-0.017,0.011-0.088-0.001-0.183-0.032s-0.21-0.083-0.317-0.147
+						s-0.205-0.145-0.266-0.254s-0.084-0.249-0.083-0.361c0.001-0.113,0.027-0.199,0.062-0.281c0.035-0.083,0.079-0.162,0.12-0.234
+						c0.041-0.071,0.078-0.137,0.103-0.197s0.036-0.116,0.04-0.18c0.003-0.064-0.001-0.137-0.011-0.201
+						c-0.009-0.065-0.023-0.124-0.035-0.162s-0.021-0.057-0.014-0.055c0.008,0.001,0.035,0.025,0.081,0.06
+						c0.046,0.033,0.114,0.078,0.162,0.144c0.048,0.066,0.076,0.155,0.093,0.249c0.018,0.095,0.024,0.194,0.026,0.262
+						c0.001,0.067-0.003,0.103,0.013,0.102c0.017-0.001,0.054-0.039,0.081-0.098c0.027-0.06,0.047-0.15,0.047-0.229
+						c0-0.077-0.019-0.147-0.041-0.231c-0.022-0.083-0.048-0.181-0.06-0.287c-0.012-0.105-0.009-0.22,0.011-0.321
+						c0.02-0.103,0.057-0.193,0.104-0.272s0.106-0.146,0.157-0.199c0.051-0.052,0.096-0.089,0.136-0.119s0.078-0.054,0.1-0.066
+						s0.034-0.016,0.024,0.022c-0.009,0.039-0.037,0.118-0.056,0.172c-0.019,0.053-0.028,0.081-0.034,0.147
+						s-0.008,0.171,0.001,0.264s0.03,0.175,0.068,0.27c0.039,0.096,0.094,0.205,0.152,0.296s0.119,0.163,0.164,0.21
+						c0.045,0.048,0.076,0.071,0.092,0.08c0.017,0.008,0.018,0.005,0.021-0.028s0.005-0.097,0.016-0.155s0.033-0.116,0.069-0.171
+						s0.087-0.107,0.134-0.149c0.046-0.042,0.088-0.072,0.124-0.097c0.036-0.024,0.066-0.043,0.079-0.047
+						c0.013-0.003,0.008,0.009-0.006,0.053c-0.014,0.044-0.037,0.121-0.046,0.198c-0.009,0.078-0.004,0.157,0.011,0.244
+						c0.015,0.088,0.041,0.183,0.071,0.284s0.065,0.208,0.1,0.304c0.035,0.095,0.07,0.179,0.086,0.266
+						c0.016,0.088,0.014,0.179-0.005,0.271s-0.053,0.185-0.099,0.253s-0.101,0.113-0.129,0.135c-0.028,0.022-0.126,0.12-0.155,0.135
+						s-0.091,0.046-0.143,0.067c-0.051,0.022-0.093,0.036-0.121,0.045c-0.028,0.008-0.042,0.01-0.032-0.01s0.042-0.062,0.071-0.106
+						c0.029-0.046,0.055-0.095,0.061-0.151s-0.008-0.122-0.028-0.174c-0.02-0.051-0.045-0.088-0.066-0.124s-0.037-0.071-0.044-0.111
+						c-0.007-0.041-0.004-0.088-0.001-0.123c0.003-0.036,0.008-0.063-0.008-0.06c-0.016,0.002-0.053,0.032-0.078,0.078
+						c-0.024,0.045-0.036,0.105-0.037,0.161c-0.001,0.056,0.008,0.107,0.016,0.141c0.008,0.034,0.015,0.05,0.006,0.047
+						c-0.009-0.004-0.035-0.027-0.054-0.06s-0.03-0.074-0.038-0.114c-0.008-0.039-0.013-0.076-0.007-0.135
+						c0.005-0.058,0.022-0.142,0.03-0.204c0.008-0.063,0.008-0.112-0.004-0.163s-0.039-0.107-0.066-0.153
+						c-0.028-0.047-0.058-0.084-0.086-0.107c-0.028-0.022-0.054-0.032-0.062-0.022c-0.008,0.009,0.001,0.037,0.01,0.088
+						s0.019,0.126,0.012,0.188s-0.03,0.114-0.051,0.161c-0.021,0.048-0.04,0.092-0.072,0.133c-0.033,0.041-0.079,0.078-0.105,0.102
+						c-0.025,0.023-0.03,0.032-0.035,0.011c-0.004-0.021-0.009-0.076-0.022-0.117c-0.013-0.04-0.034-0.068-0.055-0.091
+						c-0.021-0.021-0.042-0.038-0.058-0.05c-0.017-0.012-0.028-0.019-0.028-0.008s0.012,0.038,0.015,0.092s-0.001,0.133-0.014,0.195
+						s-0.038,0.114-0.059,0.162c-0.021,0.047-0.04,0.094-0.05,0.136c-0.011,0.042-0.013,0.079-0.009,0.117s0.013,0.078,0.037,0.119
+						c0.024,0.04,0.064,0.082,0.104,0.119S-146.902,287.262-146.918,287.272"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_171_" x="-280.356" y="198.377" width="6.869" height="10" data-svg-id="SVGID_171_"/>
+				</defs>
+				<clipPath id="SVGID_172_">
+					<use xlink:href="#SVGID_171_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st88">
+					<defs>
+						<rect id="SVGID_173_" x="-280.356" y="198.377" width="6.869" height="10" data-svg-id="SVGID_173_"/>
+					</defs>
+					<clipPath id="SVGID_174_">
+						<use xlink:href="#SVGID_173_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st29" d="M-278.516,200.469c-0.322,0.062-1.209,0.585-1.209,1.601v5.903c0,0.146,0.068,0.391,0.361,0.391h2.601
+						c0.293,0,0.361-0.244,0.361-0.391v-5.903c0-1.016-0.856-1.539-1.183-1.601l0.002-0.41h1.188v0.254l2.907,0.439v-1.995
+						l-2.907,0.423v0.273h-1.183v-0.43h-0.342c0-0.267-0.29-0.609-0.703-0.609c-0.401,0-0.765,0.313-0.765,0.786
+						c0,0.226,0.129,0.426,0.243,0.494c-0.452,0.167-1.057,0.739-1.177,1.088c-0.166,0.332,0.29,0.61,0.524,0.278
+						s0.498-0.74,1.279-0.936L-278.516,200.469z"/>
+					<path class="st30" d="M-278.633,199.496c0.186,0,0.337-0.151,0.337-0.337s-0.151-0.337-0.337-0.337s-0.337,0.151-0.337,0.337
+						S-278.819,199.496-278.633,199.496"/>
+					<path class="st30" d="M-278.326,205.687c-0.017,0.011-0.088-0.001-0.183-0.032s-0.21-0.082-0.317-0.147
+						c-0.106-0.064-0.205-0.145-0.266-0.254s-0.084-0.249-0.083-0.361c0.001-0.113,0.027-0.199,0.062-0.281
+						c0.035-0.083,0.079-0.162,0.12-0.233c0.041-0.072,0.078-0.138,0.103-0.198s0.036-0.116,0.04-0.18
+						c0.003-0.064-0.001-0.137-0.011-0.201c-0.009-0.065-0.023-0.124-0.035-0.162s-0.021-0.057-0.014-0.056
+						c0.008,0.002,0.035,0.026,0.081,0.061c0.046,0.033,0.114,0.078,0.162,0.145c0.048,0.065,0.076,0.154,0.093,0.248
+						c0.018,0.095,0.024,0.194,0.026,0.262c0.001,0.067-0.003,0.103,0.013,0.102c0.017-0.002,0.054-0.039,0.081-0.098
+						c0.027-0.06,0.047-0.15,0.047-0.229c0-0.077-0.019-0.147-0.041-0.231c-0.022-0.083-0.048-0.181-0.06-0.287
+						c-0.012-0.105-0.009-0.22,0.011-0.321c0.02-0.103,0.057-0.193,0.104-0.272s0.106-0.146,0.157-0.199
+						c0.051-0.052,0.096-0.089,0.136-0.119s0.078-0.054,0.1-0.066s0.034-0.016,0.024,0.022c-0.009,0.039-0.037,0.118-0.056,0.172
+						c-0.019,0.053-0.028,0.081-0.034,0.147s-0.008,0.171,0.001,0.264s0.03,0.175,0.068,0.27c0.039,0.096,0.094,0.205,0.152,0.296
+						s0.119,0.162,0.164,0.21s0.076,0.071,0.092,0.079c0.017,0.009,0.018,0.006,0.021-0.027s0.004-0.097,0.016-0.155
+						c0.011-0.058,0.033-0.116,0.069-0.171s0.087-0.107,0.134-0.149c0.046-0.042,0.088-0.072,0.125-0.097
+						c0.036-0.024,0.066-0.043,0.079-0.047c0.013-0.003,0.008,0.009-0.006,0.053c-0.014,0.044-0.037,0.121-0.046,0.198
+						c-0.009,0.078-0.004,0.157,0.011,0.245c0.015,0.087,0.041,0.182,0.071,0.283s0.065,0.208,0.1,0.304
+						c0.035,0.095,0.07,0.179,0.086,0.266c0.016,0.088,0.014,0.179-0.005,0.271s-0.053,0.185-0.099,0.253s-0.101,0.113-0.129,0.135
+						c-0.028,0.022-0.126,0.12-0.155,0.135s-0.091,0.046-0.143,0.067c-0.051,0.022-0.093,0.036-0.121,0.045
+						c-0.028,0.008-0.042,0.01-0.032-0.01s0.042-0.062,0.071-0.106c0.029-0.046,0.055-0.095,0.061-0.151s-0.008-0.122-0.028-0.174
+						c-0.02-0.051-0.045-0.088-0.066-0.124s-0.037-0.071-0.044-0.111c-0.007-0.041-0.004-0.088-0.001-0.123
+						c0.003-0.036,0.008-0.063-0.008-0.06c-0.016,0.002-0.053,0.032-0.078,0.078c-0.024,0.045-0.036,0.105-0.037,0.161
+						c-0.001,0.056,0.008,0.107,0.016,0.141c0.008,0.034,0.015,0.05,0.006,0.047c-0.009-0.004-0.035-0.027-0.054-0.06
+						s-0.03-0.074-0.038-0.114c-0.008-0.039-0.013-0.076-0.007-0.135c0.005-0.058,0.022-0.142,0.03-0.204
+						c0.008-0.063,0.008-0.112-0.004-0.163s-0.039-0.106-0.066-0.153s-0.058-0.084-0.086-0.107
+						c-0.028-0.022-0.054-0.032-0.062-0.022c-0.008,0.009,0.001,0.037,0.01,0.088s0.019,0.126,0.012,0.188s-0.03,0.114-0.051,0.161
+						c-0.021,0.048-0.04,0.092-0.072,0.133c-0.033,0.041-0.079,0.078-0.105,0.102c-0.025,0.022-0.03,0.032-0.035,0.011
+						c-0.004-0.021-0.009-0.076-0.022-0.117c-0.013-0.04-0.034-0.068-0.055-0.09c-0.021-0.022-0.042-0.039-0.058-0.051
+						c-0.017-0.012-0.028-0.019-0.028-0.008s0.012,0.038,0.015,0.092s-0.001,0.133-0.014,0.195s-0.038,0.114-0.059,0.162
+						c-0.021,0.047-0.04,0.094-0.05,0.136c-0.011,0.042-0.013,0.079-0.009,0.117s0.013,0.078,0.037,0.119
+						c0.024,0.04,0.064,0.082,0.104,0.119S-278.31,205.677-278.326,205.687"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_175_" x="-249.575" y="439.211" width="6.869" height="10" data-svg-id="SVGID_175_"/>
+				</defs>
+				<clipPath id="SVGID_176_">
+					<use xlink:href="#SVGID_175_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st89">
+					<defs>
+						<rect id="SVGID_177_" x="-249.575" y="439.211" width="6.869" height="10" data-svg-id="SVGID_177_"/>
+					</defs>
+					<clipPath id="SVGID_178_">
+						<use xlink:href="#SVGID_177_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st67" d="M-247.735,441.303c-0.322,0.062-1.209,0.585-1.209,1.601v5.903c0,0.146,0.068,0.391,0.361,0.391h2.601
+						c0.293,0,0.361-0.244,0.361-0.391v-5.903c0-1.016-0.856-1.539-1.183-1.601l0.002-0.41h1.188v0.254l2.907,0.439v-1.995
+						l-2.907,0.423v0.273h-1.183v-0.43h-0.342c0-0.267-0.29-0.609-0.703-0.609c-0.401,0-0.765,0.313-0.765,0.786
+						c0,0.226,0.129,0.426,0.243,0.494c-0.452,0.167-1.057,0.739-1.177,1.088c-0.166,0.332,0.29,0.61,0.524,0.278
+						s0.498-0.74,1.279-0.936L-247.735,441.303z"/>
+					<path class="st68" d="M-247.852,440.33c0.186,0,0.337-0.151,0.337-0.337s-0.151-0.337-0.337-0.337s-0.337,0.151-0.337,0.337
+						S-248.038,440.33-247.852,440.33"/>
+					<path class="st68" d="M-247.545,446.521c-0.017,0.011-0.088-0.001-0.183-0.032s-0.21-0.082-0.317-0.147
+						c-0.106-0.064-0.205-0.145-0.266-0.254s-0.084-0.249-0.083-0.361c0.001-0.113,0.027-0.199,0.062-0.281
+						c0.035-0.083,0.079-0.162,0.12-0.233c0.041-0.072,0.078-0.138,0.103-0.198s0.036-0.116,0.04-0.18
+						c0.003-0.064-0.001-0.137-0.011-0.201c-0.009-0.065-0.023-0.124-0.035-0.162s-0.021-0.057-0.014-0.056
+						c0.008,0.002,0.035,0.026,0.081,0.061c0.046,0.033,0.114,0.078,0.162,0.145c0.048,0.065,0.076,0.154,0.093,0.248
+						c0.018,0.095,0.024,0.194,0.026,0.262c0.001,0.067-0.003,0.103,0.013,0.102c0.017-0.002,0.054-0.039,0.081-0.098
+						c0.027-0.06,0.047-0.15,0.047-0.229c0-0.077-0.019-0.147-0.041-0.231c-0.022-0.083-0.048-0.181-0.06-0.287
+						c-0.012-0.105-0.009-0.22,0.011-0.321c0.02-0.103,0.057-0.193,0.104-0.272s0.106-0.146,0.157-0.199
+						c0.051-0.052,0.096-0.089,0.136-0.119s0.078-0.054,0.1-0.066s0.034-0.016,0.024,0.022c-0.009,0.039-0.037,0.118-0.056,0.172
+						c-0.019,0.053-0.028,0.081-0.034,0.147s-0.008,0.171,0.001,0.264s0.03,0.175,0.068,0.27c0.039,0.096,0.094,0.205,0.152,0.296
+						s0.119,0.162,0.164,0.21s0.076,0.071,0.092,0.079c0.017,0.009,0.018,0.006,0.021-0.027s0.004-0.097,0.016-0.155
+						c0.011-0.058,0.033-0.116,0.069-0.171s0.087-0.107,0.134-0.149c0.046-0.042,0.088-0.072,0.125-0.097
+						c0.036-0.024,0.066-0.043,0.079-0.047c0.013-0.003,0.008,0.009-0.006,0.053c-0.014,0.044-0.037,0.121-0.046,0.198
+						c-0.009,0.078-0.004,0.157,0.011,0.245c0.015,0.087,0.041,0.182,0.071,0.283s0.065,0.208,0.1,0.304
+						c0.035,0.095,0.07,0.179,0.086,0.266c0.016,0.088,0.014,0.179-0.005,0.271s-0.053,0.185-0.099,0.253s-0.101,0.113-0.129,0.135
+						c-0.028,0.022-0.126,0.12-0.155,0.135s-0.091,0.046-0.143,0.067c-0.051,0.022-0.093,0.036-0.121,0.045
+						c-0.028,0.008-0.042,0.01-0.032-0.01s0.042-0.062,0.071-0.106c0.029-0.046,0.055-0.095,0.061-0.151s-0.008-0.122-0.028-0.174
+						c-0.02-0.051-0.045-0.088-0.066-0.124s-0.037-0.071-0.044-0.111c-0.007-0.041-0.004-0.088-0.001-0.123
+						c0.003-0.036,0.008-0.063-0.008-0.06c-0.016,0.002-0.053,0.032-0.078,0.078c-0.024,0.045-0.036,0.105-0.037,0.161
+						c-0.001,0.056,0.008,0.107,0.016,0.141c0.008,0.034,0.015,0.05,0.006,0.047c-0.009-0.004-0.035-0.027-0.054-0.06
+						s-0.03-0.074-0.038-0.114c-0.008-0.039-0.013-0.076-0.007-0.135c0.005-0.058,0.022-0.142,0.03-0.204
+						c0.008-0.063,0.008-0.112-0.004-0.163s-0.039-0.106-0.066-0.153s-0.058-0.084-0.086-0.107
+						c-0.028-0.022-0.054-0.032-0.062-0.022c-0.008,0.009,0.001,0.037,0.01,0.088s0.019,0.126,0.012,0.188s-0.03,0.114-0.051,0.161
+						c-0.021,0.048-0.04,0.092-0.072,0.133c-0.033,0.041-0.079,0.078-0.105,0.102c-0.025,0.022-0.03,0.032-0.035,0.011
+						c-0.004-0.021-0.009-0.076-0.022-0.117c-0.013-0.04-0.034-0.068-0.055-0.09c-0.021-0.022-0.042-0.039-0.058-0.051
+						c-0.017-0.012-0.028-0.019-0.028-0.008s0.012,0.038,0.015,0.092s-0.001,0.133-0.014,0.195s-0.038,0.114-0.059,0.162
+						c-0.021,0.047-0.04,0.094-0.05,0.136c-0.011,0.042-0.013,0.079-0.009,0.117s0.013,0.078,0.037,0.119
+						c0.024,0.04,0.064,0.082,0.104,0.119S-247.529,446.511-247.545,446.521"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_179_" x="-250.422" y="-14.076" width="6.869" height="10" data-svg-id="SVGID_179_"/>
+				</defs>
+				<clipPath id="SVGID_180_">
+					<use xlink:href="#SVGID_179_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st90">
+					<defs>
+						<rect id="SVGID_181_" x="-250.422" y="-14.076" width="6.869" height="10" data-svg-id="SVGID_181_"/>
+					</defs>
+					<clipPath id="SVGID_182_">
+						<use xlink:href="#SVGID_181_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st10" d="M-248.582-11.983c-0.322,0.061-1.209,0.584-1.209,1.6v5.903c0,0.147,0.068,0.391,0.361,0.391h2.601
+						c0.293,0,0.361-0.244,0.361-0.391v-5.903c0-1.016-0.856-1.539-1.183-1.6l0.002-0.411h1.188v0.254l2.907,0.439v-1.995
+						l-2.907,0.423V-13h-1.183v-0.43h-0.342c0-0.267-0.29-0.609-0.703-0.609c-0.401,0-0.765,0.313-0.765,0.787
+						c0,0.225,0.129,0.425,0.243,0.494c-0.452,0.167-1.057,0.739-1.177,1.087c-0.166,0.333,0.29,0.611,0.524,0.279
+						c0.234-0.333,0.498-0.74,1.279-0.936L-248.582-11.983z"/>
+					<path class="st11" d="M-248.698-12.958c0.186,0,0.337-0.151,0.337-0.337s-0.151-0.337-0.337-0.337s-0.337,0.151-0.337,0.337
+						S-248.884-12.958-248.698-12.958"/>
+					<path class="st11" d="M-248.392-6.766c-0.017,0.01-0.088-0.001-0.183-0.033s-0.21-0.083-0.317-0.147
+						c-0.106-0.065-0.205-0.145-0.266-0.254s-0.084-0.249-0.083-0.361c0.001-0.113,0.027-0.199,0.062-0.281
+						c0.035-0.083,0.079-0.162,0.12-0.234c0.041-0.072,0.078-0.137,0.103-0.198s0.036-0.116,0.04-0.18s-0.001-0.136-0.011-0.201
+						s-0.023-0.123-0.035-0.162c-0.012-0.038-0.021-0.057-0.014-0.055c0.008,0.002,0.035,0.026,0.081,0.06s0.114,0.078,0.162,0.144
+						c0.048,0.066,0.076,0.155,0.093,0.249c0.018,0.094,0.024,0.194,0.026,0.262c0.001,0.067-0.003,0.103,0.013,0.102
+						c0.017-0.001,0.054-0.039,0.081-0.098c0.027-0.059,0.047-0.15,0.047-0.228c0-0.078-0.019-0.148-0.041-0.231
+						c-0.022-0.083-0.048-0.182-0.06-0.287c-0.012-0.106-0.009-0.22,0.011-0.322c0.02-0.102,0.057-0.193,0.104-0.272
+						s0.106-0.146,0.157-0.199c0.051-0.052,0.096-0.09,0.136-0.12c0.041-0.03,0.078-0.054,0.1-0.066
+						c0.022-0.012,0.034-0.015,0.024,0.023s-0.037,0.118-0.056,0.171c-0.019,0.054-0.028,0.082-0.034,0.148
+						s-0.008,0.171,0.001,0.264c0.009,0.093,0.03,0.175,0.068,0.27c0.039,0.095,0.094,0.205,0.152,0.295s0.119,0.163,0.164,0.21
+						c0.045,0.047,0.076,0.071,0.092,0.079s0.018,0.005,0.021-0.028s0.004-0.097,0.016-0.155c0.011-0.058,0.033-0.116,0.069-0.171
+						c0.036-0.054,0.087-0.108,0.134-0.149c0.046-0.042,0.088-0.072,0.125-0.097c0.036-0.024,0.066-0.043,0.079-0.047
+						c0.013-0.003,0.008,0.008-0.006,0.053c-0.014,0.044-0.037,0.121-0.046,0.199c-0.009,0.078-0.004,0.157,0.011,0.244
+						s0.041,0.183,0.071,0.284s0.065,0.208,0.1,0.304c0.035,0.095,0.07,0.179,0.086,0.266s0.014,0.178-0.005,0.27
+						s-0.053,0.185-0.099,0.253c-0.045,0.069-0.101,0.113-0.129,0.135c-0.028,0.022-0.126,0.12-0.155,0.135
+						s-0.091,0.046-0.143,0.068s-0.093,0.036-0.121,0.044c-0.028,0.008-0.042,0.01-0.032-0.01c0.009-0.02,0.042-0.062,0.071-0.107
+						s0.055-0.094,0.061-0.151c0.006-0.057-0.008-0.122-0.028-0.173c-0.02-0.051-0.045-0.088-0.066-0.125s-0.037-0.071-0.044-0.111
+						c-0.007-0.041-0.004-0.087-0.001-0.124s0.008-0.062-0.008-0.059c-0.016,0.002-0.053,0.032-0.078,0.078
+						s-0.036,0.106-0.037,0.162c-0.001,0.056,0.008,0.107,0.016,0.141c0.008,0.034,0.015,0.05,0.006,0.047
+						c-0.009-0.004-0.035-0.027-0.054-0.06c-0.019-0.032-0.03-0.074-0.038-0.114c-0.008-0.04-0.013-0.077-0.007-0.135
+						c0.005-0.058,0.022-0.142,0.03-0.204c0.008-0.063,0.008-0.112-0.004-0.163c-0.013-0.051-0.039-0.107-0.066-0.153
+						c-0.028-0.047-0.058-0.084-0.086-0.107c-0.028-0.023-0.054-0.033-0.062-0.023c-0.008,0.009,0.001,0.037,0.01,0.088
+						s0.019,0.125,0.012,0.188c-0.007,0.063-0.03,0.114-0.051,0.162c-0.021,0.047-0.04,0.092-0.072,0.132
+						c-0.033,0.041-0.079,0.078-0.105,0.101c-0.025,0.023-0.03,0.033-0.035,0.012s-0.009-0.077-0.022-0.117
+						c-0.013-0.041-0.034-0.069-0.055-0.091c-0.021-0.022-0.042-0.039-0.058-0.05c-0.017-0.011-0.028-0.019-0.028-0.008
+						s0.012,0.038,0.015,0.092s-0.001,0.133-0.014,0.195s-0.038,0.114-0.059,0.162c-0.021,0.048-0.04,0.094-0.05,0.136
+						c-0.011,0.042-0.013,0.079-0.009,0.117c0.003,0.039,0.013,0.078,0.037,0.119s0.064,0.083,0.104,0.12
+						S-248.375-6.776-248.392-6.766"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_183_" x="-148.949" y="84.547" width="6.869" height="10" data-svg-id="SVGID_183_"/>
+				</defs>
+				<clipPath id="SVGID_184_">
+					<use xlink:href="#SVGID_183_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st91">
+					<defs>
+						<rect id="SVGID_185_" x="-148.949" y="84.547" width="6.869" height="10" data-svg-id="SVGID_185_"/>
+					</defs>
+					<clipPath id="SVGID_186_">
+						<use xlink:href="#SVGID_185_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st40" d="M-147.108,86.64c-0.322,0.061-1.209,0.584-1.209,1.6v5.903c0,0.147,0.068,0.391,0.361,0.391h2.601
+						c0.293,0,0.361-0.244,0.361-0.391V88.24c0-1.016-0.856-1.539-1.183-1.6l0.002-0.411h1.188v0.254l2.907,0.439v-1.995
+						l-2.907,0.423v0.273h-1.183v-0.43h-0.342c0-0.267-0.29-0.609-0.703-0.609c-0.401,0-0.765,0.313-0.765,0.787
+						c0,0.225,0.129,0.425,0.243,0.494c-0.452,0.167-1.057,0.739-1.177,1.087c-0.166,0.333,0.29,0.611,0.524,0.279
+						c0.234-0.333,0.498-0.74,1.279-0.936L-147.108,86.64z"/>
+					<path class="st41" d="M-147.225,85.666c0.186,0,0.337-0.151,0.337-0.337s-0.151-0.337-0.337-0.337s-0.337,0.151-0.337,0.337
+						S-147.411,85.666-147.225,85.666"/>
+					<path class="st41" d="M-146.918,91.857c-0.017,0.01-0.088-0.001-0.183-0.033s-0.21-0.083-0.317-0.147
+						c-0.106-0.065-0.205-0.145-0.266-0.254s-0.084-0.249-0.083-0.361c0.001-0.113,0.027-0.199,0.062-0.281
+						c0.035-0.083,0.079-0.162,0.12-0.234c0.041-0.072,0.078-0.137,0.103-0.198s0.036-0.116,0.04-0.18s-0.001-0.136-0.011-0.201
+						s-0.023-0.123-0.035-0.162c-0.012-0.038-0.021-0.057-0.014-0.055c0.008,0.002,0.035,0.026,0.081,0.06s0.114,0.078,0.162,0.144
+						c0.048,0.066,0.076,0.155,0.093,0.249c0.018,0.094,0.024,0.194,0.026,0.262c0.001,0.067-0.003,0.103,0.013,0.102
+						c0.017-0.001,0.054-0.039,0.081-0.098c0.027-0.059,0.047-0.15,0.047-0.228c0-0.078-0.019-0.148-0.041-0.231
+						c-0.022-0.083-0.048-0.182-0.06-0.287c-0.012-0.106-0.009-0.22,0.011-0.322c0.02-0.102,0.057-0.193,0.104-0.272
+						s0.106-0.146,0.157-0.199c0.051-0.052,0.096-0.09,0.136-0.12c0.041-0.03,0.078-0.054,0.1-0.066
+						c0.022-0.012,0.034-0.015,0.024,0.023s-0.037,0.118-0.056,0.171c-0.019,0.054-0.028,0.082-0.034,0.148
+						s-0.008,0.171,0.001,0.264c0.009,0.093,0.03,0.175,0.068,0.27c0.039,0.095,0.094,0.205,0.152,0.295s0.119,0.163,0.164,0.21
+						c0.045,0.047,0.076,0.071,0.092,0.079s0.018,0.005,0.021-0.028s0.005-0.097,0.016-0.155c0.011-0.058,0.033-0.116,0.069-0.171
+						c0.036-0.054,0.087-0.108,0.134-0.149c0.046-0.042,0.088-0.072,0.124-0.097c0.036-0.024,0.066-0.043,0.079-0.047
+						c0.013-0.003,0.008,0.008-0.006,0.053c-0.014,0.044-0.037,0.121-0.046,0.199c-0.009,0.078-0.004,0.157,0.011,0.244
+						s0.041,0.183,0.071,0.284s0.065,0.208,0.1,0.304c0.035,0.095,0.07,0.179,0.086,0.266s0.014,0.178-0.005,0.27
+						s-0.053,0.185-0.099,0.253c-0.045,0.069-0.101,0.113-0.129,0.135c-0.028,0.022-0.126,0.12-0.155,0.135
+						s-0.091,0.046-0.143,0.068s-0.093,0.036-0.121,0.044c-0.028,0.008-0.042,0.01-0.032-0.01c0.009-0.02,0.042-0.062,0.071-0.107
+						s0.055-0.094,0.061-0.151c0.006-0.057-0.008-0.122-0.028-0.173c-0.02-0.051-0.045-0.088-0.066-0.125s-0.037-0.071-0.044-0.111
+						c-0.007-0.041-0.004-0.087-0.001-0.124s0.008-0.062-0.008-0.059c-0.016,0.002-0.053,0.032-0.078,0.078
+						s-0.036,0.106-0.037,0.162c-0.001,0.056,0.008,0.107,0.016,0.141c0.008,0.034,0.015,0.05,0.006,0.047
+						c-0.009-0.004-0.035-0.027-0.054-0.06c-0.019-0.032-0.03-0.074-0.038-0.114c-0.008-0.04-0.013-0.077-0.007-0.135
+						c0.005-0.058,0.022-0.142,0.03-0.204c0.008-0.063,0.008-0.112-0.004-0.163c-0.013-0.051-0.039-0.107-0.066-0.153
+						c-0.028-0.047-0.058-0.084-0.086-0.107c-0.028-0.023-0.054-0.033-0.062-0.023c-0.008,0.009,0.001,0.037,0.01,0.088
+						s0.019,0.125,0.012,0.188c-0.007,0.063-0.03,0.114-0.051,0.162c-0.021,0.047-0.04,0.092-0.072,0.132
+						c-0.033,0.041-0.079,0.078-0.105,0.101c-0.025,0.023-0.03,0.033-0.035,0.012s-0.009-0.077-0.022-0.117
+						c-0.013-0.041-0.034-0.069-0.055-0.091c-0.021-0.022-0.042-0.039-0.058-0.05c-0.017-0.011-0.028-0.019-0.028-0.008
+						s0.012,0.038,0.015,0.092s-0.001,0.133-0.014,0.195s-0.038,0.114-0.059,0.162c-0.021,0.048-0.04,0.094-0.05,0.136
+						c-0.011,0.042-0.013,0.079-0.009,0.117c0.003,0.039,0.013,0.078,0.037,0.119s0.064,0.083,0.104,0.12
+						S-146.902,91.847-146.918,91.857"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_187_" x="111.631" y="47.71" width="6.869" height="10" data-svg-id="SVGID_187_"/>
+				</defs>
+				<clipPath id="SVGID_188_">
+					<use xlink:href="#SVGID_187_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st92">
+					<defs>
+						<rect id="SVGID_189_" x="111.631" y="47.71" width="6.869" height="10" data-svg-id="SVGID_189_"/>
+					</defs>
+					<clipPath id="SVGID_190_">
+						<use xlink:href="#SVGID_189_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st146" d="M113.471,49.803c-0.322,0.061-1.209,0.584-1.209,1.6v5.903c0,0.147,0.068,0.391,0.361,0.391h2.601
+						c0.293,0,0.361-0.244,0.361-0.391v-5.903c0-1.016-0.856-1.539-1.183-1.6l0.002-0.411h1.188v0.254l2.907,0.439V48.09
+						l-2.907,0.423v0.273h-1.183v-0.43h-0.342c0-0.267-0.29-0.609-0.703-0.609c-0.401,0-0.765,0.313-0.765,0.787
+						c0,0.225,0.129,0.425,0.243,0.494c-0.452,0.167-1.057,0.739-1.177,1.087c-0.166,0.333,0.29,0.611,0.524,0.279
+						c0.234-0.333,0.498-0.74,1.279-0.936L113.471,49.803z"/>
+					<path class="st148" d="M113.354,48.829c0.186,0,0.337-0.151,0.337-0.337s-0.151-0.337-0.337-0.337s-0.337,0.151-0.337,0.337
+						S113.168,48.829,113.354,48.829"/>
+					<path class="st148" d="M113.661,55.021c-0.017,0.01-0.088-0.001-0.183-0.033s-0.21-0.083-0.317-0.147
+						c-0.106-0.065-0.205-0.145-0.266-0.254s-0.084-0.249-0.083-0.361c0.001-0.113,0.026-0.199,0.062-0.281
+						c0.035-0.083,0.079-0.162,0.12-0.234c0.041-0.072,0.078-0.137,0.103-0.198s0.036-0.116,0.04-0.18s-0.001-0.136-0.011-0.201
+						s-0.023-0.123-0.035-0.162c-0.012-0.038-0.021-0.057-0.014-0.055c0.008,0.002,0.035,0.026,0.081,0.06s0.114,0.078,0.162,0.144
+						c0.048,0.066,0.076,0.155,0.093,0.249c0.018,0.094,0.024,0.194,0.026,0.262c0.001,0.067-0.003,0.103,0.013,0.102
+						c0.017-0.001,0.054-0.039,0.081-0.098c0.027-0.059,0.047-0.15,0.047-0.228c0-0.078-0.019-0.148-0.041-0.231
+						c-0.022-0.083-0.048-0.182-0.06-0.287c-0.012-0.106-0.009-0.22,0.011-0.322c0.02-0.102,0.057-0.193,0.104-0.272
+						s0.106-0.146,0.157-0.199c0.051-0.052,0.096-0.09,0.136-0.12c0.041-0.03,0.078-0.054,0.1-0.066
+						c0.022-0.012,0.034-0.015,0.024,0.023s-0.037,0.118-0.056,0.171c-0.019,0.054-0.028,0.082-0.034,0.148
+						c-0.005,0.066-0.008,0.171,0.001,0.264c0.009,0.093,0.03,0.175,0.068,0.27c0.039,0.095,0.094,0.205,0.152,0.295
+						s0.119,0.163,0.164,0.21c0.045,0.047,0.076,0.071,0.092,0.079s0.018,0.005,0.021-0.028s0.004-0.097,0.016-0.155
+						c0.011-0.058,0.033-0.116,0.069-0.171c0.036-0.054,0.087-0.108,0.134-0.149c0.046-0.042,0.088-0.072,0.125-0.097
+						c0.036-0.024,0.066-0.043,0.079-0.047c0.013-0.003,0.008,0.008-0.006,0.053c-0.014,0.044-0.037,0.121-0.046,0.199
+						c-0.009,0.078-0.004,0.157,0.011,0.244s0.041,0.183,0.071,0.284s0.065,0.208,0.1,0.304c0.035,0.095,0.07,0.179,0.086,0.266
+						s0.014,0.178-0.005,0.27s-0.053,0.185-0.099,0.253c-0.045,0.069-0.101,0.113-0.129,0.135c-0.028,0.022-0.126,0.12-0.155,0.135
+						s-0.091,0.046-0.143,0.068s-0.093,0.036-0.121,0.044c-0.028,0.008-0.042,0.01-0.032-0.01c0.009-0.02,0.042-0.062,0.071-0.107
+						s0.055-0.094,0.061-0.151c0.006-0.057-0.008-0.122-0.028-0.173c-0.02-0.051-0.045-0.088-0.066-0.125s-0.037-0.071-0.044-0.111
+						c-0.007-0.041-0.004-0.087-0.001-0.124s0.008-0.062-0.008-0.059c-0.016,0.002-0.053,0.032-0.078,0.078
+						s-0.036,0.106-0.037,0.162c-0.001,0.056,0.008,0.107,0.016,0.141c0.008,0.034,0.015,0.05,0.006,0.047
+						c-0.009-0.004-0.035-0.027-0.054-0.06c-0.019-0.032-0.03-0.074-0.038-0.114c-0.008-0.04-0.013-0.077-0.007-0.135
+						c0.005-0.058,0.022-0.142,0.03-0.204c0.008-0.063,0.008-0.112-0.004-0.163c-0.013-0.051-0.039-0.107-0.066-0.153
+						c-0.028-0.047-0.058-0.084-0.086-0.107c-0.028-0.023-0.054-0.033-0.062-0.023c-0.008,0.009,0.001,0.037,0.01,0.088
+						s0.019,0.125,0.012,0.188c-0.007,0.063-0.03,0.114-0.051,0.162c-0.021,0.047-0.04,0.092-0.072,0.132
+						c-0.033,0.041-0.079,0.078-0.105,0.101c-0.025,0.023-0.03,0.033-0.035,0.012s-0.009-0.077-0.022-0.117
+						c-0.013-0.041-0.034-0.069-0.055-0.091c-0.021-0.022-0.042-0.039-0.058-0.05c-0.017-0.011-0.028-0.019-0.028-0.008
+						s0.012,0.038,0.015,0.092c0.004,0.054-0.001,0.133-0.014,0.195s-0.038,0.114-0.059,0.162c-0.021,0.048-0.04,0.094-0.05,0.136
+						c-0.011,0.042-0.013,0.079-0.009,0.117c0.003,0.039,0.013,0.078,0.037,0.119s0.064,0.083,0.104,0.12
+						S113.677,55.01,113.661,55.021"/>
+				</g>
+			</g>
+		</g>
+	</g>
+		<g id="aed">
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_191_" x="519.165" y="352.24" width="10" height="9.26" data-svg-id="SVGID_191_"/>
+				</defs>
+				<clipPath id="SVGID_192_">
+					<use xlink:href="#SVGID_191_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st93">
+					<defs>
+						<rect id="SVGID_193_" x="519.165" y="352.24" width="10" height="9.26" data-svg-id="SVGID_193_"/>
+					</defs>
+					<clipPath id="SVGID_194_">
+						<use xlink:href="#SVGID_193_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st17" d="M521.797,352.24c-1.579,0.015-2.986,1.577-2.563,3.646c0.322,1.576,2.002,3.627,4.931,5.614
+						c2.929-1.987,4.607-4.038,4.931-5.614c0.424-2.068-0.983-3.631-2.563-3.646c-0.812-0.013-1.827,0.417-2.368,1.453
+						C523.624,352.657,522.608,352.227,521.797,352.24"/>
+					<path class="st18" d="M523.065,359.761c0-0.046,0.177-0.461,0.492-1.157c0.069-0.153,0.126-0.303,0.126-0.332
+						s0.1-0.26,0.221-0.511c0.121-0.252,0.221-0.47,0.221-0.482c0-0.014-0.379-0.036-0.842-0.05l-0.842-0.025l0.246-0.271
+						c0.135-0.15,0.504-0.563,0.819-0.918c1.612-1.815,1.966-2.192,1.864-1.99c-0.049,0.097-0.291,0.613-0.539,1.148
+						c-0.248,0.533-0.489,1.04-0.535,1.125c-0.046,0.084-0.083,0.172-0.083,0.195s0.376,0.053,0.837,0.067l0.838,0.025l-0.286,0.311
+						c-0.157,0.172-0.504,0.568-0.771,0.882c-0.268,0.313-0.546,0.634-0.619,0.712c-0.072,0.077-0.228,0.257-0.345,0.398
+						C523.474,359.366,523.065,359.81,523.065,359.761L523.065,359.761z"/>
+				</g>
+			</g>
+		</g>
+			<g>
+			<g>
+				<defs>
+					<rect id="SVGID_195_" x="-277.922" y="186.246" width="10" height="9.26" data-svg-id="SVGID_195_"/>
+				</defs>
+				<clipPath id="SVGID_196_">
+					<use xlink:href="#SVGID_195_" style="overflow:visible;"/>
+				</clipPath>
+				<g class="st94">
+					<defs>
+						<rect id="SVGID_197_" x="-277.922" y="186.246" width="10" height="9.26" data-svg-id="SVGID_197_"/>
+					</defs>
+					<clipPath id="SVGID_198_">
+						<use xlink:href="#SVGID_197_" style="overflow:visible;"/>
+					</clipPath>
+					<path class="st49" d="M-275.29,186.247c-1.58,0.014-2.987,1.577-2.563,3.646c0.323,1.577,2.002,3.627,4.931,5.614
+						c2.929-1.987,4.608-4.038,4.931-5.614c0.424-2.068-0.983-3.631-2.563-3.646c-0.812-0.013-1.827,0.417-2.368,1.453
+						C-273.463,186.663-274.479,186.234-275.29,186.247"/>
+					<path class="st51" d="M-274.022,193.768c0-0.046,0.177-0.461,0.493-1.157c0.069-0.153,0.126-0.303,0.126-0.332
+						c0-0.03,0.099-0.26,0.221-0.512c0.122-0.251,0.221-0.469,0.221-0.481c0-0.014-0.378-0.036-0.842-0.05l-0.841-0.025l0.245-0.272
+						c0.135-0.149,0.504-0.563,0.82-0.917c1.613-1.815,1.966-2.192,1.864-1.991c-0.049,0.097-0.292,0.614-0.54,1.148
+						c-0.248,0.534-0.488,1.041-0.534,1.125c-0.046,0.084-0.084,0.172-0.084,0.195s0.377,0.053,0.837,0.067l0.837,0.025
+						l-0.286,0.312c-0.157,0.171-0.503,0.568-0.771,0.881c-0.267,0.313-0.545,0.634-0.618,0.712
+						c-0.073,0.077-0.229,0.257-0.346,0.399C-273.613,193.373-274.022,193.817-274.022,193.768L-274.022,193.768z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+
+<g id="fireRoute" style="display:none;" transform="translate(-390, -150)">
+    <line x1="131.0154" y1="307.149" x2="131.0154" y2="118.8602" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <line x1="134.1147" y1="669.2809" x2="134.1147" y2="365.369" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <g>
+      <line x1="87.7934" y1="669.4304" x2="132.4579" y2="669.4304" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+      <path d="M248.1071,747.0425a1.2506,1.2506,0,0,0-.3832-1.7261L231.5924,735.043,247.7239,724.77a1.25,1.25,0,0,0-1.3428-2.1094l-17.787,11.3281a1.2507,1.2507,0,0,0,0,2.1094l17.787,11.3281a1.2509,1.2509,0,0,0,1.726-.3833Z" transform="translate(-143.228 -65.6126)" style="fill: #ed1c24"/>
+    </g>
+    <line x1="131.0053" y1="116.2561" x2="178.6755" y2="116.2561" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <g>
+      <line x1="159.2994" y1="3.0057" x2="159.2994" y2="115.3568" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+      <path d="M290.5279,85.7041a1.25,1.25,0,0,0,1.726-.3833l10.2735-16.1314,10.2734,16.1314a1.25,1.25,0,0,0,2.1094-1.3427L303.582,66.1911a1.2506,1.2506,0,0,0-2.1093,0l-11.3282,17.787a1.2508,1.2508,0,0,0,.3834,1.726Z" transform="translate(-143.228 -65.6126)" style="fill: #ed1c24"/>
+    </g>
+    <line x1="135.4642" y1="450.5476" x2="272.3491" y2="450.5476" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <line x1="341.312" y1="450.5476" x2="492.5162" y2="450.5476" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <g>
+      <line x1="492.5162" y1="563.3836" x2="492.5162" y2="453.1992" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+      <path d="M647.7437,611.9105a1.25,1.25,0,0,0-1.7261.3833l-10.2734,16.1315-10.2735-16.1315a1.25,1.25,0,1,0-2.1093,1.3428L634.69,631.4235a1.2507,1.2507,0,0,0,2.1094,0l11.3281-17.7869a1.251,1.251,0,0,0-.3833-1.7261Z" transform="translate(-143.228 -65.6126)" style="fill: #ed1c24"/>
+    </g>
+    <line x1="493.5447" y1="464.3806" x2="691.3121" y2="464.3806" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <line x1="732.7668" y1="464.0056" x2="930.5342" y2="464.0056" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <g>
+      <line x1="931.8706" y1="576.0928" x2="931.8706" y2="212.9448" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+      <path d="M1087.0981,624.62a1.25,1.25,0,0,0-1.726.3833l-10.2735,16.1315-10.2735-16.1315a1.25,1.25,0,1,0-2.1093,1.3428l11.3281,17.787a1.2507,1.2507,0,0,0,2.1094,0l11.3281-17.787a1.251,1.251,0,0,0-.3833-1.7261Z" transform="translate(-143.228 -65.6126)" style="fill: #ed1c24"/>
+    </g>
+    <line x1="732.7668" y1="212.9448" x2="930.5342" y2="212.9448" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <g>
+      <line x1="1058.2325" y1="403.6726" x2="932.5182" y2="403.6726" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+      <path d="M1184.3747,457.2857a1.2507,1.2507,0,0,0,.3833,1.7261l16.1316,10.2734-16.1316,10.2734a1.25,1.25,0,1,0,1.3428,2.1094l17.787-11.3281a1.2507,1.2507,0,0,0,0-2.1094l-17.787-11.3281a1.251,1.251,0,0,0-1.7261.3833Z" transform="translate(-143.228 -65.6126)" style="fill: #ed1c24"/>
+    </g>
+    <line x1="477.4673" y1="214.3176" x2="680.664" y2="214.3176" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <g>
+      <line x1="483.4468" y1="132.4362" x2="483.4468" y2="206.1721" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+      <path d="M614.6753,215.1346a1.2506,1.2506,0,0,0,1.7261-.3833L626.6748,198.62l10.2735,16.1315a1.25,1.25,0,1,0,2.1093-1.3428L627.73,195.6215a1.2507,1.2507,0,0,0-2.1094,0l-11.3281,17.787a1.251,1.251,0,0,0,.3833,1.7261Z" transform="translate(-143.228 -65.6126)" style="fill: #ed1c24"/>
+    </g>
+    <line x1="328.463" y1="221.7556" x2="466.2274" y2="221.7556" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <line x1="468.1415" y1="221.7876" x2="483.4468" y2="206.1721" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <line x1="133.8891" y1="221.7556" x2="271.6534" y2="221.7556" style="fill: none;stroke: #ed1c24;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+  </g>
+</svg>
