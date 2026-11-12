@@ -1,7 +1,0 @@
-@mixin colorLabel($color, $radius) {
-  border-radius: $radius;
-  background-color: $color;
-  border: 1px solid #000;
-  width: $radius;
-  height: $radius;
-}
